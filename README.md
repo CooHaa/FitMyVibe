@@ -41,8 +41,6 @@ For the initial deployment, only one member of your team needs to follow the ste
 
 - **CLONE**: First time clone from GitHub onto the server, this is to load your files on the server. In future, when you push updates, clone will re-downloaded your new files onto the server. It is imperative that you re-clone before building.
 - **BUILD**: Will re-clone and build everything from your GitHub repo, and only from the master/main branch. This is a hard reset, however, your data will be preserved. This includes all data from your database and tables. 
-- **START**: Containers not in use will typically be turned off. To reboot these containers **WITHOUT REBUILDING**, use this button. This will restart your code in the exact same state as you left it, and will not clone or pull any new changes or tamper with data.
-- **STOP**: Will stop containers, but not delete them. STOP just turns off your container.
 - **DESTROY**: Will destroy all your containers as well as remove any data associated with them. Useful for fresh boot from scratch
 - **Container Information Table**: Will show you the status of all your containers. This should tell you if they are on/off. Generally, this information is just useful for debugging and for checking any port errors or mismatches, although mostly just useful for TAs.
 - **Logs**: Should give you an idea of what went wrong during deployment. This of course will not tell you if something is broken during build time, but only what happened when your code was deployed. 
@@ -76,6 +74,8 @@ We advise against using another database system such as PostgreSQL. Note that ou
 
 ### Step 2: Set up a virtual environment
 Create a virtual environment in Python. You may continue using the one you setup for assignment if necessary. To review how to set up a virtual environment and activate it, refer to A0 assignment writeup.
+
+Run `python -m venv <virtual_env_name>` in your project directory to create a new virtual environment, remember to change <virtual_env_name> to your preferred environment name.
 
 ### Step 3: Install dependencies
 You need to install dependencies by running `python -m pip install -r requirements.txt` in the backend folder.
@@ -128,6 +128,8 @@ Make sure your MySQL server is running, then in app.py, change the SQL credentia
 
 ## General comments from the author
 
+- Ensure that you have Python version 3.10 or above installed on your machine (ideally in a virtual environment). Some of the libraries and code used in the template, as well as on the server end, are only compatible with Python versions 3.10 and above.
+- Make sure to pre-install MySQL Server and MySQL Workbench on your machine.
 - Since this project was made in the span of a few weeks, it is very likely things will break from time to time. If things break, you can send an email through the course email or post to ED first.
 - If you would like to see stuff added to the dashboard you can send an email through the course email and prefix the title with FEATURE REQUEST
 - If you REALLY want to go above and beyond, you can make a request for a special Docker template. These will likely be turned down unless there is an exceptional reason to do so, and you will have to be able to debug it yourself to ensure it works.
