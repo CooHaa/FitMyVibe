@@ -1,4 +1,4 @@
-# 4300-Flask-Template
+# 4300-Flask-Template-SQL
 
 ## Contents
 
@@ -34,7 +34,7 @@ For the initial deployment, only one member of your team needs to follow the ste
 - When you login, ensure your dashboard has the following data filled from the image below (check the black arrows only)
   - The GitHub URL field will not be filled in for you, so you should add in the URL of your forked repository.
 
-![4300showcase infosci cornell edu_9090_ (2)](https://user-images.githubusercontent.com/55399795/226429682-2f8f2b31-9447-42b2-8b29-889259efc219.png)
+![SQL Template](https://github.com/CornellNLP/4300-Flask-Template-SQL/assets/42887079/94811cbd-549d-4091-b208-8d8eca8c6ee7)
 
 
 ### Step 2: Understanding the interface
