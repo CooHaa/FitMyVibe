@@ -156,7 +156,5 @@ Link: https://docs.google.com/document/d/1sF2zsubii_SYJLfZN02UB9FvtH1iLmi9xd-X4w
 - Make sure to pre-install MySQL Server and MySQL Workbench on your machine.
 - Since this project was made in the span of a few weeks, it is very likely things will break from time to time. If things break, you can send an email through the course email or post to ED first.
 - If you would like to see stuff added to the dashboard you can send an email through the course email and prefix the title with FEATURE REQUEST
-- If you REALLY want to go above and beyond, you can make a request for a special Docker template. These will likely be turned down unless there is an exceptional reason to do so, and you will have to be able to debug it yourself to ensure it works.
-- You can ask for the allocation of extra port numbers which will be approved or denied on a case-by-case basis.
 - You can also email regarding any questions relating to the service itself. If you think things can be improved or some better logic can be implemented for certain portions, or even just want to know more about the project then feel free to do so.
 
