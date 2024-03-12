@@ -8,7 +8,8 @@
 - [Uploading Large Files](#uploading-large-files)
 - [MySQL functionality](#mysql-functionality)
 - [Debugging Some Basic Errors](#debugging-some-basic-errors)
-- [Virtual Environments and Dependency Tracking](#virtual-environments-and-dependency-tracking) 
+- [Virtual Environments and Dependency Tracking](#virtual-environments-and-dependency-tracking)
+- [Troubleshooting](#troubleshooting)
 - [General comments from the author](#general-comments-from-the-author)
 
 ## Summary
@@ -142,6 +143,12 @@ Afterward, ensure to follow step 1 to prevent future tracking of virtual environ
     - Add all the new libraries you downloaded using pip install for your project to the existing `requirements.txt` file. To do so,
     - Navigate to your project backend directory and run the command `pip freeze > requirements.txt`. This command will create or overwrite the `requirements.txt` file with a list of installed packages and their versions. 
     - Our server will use your project’s `requirements.txt` file to install all required packages, ensuring that your project runs seamlessly.
+
+## Troubleshooting
+
+The attached google document includes a compilation of frequent issues encountered by students across various project stages, detailing whether these issues have been resolved and the solutions that were effective. We will continue to update this list with new information.
+
+Link: https://docs.google.com/document/d/1sF2zsubii_SYJLfZN02UB9FvtH1iLmi9xd-X4wbpbo8
 
 ## General comments from the author
 
