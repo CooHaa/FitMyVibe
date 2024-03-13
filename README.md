@@ -60,8 +60,10 @@ For the initial deployment, only one member of your team needs to follow the ste
 
 ## Running locally
 
-This is not formally a requirement of P01.  This is to help you test and develop your app locally; we recommend each member of the team to try this out. 
-
+- This is not formally a requirement of P01.  This is to help you test and develop your app locally; we recommend each member of the team to try this out. 
+- Ensure that you have Python version 3.10 or above installed on your machine (ideally in a virtual environment). Some of the libraries and code used in the template, as well as on the server end, are only compatible with Python versions 3.10 and above.
+- Make sure to pre-install MySQL Server and MySQL Workbench on your machine.
+  
 ### Step 1: Set up MySQL
 You will need to install MySQL. Here are two tutorials that could help you with the process:
 - For Windows users: https://blog.devart.com/how-to-install-mysql-on-windows-using-mysql-installer.html
@@ -151,9 +153,6 @@ The attached google document includes a compilation of frequent issues encounter
 Link: https://docs.google.com/document/d/1sF2zsubii_SYJLfZN02UB9FvtH1iLmi9xd-X4wbpbo8
 
 ## General comments from the author
-
-- Ensure that you have Python version 3.10 or above installed on your machine (ideally in a virtual environment). Some of the libraries and code used in the template, as well as on the server end, are only compatible with Python versions 3.10 and above.
-- Make sure to pre-install MySQL Server and MySQL Workbench on your machine.
 - Since this project was made in the span of a few weeks, it is very likely things will break from time to time. If things break, you can send an email through the course email or post to ED first.
 - If you would like to see stuff added to the dashboard you can send an email through the course email and prefix the title with FEATURE REQUEST
 - You can also email regarding any questions relating to the service itself. If you think things can be improved or some better logic can be implemented for certain portions, or even just want to know more about the project then feel free to do so.
