@@ -32,7 +32,7 @@ For the initial deployment, only one member of your team needs to follow the ste
 
 ### Step 1: Login to the deployment dashboard
 
-- Login to the dashboard at http://4300showcase.infosci.cornell.edu:9090/#/login using your provided account name and password. Each team was provided with joint account in CMS comments to assignment P01; since you are sharing an account, any changes made by one teammate will reflect for everyone in the team.
+- Login to the dashboard at https://4300showcase.infosci.cornell.edu/login using your provided account name and password. Each team was provided with joint account in CMS comments to assignment P01; since you are sharing an account, any changes made by one teammate will reflect for everyone in the team.
 - When you login, ensure your dashboard has the following data filled from the image below (check the black arrows only)
   - The GitHub URL field will not be filled in for you, so you should add in the URL of your forked repository.
 
