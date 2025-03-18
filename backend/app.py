@@ -29,8 +29,8 @@ CORS(app)
 # but if you decide to use SQLAlchemy ORM framework, 
 # there's a much better and cleaner way to do this
 def sql_search(episode):
-    query_sql = f"""SELECT * FROM episodes WHERE LOWER( title ) LIKE '%%{episode.lower()}%%' limit 10"""
-    keys = ["id","title","descr"]
+    query_sql = f"""SELECT * FROM articles"""
+    keys = ["id","budget","gender", "mCat", "sCat", "articleType", "color", "season", "year", "usage", "name"]
     data = mysql_engine.query_selector(query_sql)
     return json.dumps([dict(zip(keys,i)) for i in data])
 
@@ -38,7 +38,7 @@ def sql_search(episode):
 def home():
     return render_template('base.html',title="sample html")
 
-@app.route("/episodes")
+@app.route("/articles")
 def episodes_search():
     text = request.args.get("title")
     return sql_search(text)
