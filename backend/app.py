@@ -12,14 +12,15 @@ os.environ['ROOT_PATH'] = os.path.abspath(os.path.join("..",os.curdir))
 # Don't worry about the deployment credentials, those are fixed
 # You can use a different DB name if you want to
 LOCAL_MYSQL_USER = "root"
-LOCAL_MYSQL_USER_PASSWORD = "admin"
+LOCAL_MYSQL_USER_PASSWORD = "pwd" # Fill with personal password for MySQL
+# TODO: Delegate these values to env. vars
 LOCAL_MYSQL_PORT = 3306
-LOCAL_MYSQL_DATABASE = "kardashiandb"
+LOCAL_MYSQL_DATABASE = "FitMyVibe"
 
 mysql_engine = MySQLDatabaseHandler(LOCAL_MYSQL_USER,LOCAL_MYSQL_USER_PASSWORD,LOCAL_MYSQL_PORT,LOCAL_MYSQL_DATABASE)
 
 # Path to init.sql file. This file can be replaced with your own file for testing on localhost, but do NOT move the init.sql file
-mysql_engine.load_file_into_db()
+mysql_engine.load_file_into_db('dump.sql')
 
 app = Flask(__name__)
 CORS(app)
