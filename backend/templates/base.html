@@ -12,7 +12,7 @@
             <div class="google-colors">
                 <h1 id="google-3">fit my vibe</h1>
             </div>
-            <h3>What style are you searching for? Enter your top keyword:</h3>
+            <h3>What style are you searching for?</h3>
             <div class="input-box" onclick="sendFocus()">
                 <img src="{{ url_for('static', filename='images/mag.png') }}" />
                 <select id="style" class="dropdown" onchange="filterText()">
@@ -33,7 +33,8 @@
             <h3>Who are you shopping for?</h3>
             <div class="input-box">
                 <img src="{{ url_for('static', filename='images/mag.png') }}" />
-                <select id="gender-dropdown" onchange="filterText()">
+                <select id="gender-dropdown" class="dropdown" onchange="filterText()">
+                    <option value="" disabled selected>Select a gender</option>
                     <option value="men">Men</option>
                     <option value="women">Women</option>
                 </select>
