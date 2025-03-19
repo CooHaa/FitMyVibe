@@ -13,3 +13,5 @@ instance/
 
 .vscode/
 .idea/
+
+fmv_env/
