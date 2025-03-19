@@ -75,7 +75,7 @@
             const style = document.getElementById("style").value;
             const category = document.getElementById("category").value;
             const gender = document.getElementById("gender-dropdown").value;
-            const budget = document.getElementById("budget").value;
+            const budget = document.getElementById("budget-dropdown").value;
 
             console.log(`Style: ${style}, Category: ${category}, Gender: ${gender}, Budget: ${budget}`);
             fetch("/articles?" + new URLSearchParams({
