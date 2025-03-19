@@ -10,6 +10,7 @@
     justify-content: start;
     align-items: center;
     flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #google-c{
@@ -53,7 +54,8 @@
     border:1px solid black;
     display: flex;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
     padding:12px;
     width: 600px;
 }

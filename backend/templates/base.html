@@ -1,5 +1,5 @@
 <!doctype html>
-<title>{% block title %}{% endblock %} - Flaskr</title>
+<title>{% block title %}{% endblock %} Fit My Vibe </title>
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -10,16 +10,28 @@
     <div class="full-body-container">
         <div class="top-text">
             <div class="google-colors">
-                <h1 id="google-4">4</h1>
-                <h1 id="google-3">3</h1>
-                <h1 id="google-0-1">0</h1>
-                <h1 id="google-0-2">0</h1>
+                <h1 id="google-3">fit my vibe</h1>
             </div>
+            <h3>What style are you searching for? Enter your top keyword:</h3>
             <div class="input-box" onclick="sendFocus()">
                 <img src="{{ url_for('static', filename='images/mag.png') }}" />
-                <input placeholder="Search for a Keeping up with the Kardashians episode" id="filter-text-val"
+                <input placeholder="Enter a style keyword (vintage, streetwear, athleisure, etc.)" id="style-keyword"
                     onkeyup="filterText()">
             </div>
+            <h3>What type of clothing are you searching for?</h3>
+            <div class="input-box" onclick="sendFocus()">
+                <img src="{{ url_for('static', filename='images/mag.png') }}" />
+                <input placeholder="Enter a category of clothing (jackets, skirts, shorts, etc.)" id="clothing-category"
+                    onkeyup="filterText()">
+            </div>
+            <h3>What is your budget?</h3>
+            <div class="input-box" onclick="sendFocus()">
+                <span id="min-budget-value">$1</span>
+                <input type="range" min="1" max="250" id="budget-slider" oninput="updateBudgetValue(this.value)">
+                <span id="max-budget-value">$250</span>
+            </div>
+            <br>
+            <span id="budget-value">$125</span>
         </div>
         <div id="answer-box">
 
@@ -40,9 +52,17 @@
         }
 
         function filterText() {
-            document.getElementById("answer-box").innerHTML = ""
-            console.log(document.getElementById("filter-text-val").value)
-            fetch("/articles?" + new URLSearchParams({ title: document.getElementById("filter-text-val").value }).toString())
+            document.getElementById("answer-box").innerHTML = "";
+            const style = document.getElementById("style-keyword").value;
+            const category = document.getElementById("clothing-category").value;
+            const budget = document.getElementById("budget-slider").value;
+
+            console.log(`Style: ${style}, Category: ${category}, Budget: ${budget}`);
+            fetch("/articles?" + new URLSearchParams({
+                style: style,
+                category: category,
+                budget: budget
+            }).toString())
                 .then((response) => response.json())
                 .then((data) => data.forEach(row => {
 
@@ -50,7 +70,11 @@
                     tempDiv.innerHTML = answerBoxTemplate(row.name, row.id)
                     document.getElementById("answer-box").appendChild(tempDiv)
                 }));
+        }
 
+        function updateBudgetValue(value) {
+            document.getElementById('budget-value').innerText = `$${value}`;
+            filterText();
         }
 
     </script>
