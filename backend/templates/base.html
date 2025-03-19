@@ -30,6 +30,14 @@
                 <input placeholder="Enter a category of clothing (jackets, skirts, shorts, etc.)" id="category"
                     onkeyup="filterText()">
             </div>
+            <h3>Who are you shopping for?</h3>
+            <div class="input-box">
+                <img src="{{ url_for('static', filename='images/mag.png') }}" />
+                <select id="gender-dropdown" onchange="filterText()">
+                    <option value="men">Men</option>
+                    <option value="women">Women</option>
+                </select>
+            </div>
             <h3>What is your budget?</h3>
             <div class="input-box">
                 <img src="{{ url_for('static', filename='images/mag.png') }}" />
@@ -66,12 +74,14 @@
             document.getElementById("answer-box").innerHTML = "";
             const style = document.getElementById("style").value;
             const category = document.getElementById("category").value;
+            const gender = document.getElementById("gender-dropdown").value;
             const budget = document.getElementById("budget").value;
 
-            console.log(`Style: ${style}, Category: ${category}, Budget: ${budget}`);
+            console.log(`Style: ${style}, Category: ${category}, Gender: ${gender}, Budget: ${budget}`);
             fetch("/articles?" + new URLSearchParams({
                 style: style,
                 category: category,
+                gender: gender,
                 budget: budget
             }).toString())
                 .then((response) => response.json())
