@@ -25,13 +25,17 @@
                     onkeyup="filterText()">
             </div>
             <h3>What is your budget?</h3>
-            <div class="input-box" onclick="sendFocus()">
-                <span id="min-budget-value">$1</span>
-                <input type="range" min="1" max="250" id="budget-slider" oninput="updateBudgetValue(this.value)">
-                <span id="max-budget-value">$250</span>
+            <div class="input-box">
+                <img src="{{ url_for('static', filename='images/mag.png') }}" />
+                <select id="budget-dropdown" onchange="filterText()">
+                    <option value="50">$0-$50</option>
+                    <option value="100">$51-$100</option>
+                    <option value="150">$101-$150</option>
+                    <option value="200">$151-$200</option>
+                    <option value="250">$201-$250</option>
+                    <option value="300">$251-$300</option>
+                </select>
             </div>
-            <br>
-            <span id="budget-value">$125</span>
         </div>
         <div id="answer-box">
 
@@ -55,7 +59,7 @@
             document.getElementById("answer-box").innerHTML = "";
             const style = document.getElementById("style-keyword").value;
             const category = document.getElementById("clothing-category").value;
-            const budget = document.getElementById("budget-slider").value;
+            const budget = document.getElementById("budget-dropdown").value;
 
             console.log(`Style: ${style}, Category: ${category}, Budget: ${budget}`);
             fetch("/articles?" + new URLSearchParams({
