@@ -15,19 +15,26 @@
             <h3>What style are you searching for? Enter your top keyword:</h3>
             <div class="input-box" onclick="sendFocus()">
                 <img src="{{ url_for('static', filename='images/mag.png') }}" />
-                <input placeholder="Enter a style keyword (vintage, streetwear, athleisure, etc.)" id="style-keyword"
-                    onkeyup="filterText()">
+                <select id="style" class="dropdown" onchange="filterText()">
+                    <option value="" disabled selected>Select a style</option>
+                    <option value="Casual">Casual</option>
+                    <option value="Formal">Formal</option>
+                    <option value="Business-Casual">Business-Casual</option>
+                    <option value="Athleisure">Athleisure</option>
+                    <option value="Sportswear">Sportswear</option>
+                </select>
             </div>
             <h3>What type of clothing are you searching for?</h3>
             <div class="input-box" onclick="sendFocus()">
                 <img src="{{ url_for('static', filename='images/mag.png') }}" />
-                <input placeholder="Enter a category of clothing (jackets, skirts, shorts, etc.)" id="clothing-category"
+                <input placeholder="Enter a category of clothing (jackets, skirts, shorts, etc.)" id="category"
                     onkeyup="filterText()">
             </div>
             <h3>What is your budget?</h3>
             <div class="input-box">
                 <img src="{{ url_for('static', filename='images/mag.png') }}" />
-                <select id="budget-dropdown" onchange="filterText()">
+                <select id="budget" class="dropdown" onchange="filterText()">
+                    <option value="" disabled selected>Select a budget</option>
                     <option value="50">$0-$50</option>
                     <option value="100">$51-$100</option>
                     <option value="150">$101-$150</option>
@@ -57,9 +64,9 @@
 
         function filterText() {
             document.getElementById("answer-box").innerHTML = "";
-            const style = document.getElementById("style-keyword").value;
-            const category = document.getElementById("clothing-category").value;
-            const budget = document.getElementById("budget-dropdown").value;
+            const style = document.getElementById("style").value;
+            const category = document.getElementById("category").value;
+            const budget = document.getElementById("budget").value;
 
             console.log(`Style: ${style}, Category: ${category}, Budget: ${budget}`);
             fetch("/articles?" + new URLSearchParams({
