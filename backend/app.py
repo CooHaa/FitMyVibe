@@ -13,7 +13,7 @@ os.environ['ROOT_PATH'] = os.path.abspath(os.path.join("..",os.curdir))
 # Don't worry about the deployment credentials, those are fixed
 # You can use a different DB name if you want to
 LOCAL_MYSQL_USER = "root"
-LOCAL_MYSQL_USER_PASSWORD = "gracekim" # Fill with personal password for MySQL
+LOCAL_MYSQL_USER_PASSWORD = "tB0ntBt1tq" # Fill with personal password for MySQL
 # TODO: Delegate these values to env. vars
 LOCAL_MYSQL_PORT = 3306
 LOCAL_MYSQL_DATABASE = "FitMyVibe"
@@ -104,7 +104,7 @@ def vectorize_input(style, category, budget):
 
     budget -- The budget of the user, in dollars.
     """
-    budget_comp = [budget]
+    budget_comp = [int(budget)]
     category_comp = [0, 0, 0, 0]
     style_comp = [0, 0, 0]
 
@@ -137,10 +137,14 @@ def sql_search(gender):
     """
     Returns a list of JSON entries where the gender equals the parameter gender.
     """
-    query_sql = f"""SELECT * FROM articles WHERE gender = {gender}"""
+    if (gender == "men"):
+        gender = "Men"
+    else:
+        gender = "Women"
+    query_sql = f"""SELECT * FROM articles WHERE gender = \"{gender}\""""
     keys = ["id","budget","gender", "mCat", "sCat", "articleType", "color", "season", "year", "usage", "name"]
     data = mysql_engine.query_selector(query_sql)
-    return json.dumps([dict(zip(keys,i)) for i in data])
+    return [dict(zip(keys,i)) for i in data]
 
 def order_articles(style, category, budget, article_jsons):
     """
@@ -155,13 +159,12 @@ def order_articles(style, category, budget, article_jsons):
     input_vector = vectorize_input(style, category, budget)
     for article in article_jsons:
         article_style = article['usage']
-        article_category = article['articleType']
+        article_category = article['articleType'].lower()
         article_cost = article['budget']
         article_vector = vectorize_input(article_style, article_category, article_cost)
         cosine_numerator = np.dot(input_vector, article_vector)
-        cosine_denominator = np.norm(input_vector) * np.norm(article_vector)
+        cosine_denominator = np.linalg.norm(input_vector) * np.linalg.norm(article_vector)
         cosine_score = cosine_numerator / cosine_denominator
-        print(cosine_score)
         cosine_scores.append(cosine_score)
     
     articles_scores = list(zip(article_jsons, cosine_scores))
@@ -182,7 +185,7 @@ def episodes_search():
     gender = request.args.get("gender")
     result_json = sql_search(gender)
     ranked_results = order_articles(style, category, budget, result_json)
-    return ranked_results
+    return json.dumps(ranked_results)
     
 
 if 'DB_NAME' not in os.environ:
