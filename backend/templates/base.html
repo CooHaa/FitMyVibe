@@ -12,22 +12,29 @@
             <div class="google-colors">
                 <h1 id="google-3">fit my vibe</h1>
             </div>
-            <h3>What style are you searching for? Enter your top keyword:</h3>
+            <h3>What style are you searching for?</h3>
             <div class="input-box" onclick="sendFocus()">
                 <img src="{{ url_for('static', filename='images/mag.png') }}" />
-                <input placeholder="Enter a style keyword (vintage, streetwear, athleisure, etc.)" id="style-keyword"
-                    onkeyup="filterText()">
+                <select id="style" class="dropdown" onchange="filterText()">
+                    <option value="" disabled selected>Select a style</option>
+                    <option value="Casual">Casual</option>
+                    <option value="Formal">Formal</option>
+                    <option value="Business-Casual">Business-Casual</option>
+                    <option value="Athleisure">Athleisure</option>
+                    <option value="Sportswear">Sportswear</option>
+                </select>
             </div>
             <h3>What type of clothing are you searching for?</h3>
             <div class="input-box" onclick="sendFocus()">
                 <img src="{{ url_for('static', filename='images/mag.png') }}" />
-                <input placeholder="Enter a category of clothing (jackets, skirts, shorts, etc.)" id="clothing-category"
+                <input placeholder="Enter a category of clothing (jackets, skirts, shorts, etc.)" id="category"
                     onkeyup="filterText()">
             </div>
             <h3>Who are you shopping for?</h3>
             <div class="input-box">
                 <img src="{{ url_for('static', filename='images/mag.png') }}" />
-                <select id="gender-dropdown" onchange="filterText()">
+                <select id="gender-dropdown" class="dropdown" onchange="filterText()">
+                    <option value="" disabled selected>Select a gender</option>
                     <option value="men">Men</option>
                     <option value="women">Women</option>
                 </select>
@@ -65,10 +72,10 @@
 
         function filterText() {
             document.getElementById("answer-box").innerHTML = "";
-            const style = document.getElementById("style-keyword").value;
-            const category = document.getElementById("clothing-category").value;
+            const style = document.getElementById("style").value;
+            const category = document.getElementById("category").value;
             const gender = document.getElementById("gender-dropdown").value;
-            const budget = document.getElementById("budget-dropdown").value;
+            const budget = document.getElementById("budget").value;
 
             console.log(`Style: ${style}, Category: ${category}, Gender: ${gender}, Budget: ${budget}`);
             fetch("/articles?" + new URLSearchParams({
