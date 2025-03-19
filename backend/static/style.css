@@ -91,3 +91,14 @@
 .episode-desc{
     font-family: 'Montserrat', sans-serif;
 }
+
+#budget-dropdown {
+    width: 100%;
+    margin-left: 10px;
+    font-size: 16px;
+    border: none;
+    outline: 0;
+    background: transparent;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}

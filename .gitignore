@@ -1,21 +1,15 @@
-env/*
-.DS_Store
-Docker/__pycache__
-
 venv/
+myenv/
 
-*.pyc
 __pycache__/
+*.pyc
+*.pyo
 
+.env
+*.env
+
+*.sqlite3
 instance/
 
-.pytest_cache/
-.coverage
-htmlcov/
-
-dist/
-build/
-*.egg-info/
-helpers/*
-
-fmv_env
+.vscode/
+.idea/
