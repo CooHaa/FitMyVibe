@@ -25,9 +25,9 @@ class MySQLDatabaseHandler(object):
         conn = self.lease_connection()
         if type(query) == list:
             for i in query:
-                conn.execute(i)
+                conn.execute(db.text(i))
         else:
-            conn.execute(query)
+            conn.execute(db.text(query))
         
 
     def query_selector(self,query):
