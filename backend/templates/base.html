@@ -42,7 +42,7 @@
             <h3>What is your budget?</h3>
             <div class="input-box">
                 <img src="{{ url_for('static', filename='images/mag.png') }}" />
-                <select id="budget-dropdown" class="dropdown" onchange="filterText()">
+                <select id="budget-dropdown" class = "dropdown" onchange="filterText()">
                     <option value="25">$0-$50</option>
                     <option value="75">$51-$100</option>
                     <option value="125">$101-$150</option>
@@ -59,10 +59,10 @@
 
     <script>
 
-        function answerBoxTemplate(articleName, cost) {
+        function answerBoxTemplate(title, titleDesc) {
             return `<div class=''>
-                <h3 class='episode-title'>${articleName}</h3>
-                <p class='episode-desc'>$${cost}</p>
+                <h3 class='episode-title'>${title}</h3>
+                <p class='episode-desc'>${titleDesc}</p>
             </div>`
         }
 
@@ -88,7 +88,7 @@
                 .then((data) => data.forEach(row => {
 
                     let tempDiv = document.createElement("div")
-                    tempDiv.innerHTML = answerBoxTemplate(row.name, row.budget)
+                    tempDiv.innerHTML = answerBoxTemplate(row.name, row.id)
                     document.getElementById("answer-box").appendChild(tempDiv)
                 }));
         }
