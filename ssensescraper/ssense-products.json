@@ -1,0 +1,138 @@
+[
+  {
+    "url": "https://www.ssense.com/en-us/women/product/colleen-allen/orange-twist-maxi-dress/17654311",
+    "scrapedAt": "2025-04-13T18:47:34.538Z",
+    "formattedData": {
+      "productName": "Orange Twist Maxi Dress",
+      "brand": "COLLEEN ALLEN",
+      "price": 1475,
+      "currency": "USD",
+      "description": "Stretch cotton jersey maxi dress.\r\n\r\n· Draped construction\r\n· Raw edge at mock neck\r\n· Central seam at front and back\r\n· Gathering at side seams\r\n\r\nSupplier color: Flaming june",
+      "image": "https://img.ssensemedia.com/images/251275F055000_1/colleen-allen-orange-twist-maxi-dress.jpg",
+      "availability": "https://schema.org/InStock"
+    },
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "productID": 17654311,
+      "name": "Orange Twist Maxi Dress",
+      "sku": "251275F055000",
+      "brand": {
+        "@type": "Brand",
+        "name": "COLLEEN ALLEN"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": 1475,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": "/en-us/women/product/colleen-allen/orange-twist-maxi-dress/17654311"
+      },
+      "url": "/en-us/women/product/colleen-allen/orange-twist-maxi-dress/17654311",
+      "description": "Stretch cotton jersey maxi dress.\r\n\r\n· Draped construction\r\n· Raw edge at mock neck\r\n· Central seam at front and back\r\n· Gathering at side seams\r\n\r\nSupplier color: Flaming june",
+      "image": "https://img.ssensemedia.com/images/251275F055000_1/colleen-allen-orange-twist-maxi-dress.jpg"
+    }
+  },
+  {
+    "url": "https://www.ssense.com/en-us/women/product/colleen-allen/white-silk-slip-midi-dress/17654271",
+    "scrapedAt": "2025-04-13T18:50:02.440Z",
+    "formattedData": {
+      "productName": "White Silk Slip Midi Dress",
+      "brand": "COLLEEN ALLEN",
+      "price": 1950,
+      "currency": "USD",
+      "description": "Silk twill midi dress. Scalloped lace trim throughout\r\n\r\n· Off-the-shoulder construction\r\n· Pleat and draping at side seam\r\n· Button closure at back\r\n· Mother-of-pearl hardware\r\n\r\nSupplier color: Natural white",
+      "image": "https://img.ssensemedia.com/images/251275F054000_1/colleen-allen-white-silk-slip-midi-dress.jpg",
+      "availability": "https://schema.org/InStock"
+    },
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "productID": 17654271,
+      "name": "White Silk Slip Midi Dress",
+      "sku": "251275F054000",
+      "brand": {
+        "@type": "Brand",
+        "name": "COLLEEN ALLEN"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": 1950,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": "/en-us/women/product/colleen-allen/white-silk-slip-midi-dress/17654271"
+      },
+      "url": "/en-us/women/product/colleen-allen/white-silk-slip-midi-dress/17654271",
+      "description": "Silk twill midi dress. Scalloped lace trim throughout\r\n\r\n· Off-the-shoulder construction\r\n· Pleat and draping at side seam\r\n· Button closure at back\r\n· Mother-of-pearl hardware\r\n\r\nSupplier color: Natural white",
+      "image": "https://img.ssensemedia.com/images/251275F054000_1/colleen-allen-white-silk-slip-midi-dress.jpg"
+    }
+  },
+  {
+    "url": "https://www.ssense.com/en-us/women/product/colleen-allen/black-fleece-shrunken-jacket/17654791",
+    "scrapedAt": "2025-04-13T18:50:14.582Z",
+    "formattedData": {
+      "productName": "Black Fleece Shrunken Jacket",
+      "brand": "COLLEEN ALLEN",
+      "price": 1150,
+      "currency": "USD",
+      "description": "Stretch polyester- and nylon-blend fleece jacket. Exposed lining throughout.\r\n\r\n· Stand collar\r\n· Hook-eye closure\r\n· Welt pockets\r\n· Full silk twill lining\r\n\r\nSupplier color: Black",
+      "image": "https://img.ssensemedia.com/images/251275F063002_1/colleen-allen-black-fleece-shrunken-jacket.jpg",
+      "availability": "https://schema.org/InStock"
+    },
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "productID": 17654791,
+      "name": "Black Fleece Shrunken Jacket",
+      "sku": "251275F063002",
+      "brand": {
+        "@type": "Brand",
+        "name": "COLLEEN ALLEN"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": 1150,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": "/en-us/women/product/colleen-allen/black-fleece-shrunken-jacket/17654791"
+      },
+      "url": "/en-us/women/product/colleen-allen/black-fleece-shrunken-jacket/17654791",
+      "description": "Stretch polyester- and nylon-blend fleece jacket. Exposed lining throughout.\r\n\r\n· Stand collar\r\n· Hook-eye closure\r\n· Welt pockets\r\n· Full silk twill lining\r\n\r\nSupplier color: Black",
+      "image": "https://img.ssensemedia.com/images/251275F063002_1/colleen-allen-black-fleece-shrunken-jacket.jpg"
+    }
+  },
+  {
+    "url": "https://www.ssense.com/en-us/women/product/colleen-allen/white-silk-slip-blouse/17654681",
+    "scrapedAt": "2025-04-13T18:54:37.143Z",
+    "formattedData": {
+      "productName": "White Silk Slip Blouse",
+      "brand": "COLLEEN ALLEN",
+      "price": 1400,
+      "currency": "USD",
+      "description": "Silk twill blouse.\r\n\r\n· Stand collar\r\n· Hook-eye closure\r\n· Raw edge at hem and cuffs\r\n\r\nSupplier color: Natural white",
+      "image": "https://img.ssensemedia.com/images/251275F107001_1/colleen-allen-white-silk-slip-blouse.jpg",
+      "availability": "https://schema.org/InStock"
+    },
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "productID": 17654681,
+      "name": "White Silk Slip Blouse",
+      "sku": "251275F107001",
+      "brand": {
+        "@type": "Brand",
+        "name": "COLLEEN ALLEN"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": 1400,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": "/en-us/women/product/colleen-allen/white-silk-slip-blouse/17654681"
+      },
+      "url": "/en-us/women/product/colleen-allen/white-silk-slip-blouse/17654681",
+      "description": "Silk twill blouse.\r\n\r\n· Stand collar\r\n· Hook-eye closure\r\n· Raw edge at hem and cuffs\r\n\r\nSupplier color: Natural white",
+      "image": "https://img.ssensemedia.com/images/251275F107001_1/colleen-allen-white-silk-slip-blouse.jpg"
+    }
+  }
+]

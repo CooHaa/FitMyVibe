@@ -1,0 +1,34 @@
+{
+  "url": "https://www.ssense.com/en-us/women/product/jimmy-choo/black-azia-95-heeled-sandals/16909281",
+  "scrapedAt": "2025-04-13T18:43:52.951Z",
+  "structuredData": {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "productID": 16909281,
+    "name": "Black Azia 95 Heeled Sandals",
+    "sku": "251528F125032",
+    "brand": {
+      "@type": "Brand",
+      "name": "Jimmy Choo"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": 895,
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock",
+      "url": "/en-us/women/product/jimmy-choo/black-azia-95-heeled-sandals/16909281"
+    },
+    "url": "/en-us/women/product/jimmy-choo/black-azia-95-heeled-sandals/16909281",
+    "description": "LWG-certified patent leather heeled sandals in black.\r\n\r\n· Open square toe\r\n· Partially elasticized straps at vamp\r\n· Partially elasticized pin-buckle ankle strap\r\n· Covered stiletto heel with rubber injection\r\n· Nubuck sole\r\n· Heel: H3.5\"\r\n\r\nSupplier color: Black",
+    "image": "https://img.ssensemedia.com/images/251528F125032_1/jimmy-choo-black-azia-95-heeled-sandals.jpg"
+  },
+  "formattedData": {
+    "productName": "Black Azia 95 Heeled Sandals",
+    "brand": "Jimmy Choo",
+    "price": 895,
+    "currency": "USD",
+    "description": "LWG-certified patent leather heeled sandals in black.\r\n\r\n· Open square toe\r\n· Partially elasticized straps at vamp\r\n· Partially elasticized pin-buckle ankle strap\r\n· Covered stiletto heel with rubber injection\r\n· Nubuck sole\r\n· Heel: H3.5\"\r\n\r\nSupplier color: Black",
+    "image": "https://img.ssensemedia.com/images/251528F125032_1/jimmy-choo-black-azia-95-heeled-sandals.jpg",
+    "availability": "https://schema.org/InStock"
+  }
+}

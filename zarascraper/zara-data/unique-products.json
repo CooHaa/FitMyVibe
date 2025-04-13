@@ -1,0 +1,3332 @@
+[
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "FLOWY PLEATED PANTS",
+    "brand": "ZARA",
+    "sku": "440180812-700-1",
+    "mpn": "440180812-700-1",
+    "description": "Mid-rise pants with interior elastic waistband. Front pleats detail. Wide leg.",
+    "image": "https://static.zara.net/assets/public/fc78/8707/3c814aac852e/68f146ca576a/00264195700-p/00264195700-p.jpg?ts=1742906606587&w=1920",
+    "color": "Brown",
+    "size": "XS",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "23.94",
+      "url": "https://www.zara.com/us/en/flowy-pleated-pants-p00264195.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "FLOWY PLEATED PANTS",
+    "brand": "ZARA",
+    "sku": "440180812-802-1",
+    "mpn": "440180812-802-1",
+    "description": "Mid-rise pants with interior elastic waistband. Front pleats detail. Wide leg.",
+    "image": "https://static.zara.net/assets/public/fc78/8707/3c814aac852e/68f146ca576a/00264195700-p/00264195700-p.jpg?ts=1742906606587&w=1920",
+    "color": "Gray",
+    "size": "XS",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "23.94",
+      "url": "https://www.zara.com/us/en/flowy-pleated-pants-p00264195.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "FLOWY PLEATED PANTS",
+    "brand": "ZARA",
+    "sku": "440180812-800-1",
+    "mpn": "440180812-800-1",
+    "description": "Mid-rise pants with interior elastic waistband. Front pleats detail. Wide leg.",
+    "image": "https://static.zara.net/assets/public/fc78/8707/3c814aac852e/68f146ca576a/00264195700-p/00264195700-p.jpg?ts=1742906606587&w=1920",
+    "color": "Black",
+    "size": "XS",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "39.9",
+      "url": "https://www.zara.com/us/en/flowy-pleated-pants-p00264195.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "ZW COLLECTION EMBROIDERED PLEATED SHORTS",
+    "brand": "ZARA",
+    "sku": "413683549-250-1",
+    "mpn": "413683549-250-1",
+    "description": "ZARA WOMAN COLLECTION\n\nShorts made of cotton yarn. High-waisted with elastic back waistband. Front pleats. Tone-on-tone embroidery detail. Concealed zip closure.",
+    "image": "https://static.zara.net/assets/public/1f78/c8ee/113a48a892e8/12a1d7208d3c/04786059250-p/04786059250-p.jpg?ts=1741959417461&w=1920",
+    "color": "White",
+    "size": "XS",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "29.94",
+      "url": "https://www.zara.com/us/en/zw-collection-embroidered-pleated-shorts-p04786059.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "ZW COLLECTION TUXEDO JACKET",
+    "brand": "ZARA",
+    "sku": "429462259-712-1",
+    "mpn": "429462259-712-1",
+    "description": "ZARA WOMAN COLLECTION\n\nFitted blazer with tuxedo collar and long sleeves with buttoned cuffs. Flap pockets at front and welt pocket at chest. Matching lining. Front button closure.",
+    "image": "https://static.zara.net/assets/public/89fe/2249/64454a178b84/8b4b5099c102/02389186712-000-p/02389186712-000-p.jpg?ts=1741019376342&w=1920",
+    "color": "Ecru",
+    "size": "XS",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "69.99",
+      "url": "https://www.zara.com/us/en/zw-collection-tuxedo-jacket-p02389186.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "STRAIGHT LEG DRAWSTRING PANTS",
+    "brand": "ZARA",
+    "sku": "412072113-251-1",
+    "mpn": "412072113-251-1",
+    "description": "Mid-rise pants with elastic waistband and adjustable drawstring. Side pockets and back patch pockets.",
+    "image": "https://static.zara.net/assets/public/21db/3ee6/45a84daab8c3/942ed313f4c2/01255405251-p/01255405251-p.jpg?ts=1739531047928&w=1920",
+    "color": "Oyster-white",
+    "size": "XS",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "27.54",
+      "url": "https://www.zara.com/us/en/straight-leg-drawstring-pants-p05427405.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "STRAIGHT LEG DRAWSTRING PANTS",
+    "brand": "ZARA",
+    "sku": "412072113-671-1",
+    "mpn": "412072113-671-1",
+    "description": "Mid-rise pants with elastic waistband and adjustable drawstring. Side pockets and back patch pockets.",
+    "image": "https://static.zara.net/assets/public/21db/3ee6/45a84daab8c3/942ed313f4c2/01255405251-p/01255405251-p.jpg?ts=1739531047928&w=1920",
+    "color": "Raspberry",
+    "size": "XS",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "27.54",
+      "url": "https://www.zara.com/us/en/straight-leg-drawstring-pants-p05427405.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "STRAIGHT LEG DRAWSTRING PANTS",
+    "brand": "ZARA",
+    "sku": "412072113-700-1",
+    "mpn": "412072113-700-1",
+    "description": "Mid-rise pants with elastic waistband and adjustable drawstring. Side pockets and back patch pockets.",
+    "image": "https://static.zara.net/assets/public/21db/3ee6/45a84daab8c3/942ed313f4c2/01255405251-p/01255405251-p.jpg?ts=1739531047928&w=1920",
+    "color": "Brown",
+    "size": "XS",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "27.54",
+      "url": "https://www.zara.com/us/en/straight-leg-drawstring-pants-p05427405.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "STRAIGHT LEG DRAWSTRING PANTS",
+    "brand": "ZARA",
+    "sku": "412072113-800-1",
+    "mpn": "412072113-800-1",
+    "description": "Mid-rise pants with elastic waistband and adjustable drawstring. Side pockets and back patch pockets.",
+    "image": "https://static.zara.net/assets/public/21db/3ee6/45a84daab8c3/942ed313f4c2/01255405251-p/01255405251-p.jpg?ts=1739531047928&w=1920",
+    "color": "Black",
+    "size": "XS",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "27.54",
+      "url": "https://www.zara.com/us/en/straight-leg-drawstring-pants-p05427405.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "SHORT GATHERED PLEATED DRESS",
+    "brand": "ZARA",
+    "sku": "424673845-251-1",
+    "mpn": "424673845-251-1",
+    "description": "Short dress made of 13% linen. Straight neckline and tie straps. Gathered and pleated details. Matching lining. Front closure with covered buttons.",
+    "image": "https://static.zara.net/assets/public/7cc1/b345/80164f41b0ca/5a6846ed6843/00881385251-p/00881385251-p.jpg?ts=1742921447691&w=1920",
+    "color": "Oyster-white",
+    "size": "XS",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "35.94",
+      "url": "https://www.zara.com/us/en/short-gathered-pleated-dress-p00881385.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "ZW COLLECTION TAILORED BLAZER",
+    "brand": "ZARA",
+    "sku": "434235050-630-1",
+    "mpn": "434235050-630-1",
+    "description": "ZARA WOMAN COLLECTION\n\nTailored blazer with notched lapel collar and long sleeves with buttoned cuffs. Front flap pockets and welt pocket at chest. Matching lining. Front button closure with covered buttons.",
+    "image": "https://static.zara.net/assets/public/28ea/9c6e/58c740758c69/79af3e15b36a/02676797630-p/02676797630-p.jpg?ts=1742473633266&w=1920",
+    "color": "Fuchsia",
+    "size": "XS",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "83.4",
+      "url": "https://www.zara.com/us/en/zw-collection-tailored-blazer-p02676797.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "FULL MIDI SKIRT ZW COLLECTION",
+    "brand": "ZARA",
+    "sku": "416259604-400-10",
+    "mpn": "416259604-400-10",
+    "description": "ZARA WOMAN COLLECTION\n\nHigh-waisted midi skirt with elastic waistband. A-line hem.",
+    "image": "https://static.zara.net/assets/public/b29a/83fb/c18a43f29cc7/e04b994e5c49/02731045400-p/02731045400-p.jpg?ts=1739443104981&w=1920",
+    "color": "Blue",
+    "size": "XS-S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "35.99",
+      "url": "https://www.zara.com/us/en/full-midi-skirt-zw-collection-p02731045.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "FULL MIDI SKIRT ZW COLLECTION",
+    "brand": "ZARA",
+    "sku": "416259604-606-10",
+    "mpn": "416259604-606-10",
+    "description": "ZARA WOMAN COLLECTION\n\nHigh-waisted midi skirt with elastic waistband. A-line hem.",
+    "image": "https://static.zara.net/assets/public/b29a/83fb/c18a43f29cc7/e04b994e5c49/02731045400-p/02731045400-p.jpg?ts=1739443104981&w=1920",
+    "color": "Burgundy",
+    "size": "XS-S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "35.99",
+      "url": "https://www.zara.com/us/en/full-midi-skirt-zw-collection-p02731045.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "FULL MIDI SKIRT ZW COLLECTION",
+    "brand": "ZARA",
+    "sku": "416259604-800-10",
+    "mpn": "416259604-800-10",
+    "description": "ZARA WOMAN COLLECTION\n\nHigh-waisted midi skirt with elastic waistband. A-line hem.",
+    "image": "https://static.zara.net/assets/public/b29a/83fb/c18a43f29cc7/e04b994e5c49/02731045400-p/02731045400-p.jpg?ts=1739443104981&w=1920",
+    "color": "Black",
+    "size": "XS-S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "29.94",
+      "url": "https://www.zara.com/us/en/full-midi-skirt-zw-collection-p02731045.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "ZW COLLECTION SHORT SLEEVE SHIRT",
+    "brand": "ZARA",
+    "sku": "416259629-400-1",
+    "mpn": "416259629-400-1",
+    "description": "ZARA WOMAN COLLECTION\n\nShort sleeve shirt with lapel collar and voluminous sleeves. Front button closure hidden by placket.",
+    "image": "https://static.zara.net/assets/public/421e/4995/77ba4af391f0/411be4c67ff4/02731046400-p/02731046400-p.jpg?ts=1739443113003&w=1920",
+    "color": "Blue",
+    "size": "XS",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "45.9",
+      "url": "https://www.zara.com/us/en/zw-collection-short-sleeve-shirt-p02731046.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "ZW COLLECTION SHORT SLEEVE SHIRT",
+    "brand": "ZARA",
+    "sku": "416259629-800-1",
+    "mpn": "416259629-800-1",
+    "description": "ZARA WOMAN COLLECTION\n\nShort sleeve shirt with lapel collar and voluminous sleeves. Front button closure hidden by placket.",
+    "image": "https://static.zara.net/assets/public/421e/4995/77ba4af391f0/411be4c67ff4/02731046400-p/02731046400-p.jpg?ts=1739443113003&w=1920",
+    "color": "Black",
+    "size": "XS",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "27.54",
+      "url": "https://www.zara.com/us/en/zw-collection-short-sleeve-shirt-p02731046.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/LimitedAvailability"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "FLOWY MIDI DRESS",
+    "brand": "ZARA",
+    "sku": "418789540-626-1",
+    "mpn": "418789540-626-1",
+    "description": "Flowy midi dress. V-neck and adjustable spaghetti straps.",
+    "image": "https://static.zara.net/assets/public/0f2d/7061/563749378276/c1f14588893c/04772360626-a3/04772360626-a3.jpg?ts=1741271538811&w=1920",
+    "color": "Chalk pink",
+    "size": "XS",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "29.94",
+      "url": "https://www.zara.com/us/en/flowy-midi-dress-p04772360.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/LimitedAvailability"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "FLOWY MIDI DRESS",
+    "brand": "ZARA",
+    "sku": "418789540-800-1",
+    "mpn": "418789540-800-1",
+    "description": "Flowy midi dress. V-neck and adjustable spaghetti straps.",
+    "image": "https://static.zara.net/assets/public/0f2d/7061/563749378276/c1f14588893c/04772360626-a3/04772360626-a3.jpg?ts=1741271538811&w=1920",
+    "color": "Black",
+    "size": "XS",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "49.9",
+      "url": "https://www.zara.com/us/en/flowy-midi-dress-p04772360.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "FLOWY MIDI DRESS",
+    "brand": "ZARA",
+    "sku": "418789540-545-1",
+    "mpn": "418789540-545-1",
+    "description": "Flowy midi dress. V-neck and adjustable spaghetti straps.",
+    "image": "https://static.zara.net/assets/public/0f2d/7061/563749378276/c1f14588893c/04772360626-a3/04772360626-a3.jpg?ts=1741271538811&w=1920",
+    "color": "Olive Green",
+    "size": "XS",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "49.9",
+      "url": "https://www.zara.com/us/en/flowy-midi-dress-p04772360.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "Z1975 LONG DENIM DRESS",
+    "brand": "ZARA",
+    "sku": "421183804-427-1",
+    "mpn": "421183804-427-1",
+    "description": "Lapel collar dress with long sleeves. Front pockets and back patch pockets. Front slit hem. Front metal button closure.",
+    "image": "https://static.zara.net/assets/public/9420/b1e5/990b4663bd90/4baeedf998f2/01879023427-p/01879023427-p.jpg?ts=1740482165048&w=1920",
+    "color": "Mid-blue",
+    "size": "XS",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "41.94",
+      "url": "https://www.zara.com/us/en/z1975-long-denim-dress-p01879023.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "SOFT POCKET JACKET",
+    "brand": "ZARA",
+    "sku": "411120433-081-1",
+    "mpn": "411120433-081-1",
+    "description": "Lapel collar jacket with long cuffed sleeves. Front patch pockets. Front button closure.",
+    "image": "https://static.zara.net/assets/public/c536/d654/54e94f0882aa/d07e69ad630c/05070469081-p/05070469081-p.jpg?ts=1729510239176&w=1920",
+    "color": "Sand / Marl",
+    "size": "XS",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "35.99",
+      "url": "https://www.zara.com/us/en/soft-pocket-jacket-p05070469.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "SOFT POCKET JACKET",
+    "brand": "ZARA",
+    "sku": "411120433-807-1",
+    "mpn": "411120433-807-1",
+    "description": "Lapel collar jacket with long cuffed sleeves. Front patch pockets. Front button closure.",
+    "image": "https://static.zara.net/assets/public/c536/d654/54e94f0882aa/d07e69ad630c/05070469081-p/05070469081-p.jpg?ts=1729510239176&w=1920",
+    "color": "Anthracite grey",
+    "size": "XS",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "35.99",
+      "url": "https://www.zara.com/us/en/soft-pocket-jacket-p05070469.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "SOFT POCKET JACKET",
+    "brand": "ZARA",
+    "sku": "411120433-800-1",
+    "mpn": "411120433-800-1",
+    "description": "Lapel collar jacket with long cuffed sleeves. Front patch pockets. Front button closure.",
+    "image": "https://static.zara.net/assets/public/c536/d654/54e94f0882aa/d07e69ad630c/05070469081-p/05070469081-p.jpg?ts=1729510239176&w=1920",
+    "color": "Black",
+    "size": "XS",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "35.99",
+      "url": "https://www.zara.com/us/en/soft-pocket-jacket-p05070469.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "SOFT POCKET JACKET",
+    "brand": "ZARA",
+    "sku": "411120433-700-1",
+    "mpn": "411120433-700-1",
+    "description": "Lapel collar jacket with long cuffed sleeves. Front patch pockets. Front button closure.",
+    "image": "https://static.zara.net/assets/public/c536/d654/54e94f0882aa/d07e69ad630c/05070469081-p/05070469081-p.jpg?ts=1729510239176&w=1920",
+    "color": "Brown",
+    "size": "XS",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "35.99",
+      "url": "https://www.zara.com/us/en/soft-pocket-jacket-p05070469.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "FLOWY WRAP VEST TOP",
+    "brand": "ZARA",
+    "sku": "440199123-700-2",
+    "mpn": "440199123-700-2",
+    "description": "Flowy V-neck vest top. Adjustable tie front closure.",
+    "image": "https://static.zara.net/assets/public/57a1/0954/e4324b63b209/89b4afca28de/00264196700-p/00264196700-p.jpg?ts=1742906606019&w=1920",
+    "color": "Brown",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "21.54",
+      "url": "https://www.zara.com/us/en/flowy-wrap-vest-top-p00264196.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "FLOWY WRAP VEST TOP",
+    "brand": "ZARA",
+    "sku": "440199123-800-2",
+    "mpn": "440199123-800-2",
+    "description": "Flowy V-neck vest top. Adjustable tie front closure.",
+    "image": "https://static.zara.net/assets/public/57a1/0954/e4324b63b209/89b4afca28de/00264196700-p/00264196700-p.jpg?ts=1742906606019&w=1920",
+    "color": "Black",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "35.9",
+      "url": "https://www.zara.com/us/en/flowy-wrap-vest-top-p00264196.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "FLOWY WRAP VEST TOP",
+    "brand": "ZARA",
+    "sku": "440199123-802-2",
+    "mpn": "440199123-802-2",
+    "description": "Flowy V-neck vest top. Adjustable tie front closure.",
+    "image": "https://static.zara.net/assets/public/57a1/0954/e4324b63b209/89b4afca28de/00264196700-p/00264196700-p.jpg?ts=1742906606019&w=1920",
+    "color": "Gray",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "21.54",
+      "url": "https://www.zara.com/us/en/flowy-wrap-vest-top-p00264196.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/LimitedAvailability"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "WATER REPELLENT TRENCH ZW COLLECTION",
+    "brand": "ZARA",
+    "sku": "410575112-711-1",
+    "mpn": "410575112-711-1",
+    "description": "ZARA WOMAN COLLECTION\n\nCotton blend trench coat. Lapel collar and long sleeves with adjustable buckle straps at cuffs. Front pockets. Adjustable buckle belt. Shoulder epaulets. Front double-breasted button closure.",
+    "image": "https://static.zara.net/assets/public/0c31/3463/c00544baa0e0/157b89da7a26/00518055711-p/00518055711-p.jpg?ts=1739187677808&w=1920",
+    "color": "Sand",
+    "size": "XS",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "83.4",
+      "url": "https://www.zara.com/us/en/water-repellent-trench-zw-collection-p00518055.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "WATER REPELLENT TRENCH ZW COLLECTION",
+    "brand": "ZARA",
+    "sku": "410575112-681-1",
+    "mpn": "410575112-681-1",
+    "description": "ZARA WOMAN COLLECTION\n\nCotton blend trench coat. Lapel collar and long sleeves with adjustable buckle straps at cuffs. Front pockets. Adjustable buckle belt. Shoulder epaulets. Front double-breasted button closure.",
+    "image": "https://static.zara.net/assets/public/0c31/3463/c00544baa0e0/157b89da7a26/00518055711-p/00518055711-p.jpg?ts=1739187677808&w=1920",
+    "color": "Burgundy",
+    "size": "XS",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "139",
+      "url": "https://www.zara.com/us/en/water-repellent-trench-zw-collection-p00518055.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "BELTED MINI DRESS",
+    "brand": "ZARA",
+    "sku": "420008717-621-2",
+    "mpn": "420008717-621-2",
+    "description": "Fitted short dress. Boat neck and sleeveless. Belt at front with covered buckle.",
+    "image": "https://static.zara.net/assets/public/7427/a283/24554c5bbb63/00b5b128c709/03641314621-p/03641314621-p.jpg?ts=1740746592045&w=1920",
+    "color": "Pastel pink",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "21.54",
+      "url": "https://www.zara.com/us/en/belted-mini-dress-p03641314.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "BELTED MINI DRESS",
+    "brand": "ZARA",
+    "sku": "420008717-800-2",
+    "mpn": "420008717-800-2",
+    "description": "Fitted short dress. Boat neck and sleeveless. Belt at front with covered buckle.",
+    "image": "https://static.zara.net/assets/public/7427/a283/24554c5bbb63/00b5b128c709/03641314621-p/03641314621-p.jpg?ts=1740746592045&w=1920",
+    "color": "Black",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "21.54",
+      "url": "https://www.zara.com/us/en/belted-mini-dress-p03641314.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "BELTED MINI DRESS",
+    "brand": "ZARA",
+    "sku": "420008717-700-2",
+    "mpn": "420008717-700-2",
+    "description": "Fitted short dress. Boat neck and sleeveless. Belt at front with covered buckle.",
+    "image": "https://static.zara.net/assets/public/7427/a283/24554c5bbb63/00b5b128c709/03641314621-p/03641314621-p.jpg?ts=1740746592045&w=1920",
+    "color": "Brown",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "21.54",
+      "url": "https://www.zara.com/us/en/belted-mini-dress-p03641314.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "MAXI BUCKET BAG",
+    "brand": "ZARA",
+    "sku": "439282352-719-3",
+    "mpn": "439282352-719-3",
+    "description": "Oversized bucket bag in canvas-like fabric. Adjustable shoulder strap. Interior zip pocket. Magnetic closure.\n\nHeight x Length x Width: 13.8 x 13 x 6.7 inches (35 x 33 x 17 cm)",
+    "image": "https://static.zara.net/assets/public/31b9/1274/49094aae9240/e37a05cb3193/16027510719-e1/16027510719-e1.jpg?ts=1740128863167&w=1920",
+    "color": "Ecru",
+    "size": "ONE SIZE ONLY",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "35.94",
+      "url": "https://www.zara.com/us/en/maxi-bucket-bag-p16027510.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "PLEATED CROPPED JACKET",
+    "brand": "ZARA",
+    "sku": "446808964-800-1",
+    "mpn": "446808964-800-1",
+    "description": "Jacket with lapel collar and long sleeves. Pleated hem. Front zipper closure.",
+    "image": "https://static.zara.net/assets/public/c875/0c77/726a4daea93e/e96ab59243f3/02753034800-1-p/02753034800-1-p.jpg?ts=1741965349830&w=1920",
+    "color": "Black",
+    "size": "XS",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "29.94",
+      "url": "https://www.zara.com/us/en/pleated-cropped-jacket-p02753034.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "PLEATED CROPPED JACKET",
+    "brand": "ZARA",
+    "sku": "446808964-704-1",
+    "mpn": "446808964-704-1",
+    "description": "Jacket with lapel collar and long sleeves. Pleated hem. Front zipper closure.",
+    "image": "https://static.zara.net/assets/public/c875/0c77/726a4daea93e/e96ab59243f3/02753034800-1-p/02753034800-1-p.jpg?ts=1741965349830&w=1920",
+    "color": "taupe brown",
+    "size": "XS",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "29.94",
+      "url": "https://www.zara.com/us/en/pleated-cropped-jacket-p02753034.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "GOLDEN BUTTON KNIT CARDIGAN",
+    "brand": "ZARA",
+    "sku": "410594907-605-2",
+    "mpn": "410594907-605-2",
+    "description": "Plain knit cardigan with round neck and long sleeves. Front patch pockets. Front gold button closure.",
+    "image": "https://static.zara.net/assets/public/81a4/07d2/8dae41969496/c3ea22ed5095/06427144605-p/06427144605-p.jpg?ts=1727359198872&w=1920",
+    "color": "Maroon",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "35.99",
+      "url": "https://www.zara.com/us/en/golden-button-knit-cardigan-p06427144.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "GOLDEN BUTTON KNIT CARDIGAN",
+    "brand": "ZARA",
+    "sku": "410594907-401-2",
+    "mpn": "410594907-401-2",
+    "description": "Plain knit cardigan with round neck and long sleeves. Front patch pockets. Front gold button closure.",
+    "image": "https://static.zara.net/assets/public/81a4/07d2/8dae41969496/c3ea22ed5095/06427144605-p/06427144605-p.jpg?ts=1727359198872&w=1920",
+    "color": "Navy blue",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "35.99",
+      "url": "https://www.zara.com/us/en/golden-button-knit-cardigan-p06427144.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "SLINGBACK PIECE HEELS",
+    "brand": "ZARA",
+    "sku": "410569873-800-35",
+    "mpn": "410569873-800-35",
+    "description": "Sling back shoes with faux patent leather effect. Thin heel. Front metal detail. Back strap with elastic. Pointed toe. \n\nHeel height: 2.4 inches (6 cm)",
+    "image": "https://static.zara.net/assets/public/b4e1/8ac2/34d645a789b7/3416eada28a7/12222510800-p/12222510800-p.jpg?ts=1737714456876&w=1920",
+    "color": "Black",
+    "size": "5",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "35.99",
+      "url": "https://www.zara.com/us/en/slingback-piece-heels-p12222510.html",
+      "itemCondition": "https://schema.org/NewCondition"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "SLINGBACK PIECE HEELS",
+    "brand": "ZARA",
+    "sku": "410569873-098-35",
+    "mpn": "410569873-098-35",
+    "description": "Sling back shoes with faux patent leather effect. Thin heel. Front metal detail. Back strap with elastic. Pointed toe. \n\nHeel height: 2.4 inches (6 cm)",
+    "image": "https://static.zara.net/assets/public/b4e1/8ac2/34d645a789b7/3416eada28a7/12222510800-p/12222510800-p.jpg?ts=1737714456876&w=1920",
+    "color": "Beige",
+    "size": "5",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "49.9",
+      "url": "https://www.zara.com/us/en/slingback-piece-heels-p12222510.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "FLAT STUDDED SLINGBACK MULES",
+    "brand": "ZARA",
+    "sku": "410575619-800-35",
+    "mpn": "410575619-800-35",
+    "description": "Flat slingback mule. Metallic stud detail on the upper. Flat sole. Ankle strap with buckle closure. Rounded toe.\n\nSole height: 0.6 inches (1.5 cm)",
+    "image": "https://static.zara.net/assets/public/222b/2b92/86ae402f9a8e/efdd196f7b88/12511510800-p/12511510800-p.jpg?ts=1738694061761&w=1920",
+    "color": "Black",
+    "size": "5",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "41.94",
+      "url": "https://www.zara.com/us/en/flat-studded-slingback-mules-p12511510.html",
+      "itemCondition": "https://schema.org/NewCondition"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "SHORT EMBROIDERED DRESS",
+    "brand": "ZARA",
+    "sku": "415178088-250-1",
+    "mpn": "415178088-250-1",
+    "description": "Short V-neck dress with adjustable spaghetti straps. Tonal embroidery detail. Interior lining. Hidden in-seam side zip closure.",
+    "image": "https://static.zara.net/assets/public/aed5/ac84/280d449bb268/d9ddc34ce1d2/00881318250-p/00881318250-p.jpg?ts=1741271498259&w=1920",
+    "color": "White",
+    "size": "XS",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "29.94",
+      "url": "https://www.zara.com/us/en/short-embroidered-dress-p00881318.html",
+      "itemCondition": "https://schema.org/NewCondition"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "SHORT EMBROIDERED DRESS",
+    "brand": "ZARA",
+    "sku": "415178088-800-1",
+    "mpn": "415178088-800-1",
+    "description": "Short V-neck dress with adjustable spaghetti straps. Tonal embroidery detail. Interior lining. Hidden in-seam side zip closure.",
+    "image": "https://static.zara.net/assets/public/aed5/ac84/280d449bb268/d9ddc34ce1d2/00881318250-p/00881318250-p.jpg?ts=1741271498259&w=1920",
+    "color": "Black",
+    "size": "XS",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "29.94",
+      "url": "https://www.zara.com/us/en/short-embroidered-dress-p00881318.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "ZW COLLECTION FLARED PANTS",
+    "brand": "ZARA",
+    "sku": "434455277-630-1",
+    "mpn": "434455277-630-1",
+    "description": "ZARA WOMAN COLLECTION\n\nMid-rise pants with belt loops. Side pockets. Front crease detail. Flared hem. Front zip, button, and metal hook closure.",
+    "image": "https://static.zara.net/assets/public/084a/2adf/d1df4f8a9391/c19fa4aa88b7/02660797630-p/02660797630-p.jpg?ts=1742473602737&w=1920",
+    "color": "Fuchsia",
+    "size": "XS",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "53.94",
+      "url": "https://www.zara.com/us/en/zw-collection-flared-pants-p02660797.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "HALTER GODET DRESS ZW COLLECTION",
+    "brand": "ZARA",
+    "sku": "431661902-732-1",
+    "mpn": "431661902-732-1",
+    "description": "ZARA WOMAN COLLECTION\n\nShort halter neck dress with open shoulders. Godet hem. Concealed back zip closure.",
+    "image": "https://static.zara.net/assets/public/e3b0/b12a/1c5d47c79bac/bbb95afb27d2/02184199732-p/02184199732-p.jpg?ts=1738145564516&w=1920",
+    "color": "Caramel",
+    "size": "XS",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "35.99",
+      "url": "https://www.zara.com/us/en/halter-godet-dress-zw-collection-p02184187.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "HALTER GODET DRESS ZW COLLECTION",
+    "brand": "ZARA",
+    "sku": "431661902-712-1",
+    "mpn": "431661902-712-1",
+    "description": "ZARA WOMAN COLLECTION\n\nShort halter neck dress with open shoulders. Godet hem. Concealed back zip closure.",
+    "image": "https://static.zara.net/assets/public/e3b0/b12a/1c5d47c79bac/bbb95afb27d2/02184199732-p/02184199732-p.jpg?ts=1738145564516&w=1920",
+    "color": "Ecru",
+    "size": "XS",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "35.99",
+      "url": "https://www.zara.com/us/en/halter-godet-dress-zw-collection-p02184187.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "FITTED SHIRT ZW COLLECTION",
+    "brand": "ZARA",
+    "sku": "435327982-250-1",
+    "mpn": "435327982-250-1",
+    "description": "ZARA WOMAN COLLECTION\n\nT-shirt made of 100% cotton yarn. Notched lapel collar and short sleeves. Pleated detail at the waist. Front button closure.",
+    "image": "https://static.zara.net/assets/public/145e/b183/c18c44b29d19/40e8e47d7eb0/02732311250-p/02732311250-p.jpg?ts=1740672794601&w=1920",
+    "color": "White",
+    "size": "XS",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "29.94",
+      "url": "https://www.zara.com/us/en/fitted-shirt-zw-collection-p02732311.html",
+      "itemCondition": "https://schema.org/NewCondition"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "FITTED SHIRT ZW COLLECTION",
+    "brand": "ZARA",
+    "sku": "435327982-640-1",
+    "mpn": "435327982-640-1",
+    "description": "ZARA WOMAN COLLECTION\n\nT-shirt made of 100% cotton yarn. Notched lapel collar and short sleeves. Pleated detail at the waist. Front button closure.",
+    "image": "https://static.zara.net/assets/public/145e/b183/c18c44b29d19/40e8e47d7eb0/02732311250-p/02732311250-p.jpg?ts=1740672794601&w=1920",
+    "color": "Neon pink",
+    "size": "XS",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "29.94",
+      "url": "https://www.zara.com/us/en/fitted-shirt-zw-collection-p02732311.html",
+      "itemCondition": "https://schema.org/NewCondition"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "METALLIC EFFECT SNEAKERS",
+    "brand": "ZARA",
+    "sku": "417990968-253-35",
+    "mpn": "417990968-253-35",
+    "description": "Metallic gold sneakers. Front in a combination of colors. Topstitching detail. Contrasting sole. Lace closure.\n\nSole height: 0.8 inches (2 cm)",
+    "image": "https://static.zara.net/assets/public/3724/e9d6/e197463e8ee6/c649dcb15432/15434510253-p/15434510253-p.jpg?ts=1741352984866&w=1920",
+    "color": "Gold",
+    "size": "5",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "29.94",
+      "url": "https://www.zara.com/us/en/metallic-effect-sneakers-p15434510.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "METALLIC EFFECT SNEAKERS",
+    "brand": "ZARA",
+    "sku": "417990968-808-35",
+    "mpn": "417990968-808-35",
+    "description": "Metallic gold sneakers. Front in a combination of colors. Topstitching detail. Contrasting sole. Lace closure.\n\nSole height: 0.8 inches (2 cm)",
+    "image": "https://static.zara.net/assets/public/3724/e9d6/e197463e8ee6/c649dcb15432/15434510253-p/15434510253-p.jpg?ts=1741352984866&w=1920",
+    "color": "Silver",
+    "size": "5",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "49.9",
+      "url": "https://www.zara.com/us/en/metallic-effect-sneakers-p15434510.html",
+      "itemCondition": "https://schema.org/NewCondition"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "OVERSIZED DOUBLE BREASTED BLAZER",
+    "brand": "ZARA",
+    "sku": "416684718-800-10",
+    "mpn": "416684718-800-10",
+    "description": "Oversized blazer with lapel collar. Long sleeves with shoulder pads and dropped shoulders. Front pockets and a false welt chest pocket. Lined. Back vents. Double-breasted button front closure.",
+    "image": "https://static.zara.net/assets/public/6cb9/ac34/227e4debbaaf/340e0001cfdf/01255729800-p/01255729800-p.jpg?ts=1740144891996&w=1920",
+    "color": "Black",
+    "size": "XS-S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "53.94",
+      "url": "https://www.zara.com/us/en/oversized-double-breasted-blazer-p01255729.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "RUFFLED MIDI DRESS",
+    "brand": "ZARA",
+    "sku": "413615914-621-1",
+    "mpn": "413615914-621-1",
+    "description": "Midi dress made of 100% cotton. Straight neckline with ruffle and adjustable spaghetti straps. Hidden in-seam side pockets. Smocked elastic fabric.",
+    "image": "https://static.zara.net/assets/public/2f05/13f0/bcc0499ca044/eef56e9ef85a/00881341621-p/00881341621-p.jpg?ts=1740928587073&w=1920",
+    "color": "Pastel pink",
+    "size": "XS",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "35.94",
+      "url": "https://www.zara.com/us/en/ruffled-midi-dress-p00881341.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "PLEATED PANTS ZW COLLECTION",
+    "brand": "ZARA",
+    "sku": "427721428-712-1",
+    "mpn": "427721428-712-1",
+    "description": "ZARA WOMAN COLLECTION\n\nMid-rise pants with pressed crease detail on front. Straight leg. Front zip, button and metal hook closure.",
+    "image": "https://static.zara.net/assets/public/d7fd/38cc/00f943d88b91/f8de33067ca3/07592187712-020-p/07592187712-020-p.jpg?ts=1741164582089&w=1920",
+    "color": "Ecru",
+    "size": "XS",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "35.99",
+      "url": "https://www.zara.com/us/en/pleated-pants-zw-collection-p02398198.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "FAUX SUEDE JACKET",
+    "brand": "ZARA",
+    "sku": "442553075-712-1",
+    "mpn": "442553075-712-1",
+    "description": "Round neck long sleeve jacket. Front patch pockets. Front button closure.",
+    "image": "https://static.zara.net/assets/public/1698/f13e/7374475c9566/ce94a79cd80c/06318034712-p/06318034712-p.jpg?ts=1740418117500&w=1920",
+    "color": "Ecru",
+    "size": "XS",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "35.94",
+      "url": "https://www.zara.com/us/en/faux-suede-jacket-p06318034.html",
+      "itemCondition": "https://schema.org/NewCondition"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "FAUX SUEDE JACKET",
+    "brand": "ZARA",
+    "sku": "442553075-704-1",
+    "mpn": "442553075-704-1",
+    "description": "Round neck long sleeve jacket. Front patch pockets. Front button closure.",
+    "image": "https://static.zara.net/assets/public/1698/f13e/7374475c9566/ce94a79cd80c/06318034712-p/06318034712-p.jpg?ts=1740418117500&w=1920",
+    "color": "taupe brown",
+    "size": "XS",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "35.94",
+      "url": "https://www.zara.com/us/en/faux-suede-jacket-p06318034.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "FLAT SANDALS WITH METALLIC DETAILS",
+    "brand": "ZARA",
+    "sku": "416925433-800-35",
+    "mpn": "416925433-800-35",
+    "description": "Flat sandals with double strap and metallic details. Round toe. \n\nSole height: 0.6 inches (1.5 cm)",
+    "image": "https://static.zara.net/assets/public/af76/fa79/7afb41198c3c/acaf0e6486d5/11613510800-p/11613510800-p.jpg?ts=1742226302488&w=1920",
+    "color": "Black",
+    "size": "5",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "29.94",
+      "url": "https://www.zara.com/us/en/flat-sandals-with-metallic-details-p11613510.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "FAUX LEATHER BOMBER JACKET",
+    "brand": "ZARA",
+    "sku": "418726208-701-1",
+    "mpn": "418726208-701-1",
+    "description": "Faux leather bomber jacket with lapel collar and long sleeves with elastic cuffs. Welt pockets on the front. Elastic hem. Front metal zip closure.",
+    "image": "https://static.zara.net/assets/public/c45e/0f73/41264d5d86ed/83aec0196376/04391715701-p/04391715701-p.jpg?ts=1742921447499&w=1920",
+    "color": "Brick",
+    "size": "XS",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "41.94",
+      "url": "https://www.zara.com/us/en/faux-leather-bomber-jacket-p04391715.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "MID-RISE SLIM JEANS Z1975",
+    "brand": "ZARA",
+    "sku": "433333365-427-32",
+    "mpn": "433333365-427-32",
+    "description": "MID-RISE - SLIM FIT - DIRTY\n\nMid-rise jeans with five pockets. Washed effect. Front button closure.",
+    "image": "https://static.zara.net/assets/public/2b3c/13c0/230648f5b04c/86b2168629f6/09942056427-p/09942056427-p.jpg?ts=1741888774958&w=1920",
+    "color": "Mid-blue",
+    "size": "25 (US 0)",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "29.94",
+      "url": "https://www.zara.com/us/en/mid-rise-slim-jeans-z1975-p09942056.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "WASHED CARPENTER POCKET PANTS",
+    "brand": "ZARA",
+    "sku": "416227362-700-36",
+    "mpn": "416227362-700-36",
+    "description": "Relaxed fit pants. Five pockets. Washed effect. Strap and multi-function pocket application on legs. Front zip and button closure.",
+    "image": "https://static.zara.net/assets/public/f80a/2f46/af614ebeb6bd/4ad62c62daeb/00108435700-p/00108435700-p.jpg?ts=1739347531190&w=1920",
+    "color": "Brown",
+    "size": "29 (US 29)",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "35.94",
+      "url": "https://www.zara.com/us/en/washed-carpenter-pocket-pants-p00108435.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "WASHED CARPENTER POCKET PANTS",
+    "brand": "ZARA",
+    "sku": "416227362-806-36",
+    "mpn": "416227362-806-36",
+    "description": "Relaxed fit pants. Five pockets. Washed effect. Strap and multi-function pocket application on legs. Front zip and button closure.",
+    "image": "https://static.zara.net/assets/public/f80a/2f46/af614ebeb6bd/4ad62c62daeb/00108435700-p/00108435700-p.jpg?ts=1739347531190&w=1920",
+    "color": "Stone",
+    "size": "29 (US 29)",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "35.94",
+      "url": "https://www.zara.com/us/en/washed-carpenter-pocket-pants-p00108435.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/LimitedAvailability"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "WASHED CARPENTER POCKET PANTS",
+    "brand": "ZARA",
+    "sku": "416227362-809-36",
+    "mpn": "416227362-809-36",
+    "description": "Relaxed fit pants. Five pockets. Washed effect. Strap and multi-function pocket application on legs. Front zip and button closure.",
+    "image": "https://static.zara.net/assets/public/f80a/2f46/af614ebeb6bd/4ad62c62daeb/00108435700-p/00108435700-p.jpg?ts=1739347531190&w=1920",
+    "color": "Mid-gray",
+    "size": "29 (US 29)",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "35.94",
+      "url": "https://www.zara.com/us/en/washed-carpenter-pocket-pants-p00108435.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "ABSTRACT PRINT STRETCH SHIRT",
+    "brand": "ZARA",
+    "sku": "410594413-800-2",
+    "mpn": "410594413-800-2",
+    "description": "Shirt made with a fabric that minimizes the need to iron after washing. Spread collar and short sleeves. Side vents at hem. Front button closure.",
+    "image": "https://static.zara.net/assets/public/054b/d7e1/de7347988029/0aff3761efc9/07545412800-000-p/07545412800-000-p.jpg?ts=1739376609963&w=1920",
+    "color": "Black",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "29.94",
+      "url": "https://www.zara.com/us/en/abstract-print-stretch-shirt-p07545412.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "RELAXED FIT CHINO PANTS",
+    "brand": "ZARA",
+    "sku": "416850518-806-36",
+    "mpn": "416850518-806-36",
+    "description": "Relaxed fit pants made of cotton fabric. Front pockets and a match pocket detail. Back welt pockets. Washed effect. Front zip and button closure.",
+    "image": "https://static.zara.net/assets/public/8199/4426/93cf4bfa9318/a3c689aa3b84/04302405806-p/04302405806-p.jpg?ts=1740390005472&w=1920",
+    "color": "Stone",
+    "size": "29 (US 29)",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "29.94",
+      "url": "https://www.zara.com/us/en/relaxed-fit-chino-pants-p04302405.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "RELAXED FIT CHINO PANTS",
+    "brand": "ZARA",
+    "sku": "416850518-710-36",
+    "mpn": "416850518-710-36",
+    "description": "Relaxed fit pants made of cotton fabric. Front pockets and a match pocket detail. Back welt pockets. Washed effect. Front zip and button closure.",
+    "image": "https://static.zara.net/assets/public/8199/4426/93cf4bfa9318/a3c689aa3b84/04302405806-p/04302405806-p.jpg?ts=1740390005472&w=1920",
+    "color": "Beige",
+    "size": "29 (US 29)",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "29.94",
+      "url": "https://www.zara.com/us/en/relaxed-fit-chino-pants-p04302405.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "RELAXED FIT CHINO PANTS",
+    "brand": "ZARA",
+    "sku": "416850518-505-36",
+    "mpn": "416850518-505-36",
+    "description": "Relaxed fit pants made of cotton fabric. Front pockets and a match pocket detail. Back welt pockets. Washed effect. Front zip and button closure.",
+    "image": "https://static.zara.net/assets/public/8199/4426/93cf4bfa9318/a3c689aa3b84/04302405806-p/04302405806-p.jpg?ts=1740390005472&w=1920",
+    "color": "Khaki",
+    "size": "29 (US 29)",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "29.94",
+      "url": "https://www.zara.com/us/en/relaxed-fit-chino-pants-p04302405.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "RELAXED FIT CHINO PANTS",
+    "brand": "ZARA",
+    "sku": "416850518-800-36",
+    "mpn": "416850518-800-36",
+    "description": "Relaxed fit pants made of cotton fabric. Front pockets and a match pocket detail. Back welt pockets. Washed effect. Front zip and button closure.",
+    "image": "https://static.zara.net/assets/public/8199/4426/93cf4bfa9318/a3c689aa3b84/04302405806-p/04302405806-p.jpg?ts=1740390005472&w=1920",
+    "color": "Black",
+    "size": "29 (US 29)",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "29.94",
+      "url": "https://www.zara.com/us/en/relaxed-fit-chino-pants-p04302405.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "FAUX LEATHER BIKER JACKET",
+    "brand": "ZARA",
+    "sku": "410570346-800-2",
+    "mpn": "410570346-800-2",
+    "description": "Faux leather jacket. Notched lapel collar and long sleeves with zippered cuffs. Front zippered pockets and interior pocket. Asymmetric front zipper closure.",
+    "image": "https://static.zara.net/assets/public/5c97/2665/7cd04253ba9d/78043f7b8c7b/08491500800-p/08491500800-p.jpg?ts=1731662014412&w=1920",
+    "color": "Black",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "49.99",
+      "url": "https://www.zara.com/us/en/faux-leather-biker-jacket-p08491400.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/LimitedAvailability"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "LEATHER LOAFERS",
+    "brand": "ZARA",
+    "sku": "410585770-700-39",
+    "mpn": "410585770-700-39",
+    "description": "Leather loafers. Deconstructed design. Extra thin sole.",
+    "image": "https://static.zara.net/assets/public/ec33/f328/280541afa617/844e81da908e/12605520700-e1/12605520700-e1.jpg?ts=1736254550721&w=1920",
+    "color": "Brown",
+    "size": "6",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "53.94",
+      "url": "https://www.zara.com/us/en/leather-loafers-p12605520.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "INTERLOCK TEXTURED POLO",
+    "brand": "ZARA",
+    "sku": "424966981-400-2",
+    "mpn": "424966981-400-2",
+    "description": "Regular fit polo shirt made of stretch cotton fabric. Lapel collar with front opening. Short sleeves. Ribbed hem.",
+    "image": "https://static.zara.net/assets/public/ed55/e2dc/17274cd7b900/32f4038f0844/09240403400-p/09240403400-p.jpg?ts=1741164093330&w=1920",
+    "color": "Blue",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "27.54",
+      "url": "https://www.zara.com/us/en/interlock-textured-polo-p09240403.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "INTERLOCK TEXTURED POLO",
+    "brand": "ZARA",
+    "sku": "424966981-707-2",
+    "mpn": "424966981-707-2",
+    "description": "Regular fit polo shirt made of stretch cotton fabric. Lapel collar with front opening. Short sleeves. Ribbed hem.",
+    "image": "https://static.zara.net/assets/public/ed55/e2dc/17274cd7b900/32f4038f0844/09240403400-p/09240403400-p.jpg?ts=1741164093330&w=1920",
+    "color": "taupe brown",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "27.54",
+      "url": "https://www.zara.com/us/en/interlock-textured-polo-p09240403.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "INTERLOCK TEXTURED POLO",
+    "brand": "ZARA",
+    "sku": "424966981-251-2",
+    "mpn": "424966981-251-2",
+    "description": "Regular fit polo shirt made of stretch cotton fabric. Lapel collar with front opening. Short sleeves. Ribbed hem.",
+    "image": "https://static.zara.net/assets/public/ed55/e2dc/17274cd7b900/32f4038f0844/09240403400-p/09240403400-p.jpg?ts=1741164093330&w=1920",
+    "color": "Oyster-white",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "27.54",
+      "url": "https://www.zara.com/us/en/interlock-textured-polo-p09240403.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "COMBINATION LAPEL JACKET",
+    "brand": "ZARA",
+    "sku": "410594519-800-2",
+    "mpn": "410594519-800-2",
+    "description": "Relaxed fit jacket made of lightly padded cotton fabric. Combination lapel collar and long sleeves with snap button cuffs. Patch pockets at the hip. Washed effect. Front zip closure.",
+    "image": "https://static.zara.net/assets/public/6cab/4ab0/fb5a45eca648/1cdb092ae1ac/06987411800-p/06987411800-p.jpg?ts=1738765787938&w=1920",
+    "color": "Black",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "89.9",
+      "url": "https://www.zara.com/us/en/combination-lapel-jacket-p06987411.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "COMBINATION LAPEL JACKET",
+    "brand": "ZARA",
+    "sku": "410594519-701-2",
+    "mpn": "410594519-701-2",
+    "description": "Relaxed fit jacket made of lightly padded cotton fabric. Combination lapel collar and long sleeves with snap button cuffs. Patch pockets at the hip. Washed effect. Front zip closure.",
+    "image": "https://static.zara.net/assets/public/6cab/4ab0/fb5a45eca648/1cdb092ae1ac/06987411800-p/06987411800-p.jpg?ts=1738765787938&w=1920",
+    "color": "Brick",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "53.94",
+      "url": "https://www.zara.com/us/en/combination-lapel-jacket-p06987411.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "WASHED PUFFER JACKET",
+    "brand": "ZARA",
+    "sku": "410594499-807-2",
+    "mpn": "410594499-807-2",
+    "description": "Relaxed fit jacket made of cotton fabric with padded interior. Lapel collar and long sleeves with buttoned cuffs. Zip pockets at chest and hip. Washed effect. Front zip closure.",
+    "image": "https://static.zara.net/assets/public/b942/4d8f/cbe74cdc9f22/58e87a16089c/04575411807-p/04575411807-p.jpg?ts=1735287767628&w=1920",
+    "color": "Anthracite grey",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "53.94",
+      "url": "https://www.zara.com/us/en/washed-puffer-jacket-p04575411.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "WASHED PUFFER JACKET",
+    "brand": "ZARA",
+    "sku": "410594499-030-2",
+    "mpn": "410594499-030-2",
+    "description": "Relaxed fit jacket made of cotton fabric with padded interior. Lapel collar and long sleeves with buttoned cuffs. Zip pockets at chest and hip. Washed effect. Front zip closure.",
+    "image": "https://static.zara.net/assets/public/b942/4d8f/cbe74cdc9f22/58e87a16089c/04575411807-p/04575411807-p.jpg?ts=1735287767628&w=1920",
+    "color": "Blue / Black",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "89.9",
+      "url": "https://www.zara.com/us/en/washed-puffer-jacket-p04575411.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "FAUX SUEDE JACKET",
+    "brand": "ZARA",
+    "sku": "410575540-702-2",
+    "mpn": "410575540-702-2",
+    "description": "Regular fit jacket. Lapel collar and long sleeves with buttoned cuffs. Flap patch pockets at chest and welt pockets at hip. Front button closure.",
+    "image": "https://static.zara.net/assets/public/bf6f/f384/affb47d08bf8/43ab52ba17ef/08281290702-p/08281290702-p.jpg?ts=1728037711427&w=1920",
+    "color": "Leather",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "65.4",
+      "url": "https://www.zara.com/us/en/faux-suede-jacket-p08281290.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/LimitedAvailability"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "FAUX SUEDE JACKET",
+    "brand": "ZARA",
+    "sku": "410575540-800-2",
+    "mpn": "410575540-800-2",
+    "description": "Regular fit jacket. Lapel collar and long sleeves with buttoned cuffs. Flap patch pockets at chest and welt pockets at hip. Front button closure.",
+    "image": "https://static.zara.net/assets/public/bf6f/f384/affb47d08bf8/43ab52ba17ef/08281290702-p/08281290702-p.jpg?ts=1728037711427&w=1920",
+    "color": "Black",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "65.4",
+      "url": "https://www.zara.com/us/en/faux-suede-jacket-p08281290.html",
+      "itemCondition": "https://schema.org/NewCondition"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "CHUNKY CHELSEA BOOTS",
+    "brand": "ZARA",
+    "sku": "410594544-709-39",
+    "mpn": "410594544-709-39",
+    "description": "Chelsea style boots. Plain upper part. Side elastic goring pieces and back pull tab for ease. Rounded shape. Chunky lug sole.",
+    "image": "https://static.zara.net/assets/public/05b8/20bb/1c524543acb4/30736cc0fd25/12004421709-a3/12004421709-a3.jpg?ts=1728301863245&w=1920",
+    "color": "Dark tan",
+    "size": "6",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "49.99",
+      "url": "https://www.zara.com/us/en/chunky-chelsea-boots-p12004421.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "TEXTURED STRETCH PANTS",
+    "brand": "ZARA",
+    "sku": "427607625-801-36",
+    "mpn": "427607625-801-36",
+    "description": "TEXTURED STRETCH PANTS",
+    "image": "https://static.zara.net/assets/public/daa8/435a/52534ed4939f/4779dbe89b02/00706648801-p/00706648801-p.jpg?ts=1724321667004&w=1920",
+    "color": "Anthracite Gray",
+    "size": "29 (US 29)",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "29.94",
+      "url": "https://www.zara.com/us/en/textured-stretch-pants-p00706648.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "TEXTURED STRETCH PANTS",
+    "brand": "ZARA",
+    "sku": "427607625-800-36",
+    "mpn": "427607625-800-36",
+    "description": "TEXTURED STRETCH PANTS",
+    "image": "https://static.zara.net/assets/public/daa8/435a/52534ed4939f/4779dbe89b02/00706648801-p/00706648801-p.jpg?ts=1724321667004&w=1920",
+    "color": "Black",
+    "size": "29 (US 29)",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "49.9",
+      "url": "https://www.zara.com/us/en/textured-stretch-pants-p00706648.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "TEXTURED STRETCH PANTS",
+    "brand": "ZARA",
+    "sku": "427607625-710-36",
+    "mpn": "427607625-710-36",
+    "description": "TEXTURED STRETCH PANTS",
+    "image": "https://static.zara.net/assets/public/daa8/435a/52534ed4939f/4779dbe89b02/00706648801-p/00706648801-p.jpg?ts=1724321667004&w=1920",
+    "color": "Beige",
+    "size": "29 (US 29)",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "49.9",
+      "url": "https://www.zara.com/us/en/textured-stretch-pants-p00706648.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "TEXTURED STRETCH PANTS",
+    "brand": "ZARA",
+    "sku": "427607625-811-36",
+    "mpn": "427607625-811-36",
+    "description": "TEXTURED STRETCH PANTS",
+    "image": "https://static.zara.net/assets/public/daa8/435a/52534ed4939f/4779dbe89b02/00706648801-p/00706648801-p.jpg?ts=1724321667004&w=1920",
+    "color": "Light gray",
+    "size": "29 (US 29)",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "49.9",
+      "url": "https://www.zara.com/us/en/textured-stretch-pants-p00706648.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "TEXTURED STRETCH PANTS",
+    "brand": "ZARA",
+    "sku": "427607625-251-36",
+    "mpn": "427607625-251-36",
+    "description": "TEXTURED STRETCH PANTS",
+    "image": "https://static.zara.net/assets/public/daa8/435a/52534ed4939f/4779dbe89b02/00706648801-p/00706648801-p.jpg?ts=1724321667004&w=1920",
+    "color": "Oyster-white",
+    "size": "29 (US 29)",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "49.9",
+      "url": "https://www.zara.com/us/en/textured-stretch-pants-p00706648.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "TEXTURED STRETCH PANTS",
+    "brand": "ZARA",
+    "sku": "427607625-724-36",
+    "mpn": "427607625-724-36",
+    "description": "TEXTURED STRETCH PANTS",
+    "image": "https://static.zara.net/assets/public/daa8/435a/52534ed4939f/4779dbe89b02/00706648801-p/00706648801-p.jpg?ts=1724321667004&w=1920",
+    "color": "Brown marl",
+    "size": "29 (US 29)",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "29.99",
+      "url": "https://www.zara.com/us/en/textured-stretch-pants-p00706648.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "TEXTURED STRETCH PANTS",
+    "brand": "ZARA",
+    "sku": "427607625-422-36",
+    "mpn": "427607625-422-36",
+    "description": "TEXTURED STRETCH PANTS",
+    "image": "https://static.zara.net/assets/public/daa8/435a/52534ed4939f/4779dbe89b02/00706648801-p/00706648801-p.jpg?ts=1724321667004&w=1920",
+    "color": "Dark navy",
+    "size": "29 (US 29)",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "49.9",
+      "url": "https://www.zara.com/us/en/textured-stretch-pants-p00706648.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "TEXTURED STRETCH PANTS",
+    "brand": "ZARA",
+    "sku": "427607625-720-36",
+    "mpn": "427607625-720-36",
+    "description": "TEXTURED STRETCH PANTS",
+    "image": "https://static.zara.net/assets/public/daa8/435a/52534ed4939f/4779dbe89b02/00706648801-p/00706648801-p.jpg?ts=1724321667004&w=1920",
+    "color": "Beige marl",
+    "size": "29 (US 29)",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "49.9",
+      "url": "https://www.zara.com/us/en/textured-stretch-pants-p00706648.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "TEXTURED STRETCH PANTS",
+    "brand": "ZARA",
+    "sku": "427607625-818-36",
+    "mpn": "427607625-818-36",
+    "description": "TEXTURED STRETCH PANTS",
+    "image": "https://static.zara.net/assets/public/daa8/435a/52534ed4939f/4779dbe89b02/00706648801-p/00706648801-p.jpg?ts=1724321667004&w=1920",
+    "color": "Charcoal gray",
+    "size": "29 (US 29)",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "29.94",
+      "url": "https://www.zara.com/us/en/textured-stretch-pants-p00706648.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "TEXTURED STRETCH PANTS",
+    "brand": "ZARA",
+    "sku": "427607625-983-36",
+    "mpn": "427607625-983-36",
+    "description": "TEXTURED STRETCH PANTS",
+    "image": "https://static.zara.net/assets/public/daa8/435a/52534ed4939f/4779dbe89b02/00706648801-p/00706648801-p.jpg?ts=1724321667004&w=1920",
+    "color": "Beige / Taupe brown",
+    "size": "29 (US 29)",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "49.9",
+      "url": "https://www.zara.com/us/en/textured-stretch-pants-p00706648.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "PLAID SHIRT",
+    "brand": "ZARA",
+    "sku": "435461522-401-2",
+    "mpn": "435461522-401-2",
+    "description": "Relaxed fit shirt made of cotton fabric. Lapel collar and long sleeves with buttoned cuffs. Patch pocket on chest. Front button closure.",
+    "image": "https://static.zara.net/assets/public/cf59/4ca4/631d4c64a20a/47baa989e863/07446480401-p/07446480401-p.jpg?ts=1741357309514&w=1920",
+    "color": "Navy blue",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "29.94",
+      "url": "https://www.zara.com/us/en/plaid-shirt-p07446480.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "PLAID SHIRT",
+    "brand": "ZARA",
+    "sku": "435461522-710-2",
+    "mpn": "435461522-710-2",
+    "description": "Relaxed fit shirt made of cotton fabric. Lapel collar and long sleeves with buttoned cuffs. Patch pocket on chest. Front button closure.",
+    "image": "https://static.zara.net/assets/public/cf59/4ca4/631d4c64a20a/47baa989e863/07446480401-p/07446480401-p.jpg?ts=1741357309514&w=1920",
+    "color": "Beige",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "29.94",
+      "url": "https://www.zara.com/us/en/plaid-shirt-p07446480.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "PLAID SHIRT",
+    "brand": "ZARA",
+    "sku": "435461522-484-2",
+    "mpn": "435461522-484-2",
+    "description": "Relaxed fit shirt made of cotton fabric. Lapel collar and long sleeves with buttoned cuffs. Patch pocket on chest. Front button closure.",
+    "image": "https://static.zara.net/assets/public/cf59/4ca4/631d4c64a20a/47baa989e863/07446480401-p/07446480401-p.jpg?ts=1741357309514&w=1920",
+    "color": "Light turquoise",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "29.94",
+      "url": "https://www.zara.com/us/en/plaid-shirt-p07446480.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "OPEN JACQUARD SHIRT",
+    "brand": "ZARA",
+    "sku": "440211015-710-2",
+    "mpn": "440211015-710-2",
+    "description": "Relaxed fit shirt made of open weave fabric. Spread collar and short sleeves. Front button closure.",
+    "image": "https://static.zara.net/assets/public/dc46/292b/b13a4e5b92e1/4bd586de5ba5/02688104710-p/02688104710-p.jpg?ts=1741691030381&w=1920",
+    "color": "Beige",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "41.94",
+      "url": "https://www.zara.com/us/en/open-jacquard-shirt-p02688104.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "OPEN JACQUARD SHIRT",
+    "brand": "ZARA",
+    "sku": "440211015-800-2",
+    "mpn": "440211015-800-2",
+    "description": "Relaxed fit shirt made of open weave fabric. Spread collar and short sleeves. Front button closure.",
+    "image": "https://static.zara.net/assets/public/dc46/292b/b13a4e5b92e1/4bd586de5ba5/02688104710-p/02688104710-p.jpg?ts=1741691030381&w=1920",
+    "color": "Black",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "41.94",
+      "url": "https://www.zara.com/us/en/open-jacquard-shirt-p02688104.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "STRETCH SHIRT",
+    "brand": "ZARA",
+    "sku": "415402257-250-2",
+    "mpn": "415402257-250-2",
+    "description": "Shirt made with a fabric that minimizes the need to iron after washing. Spread collar and short sleeves. Side vents at hem. Front button closure.",
+    "image": "https://static.zara.net/assets/public/8b17/1c16/fd734ffc864c/54dae110a294/07545404250-p/07545404250-p.jpg?ts=1725267988134&w=1920",
+    "color": "White",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "29.94",
+      "url": "https://www.zara.com/us/en/stretch-shirt-p07545404.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "STRETCH SHIRT",
+    "brand": "ZARA",
+    "sku": "415402257-800-2",
+    "mpn": "415402257-800-2",
+    "description": "Shirt made with a fabric that minimizes the need to iron after washing. Spread collar and short sleeves. Side vents at hem. Front button closure.",
+    "image": "https://static.zara.net/assets/public/8b17/1c16/fd734ffc864c/54dae110a294/07545404250-p/07545404250-p.jpg?ts=1725267988134&w=1920",
+    "color": "Black",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "29.94",
+      "url": "https://www.zara.com/us/en/stretch-shirt-p07545404.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "LIGHTWEIGHT FAUX SUEDE OVERSHIRT",
+    "brand": "ZARA",
+    "sku": "423773155-710-2",
+    "mpn": "423773155-710-2",
+    "description": "Relaxed fit overshirt made of a lightweight, faux suede fabric. Lapel collar and long sleeves with buttoned cuffs. Front button closure.",
+    "image": "https://static.zara.net/assets/public/59be/a24e/5fb24592976d/6c40648c3432/08281333710-p/08281333710-p.jpg?ts=1741164088412&w=1920",
+    "color": "Beige",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "41.94",
+      "url": "https://www.zara.com/us/en/lightweight-faux-suede-overshirt-p08281333.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "LIGHTWEIGHT FAUX SUEDE OVERSHIRT",
+    "brand": "ZARA",
+    "sku": "423773155-401-2",
+    "mpn": "423773155-401-2",
+    "description": "Relaxed fit overshirt made of a lightweight, faux suede fabric. Lapel collar and long sleeves with buttoned cuffs. Front button closure.",
+    "image": "https://static.zara.net/assets/public/59be/a24e/5fb24592976d/6c40648c3432/08281333710-p/08281333710-p.jpg?ts=1741164088412&w=1920",
+    "color": "Navy blue",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "41.94",
+      "url": "https://www.zara.com/us/en/lightweight-faux-suede-overshirt-p08281333.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "LIGHTWEIGHT FAUX SUEDE OVERSHIRT",
+    "brand": "ZARA",
+    "sku": "423773155-802-2",
+    "mpn": "423773155-802-2",
+    "description": "Relaxed fit overshirt made of a lightweight, faux suede fabric. Lapel collar and long sleeves with buttoned cuffs. Front button closure.",
+    "image": "https://static.zara.net/assets/public/59be/a24e/5fb24592976d/6c40648c3432/08281333710-p/08281333710-p.jpg?ts=1741164088412&w=1920",
+    "color": "Gray",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "41.94",
+      "url": "https://www.zara.com/us/en/lightweight-faux-suede-overshirt-p08281333.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "FAUX LEATHER JACKET",
+    "brand": "ZARA",
+    "sku": "412986677-800-2",
+    "mpn": "412986677-800-2",
+    "description": "Cropped jacket made of faux leather fabric. High collar and long sleeves. Welt pockets at hip and interior pocket. Front zip closure.",
+    "image": "https://static.zara.net/assets/public/a54f/5490/1d8542118c1d/e4ca98309fe4/05070135800-p/05070135800-p.jpg?ts=1736438819664&w=1920",
+    "color": "Black",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "65.4",
+      "url": "https://www.zara.com/us/en/faux-leather-jacket-p05070135.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "WASHED CARPENTER PANTS",
+    "brand": "ZARA",
+    "sku": "410594866-800-36",
+    "mpn": "410594866-800-36",
+    "description": "Relaxed fit pants made of cotton canvas. Front pockets and back patch pockets. Washed effect. Front zip and button closure.",
+    "image": "https://static.zara.net/assets/public/ec08/9773/20044532bc30/47c048b14a36/04470402800-p/04470402800-p.jpg?ts=1736508267815&w=1920",
+    "color": "Black",
+    "size": "29 (US 29)",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "35.94",
+      "url": "https://www.zara.com/us/en/washed-carpenter-pants-p04470402.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "WASHED CARPENTER PANTS",
+    "brand": "ZARA",
+    "sku": "410594866-700-36",
+    "mpn": "410594866-700-36",
+    "description": "Relaxed fit pants made of cotton canvas. Front pockets and back patch pockets. Washed effect. Front zip and button closure.",
+    "image": "https://static.zara.net/assets/public/ec08/9773/20044532bc30/47c048b14a36/04470402800-p/04470402800-p.jpg?ts=1736508267815&w=1920",
+    "color": "Brown",
+    "size": "29 (US 29)",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "35.94",
+      "url": "https://www.zara.com/us/en/washed-carpenter-pants-p04470402.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "WASHED CARPENTER PANTS",
+    "brand": "ZARA",
+    "sku": "410594866-506-36",
+    "mpn": "410594866-506-36",
+    "description": "Relaxed fit pants made of cotton canvas. Front pockets and back patch pockets. Washed effect. Front zip and button closure.",
+    "image": "https://static.zara.net/assets/public/ec08/9773/20044532bc30/47c048b14a36/04470402800-p/04470402800-p.jpg?ts=1736508267815&w=1920",
+    "color": "Light khaki",
+    "size": "29 (US 29)",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "35.94",
+      "url": "https://www.zara.com/us/en/washed-carpenter-pants-p04470402.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "TEXTURED KNIT POLO",
+    "brand": "ZARA",
+    "sku": "420116098-912-3",
+    "mpn": "420116098-912-3",
+    "description": "Regular fit knit polo shirt made with lyocell and linen blend yarn. Lapel collar with front opening. Short sleeves. Ribbed trim.",
+    "image": "https://static.zara.net/assets/public/4ec3/184e/4c1b4bb594eb/b23700753f99/02142414912-p/02142414912-p.jpg?ts=1741867868821&w=1920",
+    "color": "Light green",
+    "size": "M",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "29.94",
+      "url": "https://www.zara.com/us/en/textured-knit-polo-p02142414.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "TEXTURED KNIT POLO",
+    "brand": "ZARA",
+    "sku": "420116098-052-3",
+    "mpn": "420116098-052-3",
+    "description": "Regular fit knit polo shirt made with lyocell and linen blend yarn. Lapel collar with front opening. Short sleeves. Ribbed trim.",
+    "image": "https://static.zara.net/assets/public/4ec3/184e/4c1b4bb594eb/b23700753f99/02142414912-p/02142414912-p.jpg?ts=1741867868821&w=1920",
+    "color": "Light beige",
+    "size": "M",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "29.94",
+      "url": "https://www.zara.com/us/en/textured-knit-polo-p02142414.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "TEXTURED KNIT POLO",
+    "brand": "ZARA",
+    "sku": "420116098-560-3",
+    "mpn": "420116098-560-3",
+    "description": "Regular fit knit polo shirt made with lyocell and linen blend yarn. Lapel collar with front opening. Short sleeves. Ribbed trim.",
+    "image": "https://static.zara.net/assets/public/4ec3/184e/4c1b4bb594eb/b23700753f99/02142414912-p/02142414912-p.jpg?ts=1741867868821&w=1920",
+    "color": "Sage Green",
+    "size": "M",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "29.94",
+      "url": "https://www.zara.com/us/en/textured-knit-polo-p02142414.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "MERCERIZED POLO",
+    "brand": "ZARA",
+    "sku": "421250872-401-2",
+    "mpn": "421250872-401-2",
+    "description": "Regular fit polo shirt made of mercerized cotton fabric. Lapel collar with front button closure. Short sleeves.",
+    "image": "https://static.zara.net/assets/public/a727/1db4/51e04f49a4f8/d83316006a93/06462404401-p/06462404401-p.jpg?ts=1741776123215&w=1920",
+    "color": "Navy blue",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "27.54",
+      "url": "https://www.zara.com/us/en/mercerized-polo-p06462404.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "MERCERIZED POLO",
+    "brand": "ZARA",
+    "sku": "421250872-049-2",
+    "mpn": "421250872-049-2",
+    "description": "Regular fit polo shirt made of mercerized cotton fabric. Lapel collar with front button closure. Short sleeves.",
+    "image": "https://static.zara.net/assets/public/a727/1db4/51e04f49a4f8/d83316006a93/06462404401-p/06462404401-p.jpg?ts=1741776123215&w=1920",
+    "color": "Brown-Blue",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "27.54",
+      "url": "https://www.zara.com/us/en/mercerized-polo-p06462404.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "FAUX SUEDE BOMBER JACKET",
+    "brand": "ZARA",
+    "sku": "410581056-806-2",
+    "mpn": "410581056-806-2",
+    "description": "Jacket made of faux suede fabric. Rib elastic collar and long sleeves. Welt pockets at hip. Rib trim. Front zip closure.",
+    "image": "https://static.zara.net/assets/public/08c9/5bc3/c90743819725/14aa7d8ddef0/08574300806-p/08574300806-p.jpg?ts=1733921288630&w=1920",
+    "color": "Stone",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "69.9",
+      "url": "https://www.zara.com/us/en/faux-suede-bomber-jacket-p08574300.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "FAUX SUEDE BOMBER JACKET",
+    "brand": "ZARA",
+    "sku": "410581056-505-2",
+    "mpn": "410581056-505-2",
+    "description": "Jacket made of faux suede fabric. Rib elastic collar and long sleeves. Welt pockets at hip. Rib trim. Front zip closure.",
+    "image": "https://static.zara.net/assets/public/08c9/5bc3/c90743819725/14aa7d8ddef0/08574300806-p/08574300806-p.jpg?ts=1733921288630&w=1920",
+    "color": "Khaki",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "35.99",
+      "url": "https://www.zara.com/us/en/faux-suede-bomber-jacket-p08574300.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "FAUX SUEDE BOMBER JACKET",
+    "brand": "ZARA",
+    "sku": "410581056-800-2",
+    "mpn": "410581056-800-2",
+    "description": "Jacket made of faux suede fabric. Rib elastic collar and long sleeves. Welt pockets at hip. Rib trim. Front zip closure.",
+    "image": "https://static.zara.net/assets/public/08c9/5bc3/c90743819725/14aa7d8ddef0/08574300806-p/08574300806-p.jpg?ts=1733921288630&w=1920",
+    "color": "Black",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "69.9",
+      "url": "https://www.zara.com/us/en/faux-suede-bomber-jacket-p08574300.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "PADDED TECHNICAL VEST",
+    "brand": "ZARA",
+    "sku": "410585272-800-2",
+    "mpn": "410585272-800-2",
+    "description": "Puffer vest made of technical fabric. Sleeveless design with high collar. Welt pockets at hip and interior pocket. Front zip closure.",
+    "image": "https://static.zara.net/assets/public/da14/365d/cdba4e839090/28a26d2111f8/03918341800-p/03918341800-p.jpg?ts=1734625496584&w=1920",
+    "color": "Black",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "29.99",
+      "url": "https://www.zara.com/us/en/padded-technical-vest-p03918341.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "PADDED TECHNICAL VEST",
+    "brand": "ZARA",
+    "sku": "410585272-916-2",
+    "mpn": "410585272-916-2",
+    "description": "Puffer vest made of technical fabric. Sleeveless design with high collar. Welt pockets at hip and interior pocket. Front zip closure.",
+    "image": "https://static.zara.net/assets/public/da14/365d/cdba4e839090/28a26d2111f8/03918341800-p/03918341800-p.jpg?ts=1734625496584&w=1920",
+    "color": "Gray green",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "29.99",
+      "url": "https://www.zara.com/us/en/padded-technical-vest-p03918341.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "FAUX SUEDE JACKET",
+    "brand": "ZARA",
+    "sku": "410570060-710-2",
+    "mpn": "410570060-710-2",
+    "description": "Jacket made of faux suede fabric. High collar and long sleeves. Welt pockets at hip and interior pocket. Rib trim. Front zip closure.",
+    "image": "https://static.zara.net/assets/public/cfa7/4b2b/71b040f89b87/6843d19ab85f/06318501710-p/06318501710-p.jpg?ts=1735906344377&w=1920",
+    "color": "Beige",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "41.94",
+      "url": "https://www.zara.com/us/en/faux-suede-jacket-p06318501.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "EASY CARE JOGGER WAIST PANTS",
+    "brand": "ZARA",
+    "sku": "429462105-707-2",
+    "mpn": "429462105-707-2",
+    "description": "Pants with adjustable elastic drawstring waistband. Side pockets and back welt pockets. Cuffed hem.",
+    "image": "https://static.zara.net/assets/public/4884/2d3b/e25e44ef8d5e/faf568bdf7c5/00706870707-p/00706870707-p.jpg?ts=1726226536864&w=1920",
+    "color": "taupe brown",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "45.9",
+      "url": "https://www.zara.com/us/en/easy-care-jogger-waist-pants-p00706870.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "EASY CARE JOGGER WAIST PANTS",
+    "brand": "ZARA",
+    "sku": "429462105-401-2",
+    "mpn": "429462105-401-2",
+    "description": "Pants with adjustable elastic drawstring waistband. Side pockets and back welt pockets. Cuffed hem.",
+    "image": "https://static.zara.net/assets/public/4884/2d3b/e25e44ef8d5e/faf568bdf7c5/00706870707-p/00706870707-p.jpg?ts=1726226536864&w=1920",
+    "color": "Navy blue",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "45.9",
+      "url": "https://www.zara.com/us/en/easy-care-jogger-waist-pants-p00706870.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "EASY CARE JOGGER WAIST PANTS",
+    "brand": "ZARA",
+    "sku": "429462105-505-2",
+    "mpn": "429462105-505-2",
+    "description": "Pants with adjustable elastic drawstring waistband. Side pockets and back welt pockets. Cuffed hem.",
+    "image": "https://static.zara.net/assets/public/4884/2d3b/e25e44ef8d5e/faf568bdf7c5/00706870707-p/00706870707-p.jpg?ts=1726226536864&w=1920",
+    "color": "Khaki",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "29.99",
+      "url": "https://www.zara.com/us/en/easy-care-jogger-waist-pants-p00706870.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "EASY CARE JOGGER WAIST PANTS",
+    "brand": "ZARA",
+    "sku": "429462105-800-2",
+    "mpn": "429462105-800-2",
+    "description": "Pants with adjustable elastic drawstring waistband. Side pockets and back welt pockets. Cuffed hem.",
+    "image": "https://static.zara.net/assets/public/4884/2d3b/e25e44ef8d5e/faf568bdf7c5/00706870707-p/00706870707-p.jpg?ts=1726226536864&w=1920",
+    "color": "Black",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "45.9",
+      "url": "https://www.zara.com/us/en/easy-care-jogger-waist-pants-p00706870.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "EASY CARE JOGGER WAIST PANTS",
+    "brand": "ZARA",
+    "sku": "429462105-802-2",
+    "mpn": "429462105-802-2",
+    "description": "Pants with adjustable elastic drawstring waistband. Side pockets and back welt pockets. Cuffed hem.",
+    "image": "https://static.zara.net/assets/public/4884/2d3b/e25e44ef8d5e/faf568bdf7c5/00706870707-p/00706870707-p.jpg?ts=1726226536864&w=1920",
+    "color": "Gray",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "27.54",
+      "url": "https://www.zara.com/us/en/easy-care-jogger-waist-pants-p00706870.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "EASY CARE JOGGER WAIST PANTS",
+    "brand": "ZARA",
+    "sku": "429462105-715-2",
+    "mpn": "429462105-715-2",
+    "description": "Pants with adjustable elastic drawstring waistband. Side pockets and back welt pockets. Cuffed hem.",
+    "image": "https://static.zara.net/assets/public/4884/2d3b/e25e44ef8d5e/faf568bdf7c5/00706870707-p/00706870707-p.jpg?ts=1726226536864&w=1920",
+    "color": "Mid-ecru",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "45.9",
+      "url": "https://www.zara.com/us/en/easy-care-jogger-waist-pants-p00706870.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "EASY CARE JOGGER WAIST PANTS",
+    "brand": "ZARA",
+    "sku": "429462105-814-2",
+    "mpn": "429462105-814-2",
+    "description": "Pants with adjustable elastic drawstring waistband. Side pockets and back welt pockets. Cuffed hem.",
+    "image": "https://static.zara.net/assets/public/4884/2d3b/e25e44ef8d5e/faf568bdf7c5/00706870707-p/00706870707-p.jpg?ts=1726226536864&w=1920",
+    "color": "Gray / Beige",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "45.9",
+      "url": "https://www.zara.com/us/en/easy-care-jogger-waist-pants-p00706870.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "EASY CARE JOGGER WAIST PANTS",
+    "brand": "ZARA",
+    "sku": "429462105-711-2",
+    "mpn": "429462105-711-2",
+    "description": "Pants with adjustable elastic drawstring waistband. Side pockets and back welt pockets. Cuffed hem.",
+    "image": "https://static.zara.net/assets/public/4884/2d3b/e25e44ef8d5e/faf568bdf7c5/00706870707-p/00706870707-p.jpg?ts=1726226536864&w=1920",
+    "color": "Sand",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "45.9",
+      "url": "https://www.zara.com/us/en/easy-care-jogger-waist-pants-p00706870.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "EASY CARE JOGGER WAIST PANTS",
+    "brand": "ZARA",
+    "sku": "429462105-251-2",
+    "mpn": "429462105-251-2",
+    "description": "Pants with adjustable elastic drawstring waistband. Side pockets and back welt pockets. Cuffed hem.",
+    "image": "https://static.zara.net/assets/public/4884/2d3b/e25e44ef8d5e/faf568bdf7c5/00706870707-p/00706870707-p.jpg?ts=1726226536864&w=1920",
+    "color": "Oyster-white",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "45.9",
+      "url": "https://www.zara.com/us/en/easy-care-jogger-waist-pants-p00706870.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "BASIC SOFT SWEATER",
+    "brand": "ZARA",
+    "sku": "410580860-251-2",
+    "mpn": "410580860-251-2",
+    "description": "Regular fit sweater made of soft touch fabric. Round neck and long sleeves. Rib trim.",
+    "image": "https://static.zara.net/assets/public/26b0/087b/694c4c3e845f/68bcd1502282/05755323251-p/05755323251-p.jpg?ts=1723622942592&w=1920",
+    "color": "Oyster-white",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "29.94",
+      "url": "https://www.zara.com/us/en/basic-soft-sweater-p05755323.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "BASIC SOFT SWEATER",
+    "brand": "ZARA",
+    "sku": "410580860-800-2",
+    "mpn": "410580860-800-2",
+    "description": "Regular fit sweater made of soft touch fabric. Round neck and long sleeves. Rib trim.",
+    "image": "https://static.zara.net/assets/public/26b0/087b/694c4c3e845f/68bcd1502282/05755323251-p/05755323251-p.jpg?ts=1723622942592&w=1920",
+    "color": "Black",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "29.94",
+      "url": "https://www.zara.com/us/en/basic-soft-sweater-p05755323.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "BASIC SOFT SWEATER",
+    "brand": "ZARA",
+    "sku": "410580860-922-2",
+    "mpn": "410580860-922-2",
+    "description": "Regular fit sweater made of soft touch fabric. Round neck and long sleeves. Rib trim.",
+    "image": "https://static.zara.net/assets/public/26b0/087b/694c4c3e845f/68bcd1502282/05755323251-p/05755323251-p.jpg?ts=1723622942592&w=1920",
+    "color": "Dark gray",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "29.94",
+      "url": "https://www.zara.com/us/en/basic-soft-sweater-p05755323.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "BASIC SOFT SWEATER",
+    "brand": "ZARA",
+    "sku": "410580860-105-2",
+    "mpn": "410580860-105-2",
+    "description": "Regular fit sweater made of soft touch fabric. Round neck and long sleeves. Rib trim.",
+    "image": "https://static.zara.net/assets/public/26b0/087b/694c4c3e845f/68bcd1502282/05755323251-p/05755323251-p.jpg?ts=1723622942592&w=1920",
+    "color": "Striped",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "29.94",
+      "url": "https://www.zara.com/us/en/basic-soft-sweater-p05755323.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "BASIC SOFT SWEATER",
+    "brand": "ZARA",
+    "sku": "410580860-804-2",
+    "mpn": "410580860-804-2",
+    "description": "Regular fit sweater made of soft touch fabric. Round neck and long sleeves. Rib trim.",
+    "image": "https://static.zara.net/assets/public/26b0/087b/694c4c3e845f/68bcd1502282/05755323251-p/05755323251-p.jpg?ts=1723622942592&w=1920",
+    "color": "Pearl gray",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "29.94",
+      "url": "https://www.zara.com/us/en/basic-soft-sweater-p05755323.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "PRINTED HOODIE",
+    "brand": "ZARA",
+    "sku": "424938375-898-2",
+    "mpn": "424938375-898-2",
+    "description": "Relaxed fit hoodie. Adjustable hood and long sleeves. Kangaroo pocket. Contrasting printed graphics on front and sleeve. Washed effect. Ribbed trim.\n\nThis garment has a unique appearance thanks to its special washing process. For this reason, the color may differ slightly from the photo.",
+    "image": "https://static.zara.net/assets/public/40b7/e936/6a7948149870/f8b8d80e0696/00962428898-p/00962428898-p.jpg?ts=1739523774196&w=1920",
+    "color": "Dark anthracite",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "41.94",
+      "url": "https://www.zara.com/us/en/printed-hoodie-p00962428.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "TEXTURED RIBBED POLO",
+    "brand": "ZARA",
+    "sku": "418002652-526-2",
+    "mpn": "418002652-526-2",
+    "description": "Relaxed fit polo. Lapel collar with front button closure. Long sleeves. Ribbed trim.",
+    "image": "https://static.zara.net/assets/public/356c/1a04/1a7d4d349a38/1449d0977282/02795404526-p/02795404526-p.jpg?ts=1738750703424&w=1920",
+    "color": "Light green",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "27.54",
+      "url": "https://www.zara.com/us/en/textured-ribbed-polo-p02795404.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "TEXTURED RIBBED POLO",
+    "brand": "ZARA",
+    "sku": "418002652-712-2",
+    "mpn": "418002652-712-2",
+    "description": "Relaxed fit polo. Lapel collar with front button closure. Long sleeves. Ribbed trim.",
+    "image": "https://static.zara.net/assets/public/356c/1a04/1a7d4d349a38/1449d0977282/02795404526-p/02795404526-p.jpg?ts=1738750703424&w=1920",
+    "color": "Ecru",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "27.54",
+      "url": "https://www.zara.com/us/en/textured-ribbed-polo-p02795404.html",
+      "itemCondition": "https://schema.org/NewCondition"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "PLAIN TRAVEL BAG",
+    "brand": "ZARA",
+    "sku": "416700756-700-3",
+    "mpn": "416700756-700-3",
+    "description": "Travel suitcase. Main compartment with zip closure. Interior zip pocket. Front zip pocket. Two handles and an adjustable, removable shoulder strap. Back strap for luggage.\n\nHeight x Length x Width: 12.2 x 18.5 x 9.8 inches (31 x 47 x 25 cm).",
+    "image": "https://static.zara.net/assets/public/4078/1214/3b6f40c9b3f4/e84975ea5ba2/13127520700-a3/13127520700-a3.jpg?ts=1741362916223&w=1920",
+    "color": "Brown",
+    "size": "ONE SIZE ONLY",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "53.94",
+      "url": "https://www.zara.com/us/en/plain-travel-bag-p13127520.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "PLAIN TRAVEL BAG",
+    "brand": "ZARA",
+    "sku": "416700756-800-3",
+    "mpn": "416700756-800-3",
+    "description": "Travel suitcase. Main compartment with zip closure. Interior zip pocket. Front zip pocket. Two handles and an adjustable, removable shoulder strap. Back strap for luggage.\n\nHeight x Length x Width: 12.2 x 18.5 x 9.8 inches (31 x 47 x 25 cm).",
+    "image": "https://static.zara.net/assets/public/4078/1214/3b6f40c9b3f4/e84975ea5ba2/13127520700-a3/13127520700-a3.jpg?ts=1741362916223&w=1920",
+    "color": "Black",
+    "size": "ONE SIZE ONLY",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "89.9",
+      "url": "https://www.zara.com/us/en/plain-travel-bag-p13127520.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "RUBBERIZED CROSSBODY BAG",
+    "brand": "ZARA",
+    "sku": "410594539-120-3",
+    "mpn": "410594539-120-3",
+    "description": "Vertical rubberized crossbody bag. Main compartment with zip closure. Interior zip pocket. Adjustable shoulder strap.\n\nHeight x Length x Width: 7.1 x 5.1 x 3.1 inches (18 x 13 x 8 cm)",
+    "image": "https://static.zara.net/assets/public/be3e/81b9/ec124a1a81ce/08cbadafb9e6/13901520120-a3/13901520120-a3.jpg?ts=1737989615545&w=1920",
+    "color": "Bone White",
+    "size": "ONE SIZE ONLY",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "15.99",
+      "url": "https://www.zara.com/us/en/rubberized-crossbody-bag-p13901520.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "RUBBERIZED CROSSBODY BAG",
+    "brand": "ZARA",
+    "sku": "410594539-032-3",
+    "mpn": "410594539-032-3",
+    "description": "Vertical rubberized crossbody bag. Main compartment with zip closure. Interior zip pocket. Adjustable shoulder strap.\n\nHeight x Length x Width: 7.1 x 5.1 x 3.1 inches (18 x 13 x 8 cm)",
+    "image": "https://static.zara.net/assets/public/be3e/81b9/ec124a1a81ce/08cbadafb9e6/13901520120-a3/13901520120-a3.jpg?ts=1737989615545&w=1920",
+    "color": "Khaki Green",
+    "size": "ONE SIZE ONLY",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "15.99",
+      "url": "https://www.zara.com/us/en/rubberized-crossbody-bag-p13901520.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "RUBBERIZED CROSSBODY BAG",
+    "brand": "ZARA",
+    "sku": "410594539-800-3",
+    "mpn": "410594539-800-3",
+    "description": "Vertical rubberized crossbody bag. Main compartment with zip closure. Interior zip pocket. Adjustable shoulder strap.\n\nHeight x Length x Width: 7.1 x 5.1 x 3.1 inches (18 x 13 x 8 cm)",
+    "image": "https://static.zara.net/assets/public/be3e/81b9/ec124a1a81ce/08cbadafb9e6/13901520120-a3/13901520120-a3.jpg?ts=1737989615545&w=1920",
+    "color": "Black",
+    "size": "ONE SIZE ONLY",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "15.99",
+      "url": "https://www.zara.com/us/en/rubberized-crossbody-bag-p13901520.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "LEATHER LACE-UP BOOTS",
+    "brand": "ZARA",
+    "sku": "410594261-800-39",
+    "mpn": "410594261-800-39",
+    "description": "Derby-style lace-up boot. Split leather upper. Rounded toe. Chunky sole.",
+    "image": "https://static.zara.net/assets/public/097d/e555/8248420daec7/02d719ccb22b/12041520800-a1/12041520800-a1.jpg?ts=1737456361450&w=1920",
+    "color": "Black",
+    "size": "6",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "49.99",
+      "url": "https://www.zara.com/us/en/leather-lace-up-boots-p12041520.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "LEATHER LACE-UP BOOTS",
+    "brand": "ZARA",
+    "sku": "410594261-700-39",
+    "mpn": "410594261-700-39",
+    "description": "Derby-style lace-up boot. Split leather upper. Rounded toe. Chunky sole.",
+    "image": "https://static.zara.net/assets/public/097d/e555/8248420daec7/02d719ccb22b/12041520800-a1/12041520800-a1.jpg?ts=1737456361450&w=1920",
+    "color": "Brown",
+    "size": "6",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "49.99",
+      "url": "https://www.zara.com/us/en/leather-lace-up-boots-p12041520.html",
+      "itemCondition": "https://schema.org/NewCondition"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "LEATHER LACE-UP BOOTS",
+    "brand": "ZARA",
+    "sku": "410594261-002-39",
+    "mpn": "410594261-002-39",
+    "description": "Derby-style lace-up boot. Split leather upper. Rounded toe. Chunky sole.",
+    "image": "https://static.zara.net/assets/public/097d/e555/8248420daec7/02d719ccb22b/12041520800-a1/12041520800-a1.jpg?ts=1737456361450&w=1920",
+    "color": "Off White",
+    "size": "6",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "49.99",
+      "url": "https://www.zara.com/us/en/leather-lace-up-boots-p12041520.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "WASHED FAUX LEATHER OVERSHIRT",
+    "brand": "ZARA",
+    "sku": "410590432-702-2",
+    "mpn": "410590432-702-2",
+    "description": "Relaxed fit overshirt made of faux leather. Lapel collar and long sleeves with buttoned cuffs. Chest patch pocket. Washed effect. Front snap button closure.",
+    "image": "https://static.zara.net/assets/public/7ce6/70d6/908546689ab8/60950cf803c5/05070302702-p/05070302702-p.jpg?ts=1734964190199&w=1920",
+    "color": "Leather",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "35.99",
+      "url": "https://www.zara.com/us/en/washed-faux-leather-overshirt-p05070301.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "FLOWY POCKET SHIRT",
+    "brand": "ZARA",
+    "sku": "427594566-707-2",
+    "mpn": "427594566-707-2",
+    "description": "Relaxed fit shirt made of modal blend fabric. Lapel collar and long sleeves with buttoned cuffs. Front button closure.",
+    "image": "https://static.zara.net/assets/public/c953/ac73/18f8443ca0df/4833c10103a1/07545433707-p/07545433707-p.jpg?ts=1739958096709&w=1920",
+    "color": "taupe brown",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "35.94",
+      "url": "https://www.zara.com/us/en/flowy-pocket-shirt-p07545433.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "FLOWY POCKET SHIRT",
+    "brand": "ZARA",
+    "sku": "427594566-807-2",
+    "mpn": "427594566-807-2",
+    "description": "Relaxed fit shirt made of modal blend fabric. Lapel collar and long sleeves with buttoned cuffs. Front button closure.",
+    "image": "https://static.zara.net/assets/public/c953/ac73/18f8443ca0df/4833c10103a1/07545433707-p/07545433707-p.jpg?ts=1739958096709&w=1920",
+    "color": "Anthracite grey",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "35.94",
+      "url": "https://www.zara.com/us/en/flowy-pocket-shirt-p07545433.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "FLOWY POCKET SHIRT",
+    "brand": "ZARA",
+    "sku": "427594566-800-2",
+    "mpn": "427594566-800-2",
+    "description": "Relaxed fit shirt made of modal blend fabric. Lapel collar and long sleeves with buttoned cuffs. Front button closure.",
+    "image": "https://static.zara.net/assets/public/c953/ac73/18f8443ca0df/4833c10103a1/07545433707-p/07545433707-p.jpg?ts=1739958096709&w=1920",
+    "color": "Black",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "35.94",
+      "url": "https://www.zara.com/us/en/flowy-pocket-shirt-p07545433.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "HOODED TECHNICAL JACKET",
+    "brand": "ZARA",
+    "sku": "410581040-800-2",
+    "mpn": "410581040-800-2",
+    "description": "Jacket made of dense technical fabric. Collar with adjustable hood and long sleeves. Zip pockets at hip. Adjustable hem with front elastic drawcord. Front zip closure.",
+    "image": "https://static.zara.net/assets/public/af6e/7ddf/31d24fc586da/6c30aacc4098/03918320800-p/03918320800-p.jpg?ts=1738329527554&w=1920",
+    "color": "Black",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "41.94",
+      "url": "https://www.zara.com/us/en/hooded-technical-jacket-p03918340.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "HOODED TECHNICAL JACKET",
+    "brand": "ZARA",
+    "sku": "410581040-916-2",
+    "mpn": "410581040-916-2",
+    "description": "Jacket made of dense technical fabric. Collar with adjustable hood and long sleeves. Zip pockets at hip. Adjustable hem with front elastic drawcord. Front zip closure.",
+    "image": "https://static.zara.net/assets/public/af6e/7ddf/31d24fc586da/6c30aacc4098/03918320800-p/03918320800-p.jpg?ts=1738329527554&w=1920",
+    "color": "Gray green",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "41.94",
+      "url": "https://www.zara.com/us/en/hooded-technical-jacket-p03918340.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "RETRO STYLE SNEAKERS",
+    "brand": "ZARA",
+    "sku": "410575087-700-39",
+    "mpn": "410575087-700-39",
+    "description": "Retro-style sneakers. The upper combines pieces and materials. Contrasting colored sole.",
+    "image": "https://static.zara.net/assets/public/2031/3baf/698842009b5a/aa546b7b9774/12207520700-a2/12207520700-a2.jpg?ts=1737633100149&w=1920",
+    "color": "Brown",
+    "size": "6",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "49.9",
+      "url": "https://www.zara.com/us/en/retro-style-sneakers-p12207520.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "RETRO STYLE SNEAKERS",
+    "brand": "ZARA",
+    "sku": "410575087-400-39",
+    "mpn": "410575087-400-39",
+    "description": "Retro-style sneakers. The upper combines pieces and materials. Contrasting colored sole.",
+    "image": "https://static.zara.net/assets/public/2031/3baf/698842009b5a/aa546b7b9774/12207520700-a2/12207520700-a2.jpg?ts=1737633100149&w=1920",
+    "color": "Blue",
+    "size": "6",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "49.9",
+      "url": "https://www.zara.com/us/en/retro-style-sneakers-p12207520.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "RETRO STYLE SNEAKERS",
+    "brand": "ZARA",
+    "sku": "410575087-202-39",
+    "mpn": "410575087-202-39",
+    "description": "Retro-style sneakers. The upper combines pieces and materials. Contrasting colored sole.",
+    "image": "https://static.zara.net/assets/public/2031/3baf/698842009b5a/aa546b7b9774/12207520700-a2/12207520700-a2.jpg?ts=1737633100149&w=1920",
+    "color": "Multi-color",
+    "size": "6",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "29.99",
+      "url": "https://www.zara.com/us/en/retro-style-sneakers-p12207520.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "RIGID CROSSBODY BAG",
+    "brand": "ZARA",
+    "sku": "410570248-800-3",
+    "mpn": "410570248-800-3",
+    "description": "Rigid crossbody bag. Textured rubberized finish. Main compartment with double zip closure. Interior mesh pocket. Adjustable and removable shoulder strap.\n\nHeight x Length x Width: 5.1 x 7.5 x 2.4 inches (13 x 19 x 6 cm)",
+    "image": "https://static.zara.net/assets/public/a441/2bed/f65d442caf8e/214670f739b7/13620420800-a2/13620420800-a2.jpg?ts=1723531338658&w=1920",
+    "color": "Black",
+    "size": "ONE SIZE ONLY",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "29.99",
+      "url": "https://www.zara.com/us/en/rigid-crossbody-bag-p13620420.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "BASIC PURL KNIT SWEATER",
+    "brand": "ZARA",
+    "sku": "410580842-800-2",
+    "mpn": "410580842-800-2",
+    "description": "Regular fit sweater made of cotton yarn. Round neck and long sleeves. Rib trim.",
+    "image": "https://static.zara.net/assets/public/f040/1e59/53074115860e/76ffe6407fb7/03284330800-p/03284330800-p.jpg?ts=1727193931172&w=1920",
+    "color": "Black",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "29.94",
+      "url": "https://www.zara.com/us/en/basic-purl-knit-sweater-p03284330.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "BASIC PURL KNIT SWEATER",
+    "brand": "ZARA",
+    "sku": "410580842-712-2",
+    "mpn": "410580842-712-2",
+    "description": "Regular fit sweater made of cotton yarn. Round neck and long sleeves. Rib trim.",
+    "image": "https://static.zara.net/assets/public/f040/1e59/53074115860e/76ffe6407fb7/03284330800-p/03284330800-p.jpg?ts=1727193931172&w=1920",
+    "color": "Ecru",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "29.94",
+      "url": "https://www.zara.com/us/en/basic-purl-knit-sweater-p03284330.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "BASIC PURL KNIT SWEATER",
+    "brand": "ZARA",
+    "sku": "410580842-807-2",
+    "mpn": "410580842-807-2",
+    "description": "Regular fit sweater made of cotton yarn. Round neck and long sleeves. Rib trim.",
+    "image": "https://static.zara.net/assets/public/f040/1e59/53074115860e/76ffe6407fb7/03284330800-p/03284330800-p.jpg?ts=1727193931172&w=1920",
+    "color": "Anthracite grey",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "29.94",
+      "url": "https://www.zara.com/us/en/basic-purl-knit-sweater-p03284330.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "BASIC PURL KNIT SWEATER",
+    "brand": "ZARA",
+    "sku": "410580842-441-2",
+    "mpn": "410580842-441-2",
+    "description": "Regular fit sweater made of cotton yarn. Round neck and long sleeves. Rib trim.",
+    "image": "https://static.zara.net/assets/public/f040/1e59/53074115860e/76ffe6407fb7/03284330800-p/03284330800-p.jpg?ts=1727193931172&w=1920",
+    "color": "Light blue",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "29.94",
+      "url": "https://www.zara.com/us/en/basic-purl-knit-sweater-p03284330.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "TEXT QUARTER ZIP SWEATSHIRT",
+    "brand": "ZARA",
+    "sku": "412674508-700-2",
+    "mpn": "412674508-700-2",
+    "description": "Relaxed fit sweatshirt made of cotton with brushed interior. High collar with front zip closure. Contrasting front and back prints. Rib trim.\n\nThe item has a unique look due to its special washing process. For this reason, the color may differ slightly from that seen in the photo.",
+    "image": "https://static.zara.net/assets/public/1644/4813/dfcf4724b683/1b720cac710d/00039306700-p/00039306700-p.jpg?ts=1736344747903&w=1920",
+    "color": "Brown",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "35.99",
+      "url": "https://www.zara.com/us/en/text-quarter-zip-sweatshirt-p00039306.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "TEXTURED STRIPE SWEATER",
+    "brand": "ZARA",
+    "sku": "412986301-066-3",
+    "mpn": "412986301-066-3",
+    "description": "Relaxed fit sweater knit with uneven yarn and a cotton blend. Crew neck and long sleeves. Ribbed trim.",
+    "image": "https://static.zara.net/assets/public/96a7/2b38/ba444b5c98de/7a9d848907a8/04938401066-p/04938401066-p.jpg?ts=1739350128473&w=1920",
+    "color": "Ecru / Navy",
+    "size": "M",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "35.94",
+      "url": "https://www.zara.com/us/en/textured-stripe-sweater-p04938401.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "WAXED EFFECT JACKET",
+    "brand": "ZARA",
+    "sku": "417501979-400-2",
+    "mpn": "417501979-400-2",
+    "description": "Regular fit jacket crafted from waxed fabric. High collar and long sleeves. Welt pockets at hip and interior pocket detail. Ribbed trim. Front zip closure.",
+    "image": "https://static.zara.net/assets/public/d9e7/6e77/755e4926b948/e4379a2a1438/05320235400-p/05320235400-p.jpg?ts=1738252327359&w=1920",
+    "color": "Blue",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "49.99",
+      "url": "https://www.zara.com/us/en/waxed-effect-jacket-p05320235.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "WAXED EFFECT JACKET",
+    "brand": "ZARA",
+    "sku": "417501979-711-2",
+    "mpn": "417501979-711-2",
+    "description": "Regular fit jacket crafted from waxed fabric. High collar and long sleeves. Welt pockets at hip and interior pocket detail. Ribbed trim. Front zip closure.",
+    "image": "https://static.zara.net/assets/public/d9e7/6e77/755e4926b948/e4379a2a1438/05320235400-p/05320235400-p.jpg?ts=1738252327359&w=1920",
+    "color": "Sand",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "49.99",
+      "url": "https://www.zara.com/us/en/waxed-effect-jacket-p05320235.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "WAXED EFFECT JACKET",
+    "brand": "ZARA",
+    "sku": "417501979-500-2",
+    "mpn": "417501979-500-2",
+    "description": "Regular fit jacket crafted from waxed fabric. High collar and long sleeves. Welt pockets at hip and interior pocket detail. Ribbed trim. Front zip closure.",
+    "image": "https://static.zara.net/assets/public/d9e7/6e77/755e4926b948/e4379a2a1438/05320235400-p/05320235400-p.jpg?ts=1738252327359&w=1920",
+    "color": "Green",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "49.99",
+      "url": "https://www.zara.com/us/en/waxed-effect-jacket-p05320235.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "SKATE SNEAKERS",
+    "brand": "ZARA",
+    "sku": "419782951-202-39",
+    "mpn": "419782951-202-39",
+    "description": "Skate-style shoes. Upper made with a combination of pieces and details in split leather. Padded tongue. Wide laces. Thick, irregular sole.",
+    "image": "https://static.zara.net/assets/public/a5ff/d41a/98954d1e8564/18b73f4cfae6/12226520202-e1/12226520202-e1.jpg?ts=1741105475320&w=1920",
+    "color": "Multi-color",
+    "size": "6",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "41.94",
+      "url": "https://www.zara.com/us/en/skate-sneakers-p12226520.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "HIGH-TOP SNEAKERS",
+    "brand": "ZARA",
+    "sku": "422964148-512-39",
+    "mpn": "422964148-512-39",
+    "description": "High top sneakers. Smooth upper with perforated detail and contrasting piece at back. Thick, textured sole.",
+    "image": "https://static.zara.net/assets/public/97e7/a5f5/5b9341d590ea/a9b6805364bf/12109420512-a3/12109420512-a3.jpg?ts=1731423567850&w=1920",
+    "color": "Sea green",
+    "size": "6",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "39.99",
+      "url": "https://www.zara.com/us/en/high-top-sneakers-p12109420.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "CASUAL LEATHER SNEAKERS",
+    "brand": "ZARA",
+    "sku": "410580465-800-39",
+    "mpn": "410580465-800-39",
+    "description": "Casual sneaker. Split leather upper. Matching sole.",
+    "image": "https://static.zara.net/assets/public/4c9d/3141/f20a423a88f9/f5ccac028b75/12415520800-a2/12415520800-a2.jpg?ts=1732018460587&w=1920",
+    "color": "Black",
+    "size": "6",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "39.99",
+      "url": "https://www.zara.com/us/en/casual-leather-sneakers-p12415520.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "CHUNKY SNEAKERS",
+    "brand": "ZARA",
+    "sku": "410570046-001-39",
+    "mpn": "410570046-001-39",
+    "description": "Sneakers. Upper made from a combination of pieces. Thick, ridged sole.",
+    "image": "https://static.zara.net/assets/public/8b0b/960a/e52847e9ba1a/f48d6088bdf0/12304520001-a2/12304520001-a2.jpg?ts=1734597723543&w=1920",
+    "color": "White",
+    "size": "6",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "39.99",
+      "url": "https://www.zara.com/us/en/chunky-sneakers-p12304520.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "CASUAL SNEAKERS",
+    "brand": "ZARA",
+    "sku": "410569749-001-39",
+    "mpn": "410569749-001-39",
+    "description": "Casual sneaker. Multi-piece upper. Lacing with six pairs of eyelets. Contrasting colored serrated sole.",
+    "image": "https://static.zara.net/assets/public/f4f6/d1bf/48d447e4ba4a/8c336dfdffed/12312520001-a2/12312520001-a2.jpg?ts=1739784638593&w=1920",
+    "color": "White",
+    "size": "6",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "39.54",
+      "url": "https://www.zara.com/us/en/casual-sneakers-p12312520.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/LimitedAvailability"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "FAUX LEATHER BOMBER JACKET",
+    "brand": "ZARA",
+    "sku": "411059263-800-2",
+    "mpn": "411059263-800-2",
+    "description": "Faux leather jacket. High collar and long sleeves. Welt pockets at hip. Ribbed cuffs and hem. Front zip closure.",
+    "image": "https://static.zara.net/assets/public/31e5/08fd/00a549eba131/7b40d70373b5/03548312800-p/03548312800-p.jpg?ts=1735905270374&w=1920",
+    "color": "Black",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "65.4",
+      "url": "https://www.zara.com/us/en/faux-leather-bomber-jacket-p03548312.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "FAUX LEATHER POCKET JACKET",
+    "brand": "ZARA",
+    "sku": "410590252-800-2",
+    "mpn": "410590252-800-2",
+    "description": "Regular fit jacket made of faux leather fabric and lightly padded interior. Lapel collar and long sleeves with buttoned cuffs. Flap patch pockets at hip and interior pocket. Front zip closure.",
+    "image": "https://static.zara.net/assets/public/8075/3ae8/fe484700ad87/1977b18bd122/08281275800-p/08281275800-p.jpg?ts=1733400183014&w=1920",
+    "color": "Black",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "65.4",
+      "url": "https://www.zara.com/us/en/faux-leather-pocket-jacket-p08281275.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "NYLON CROSSBODY BAG",
+    "brand": "ZARA",
+    "sku": "410597788-800-3",
+    "mpn": "410597788-800-3",
+    "description": "Crossbody bag made of technical fabric. Main compartment with zip closure. Has a flat interior pocket with zip closure. Front flap pocket and quick-release buckle closure. Removable coin purse. Removable and adjustable shoulder strap. \n\nHeight x Length x Width: 5.5 x 7.9 x 2.4 inches (14 x 20 x 6 cm)",
+    "image": "https://static.zara.net/assets/public/17d7/6aeb/1e554b219e93/26459908f513/13611520800-a1/13611520800-a1.jpg?ts=1736938051362&w=1920",
+    "color": "Black",
+    "size": "ONE SIZE ONLY",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "29.99",
+      "url": "https://www.zara.com/us/en/nylon-crossbody-bag-p13611520.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "NYLON CROSSBODY BAG",
+    "brand": "ZARA",
+    "sku": "410597788-032-3",
+    "mpn": "410597788-032-3",
+    "description": "Crossbody bag made of technical fabric. Main compartment with zip closure. Has a flat interior pocket with zip closure. Front flap pocket and quick-release buckle closure. Removable coin purse. Removable and adjustable shoulder strap. \n\nHeight x Length x Width: 5.5 x 7.9 x 2.4 inches (14 x 20 x 6 cm)",
+    "image": "https://static.zara.net/assets/public/17d7/6aeb/1e554b219e93/26459908f513/13611520800-a1/13611520800-a1.jpg?ts=1736938051362&w=1920",
+    "color": "Khaki Green",
+    "size": "ONE SIZE ONLY",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "29.99",
+      "url": "https://www.zara.com/us/en/nylon-crossbody-bag-p13611520.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "NYLON CROSSBODY BAG",
+    "brand": "ZARA",
+    "sku": "410597788-070-3",
+    "mpn": "410597788-070-3",
+    "description": "Crossbody bag made of technical fabric. Main compartment with zip closure. Has a flat interior pocket with zip closure. Front flap pocket and quick-release buckle closure. Removable coin purse. Removable and adjustable shoulder strap. \n\nHeight x Length x Width: 5.5 x 7.9 x 2.4 inches (14 x 20 x 6 cm)",
+    "image": "https://static.zara.net/assets/public/17d7/6aeb/1e554b219e93/26459908f513/13611520800-a1/13611520800-a1.jpg?ts=1736938051362&w=1920",
+    "color": "Orange",
+    "size": "ONE SIZE ONLY",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "45.9",
+      "url": "https://www.zara.com/us/en/nylon-crossbody-bag-p13611520.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "STRIPED STRETCH SHIRT",
+    "brand": "ZARA",
+    "sku": "423129487-401-2",
+    "mpn": "423129487-401-2",
+    "description": "Shirt made with a fabric that minimizes the need to iron after washing. Spread collar and short sleeves. Side vents at hem. Front button closure.",
+    "image": "https://static.zara.net/assets/public/b090/2903/9f324f0891cf/18c831e2f7ff/07545295401-p/07545295401-p.jpg?ts=1729505753824&w=1920",
+    "color": "Navy blue",
+    "size": "S",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "29.94",
+      "url": "https://www.zara.com/us/en/striped-stretch-shirt-p07545295.html",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+]

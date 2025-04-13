@@ -1,0 +1,92 @@
+{
+  "structuredData": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "FLORAL PRINT MAXI SKIRT",
+      "brand": "ZARA",
+      "sku": "437430532-112-2",
+      "mpn": "437430532-112-2",
+      "description": "Mid-rise long skirt with belt loops. Adjustable belt with buckle lined in the same fabric. Contrasting floral print detail. Hidden in-seam zip closure.",
+      "image": "https://static.zara.net/assets/public/5283/830d/945a4c9aaddc/a29888d6f01d/05039130112-p/05039130112-p.jpg?ts=1744196865366&w=1920",
+      "color": "Blues",
+      "size": "S",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "49.9",
+        "url": "https://www.zara.com/us/en/floral-print-maxi-skirt-p05039130.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "FLORAL PRINT MAXI SKIRT",
+      "brand": "ZARA",
+      "sku": "437430532-112-3",
+      "mpn": "437430532-112-3",
+      "description": "Mid-rise long skirt with belt loops. Adjustable belt with buckle lined in the same fabric. Contrasting floral print detail. Hidden in-seam zip closure.",
+      "image": "https://static.zara.net/assets/public/5283/830d/945a4c9aaddc/a29888d6f01d/05039130112-p/05039130112-p.jpg?ts=1744196865366&w=1920",
+      "color": "Blues",
+      "size": "M",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "49.9",
+        "url": "https://www.zara.com/us/en/floral-print-maxi-skirt-p05039130.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "FLORAL PRINT MAXI SKIRT",
+      "brand": "ZARA",
+      "sku": "437430532-112-4",
+      "mpn": "437430532-112-4",
+      "description": "Mid-rise long skirt with belt loops. Adjustable belt with buckle lined in the same fabric. Contrasting floral print detail. Hidden in-seam zip closure.",
+      "image": "https://static.zara.net/assets/public/5283/830d/945a4c9aaddc/a29888d6f01d/05039130112-p/05039130112-p.jpg?ts=1744196865366&w=1920",
+      "color": "Blues",
+      "size": "L",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "49.9",
+        "url": "https://www.zara.com/us/en/floral-print-maxi-skirt-p05039130.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    }
+  ],
+  "extractedData": {
+    "productName": "FLORAL PRINT MAXI SKIRT",
+    "price": "$ 49.90",
+    "color": "BLUES",
+    "description": "Mid-rise long skirt with belt loops. Adjustable belt with buckle lined in the same fabric. Contrasting floral print detail. Hidden in-seam zip closure.",
+    "productCode": "5039/130/112",
+    "sizes": [],
+    "images": [
+      "https://static.zara.net/assets/public/5283/830d/945a4c9aaddc/a29888d6f01d/05039130112-p/05039130112-p.jpg?ts=1744196865366&w=2048",
+      "https://static.zara.net/assets/public/5283/830d/945a4c9aaddc/a29888d6f01d/05039130112-p/05039130112-p.jpg?ts=1744196865366&w=750",
+      "https://static.zara.net/assets/public/a98e/108a/eeaf42d59224/3b3c0a54bc62/05039130112-a1/05039130112-a1.jpg?ts=1744196865408&w=2048",
+      "https://static.zara.net/assets/public/a98e/108a/eeaf42d59224/3b3c0a54bc62/05039130112-a1/05039130112-a1.jpg?ts=1744196865408&w=750",
+      "https://static.zara.net/assets/public/3a6b/9097/efb94830be21/f9d5dbe949f9/05039130112-a2/05039130112-a2.jpg?ts=1744196863392&w=2048",
+      "https://static.zara.net/assets/public/3a6b/9097/efb94830be21/f9d5dbe949f9/05039130112-a2/05039130112-a2.jpg?ts=1744196863392&w=750",
+      "https://static.zara.net/assets/public/d5de/494e/0ee04eed85d4/8db9541eccfc/05039130112-a3/05039130112-a3.jpg?ts=1744196865509&w=2048",
+      "https://static.zara.net/assets/public/d5de/494e/0ee04eed85d4/8db9541eccfc/05039130112-a3/05039130112-a3.jpg?ts=1744196865509&w=750",
+      "https://static.zara.net/assets/public/d93f/36a5/d2b64b45ad91/d21164acbe96/05039130112-a4/05039130112-a4.jpg?ts=1744196863122&w=2048",
+      "https://static.zara.net/assets/public/d93f/36a5/d2b64b45ad91/d21164acbe96/05039130112-a4/05039130112-a4.jpg?ts=1744196863122&w=750",
+      "https://static.zara.net/assets/public/76ff/8af5/75e7493ba1bc/d3e67ff8db45/05039130112-e1/05039130112-e1.jpg?ts=1744097849246&w=2048",
+      "https://static.zara.net/assets/public/76ff/8af5/75e7493ba1bc/d3e67ff8db45/05039130112-e1/05039130112-e1.jpg?ts=1744097849246&w=750",
+      "https://static.zara.net/assets/public/ec88/d49d/f8f44c6ea3f7/dd1e8253a425/05039130112-e2/05039130112-e2.jpg?ts=1744097848955&w=2048",
+      "https://static.zara.net/assets/public/ec88/d49d/f8f44c6ea3f7/dd1e8253a425/05039130112-e2/05039130112-e2.jpg?ts=1744097848955&w=750",
+      "https://static.zara.net/assets/public/1438/6997/0b6040238ba7/23250e417a63/05039130112-e3/05039130112-e3.jpg?ts=1744097849874&w=2048",
+      "https://static.zara.net/assets/public/1438/6997/0b6040238ba7/23250e417a63/05039130112-e3/05039130112-e3.jpg?ts=1744097849874&w=750"
+    ]
+  },
+  "url": "https://www.zara.com/us/en/floral-print-maxi-skirt-p05039130.html?v1=437430532&v2=2420454",
+  "scrapedAt": "2025-04-13T17:23:43.810Z"
+}
