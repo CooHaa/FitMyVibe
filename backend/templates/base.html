@@ -8,41 +8,34 @@
 
 <body>
     <div class="full-body-container">
+        <!-- PAGE TITLE -->
         <div class="top-text">
-            <div class="google-colors">
-                <h1 id="google-3">fit my vibe</h1>
+            <div class="header">
+                <h1 id="primary-color">Fit My Vibe</h1>
             </div>
-            <h3>What style are you searching for?</h3>
-            <div class="input-box" onclick="sendFocus()">
-                <img src="{{ url_for('static', filename='images/mag.png') }}" />
-                <select id="style" class="dropdown" onchange="filterText()">
-                    <option value="" disabled selected>Select a style</option>
-                    <option value="Casual">Casual</option>
-                    <option value="Formal">Formal</option>
-                    <option value="Business-Casual">Business-Casual</option>
-                    <option value="Athleisure">Athleisure</option>
-                    <option value="Sportswear">Sportswear</option>
-                </select>
-            </div>
-            <h3>What type of clothing are you searching for?</h3>
-            <div class="input-box" onclick="sendFocus()">
-                <img src="{{ url_for('static', filename='images/mag.png') }}" />
-                <input placeholder="Enter a category of clothing (jackets, skirts, shorts, etc.)" id="category"
-                    onkeyup="filterText()">
-            </div>
+            <br>
+
+        <!-- BORING QUESTIONS -->
+        <div class="question-group">
+            <h2>The boring stuff</h2>
             <h3>Who are you shopping for?</h3>
             <div class="input-box">
                 <img src="{{ url_for('static', filename='images/mag.png') }}" />
-                <select id="gender-dropdown" class="dropdown" onchange="filterText()">
+                <select id="gender-dropdown" class="dropdown">
                     <option value="" disabled selected>Select a gender</option>
                     <option value="men">Men</option>
                     <option value="women">Women</option>
                 </select>
             </div>
+            <h3>What item are you looking for?</h3>
+            <div class="input-box" onclick="sendFocus()">
+                <img src="{{ url_for('static', filename='images/mag.png') }}" />
+                <input placeholder="Sweaters, Pants, Shoes . . ." id="category">
+            </div>
             <h3>What is your budget?</h3>
             <div class="input-box">
                 <img src="{{ url_for('static', filename='images/mag.png') }}" />
-                <select id="budget-dropdown" onchange="filterText()">
+                <select id="budget-dropdown" class = "dropdown">
                     <option value="25">$0-$50</option>
                     <option value="75">$51-$100</option>
                     <option value="125">$101-$150</option>
@@ -52,17 +45,48 @@
                 </select>
             </div>
         </div>
-        <div id="answer-box">
 
+        <!-- FUN QUESTIONS -->
+        <div class="question-group">
+            <h2>The fun stuff</h2>
+            <h3>What style are you searching for?</h3>
+            <div class="input-box" onclick="sendFocus()">
+                <img src="{{ url_for('static', filename='images/mag.png') }}" />
+                <select id="style" class="dropdown">
+                    <option value="" disabled selected>Select a style</option>
+                    <option value="Casual">Casual</option>
+                    <option value="Formal">Formal</option>
+                    <option value="Business-Casual">Business-Casual</option>
+                    <option value="Athleisure">Athleisure</option>
+                    <option value="Sportswear">Sportswear</option>
+                </select>
+            </div>
+            <h3>What are you inspired by?</h3>
+            <div class="input-box" onclick="sendFocus()">
+                <img src="{{ url_for('static', filename='images/mag.png') }}" />
+                <input placeholder="A Place, Color, Celebrity . . ." id="category">
+            </div>
+            <h3>What is a brand you love?</h3>
+            <div class="input-box" onclick="sendFocus()">
+                <img src="{{ url_for('static', filename='images/mag.png') }}" />
+                <input placeholder="Nike, Carhartt, Comme Des Garcons . . ." id="category">
+            </div>
         </div>
+
+        <!-- SUBMIT BUTTON -->
+        <div class="submit-button"> 
+            <button onclick="filterText()">Submit</button>
+        </div>
+        
+        <div id="answer-box"> WAITING FOR RESULTS... </div>
     </div>
 
     <script>
 
         function answerBoxTemplate(title, titleDesc) {
             return `<div class=''>
-                <h3 class='episode-title'>${title}</h3>
-                <p class='episode-desc'>${titleDesc}</p>
+                <h3 class='clothing-title'>${title}</h3>
+                <p class='clothing-desc'>${titleDesc}</p>
             </div>`
         }
 
@@ -85,12 +109,13 @@
                 budget: budget
             }).toString())
                 .then((response) => response.json())
-                .then((data) => data.forEach(row => {
-
-                    let tempDiv = document.createElement("div")
-                    tempDiv.innerHTML = answerBoxTemplate(row.name, row.id)
-                    document.getElementById("answer-box").appendChild(tempDiv)
-                }));
+                .then((data) => {
+                    data.slice(0, 25).forEach(row => { // Limit to 25 items
+                        let tempDiv = document.createElement("div");
+                        tempDiv.innerHTML = answerBoxTemplate(row.name, row.id);
+                        document.getElementById("answer-box").appendChild(tempDiv);
+                    });
+                });
         }
 
         function updateBudgetValue(value) {

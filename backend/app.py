@@ -13,7 +13,7 @@ os.environ['ROOT_PATH'] = os.path.abspath(os.path.join("..",os.curdir))
 # Don't worry about the deployment credentials, those are fixed
 # You can use a different DB name if you want to
 LOCAL_MYSQL_USER = "root"
-LOCAL_MYSQL_USER_PASSWORD = "tB0ntBt1tq" # Fill with personal password for MySQL
+LOCAL_MYSQL_USER_PASSWORD = "Lukeshao2022" # Fill with personal password for MySQL
 # TODO: Delegate these values to env. vars
 LOCAL_MYSQL_PORT = 3306
 LOCAL_MYSQL_DATABASE = "FitMyVibe"
@@ -28,54 +28,55 @@ CORS(app)
 
 #####
 # Article types
-topwear_articles = ['shirts',
- 'tshirts',
- 'tops',
- 'sweatshirts',
- 'kurtas',
+topwear_articles = ['shirt',
+ 'tshirt',
+ 'top',
+ 'sweatshirt',
+ 'kurta',
  'waistcoat',
  'rain jacket',
- 'blazers',
+ 'blazer',
  'shrug',
  'dupatta',
- 'tunics',
- 'jackets',
- 'sweaters',
- 'kurtis',
- 'suspenders',
- 'nehru jackets',
- 'rompers',
- 'dresses',
+ 'tunic',
+ 'jacket',
+ 'sweater',
+ 'kurti',
+ 'suspender',
+ 'nehru jacket',
+ 'romper',
+ 'dresse',
  'lehenga choli',
- 'belts',
- 'suits']
+ 'belt',
+ 'suit']
 
-bottomwear_articles = ['jeans',
- 'track pants',
- 'shorts',
- 'skirts',
- 'trousers',
- 'capris',
- 'tracksuits',
+bottomwear_articles = ['jean',
+ 'track pant',
+ 'short',
+ 'skirt',
+ 'trouser',
+ 'capri',
+ 'tracksuit',
  'swimwear',
- 'leggings',
+ 'legging',
  'salwar and dupatta',
  'patiala',
- 'stockings',
- 'tights',
+ 'stocking',
+ 'tight',
  'churidar',
  'salwar',
- 'jeggings',
- 'rain trousers']
+ 'jegging',
+ 'rain trouser']
 
-footwear_articles = ['casual shoes',
- 'flip flops',
- 'sandals',
- 'formal shoes',
- 'flats',
- 'sports shoes',
- 'heels',
- 'sports sandals']
+footwear_articles = ['shoe',
+ 'casual shoe',
+ 'flip flop',
+ 'sandal',
+ 'formal shoe',
+ 'flat',
+ 'sports shoe',
+ 'heel',
+ 'sports sandal']
 # If a keyword is not one of these, we put it under accessories
 #####
 
@@ -107,6 +108,11 @@ def vectorize_input(style, category, budget):
     budget_comp = [int(budget)]
     category_comp = [0, 0, 0, 0]
     style_comp = [0, 0, 0]
+
+    # For flexibility, all plurals are turned into singular forms
+    # TODO: Change to edit distance calculation
+    # if (category[-1] == 's'):
+    #     category = category[:-1]
 
     if (category in topwear_articles):
         category_comp[0] = 1
