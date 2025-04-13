@@ -13,38 +13,18 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-#google-c{
-    color:#4285F4;
+#primary-color{
+    color:black;
 }
 
-#google-s{
-    color:#DB4437;
-}
-
-#google-4{
-    color:	#F4B400;
-}
-
-#google-3{
-    color:	#4285F4;
-}
-
-#google-0-1{
-    color:	#0F9D58;
-}
-
-#google-0-2{
-    color:#DB4437;
-}
-
-.google-colors{
+.header{
     display: flex;
     align-items: center;
     font-size: 48px;
     font-family: 'Open Sans', sans-serif;
 }
 
-.google-colors h1{
+.header h1{
     margin-bottom: 0;
     margin-right: 3px;
 }
@@ -79,16 +59,11 @@
     outline: 0;
 }
 
-#answer-box{
-    width: 700px;
-    margin-top:50px; 
-}
-
-.episode-title{
+.clothing-title{
     font-family: 'Kanit', sans-serif;
 }
 
-.episode-desc{
+.clothing-desc{
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -101,4 +76,31 @@
     background: transparent;
     font-family: 'Montserrat', sans-serif;
     cursor: pointer;
+}
+
+.question-group {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.submit-button button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#answer-box{
+    margin-top:50px;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
 }
