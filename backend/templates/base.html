@@ -81,7 +81,32 @@
             <div id="answer-box"> WAITING FOR RESULTS... </div>
         </div>
 
-        <script>
+        <!-- FUN QUESTIONS -->
+        <div class="question-group">
+            <h2>The fun stuff</h2>
+            <h3>What style are you searching for?</h3>
+            <div class="input-box" onclick="sendFocus()">
+                <img src="{{ url_for('static', filename='images/mag.png') }}" />
+                <select id="style" class="dropdown">
+                    <option value="" disabled selected>Select a style</option>
+                    <option value="Casual">Casual</option>
+                    <option value="Formal">Formal</option>
+                    <option value="Business-Casual">Business-Casual</option>
+                    <option value="Athleisure">Athleisure</option>
+                    <option value="Sportswear">Sportswear</option>
+                </select>
+            </div>
+            <h3>What are you inspired by?</h3>
+            <div class="input-box" onclick="sendFocus()">
+                <img src="{{ url_for('static', filename='images/mag.png') }}" />
+                <input placeholder="A Place, Color, Celebrity . . ." id="any-inspo">
+            </div>
+            <h3>What is a brand you love?</h3>
+            <div class="input-box" onclick="sendFocus()">
+                <img src="{{ url_for('static', filename='images/mag.png') }}" />
+                <input placeholder="Nike, Carhartt, Comme Des Garcons . . ." id="brand-inspo">
+            </div>
+        </div>
 
             function answerBoxTemplate(title, titleDesc) {
                 return `<div class=''>
