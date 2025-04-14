@@ -214,13 +214,17 @@ def order_articles(style, category, budget, article_jsons):
 
 @app.route("/articles")
 def episodes_search():
-    style = request.args.get("style")
-    category = request.args.get("category")
-    budget = request.args.get("budget")
-    gender = request.args.get("gender")
-    result_json = sql_search(gender)
-    ranked_results = order_articles(style, category, budget, result_json)
-    return json.dumps(ranked_results)
+    # style = request.args.get("style")
+    # category = request.args.get("category")
+    # budget = request.args.get("budget")
+    # gender = request.args.get("gender")
+    inspo_desc = request.args.get("inspirationDesc")
+    input_vector = vectorize_query(inspo_desc)
+
+
+    # result_json = sql_search(gender)
+    # ranked_results = order_articles(style, category, budget, result_json)
+    # return json.dumps(ranked_results)
     
 
 if 'DB_NAME' not in os.environ:
