@@ -64,12 +64,12 @@
             <h3>What are you inspired by?</h3>
             <div class="input-box" onclick="sendFocus()">
                 <img src="{{ url_for('static', filename='images/mag.png') }}" />
-                <input placeholder="A Place, Color, Celebrity . . ." id="category">
+                <input placeholder="A Place, Color, Celebrity . . ." id="any-inspo">
             </div>
             <h3>What is a brand you love?</h3>
             <div class="input-box" onclick="sendFocus()">
                 <img src="{{ url_for('static', filename='images/mag.png') }}" />
-                <input placeholder="Nike, Carhartt, Comme Des Garcons . . ." id="category">
+                <input placeholder="Nike, Carhartt, Comme Des Garcons . . ." id="brand-inspo">
             </div>
         </div>
 
@@ -96,23 +96,34 @@
 
         function filterText() {
             document.getElementById("answer-box").innerHTML = "";
-            const style = document.getElementById("style").value;
-            const category = document.getElementById("category").value;
             const gender = document.getElementById("gender-dropdown").value;
+            const category = document.getElementById("category").value;
             const budget = document.getElementById("budget-dropdown").value;
 
-            console.log(`Style: ${style}, Category: ${category}, Gender: ${gender}, Budget: ${budget}`);
-            fetch("/articles?" + new URLSearchParams({
-                style: style,
-                category: category,
+            const inspo = document.getElementById("any-inspo").value;
+            const brand = document.getElementById("brand-inspo").value;
+            const style = document.getElementById("style").value;
+
+            console.log(`Gender: ${gender}, Category: ${category}, Budget: ${budget}, Inspo: ${inspo}, Brand: ${brand}`, `Style: ${style}`);
+            fetch("/proddesc?" + new URLSearchParams({   
                 gender: gender,
-                budget: budget
+                category: category,
+                budget: budget,
+                inspo: inspo,
+                brand: brand,
+                style: style
+                
+                //style: style,
+                //category: category,
+                //gender: gender,
+                //budget: budget
             }).toString())
                 .then((response) => response.json())
                 .then((data) => {
-                    data.slice(0, 25).forEach(row => { // Limit to 25 items
+                    // console.log(data);
+                    data.slice(0, 10).forEach(row => { // Limit to 10 items
                         let tempDiv = document.createElement("div");
-                        tempDiv.innerHTML = answerBoxTemplate(row.name, row.id);
+                        tempDiv.innerHTML = answerBoxTemplate(row.prodName, row.prodLink);
                         document.getElementById("answer-box").appendChild(tempDiv);
                     });
                 });
