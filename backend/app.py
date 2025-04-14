@@ -173,6 +173,14 @@ def vectorize_query(query):
     query_embeddings = outputs.last_hidden_state[:, 0, :]
     return query_embeddings
 
+def vector_from_id(id):
+    query_sql = f"""SELECT vecPos, vecVal FROM prodvec WHERE prodID = \"{id}\""""
+    data = mysql_engine.query_selector(query_sql)
+    vector = []
+    for i in data:
+        vector[i[0]] = i[1]
+    return vector
+
 def order_articles(style, category, budget, article_jsons):
     """
     Returns an ordered ranking of JSONs representing articles of clothing based on
@@ -183,7 +191,7 @@ def order_articles(style, category, budget, article_jsons):
 
     cosine_scores = []
 
-    input_vector = vectorize_input(style, category, budget)
+    input_vector = vectorize_query()
     for article in article_jsons:
         article_style = article['usage']
         article_category = article['articleType'].lower()
