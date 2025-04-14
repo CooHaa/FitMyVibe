@@ -181,50 +181,52 @@ def vector_from_id(id):
         vector[i[0]] = i[1]
     return vector
 
-def order_articles(style, category, budget, article_jsons):
-    """
-    Returns an ordered ranking of JSONs representing articles of clothing based on
-    what is most similar to the input `style`, `category` and `budget` parameters.
-    
-    Similarity is calculated using cosine similarity.
-    """
+def order_articles(query_embeddings, article_vectors, article_ids):
+    # after table lookups
 
-    cosine_scores = []
+    sim_scores = []
 
-    input_vector = vectorize_query()
-    for article in article_jsons:
-        article_style = article['usage']
-        article_category = article['articleType'].lower()
-        article_cost = article['budget']
-        article_vector = vectorize_input(article_style, article_category, article_cost)
-        cosine_numerator = np.dot(input_vector, article_vector)
-        cosine_denominator = np.linalg.norm(input_vector) * np.linalg.norm(article_vector)
-        cosine_score = cosine_numerator / cosine_denominator
-        cosine_scores.append(cosine_score)
+    for article_vector, article_id in article_vectors:
+        tensor = torch.Tensor(article_vector)
+        sim = torch.cosine_similarity(query_embeddings.mean(axis=0), tensor.mean(axis=0))
+        sim_scores.append(sim)
     
-    articles_scores = list(zip(article_jsons, cosine_scores))
+    articles_scores = list(zip(article_ids, sim_scores))
     articles_scores.sort(key=lambda x : x[1], reverse=True)
 
-    ranked_articles = []
-    for article, _ in articles_scores:
-        ranked_articles.append(article)
+    ranked_articles_ids = []
+    for article_id, _ in articles_scores:
+        ranked_articles_ids.append(article_id)
 
-    return ranked_articles
+    return ranked_articles_ids
 
+def table_lookup(indices):
+    ranked_results = []
+    for idx in indices:
+        lookup_query = f"""SELECT proddesc.prodName, prodprice.prodRegPrice, prodlink.prodImageLink FROM proddesc
+            JOIN prodprice
+                ON proddesc.prodID = prodpice.prodID
+            JOIN prodlink
+                ON proddesc.prodID = prodlink.prodID
+            WHERE proddesc.prodID = {idx}""" 
+        lookup_data = mysql_engine.query_selector(lookup_query)
+        ranked_results += lookup_data
+    
+    return ranked_results
+        
 
 @app.route("/articles")
 def episodes_search():
-    # style = request.args.get("style")
-    # category = request.args.get("category")
-    # budget = request.args.get("budget")
-    # gender = request.args.get("gender")
-    inspo_desc = request.args.get("inspirationDesc")
-    input_vector = vectorize_query(inspo_desc)
+    query = request.args.get("inspirationDesc")
+    query_embeddings = vectorize_query(query)
+    article_vectors = []
+    for id in range(1, 166):
+        article_vectors.append(vector_from_id(id))
+    ranked_idx = order_articles(query_embeddings, article_vectors, list(range(1, 166)))
+    ranked_results = table_lookup(ranked_idx)
 
-
-    # result_json = sql_search(gender)
-    # ranked_results = order_articles(style, category, budget, result_json)
-    # return json.dumps(ranked_results)
+    return json.dumps(ranked_results)
+    
     
 
 if 'DB_NAME' not in os.environ:
