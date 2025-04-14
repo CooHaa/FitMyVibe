@@ -1,0 +1,40 @@
+{
+  "url": "https://www.depop.com/products/prettypicksco-brand-new-authentic-miss-me/?moduleOrigin=likes",
+  "scrapedAt": "2025-04-14T03:09:45.363Z",
+  "structuredData": {
+    "name": "Brand New Authentic Miss Me Cuffed Capris- no flaws-...",
+    "description": "Brand New Authentic Miss Me Cuffed Capris- no flaws- with tags- size 29 \n#y2kjeans #y2k #lowrise #animalprint",
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "image": [
+      "https://media-photos.depop.com/b1/390432334/2575985167_57a2f92273b3471ca537e7b361ea12bb/P0.jpg",
+      "https://media-photos.depop.com/b1/390432334/2575985169_f75fbd13c34a427fb64d8eb6c2912afc/P0.jpg",
+      "https://media-photos.depop.com/b1/390432334/2575985168_3c8386abad2149598d3c5d581566a507/P0.jpg"
+    ],
+    "brand": {
+      "@type": "Brand",
+      "name": "Miss Me"
+    },
+    "offers": {
+      "@type": "Offer",
+      "url": "https://www.depop.com/products/prettypicksco-brand-new-authentic-miss-me/",
+      "priceCurrency": "USD",
+      "price": "32.00",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/UsedCondition"
+    }
+  },
+  "formattedData": {
+    "productName": "Brand New Authentic Miss Me Cuffed Capris- no flaws-...",
+    "brand": "Miss Me",
+    "price": "32.00",
+    "currency": "USD",
+    "description": "Brand New Authentic Miss Me Cuffed Capris- no flaws- with tags- size 29 \n#y2kjeans #y2k #lowrise #animalprint",
+    "image": [
+      "https://media-photos.depop.com/b1/390432334/2575985167_57a2f92273b3471ca537e7b361ea12bb/P0.jpg",
+      "https://media-photos.depop.com/b1/390432334/2575985169_f75fbd13c34a427fb64d8eb6c2912afc/P0.jpg",
+      "https://media-photos.depop.com/b1/390432334/2575985168_3c8386abad2149598d3c5d581566a507/P0.jpg"
+    ],
+    "availability": "https://schema.org/InStock"
+  }
+}
