@@ -4,6 +4,12 @@ from flask import Flask, render_template, request
 from flask_cors import CORS
 from helpers.MySQLDatabaseHandler import MySQLDatabaseHandler
 import numpy as np
+import torch
+import torch.nn as nn
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import classification_report
+import transformers
+from transformers import AutoModel, BertTokenizerFast, BertModel
 
 # ROOT_PATH for linking with all your files. 
 # Feel free to use a config.py or settings.py with a global export variable
@@ -152,6 +158,21 @@ def sql_search(gender):
     data = mysql_engine.query_selector(query_sql)
     return [dict(zip(keys,i)) for i in data]
 
+def vectorize_query(query):
+    """
+    Vectorizes the ad-hoc query using pre-trained BERT embeddings.
+    """
+    model = BertModel.from_pretrained('bert-base-uncased', output_hidden_states = True)
+    model.eval()
+    tokenizer = BertTokenizerFast.from_pretrained('bert-base-uncased')
+    encoded_query = tokenizer(query, return_tensors='pt', padding=True, truncation=True)
+
+    with torch.no_grad():
+        outputs = model(**encoded_query)
+        
+    query_embeddings = outputs.last_hidden_state[:, 0, :]
+    return query_embeddings
+
 def order_articles(style, category, budget, article_jsons):
     """
     Returns an ordered ranking of JSONs representing articles of clothing based on
@@ -196,3 +217,5 @@ def episodes_search():
 
 if 'DB_NAME' not in os.environ:
     app.run(debug=True,host="0.0.0.0",port=5000)
+
+
