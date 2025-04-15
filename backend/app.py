@@ -3,11 +3,10 @@ import os
 from flask import Flask, render_template, request
 from flask_cors import CORS
 from helpers.MySQLDatabaseHandler import MySQLDatabaseHandler
+from sqlalchemy import text
 import numpy as np
 import torch
 import torch.nn as nn
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import classification_report
 import transformers
 from transformers import AutoModel, BertTokenizerFast, BertModel
 
@@ -19,7 +18,7 @@ os.environ['ROOT_PATH'] = os.path.abspath(os.path.join("..",os.curdir))
 # Don't worry about the deployment credentials, those are fixed
 # You can use a different DB name if you want to
 LOCAL_MYSQL_USER = "root"
-LOCAL_MYSQL_USER_PASSWORD = "Lukeshao2022" # Fill with personal password for MySQL
+LOCAL_MYSQL_USER_PASSWORD = "" # Fill with personal password for MySQL
 # TODO: Delegate these values to env. vars
 LOCAL_MYSQL_PORT = 3306
 LOCAL_MYSQL_DATABASE = "FitMyVibe"
@@ -153,9 +152,9 @@ def sql_search(gender):
         gender = "Men"
     else:
         gender = "Women"
-    query_sql = f"""SELECT * FROM articles WHERE gender = \"{gender}\""""
+    query_sql = "SELECT * FROM articles WHERE gender = \"{gender}\""
     keys = ["id","budget","gender", "mCat", "sCat", "articleType", "color", "season", "year", "usage", "name"]
-    data = mysql_engine.query_selector(query_sql)
+    data = mysql_engine.query_selector(text(query_sql))
     return [dict(zip(keys,i)) for i in data]
 
 def vectorize_query(query):
@@ -174,8 +173,8 @@ def vectorize_query(query):
     return query_embeddings
 
 def vector_from_id(id):
-    query_sql = f"""SELECT vecPos, vecVal FROM prodvec WHERE prodID = \"{id}\""""
-    data = mysql_engine.query_selector(query_sql)
+    query_sql = "SELECT vecPos, vecVal FROM prodvec WHERE prodID = '{id}'"
+    data = mysql_engine.query_selector(text(query_sql))
     vector = []
     for i in data:
         vector[i[0]] = i[1]
@@ -203,13 +202,13 @@ def order_articles(query_embeddings, article_vectors, article_ids):
 def table_lookup(indices):
     ranked_results = []
     for idx in indices:
-        lookup_query = f"""SELECT proddesc.prodName, prodprice.prodRegPrice, prodlink.prodImageLink FROM proddesc
+        lookup_query = """SELECT proddesc.prodName, prodprice.prodRegPrice, prodlink.prodImageLink FROM proddesc
             JOIN prodprice
                 ON proddesc.prodID = prodpice.prodID
             JOIN prodlink
                 ON proddesc.prodID = prodlink.prodID
-            WHERE proddesc.prodID = {idx}""" 
-        lookup_data = mysql_engine.query_selector(lookup_query)
+            WHERE proddesc.prodID = {idx}"""
+        lookup_data = mysql_engine.query_selector(text(lookup_query))
         ranked_results += lookup_data
     
     return ranked_results

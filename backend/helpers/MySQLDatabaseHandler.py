@@ -1,5 +1,7 @@
 import os
-import sqlalchemy as db
+from flask_sqlalchemy import SQLAlchemy as db
+
+# mod
 
 class MySQLDatabaseHandler(object):
     
