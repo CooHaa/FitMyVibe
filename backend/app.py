@@ -18,7 +18,7 @@ os.environ['ROOT_PATH'] = os.path.abspath(os.path.join("..",os.curdir))
 # Don't worry about the deployment credentials, those are fixed
 # You can use a different DB name if you want to
 LOCAL_MYSQL_USER = "root"
-LOCAL_MYSQL_USER_PASSWORD = "" # Fill with personal password for MySQL
+LOCAL_MYSQL_USER_PASSWORD = "tB0ntBt1tq" # Fill with personal password for MySQL
 # TODO: Delegate these values to env. vars
 LOCAL_MYSQL_PORT = 3306
 LOCAL_MYSQL_DATABASE = "FitMyVibe"
@@ -90,72 +90,74 @@ footwear_articles = ['shoe',
 def home():
     return render_template('base.html',title="sample html")
 
-def vectorize_input(style, category, budget):
-    """
-    Vectorizes (np.array) the input based on the input style keyword, article type, and budget.
-    The vector takes on the following form:
+# Deprecated
+# def vectorize_input(style, category, budget):
+#     """
+#     Vectorizes (np.array) the input based on the input style keyword, article type, and budget.
+#     The vector takes on the following form:
 
-    `<budget, isTopwear, isBottomwear, isShoes, isAccessory, isCasual, isFormal, isAthletic>`
+#     `<budget, isTopwear, isBottomwear, isShoes, isAccessory, isCasual, isFormal, isAthletic>`
 
-    Keyword arguments:
+#     Keyword arguments:
 
-    style -- A style keyword, which is one of ['Casual', 'Formal', 'Athletic', 
-    'Athleisure', 'Business-casual']
+#     style -- A style keyword, which is one of ['Casual', 'Formal', 'Athletic', 
+#     'Athleisure', 'Business-casual']
 
-    category -- An article category that will be referenced with `topwear_articles`, 
-    `bottomwear_articles` and `footwear_articles` to categorize the input item as
-    either topwear, bottomwear, footwear, or an accessory. Any item that does not
-    fit into topwear, bottomwear, or footwear will automatically be categorized as
-    an accessory.
+#     category -- An article category that will be referenced with `topwear_articles`, 
+#     `bottomwear_articles` and `footwear_articles` to categorize the input item as
+#     either topwear, bottomwear, footwear, or an accessory. Any item that does not
+#     fit into topwear, bottomwear, or footwear will automatically be categorized as
+#     an accessory.
 
-    budget -- The budget of the user, in dollars.
-    """
-    budget_comp = [int(budget)]
-    category_comp = [0, 0, 0, 0]
-    style_comp = [0, 0, 0]
+#     budget -- The budget of the user, in dollars.
+#     """
+#     budget_comp = [int(budget)]
+#     category_comp = [0, 0, 0, 0]
+#     style_comp = [0, 0, 0]
 
-    # For flexibility, all plurals are turned into singular forms
-    # TODO: Change to edit distance calculation
-    # if (category[-1] == 's'):
-    #     category = category[:-1]
+#     # For flexibility, all plurals are turned into singular forms
+#     # TODO: Change to edit distance calculation
+#     # if (category[-1] == 's'):
+#     #     category = category[:-1]
 
-    if (category in topwear_articles):
-        category_comp[0] = 1
-    elif (category in bottomwear_articles):
-        category_comp[1] = 1
-    elif (category in footwear_articles):
-        category_comp[2] = 1
-    else:
-        category_comp[3] = 1
+#     if (category in topwear_articles):
+#         category_comp[0] = 1
+#     elif (category in bottomwear_articles):
+#         category_comp[1] = 1
+#     elif (category in footwear_articles):
+#         category_comp[2] = 1
+#     else:
+#         category_comp[3] = 1
 
-    if (style == "Casual"):
-        style_comp[0] = 1
-    elif (style == "Formal"):
-        style_comp[1] = 1
-    elif (style == "Athletic"):
-        style_comp[2] = 1
-    elif (style == "Athleisure"):
-        style_comp[0] = 1
-        style_comp[2] = 1
-    else: # Business casual, catch all for now
-        style_comp[0] = 1
-        style_comp[1] = 1
+#     if (style == "Casual"):
+#         style_comp[0] = 1
+#     elif (style == "Formal"):
+#         style_comp[1] = 1
+#     elif (style == "Athletic"):
+#         style_comp[2] = 1
+#     elif (style == "Athleisure"):
+#         style_comp[0] = 1
+#         style_comp[2] = 1
+#     else: # Business casual, catch all for now
+#         style_comp[0] = 1
+#         style_comp[1] = 1
     
-    vector = budget_comp + category_comp + style_comp
-    return np.array(vector)
+#     vector = budget_comp + category_comp + style_comp
+#     return np.array(vector)
 
-def sql_search(gender):
-    """
-    Returns a list of JSON entries where the gender equals the parameter gender.
-    """
-    if (gender == "men"):
-        gender = "Men"
-    else:
-        gender = "Women"
-    query_sql = "SELECT * FROM articles WHERE gender = \"{gender}\""
-    keys = ["id","budget","gender", "mCat", "sCat", "articleType", "color", "season", "year", "usage", "name"]
-    data = mysql_engine.query_selector(text(query_sql))
-    return [dict(zip(keys,i)) for i in data]
+# Deprecated
+# def sql_search(gender):
+#     """
+#     Returns a list of JSON entries where the gender equals the parameter gender.
+#     """
+#     if (gender == "men"):
+#         gender = "Men"
+#     else:
+#         gender = "Women"
+#     query_sql = "SELECT * FROM articles WHERE gender = \"{gender}\""
+#     keys = ["id","budget","gender", "mCat", "sCat", "articleType", "color", "season", "year", "usage", "name"]
+#     data = mysql_engine.query_selector(text(query_sql))
+#     return [dict(zip(keys,i)) for i in data]
 
 def vectorize_query(query):
     """
@@ -172,24 +174,40 @@ def vectorize_query(query):
     query_embeddings = outputs.last_hidden_state[:, 0, :]
     return query_embeddings
 
-def vector_from_id(id):
-    query_sql = "SELECT vecPos, vecVal FROM prodvec WHERE prodID = '{id}'"
+def vector_from_id(article_id):
+    """
+    Returns the associated embedding vector to a certain article ID.
+    Article IDs are specified in the database, where each article is associated with
+    an ID as its primary key.
+    Format of the return value is a tuple, where the first value is the product ID
+    and the second is the embedding represented as a list of decimals.
+    """
+    query_sql = f"SELECT vecPos, vecVal FROM prodvec WHERE prodID = {article_id}"
     data = mysql_engine.query_selector(text(query_sql))
-    vector = []
+    vector = np.zeros(768)
     for i in data:
-        vector[i[0]] = i[1]
-    return vector
+        idx = i[0]
+        val = i[1]
+        if (idx != 0):
+            vector[idx - 1] = val
+    return (article_id, vector)
 
-def order_articles(query_embeddings, article_vectors, article_ids):
+def order_articles(query_embeddings, article_vectors):
+    """
+    Orders the articles in the database based on a cosine similarity metric.
+    Takes the embedding of the query and the vectors of the searched articles as
+    input, and returns a ranked list of article IDs based on similarity scores.
+    """
     # after table lookups
 
     sim_scores = []
-
-    for article_vector, article_id in article_vectors:
+    article_ids = []
+    for article_id, article_vector in article_vectors:
         tensor = torch.Tensor(article_vector)
-        sim = torch.cosine_similarity(query_embeddings.mean(axis=0), tensor.mean(axis=0))
+        sim = torch.cosine_similarity(query_embeddings, tensor)
         sim_scores.append(sim)
-    
+        article_ids.append(article_id)
+
     articles_scores = list(zip(article_ids, sim_scores))
     articles_scores.sort(key=lambda x : x[1], reverse=True)
 
@@ -197,21 +215,30 @@ def order_articles(query_embeddings, article_vectors, article_ids):
     for article_id, _ in articles_scores:
         ranked_articles_ids.append(article_id)
 
+    print(ranked_articles_ids)
     return ranked_articles_ids
 
 def table_lookup(indices):
+    """
+    Looks up the relevant data about a set of articles given their article IDs.
+    In its current form, this lookup returns information about the product name,
+    its regular price, and a link to the image.
+    """
     ranked_results = []
     for idx in indices:
-        lookup_query = """SELECT proddesc.prodName, prodprice.prodRegPrice, prodlink.prodImageLink FROM proddesc
+        lookup_query = f"""SELECT proddesc.prodName, prodprice.prodRegPrice, prodlink.prodImageLink FROM proddesc
             JOIN prodprice
-                ON proddesc.prodID = prodpice.prodID
+                ON proddesc.prodID = prodprice.prodID
             JOIN prodlink
                 ON proddesc.prodID = prodlink.prodID
             WHERE proddesc.prodID = {idx}"""
         lookup_data = mysql_engine.query_selector(text(lookup_query))
         ranked_results += lookup_data
     
-    return ranked_results
+    keys = ["prodName", "prodPrice", "prodImgLink"]
+    dict_results = [dict(zip(keys, res)) for res in ranked_results]
+    print(dict_results)
+    return dict_results
         
 
 @app.route("/articles")
@@ -221,10 +248,10 @@ def episodes_search():
     article_vectors = []
     for id in range(1, 166):
         article_vectors.append(vector_from_id(id))
-    ranked_idx = order_articles(query_embeddings, article_vectors, list(range(1, 166)))
+    ranked_idx = order_articles(query_embeddings, article_vectors)
     ranked_results = table_lookup(ranked_idx)
 
-    return json.dumps(ranked_results)
+    return json.dumps(ranked_results, default=str)
     
     
 

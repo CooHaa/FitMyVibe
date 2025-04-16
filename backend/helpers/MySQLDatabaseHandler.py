@@ -1,5 +1,6 @@
 import os
-from flask_sqlalchemy import SQLAlchemy as db
+# from flask_sqlalchemy import SQLAlchemy as db
+import sqlalchemy as db
 
 # debug 
 
@@ -18,7 +19,7 @@ class MySQLDatabaseHandler(object):
 
     def validate_connection(self):
         print(f"mysql+pymysql://{self.MYSQL_USER}:{self.MYSQL_USER_PASSWORD}@{self.MYSQL_HOST}:{self.MYSQL_PORT}/{self.MYSQL_DATABASE}")
-        return db.create_engine(f"mysql+pymysql://{self.MYSQL_USER}:{self.MYSQL_USER_PASSWORD}@{self.MYSQL_HOST}:{self.MYSQL_PORT}/{self.MYSQL_DATABASE}")
+        return db.create_engine(f"mysql+pymysql://{self.MYSQL_USER}:{self.MYSQL_USER_PASSWORD}@{self.MYSQL_HOST}:{self.MYSQL_PORT}/{self.MYSQL_DATABASE}", pool_size=10, max_overflow=20)
 
     def lease_connection(self):
         return self.engine.connect()
@@ -30,11 +31,12 @@ class MySQLDatabaseHandler(object):
                 conn.execute(db.text(i))
         else:
             conn.execute(db.text(query))
+        conn.close()
         
-
     def query_selector(self,query):
         conn = self.lease_connection()
         data = conn.execute(query)
+        conn.close()
         return data
 
     def load_file_into_db(self,file_path  = None):
