@@ -8,85 +8,97 @@
 
 <body>
     <div class="full-body-container">
-        <!-- PAGE TITLE -->
-        <div class="top-text">
-            <div class="header">
-                <h1 id="primary-color">Fit My Vibe</h1>
-            </div>
-            <br>
+        <div class = "middle-section "> 
+            <!-- PAGE TITLE -->
+            <div class="top-text">
+                <div class="header">
+                    <img src="{{ url_for('static', filename='images/fmv.gif') }}" alt="Fit My Vibe Logo" />
+                    <!-- <h1 id="primary-color">Fit My Vibe</h1> -->
+                </div>
+                <br>
 
-            <!-- BORING QUESTIONS -->
-            <div class="question-group">
-                <h2>The boring stuff</h2>
-                <h3>Who are you shopping for?</h3>
-                <div class="input-box">
-                    <img src="{{ url_for('static', filename='images/mag.png') }}" />
-                    <select id="gender-dropdown" class="dropdown">
-                        <option value="" disabled selected>Select a gender</option>
-                        <option value="men">Men</option>
-                        <option value="women">Women</option>
-                    </select>
+                <!-- BORING QUESTIONS -->
+                <div class="question-group">
+                    <h2>The boring stuff</h2>
+                    <h3>Who are you shopping for?</h3>
+                    <div class="input-box">
+                        <img src="{{ url_for('static', filename='images/mag.png') }}" />
+                        <select id="gender-dropdown" class="dropdown">
+                            <option value="" disabled selected>Select a gender</option>
+                            <option value="men">Men</option>
+                            <option value="women">Women</option>
+                        </select>
+                    </div>
+                    <h3>What item are you looking for?</h3>
+                    <div class="input-box" onclick="sendFocus()">
+                        <img src="{{ url_for('static', filename='images/mag.png') }}" />
+                        <input placeholder="Sweaters, Pants, Shoes . . ." id="articleType">
+                    </div>
+                    <h3>What is your budget?</h3>
+                    <div class="input-box">
+                        <img src="{{ url_for('static', filename='images/mag.png') }}" />
+                        <select id="budget-dropdown" class="dropdown">
+                            <option value="25">$0-$50</option>
+                            <option value="75">$51-$100</option>
+                            <option value="125">$101-$150</option>
+                            <option value="175">$151-$200</option>
+                            <option value="225">$201-$250</option>
+                            <option value="275">$251-$300</option>
+                        </select>
+                    </div>
                 </div>
-                <h3>What item are you looking for?</h3>
-                <div class="input-box" onclick="sendFocus()">
-                    <img src="{{ url_for('static', filename='images/mag.png') }}" />
-                    <input placeholder="Sweaters, Pants, Shoes . . ." id="articleType">
-                </div>
-                <h3>What is your budget?</h3>
-                <div class="input-box">
-                    <img src="{{ url_for('static', filename='images/mag.png') }}" />
-                    <select id="budget-dropdown" class="dropdown">
-                        <option value="25">$0-$50</option>
-                        <option value="75">$51-$100</option>
-                        <option value="125">$101-$150</option>
-                        <option value="175">$151-$200</option>
-                        <option value="225">$201-$250</option>
-                        <option value="275">$251-$300</option>
-                    </select>
-                </div>
-            </div>
 
-            <!-- FUN QUESTIONS -->
-            <div class="question-group">
-                <h2>The fun stuff</h2>
-                <h3>What style are you searching for?</h3>
-                <div class="input-box" onclick="sendFocus()">
-                    <img src="{{ url_for('static', filename='images/mag.png') }}" />
-                    <select id="style" class="dropdown">
-                        <option value="" disabled selected>Select a style</option>
-                        <option value="Casual">Casual</option>
-                        <option value="Formal">Formal</option>
-                        <option value="Business-Casual">Business-Casual</option>
-                        <option value="Athleisure">Athleisure</option>
-                        <option value="Sportswear">Sportswear</option>
-                    </select>
+                <!-- FUN QUESTIONS -->
+                <div class="question-group">
+                    <h2>The fun stuff</h2>
+                    <h3>What style are you searching for?</h3>
+                    <div class="input-box" onclick="sendFocus()">
+                        <img src="{{ url_for('static', filename='images/mag.png') }}" />
+                        <select id="style" class="dropdown">
+                            <option value="" disabled selected>Select a style</option>
+                            <option value="Casual">Casual</option>
+                            <option value="Formal">Formal</option>
+                            <option value="Business-Casual">Business-Casual</option>
+                            <option value="Athleisure">Athleisure</option>
+                            <option value="Sportswear">Sportswear</option>
+                        </select>
+                    </div>
+                    <h3>What are you inspired by?</h3>
+                    <div class="input-box" onclick="sendFocus()">
+                        <img src="{{ url_for('static', filename='images/mag.png') }}" />
+                        <input placeholder="A Place, Color, Celebrity . . ." id="inspirationDesc">
+                    </div>
+                    <h3>What is a brand you love?</h3>
+                    <div class="input-box" onclick="sendFocus()">
+                        <img src="{{ url_for('static', filename='images/mag.png') }}" />
+                        <input placeholder="Nike, Carhartt, Comme Des Garcons . . ." id="brandDesc">
+                    </div>
                 </div>
-                <h3>What are you inspired by?</h3>
-                <div class="input-box" onclick="sendFocus()">
-                    <img src="{{ url_for('static', filename='images/mag.png') }}" />
-                    <input placeholder="A Place, Color, Celebrity . . ." id="inspirationDesc">
-                </div>
-                <h3>What is a brand you love?</h3>
-                <div class="input-box" onclick="sendFocus()">
-                    <img src="{{ url_for('static', filename='images/mag.png') }}" />
-                    <input placeholder="Nike, Carhartt, Comme Des Garcons . . ." id="brandDesc">
-                </div>
-            </div>
 
-            <!-- SUBMIT BUTTON -->
-            <div class="submit-button">
-                <button onclick="filterText()">Submit</button>
-            </div>
+                <!-- SUBMIT BUTTON -->
+                <div class="submit-button">
+                    <button onclick="filterText()">Get My Recommendations</button>
+                </div>
 
-            <div id="answer-box"> WAITING FOR RESULTS... </div>
+                <div id="answer-box"></div>
+            </div>
         </div>
-
     <script>
 
-            function answerBoxTemplate(title, titleDesc) {
+            function capitalizeTitle(title) {
+                return title
+                    .toLowerCase()
+                    .split(' ')
+                    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                    .join(' ');
+            }
+
+            function answerBoxTemplate(title, titleDesc, prodLink) {
+                const capitalizedTitle = capitalizeTitle(title);
                 return `<div class=''>
-                <h3 class='clothing-title'>${title}</h3>
-                <p class='clothing-desc'>${titleDesc}</p>
+                <h3 class='clothing-title'>Item: ${capitalizedTitle}</h3>
+                <p class='clothing-desc'>Price: $${titleDesc}</p>
+                <a class='clothing-desc' href="${prodLink}" target="_blank">Product Link</a>
             </div>`
             }
 
@@ -95,21 +107,33 @@
             }
 
             function filterText() {
-                // document.getElementById("answer-box").innerHTML = "";
-                // const style = document.getElementById("style").value;
-                // const gender = document.getElementById("gender-dropdown").value;
-                // const budget = document.getElementById("budget-dropdown").value;
+                document.getElementById("answer-box").innerHTML = "";
+                const gender = document.getElementById("gender-dropdown").value;
+                const budget = document.getElementById("budget-dropdown").value;
+                const article = document.getElementById("articleType").value;
+
+                const style = document.getElementById("style").value;
+                const brand = document.getElementById("brandDesc").value;
                 const description = document.getElementById("inspirationDesc").value;
 
                 fetch("/articles?" + new URLSearchParams({
-                    inspirationDesc: description
+                    gender: gender,
+                    budget: budget,
+                    article: article,
+                    style: style,
+                    brand: brandDesc,
+                    inspirationDesc: description,
                 }).toString())
                     .then((response) => response.json())
                     .then((data) => {
-                        data.slice(0, 25).forEach(row => { // Limit to 25 items
-                            let tempDiv = document.createElement("div");
-                            tempDiv.innerHTML = answerBoxTemplate(row.name, row.id);
-                            document.getElementById("answer-box").appendChild(tempDiv);
+                        const seenLinks = new Set(); // Do not display duplicate items (based on prodImgLink)
+                        data.slice(0, 10).forEach(row => { // Limit to 10 items
+                            if (!seenLinks.has(row.prodImgLink)) {
+                                seenLinks.add(row.prodImgLink); 
+                                let tempDiv = document.createElement("div");
+                                tempDiv.innerHTML = answerBoxTemplate(row.prodName, row.prodPrice, row.prodImgLink);
+                                document.getElementById("answer-box").appendChild(tempDiv);
+                            }
                         });
                     });
             }

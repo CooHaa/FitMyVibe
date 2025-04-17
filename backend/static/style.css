@@ -12,16 +12,24 @@
     flex-direction: column;
     font-family: 'Montserrat', sans-serif;
 }
+.middle-section {
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 #primary-color{
     color:black;
 }
 
 .header{
+    margin-top:60px;
     display: flex;
     align-items: center;
     font-size: 48px;
     font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10px;
 }
 
 .header h1{
@@ -60,6 +68,7 @@
 }
 
 .clothing-title{
+    text-transform: capitalize;
     font-family: 'Kanit', sans-serif;
 }
 
@@ -81,22 +90,28 @@
 .question-group {
     margin-bottom: 20px;
     padding: 15px;
-    border: 1px solid #ccc;
     border-radius: 8px;
     background-color: #f9f9f9;
+    border: 3px dotted #A34386;
 }
 
 .submit-button button {
-    background-color: black;
+    background-color: #A34386;
     color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.submit-button button:hover {
+    background-color: hotpink;
 }
 
 #answer-box{
+    width: 100%;
     margin-top:50px;
     margin-bottom: 20px;
     padding: 15px;

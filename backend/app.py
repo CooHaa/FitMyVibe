@@ -18,7 +18,7 @@ os.environ['ROOT_PATH'] = os.path.abspath(os.path.join("..",os.curdir))
 # Don't worry about the deployment credentials, those are fixed
 # You can use a different DB name if you want to
 LOCAL_MYSQL_USER = "root"
-LOCAL_MYSQL_USER_PASSWORD = "tB0ntBt1tq" # Fill with personal password for MySQL
+LOCAL_MYSQL_USER_PASSWORD = "Lukeshao2022" # Fill with personal password for MySQL
 # TODO: Delegate these values to env. vars
 LOCAL_MYSQL_PORT = 3306
 LOCAL_MYSQL_DATABASE = "FitMyVibe"
@@ -244,7 +244,15 @@ def table_lookup(indices):
 @app.route("/articles")
 def episodes_search():
     query = request.args.get("inspirationDesc")
-    query_embeddings = vectorize_query(query)
+    gender = request.args.get("gender")
+    budget = request.args.get("budget")
+    article = request.args.get("article")
+    style = request.args.get("style")
+    brand = request.args.get("brand")
+
+    # print(f"Query: {query}, Gender: {gender}, Budget: {budget}, Item: {item}, Style: {style}, Brand: {brand}")
+
+    query_embeddings = vectorize_query(style + " " +  brand + " " + article + " " + query)
     article_vectors = []
     for id in range(1, 166):
         article_vectors.append(vector_from_id(id))
