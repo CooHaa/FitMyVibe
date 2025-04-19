@@ -18,7 +18,7 @@ os.environ['ROOT_PATH'] = os.path.abspath(os.path.join("..",os.curdir))
 # Don't worry about the deployment credentials, those are fixed
 # You can use a different DB name if you want to
 LOCAL_MYSQL_USER = "root"
-LOCAL_MYSQL_USER_PASSWORD = "pwd" # Fill with personal password for MySQL
+LOCAL_MYSQL_USER_PASSWORD = "tB0ntBt1tq" # Fill with personal password for MySQL
 # TODO: Delegate these values to env. vars
 LOCAL_MYSQL_PORT = 3306
 LOCAL_MYSQL_DATABASE = "FitMyVibe"
@@ -82,6 +82,7 @@ def order_articles(query_embeddings, article_vectors):
     for article_id, article_vector in article_vectors:
         tensor = torch.Tensor(article_vector)
         sim = torch.cosine_similarity(query_embeddings, tensor)
+        print(f"article id: {article_id} (sim score = {sim})")
         sim_scores.append(sim)
         article_ids.append(article_id)
 
