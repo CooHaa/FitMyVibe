@@ -226,7 +226,8 @@ def table_lookup(indices):
     """
     ranked_results = []
     for idx in indices:
-        lookup_query = f"""SELECT proddesc.prodName, prodprice.prodRegPrice, prodlink.prodImageLink FROM proddesc
+        lookup_query = f"""SELECT proddesc.prodName, prodprice.prodRegPrice, prodlink.prodImageLink, prodlink.prodLink
+            FROM proddesc
             JOIN prodprice
                 ON proddesc.prodID = prodprice.prodID
             JOIN prodlink
@@ -235,7 +236,7 @@ def table_lookup(indices):
         lookup_data = mysql_engine.query_selector(text(lookup_query))
         ranked_results += lookup_data
     
-    keys = ["prodName", "prodPrice", "prodImgLink"]
+    keys = ["prodName", "prodPrice", "prodImgLink", "prodLink"]
     dict_results = [dict(zip(keys, res)) for res in ranked_results]
     print(dict_results)
     return dict_results
