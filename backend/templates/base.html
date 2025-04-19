@@ -93,13 +93,18 @@
                     .join(' ');
             }
 
-            function answerBoxTemplate(title, titleDesc, prodLink) {
+            function answerBoxTemplate(title, titleDesc, prodLink, prodImgLink) {
                 const capitalizedTitle = capitalizeTitle(title);
-                return `<div class=''>
-                <h3 class='clothing-title'>Item: ${capitalizedTitle}</h3>
-                <p class='clothing-desc'>Price: $${titleDesc}</p>
-                <a class='clothing-desc' href="${prodLink}" target="_blank">Product Link</a>
-            </div>`
+                return `
+                <div class="product-card">
+                    <a href="${prodLink}" target="_blank">
+                        <img src="${prodImgLink}" alt="${capitalizedTitle}" class="product-image" />
+                        <div class="product-info">
+                            <h3 class="clothing-title">${capitalizedTitle}</h3>
+                            <p class="clothing-desc">Price: $${titleDesc}</p>
+                        </div>
+                    </a>
+                </div>`;
             }
 
             function sendFocus() {
@@ -127,11 +132,11 @@
                     .then((response) => response.json())
                     .then((data) => {
                         const seenLinks = new Set(); // Do not display duplicate items (based on prodImgLink)
-                        data.slice(0, 10).forEach(row => { // Limit to 10 items
+                        data.slice(0, 20).forEach(row => { // Limit to 10 items
                             if (!seenLinks.has(row.prodImgLink)) {
                                 seenLinks.add(row.prodImgLink); 
                                 let tempDiv = document.createElement("div");
-                                tempDiv.innerHTML = answerBoxTemplate(row.prodName, row.prodPrice, row.prodImgLink);
+                                tempDiv.innerHTML = answerBoxTemplate(row.prodName, row.prodPrice, row.prodImgLink, row.prodLink);
                                 document.getElementById("answer-box").appendChild(tempDiv);
                             }
                         });
