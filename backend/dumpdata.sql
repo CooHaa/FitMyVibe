@@ -53,8 +53,8 @@ DROP TABLE IF EXISTS `prodlink`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `prodlink` (
   `prodID` int DEFAULT NULL,
-  `prodLink` varchar(255) DEFAULT NULL,
   `prodImageLink` varchar(255) DEFAULT NULL,
+  `prodLink` varchar(255) DEFAULT NULL,
   KEY `prodID` (`prodID`),
   CONSTRAINT `prodlink_ibfk_1` FOREIGN KEY (`prodID`) REFERENCES `proddesc` (`prodID`) ON DELETE CASCADE ON UPDATE RESTRICT
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
