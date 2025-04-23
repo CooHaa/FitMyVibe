@@ -66,7 +66,7 @@
                     <h3>What are you inspired by?</h3>
                     <div class="input-box" onclick="sendFocus()">
                         <img src="{{ url_for('static', filename='images/mag.png') }}" />
-                        <input placeholder="A Place, Color, Celebrity . . ." id="inspirationDesc">
+                        <input placeholder="A Place, Activity, Color . . ." id="inspirationDesc">
                     </div>
                     <h3>What is a brand you love?</h3>
                     <div class="input-box" onclick="sendFocus()">
@@ -93,7 +93,7 @@
                     .join(' ');
             }
 
-            function answerBoxTemplate(title, titleDesc, prodLink, prodImgLink) {
+            function answerBoxTemplate(title, titleDesc, prodImgLink, prodLink) {
                 const capitalizedTitle = capitalizeTitle(title);
                 return `
                 <div class="product-card">
@@ -120,6 +120,12 @@
                 const style = document.getElementById("style").value;
                 const brand = document.getElementById("brandDesc").value;
                 const description = document.getElementById("inspirationDesc").value;
+
+                if (!description) {
+                    console.log("Description is null or empty:", description);
+                } else {
+                    console.log("Description value:", description);
+                }
 
                 fetch("/articles?" + new URLSearchParams({
                     gender: gender,
