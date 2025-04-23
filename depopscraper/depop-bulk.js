@@ -696,7 +696,7 @@ const getDetailedProductInfo = async (browser, listings) => {
     
     const targetProductCount = 75;
     
-    const listingsPageUrl = 'https://www.depop.com/explore/under-usd100/?moduleOrigin=shop_by_price';
+    const listingsPageUrl = 'https://www.depop.com/explore/ww-jeans/?moduleOrigin=meganav';
     
     console.log(`Starting with URL: ${listingsPageUrl}`);
     console.log(`Target product count: ${targetProductCount}`);

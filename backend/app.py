@@ -18,7 +18,11 @@ os.environ['ROOT_PATH'] = os.path.abspath(os.path.join("..",os.curdir))
 # Don't worry about the deployment credentials, those are fixed
 # You can use a different DB name if you want to
 LOCAL_MYSQL_USER = "root"
+<<<<<<< Updated upstream
 LOCAL_MYSQL_USER_PASSWORD = "tB0ntBt1tq" # Fill with personal password for MySQL
+=======
+LOCAL_MYSQL_USER_PASSWORD = "gracekim" # Fill with personal password for MySQL
+>>>>>>> Stashed changes
 # TODO: Delegate these values to env. vars
 LOCAL_MYSQL_PORT = 3306
 LOCAL_MYSQL_DATABASE = "FitMyVibe"
