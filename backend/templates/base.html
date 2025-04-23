@@ -142,7 +142,7 @@
                             if (!seenLinks.has(row.prodImgLink)) {
                                 seenLinks.add(row.prodImgLink); 
                                 let tempDiv = document.createElement("div");
-                                tempDiv.innerHTML = answerBoxTemplate(row.prodName, row.prodPrice, row.prodLink, row.prodImgLink);
+                                tempDiv.innerHTML = answerBoxTemplate(row.prodName, row.prodPrice, row.prodImgLink, row.prodLink);
                                 document.getElementById("answer-box").appendChild(tempDiv);
                             }
                         });
