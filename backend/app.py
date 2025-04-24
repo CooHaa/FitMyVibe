@@ -8,7 +8,11 @@ import numpy as np
 import torch
 import torch.nn as nn
 import transformers
-from transformers import AutoModel, BertTokenizerFast, BertModel
+from transformers import BertTokenizerFast, BertModel
+# from sentence_transformers import SentenceTransformer
+import csv
+import json
+from pathlib import Path
 
 # ROOT_PATH for linking with all your files. 
 # Feel free to use a config.py or settings.py with a global export variable
@@ -18,7 +22,7 @@ os.environ['ROOT_PATH'] = os.path.abspath(os.path.join("..",os.curdir))
 # Don't worry about the deployment credentials, those are fixed
 # You can use a different DB name if you want to
 LOCAL_MYSQL_USER = "root"
-LOCAL_MYSQL_USER_PASSWORD = "tB0ntBt1tq" # Fill with personal password for MySQL
+LOCAL_MYSQL_USER_PASSWORD = "Lukeshao2022" # Fill with personal password for MySQL
 # TODO: Delegate these values to env. vars
 LOCAL_MYSQL_PORT = 3306
 LOCAL_MYSQL_DATABASE = "FitMyVibe"
@@ -59,15 +63,28 @@ def vector_from_id(article_id):
     Format of the return value is a tuple, where the first value is the product ID
     and the second is the embedding represented as a list of decimals.
     """
-    query_sql = f"SELECT vecPos, vecVal FROM prodvec WHERE prodID = {article_id}"
-    data = mysql_engine.query_selector(text(query_sql))
-    vector = np.zeros(768)
-    for i in data:
-        idx = i[0]
-        val = i[1]
-        if (idx != 0):
-            vector[idx - 1] = val
-    return (article_id, vector)
+    csv_path = 'mercari-embeddings.csv'
+    with open(csv_path, newline="", encoding="utf-8") as f:
+        reader = csv.reader(f)
+        header = next(reader)
+        for row in reader:
+            # row[0] is the id column
+            if row[0] == str(article_id):
+                # parse the remaining 768 dimensions into floats
+                vals = [float(x) for x in row[1:]]
+                return (article_id, np.array(vals, dtype=float))
+
+    raise ValueError(f"Article ID {article_id} not found in {csv_path}")
+
+    # query_sql = f"SELECT vecPos, vecVal FROM prodvec WHERE prodID = {article_id}"
+    # data = mysql_engine.query_selector(text(query_sql))
+    # vector = np.zeros(768)
+    # for i in data:
+    #     idx = i[0]
+    #     val = i[1]
+    #     if (idx != 0):
+    #         vector[idx - 1] = val
+    # return (article_id, vector)
 
 def order_articles(query_embeddings, article_vectors):
     """
@@ -93,7 +110,6 @@ def order_articles(query_embeddings, article_vectors):
     for article_id, _ in articles_scores:
         ranked_articles_ids.append(article_id)
 
-    print(ranked_articles_ids)
     return ranked_articles_ids
 
 def table_lookup(indices):
@@ -102,22 +118,42 @@ def table_lookup(indices):
     In its current form, this lookup returns information about the product name,
     its regular price, and a link to the image.
     """
+    items_path = Path("reformatted-mercari-final.json")
+    with items_path.open("r", encoding="utf-8") as f:
+        items_data = json.load(f)
+
+    items_by_id = {item["ID"]: item for item in items_data}
+
     ranked_results = []
     for idx in indices:
-        lookup_query = f"""SELECT proddesc.prodName, prodprice.prodRegPrice, prodlink.prodImageLink, prodlink.prodLink
-            FROM proddesc
-            JOIN prodprice
-                ON proddesc.prodID = prodprice.prodID
-            JOIN prodlink
-                ON proddesc.prodID = prodlink.prodID
-            WHERE proddesc.prodID = {idx}"""
-        lookup_data = mysql_engine.query_selector(text(lookup_query))
-        ranked_results += lookup_data
+        rec = items_by_id.get(idx)
+        if rec:
+            img_link = rec.get("prodImgLink") or "static/images/clothing-icon.png"
+            prod_link = rec.get("prodLink", "") or "https://www.mercari.com/jp/"
+            ranked_results.append({
+                "prodName": rec.get("name"),
+                "prodPrice": rec.get("price"),
+                "prodImgLink": img_link,
+                "prodLink": prod_link
+            })
+    return ranked_results
+
+    # ranked_results = []
+    # for idx in indices:
+    #     lookup_query = f"""SELECT proddesc.prodName, prodprice.prodRegPrice, prodlink.prodImageLink, prodlink.prodLink
+    #         FROM proddesc
+    #         JOIN prodprice
+    #             ON proddesc.prodID = prodprice.prodID
+    #         JOIN prodlink
+    #             ON proddesc.prodID = prodlink.prodID
+    #         WHERE proddesc.prodID = {idx}"""
+    #     lookup_data = mysql_engine.query_selector(text(lookup_query))
+    #     ranked_results += lookup_data
     
-    keys = ["prodName", "prodPrice", "prodImgLink", "prodLink"]
-    dict_results = [dict(zip(keys, res)) for res in ranked_results]
-    print(dict_results)
-    return dict_results
+    # keys = ["prodName", "prodPrice", "prodImgLink", "prodLink"]
+    # dict_results = [dict(zip(keys, res)) for res in ranked_results]
+    # print(dict_results)
+    # return dict_results
         
 
 @app.route("/articles")
@@ -136,11 +172,12 @@ def episodes_search():
     article_vectors = []
     for id in range(1, 166):
         article_vectors.append(vector_from_id(id))
-    ranked_idx = order_articles(query_embeddings, article_vectors)
+    ranked_idx = order_articles(query_embeddings, article_vectors)[:20]
+    print(ranked_idx)
     ranked_results = table_lookup(ranked_idx)
+    print(ranked_results[:5])
 
     return json.dumps(ranked_results, default=str)
-    
     
 
 if 'DB_NAME' not in os.environ:

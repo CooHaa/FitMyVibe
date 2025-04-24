@@ -137,10 +137,10 @@
                 }).toString())
                     .then((response) => response.json())
                     .then((data) => {
-                        const seenLinks = new Set(); // Do not display duplicate items (based on prodImgLink)
-                        data.slice(0, 20).forEach(row => { // Limit to 10 items
-                            if (!seenLinks.has(row.prodImgLink)) {
-                                seenLinks.add(row.prodImgLink); 
+                        const seenItems = new Set(); // Do not display duplicate items (based on prodImgLink)
+                        data.slice(0, 8).forEach(row => { // Limit to 10 items
+                            if (!seenItems.has(row.prodName)) {
+                                seenItems.add(row.prodName); 
                                 let tempDiv = document.createElement("div");
                                 tempDiv.innerHTML = answerBoxTemplate(row.prodName, row.prodPrice, row.prodImgLink, row.prodLink);
                                 document.getElementById("answer-box").appendChild(tempDiv);
