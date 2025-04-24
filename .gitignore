@@ -16,3 +16,5 @@ instance/
 
 fmv_env/
 4300env/
+.venv/
+venv/
