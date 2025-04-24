@@ -696,7 +696,7 @@ const getDetailedProductInfo = async (browser, listings) => {
     
     const targetProductCount = 75;
     
-    const listingsPageUrl = 'https://www.depop.com/category/mens/bottoms/jeans/?moduleOrigin=meganav';
+    const listingsPageUrl = 'https://www.depop.com/category/womens/accessories/';
     
     console.log(`Starting with URL: ${listingsPageUrl}`);
     console.log(`Target product count: ${targetProductCount}`);
@@ -716,7 +716,7 @@ const getDetailedProductInfo = async (browser, listings) => {
       const categoryString = categoryMatch ? `${categoryMatch[1]}-${categoryMatch[2]}` : 'category';
       
       // Save the detailed products data
-      fs.writeFileSync(path.join(outputDir, `depop-${categoryString}.json`), JSON.stringify(detailedProducts, null, 2));
+      fs.writeFileSync(path.join(outputDir, `depop-womens-accessories.json`), JSON.stringify(detailedProducts, null, 2));
       console.log(`All ${detailedProducts.length} products with detailed info saved to output/depop-${categoryString}.json`);
     } else {
       console.log('No products found. Try a different category or URL.');
