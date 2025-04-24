@@ -1,237 +1,175 @@
-// zara-category-scraper.js
+// zara-bulk.js — Zara category scraper (fixed gallery filtering)
+// ------------------------------------------------------------
+//  • No pageText, single-size variant
+//  • Collects every JPG/JPEG in gallery (relaxed regex)
+//  • Picks 3rd‑to‑last image when available, else first
+// ------------------------------------------------------------
+
 const puppeteer = require('puppeteer');
 const fs = require('fs').promises;
 const path = require('path');
 
 const config = {
   outputDir: './zara-data',
-  maxProductsPerCategory: 50,
-  delayBetweenPages: 3000, 
-  screenshot: true, // potential product listing images
+  maxProductsPerCategory: 120,
+  delayBetweenPages: 3000,
+  screenshot: false,
   categories: [
     {
-      name: 'women',
-      url: 'https://www.zara.com/us/en/woman-special-prices-l1314.html?v1=2419737&regionGroupId=41'
-    },
-    {
-      name: 'men',
-      url: 'https://www.zara.com/us/en/man-special-prices-l806.html?v1=2436823&regionGroupId=41'
+      name: 'mens-all',
+      url: 'https://www.zara.com/us/en/man-all-products-l7465.html?v1=2458839&regionGroupId=41'
     }
   ]
 };
 
-const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+// ------------------------------------------------------------
+//  utilities
+// ------------------------------------------------------------
+const delay = (ms) => new Promise((r) => setTimeout(r, ms));
+const rand = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+const ensureDir = async (d) => { try { await fs.mkdir(d, { recursive: true }); } catch (e) { if (e.code !== 'EEXIST') throw e; } };
+const saveJSON = async (f, data) => { const fp = path.join(config.outputDir, f); await fs.writeFile(fp, JSON.stringify(data, null, 2)); console.log(`⇢ ${fp}`); };
 
-const randomDelay = (min = 1000, max = 5000) => {
-  return Math.floor(Math.random() * (max - min + 1)) + min;
-};
-
-async function ensureDirectoryExists(directory) {
-  try {
-    await fs.mkdir(directory, { recursive: true });
-  } catch (err) {
-    if (err.code !== 'EEXIST') throw err;
-  }
-}
-
-async function saveJSON(filename, data) {
-  const filePath = path.join(config.outputDir, filename);
-  await fs.writeFile(filePath, JSON.stringify(data, null, 2));
-  console.log(`Data saved to ${filePath}`);
-}
-
-// Extract products from a category page
-async function extractProductLinks(page, categoryName) {
-  console.log(`Extracting product links from ${categoryName} category...`);
-  
-  if (config.screenshot) {
-    await page.screenshot({ path: `${config.outputDir}/${categoryName}-category.png` });
-  }
-
-  const productLinks = await page.evaluate(() => {
-    const selectors = [
-      '.product-link', // General product link class
-      'a[data-qa-action="product-link"]', // Product links with data attribute
-      '.item a', // Another common pattern
-      'article a', // Try article links
-      'div[class*="product"] a', // Links inside product divs
-      // Add more selectors as needed based on Zara's current structure
-    ];
-    
-    let links = [];
-    
-    for (const selector of selectors) {
-      const elements = document.querySelectorAll(selector);
-      if (elements.length > 0) {
-        links = Array.from(elements).map(el => el.href);
-        break;
-      }
-    }
-    
-    // ff standard selectors fail, try to find all links that match product pattern
-    if (links.length === 0) {
-      links = Array.from(document.querySelectorAll('a'))
-        .map(el => el.href)
-        .filter(href => href && href.includes('/p') && /p\d+\.html/.test(href));
-    }
-    
-    return [...new Set(links)]; // Remove duplicates
-  });
-  
-  console.log(`Found ${productLinks.length} products in ${categoryName} category`);
-  return productLinks.slice(0, config.maxProductsPerCategory);
-}
-
-async function scrapeProductPage(page, url, index, category) {
-  console.log(`[${category}] Scraping product ${index + 1}: ${url}`);
-  
-  try {
-    await page.goto(url, {
-      waitUntil: 'networkidle2',
-      timeout: 60000
-    });
-    
-    await page.waitForSelector('body', { timeout: 30000 });
-    await delay(5000);
-    
-    if (config.screenshot) {
-      await page.screenshot({ 
-        path: `${config.outputDir}/${category}-product-${index + 1}.png` 
-      });
-    }
-    
-    const productData = await page.evaluate(() => {
-      // extract JSON-LD structured data
-      const jsonLdScript = document.querySelector('script[type="application/ld+json"]');
-      let structuredData = null;
-      
-      if (jsonLdScript) {
-        try {
-          structuredData = JSON.parse(jsonLdScript.textContent);
-        } catch (e) {
-          console.error('Error parsing JSON-LD');
+// ------------------------------------------------------------
+//  scrolling helpers
+// ------------------------------------------------------------
+async function autoScroll(page, step = 1000) {
+  await page.evaluate(async (s) => {
+    await new Promise((res) => {
+      let total = 0;
+      const timer = setInterval(() => {
+        window.scrollBy(0, s);
+        total += s;
+        if (total >= document.documentElement.scrollHeight - window.innerHeight) {
+          clearInterval(timer);
+          res();
         }
-      }
-      
+      }, 180);
+    });
+  }, step);
+}
+
+function collectLinks() {
+  const sels = ['.product-link', 'a[data-qa-action="product-link"]', '.item a', 'article a', 'div[class*="product"] a'];
+  for (const sel of sels) {
+    const els = document.querySelectorAll(sel);
+    if (els.length) return [...new Set([...els].map((e) => e.href))];
+  }
+  return [...new Set([...document.querySelectorAll('a')].map((e) => e.href).filter((h) => /\/p\d+.*\.html/i.test(h)))];
+}
+
+async function extractProductLinks(page, cat) {
+  const set = new Set();
+  let last = 0;
+  while (set.size < config.maxProductsPerCategory) {
+    (await page.evaluate(collectLinks)).forEach((h) => set.add(h));
+    if (set.size >= config.maxProductsPerCategory || set.size === last) break;
+    last = set.size;
+    await autoScroll(page);
+    await delay(2000);
+  }
+  return [...set].slice(0, config.maxProductsPerCategory);
+}
+
+// ------------------------------------------------------------
+//  product scraping
+// ------------------------------------------------------------
+async function scrapeProduct(page, url, idx, cat) {
+  console.log(`   #${idx + 1}/${cat}  ${url}`);
+  try {
+    await page.goto(url, { waitUntil: 'networkidle2', timeout: 60_000 });
+    await delay(3500);
+
+    const product = await page.evaluate(() => {
+      const strip = (u) => (u ? u.split('?')[0] : u);
+      const isJpg = (u) => /\.jpe?g($|\?)/i.test(u);
+      const bad = /transparent-background|logos|powered_by_logo|track\.php/i;
+
+      // structured data (first variant)
+      let sd = null;
+      const tag = document.querySelector('script[type="application/ld+json"]');
+      if (tag) { try { sd = JSON.parse(tag.textContent); } catch {} }
+      if (Array.isArray(sd)) sd = sd[0];
+
+      // collect image URLs from <img>, <source>, and og:image
+      const imgs = [...document.querySelectorAll('img')];
+      const sources = [...document.querySelectorAll('source')];
+      const metas = [...document.querySelectorAll('meta[property="og:image"]')];
+
+      let urls = imgs.map((i) => i.src || i.dataset.src).concat(
+        sources.flatMap((s) => s.srcset.split(',').map((c) => c.trim().split(' ')[0])),
+        metas.map((m) => m.content || '')
+      );
+      if (sd?.image) urls = urls.concat(Array.isArray(sd.image) ? sd.image : [sd.image]);
+
+      const pics = [...new Set(urls.map(strip).filter(Boolean))].filter((u) => isJpg(u) && !bad.test(u));
+      const pick = pics.length >= 3 ? pics[pics.length - 3] : pics[0] || null;
+
       return {
-        structuredData,
+        structuredData: sd,
         extractedData: {
-          productName: document.querySelector('.product-detail-info__header-name')?.innerText.trim() || 
-                      document.querySelector('h1')?.innerText.trim() || null,
-          price: document.querySelector('.money-amount__main')?.innerText.trim() || 
-                document.querySelector('[class*="price"]')?.innerText.trim() || null,
-          color: document.querySelector('.product-color-extended-name')?.innerText.trim() || 
-                document.querySelector('[class*="color"]')?.innerText.trim() || null,
-          description: document.querySelector('.expandable-text__inner-content p')?.innerText.trim() || 
-                      document.querySelector('[class*="description"]')?.innerText.trim() || null,
+          productName: document.querySelector('.product-detail-info__header-name')?.innerText.trim() || document.querySelector('h1')?.innerText.trim() || null,
+          price: document.querySelector('.money-amount__main')?.innerText.trim() || document.querySelector('[class*="price"]')?.innerText.trim() || null,
+          color: document.querySelector('.product-color-extended-name')?.innerText.trim() || document.querySelector('[class*="color"]')?.innerText.trim() || null,
+          description: document.querySelector('.expandable-text__inner-content p')?.innerText.trim() || document.querySelector('[class*="description"]')?.innerText.trim() || null,
           productCode: document.querySelector('.product-color-extended-name__copy-action')?.innerText.trim() || null,
-          // Extract all text that might be useful
-          pageText: Array.from(document.querySelectorAll('p, h1, h2, h3, h4, h5, span'))
-            .map(el => el.innerText.trim())
-            .filter(Boolean)
-            .join(' | ')
+          size: sd?.size || null,
+          selectedImageUrl: pick,
+          allImages: pics
         }
       };
     });
-    
-    productData.url = url;
-    productData.category = category;
-    productData.scrapedAt = new Date().toISOString();
-    
-    return productData;
-  } catch (error) {
-    console.error(`Error scraping product ${url}:`, error.message);
-    return {
-      url,
-      category,
-      scrapedAt: new Date().toISOString(),
-      error: error.message
-    };
+
+    return { ...product, url, category: cat, scrapedAt: new Date().toISOString() };
+  } catch (e) {
+    console.error(`   ✗ ${e.message}`);
+    return { url, category: cat, scrapedAt: new Date().toISOString(), error: e.message };
   }
 }
 
-async function scrapeCategory(browser, category) {
-  console.log(`\n=== Starting to scrape ${category.name} category ===\n`);
-  
+// ------------------------------------------------------------
+//  category handler
+// ------------------------------------------------------------
+async function scrapeCategory(browser, cat) {
   const page = await browser.newPage();
-  
   await page.setViewport({ width: 1280, height: 800 });
   await page.setUserAgent('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36');
-  
-  try {
-    console.log(`Navigating to ${category.name} category page...`);
-    await page.goto(category.url, { waitUntil: 'networkidle2', timeout: 60000 });
-    
-    await page.waitForSelector('body', { timeout: 30000 });
-    await delay(5000);
-    
-    const productLinks = await extractProductLinks(page, category.name);
-    
-    await saveJSON(`${category.name}-product-links.json`, productLinks);
-    
-    const products = [];
-    
-    for (let i = 0; i < productLinks.length; i++) {
-      try {
-        const productData = await scrapeProductPage(page, productLinks[i], i, category.name);
-        products.push(productData);
-        
-        await saveJSON(`${category.name}-products.json`, products);
-        
-        if (i < productLinks.length - 1) {
-          const delayTime = randomDelay();
-          console.log(`Waiting ${delayTime}ms before next product...`);
-          await delay(delayTime);
-        }
-      } catch (error) {
-        console.error(`Error processing product ${i + 1}:`, error.message);
-      }
-    }
-    
-    console.log(`\n=== Finished scraping ${products.length} products from ${category.name} category ===\n`);
-    return products;
-  } catch (error) {
-    console.error(`Error scraping ${category.name} category:`, error);
-    return [];
-  } finally {
-    await page.close();
+  await page.goto(cat.url, { waitUntil: 'networkidle2', timeout: 60_000 });
+  await delay(3000);
+
+  const links = await extractProductLinks(page, cat.name);
+  await saveJSON(`${cat.name}-product-links.json`, links);
+
+  const products = [];
+  for (let i = 0; i < links.length; i++) {
+    const data = await scrapeProduct(page, links[i], i, cat.name);
+    products.push(data);
+    await saveJSON(`${cat.name}-products.json`, products);
+    if (i < links.length - 1) await delay(rand(1000, 4000));
   }
+  await page.close();
+  return products;
 }
 
-// main
-async function main() {
-  console.log('Starting Zara scraper...');
-  
-  await ensureDirectoryExists(config.outputDir);
-  
-  const browser = await puppeteer.launch({
-    headless: "new",
-    args: ['--no-sandbox', '--disable-setuid-sandbox']
-  });
-  
-  console.log('Browser launched');
-  
+// ------------------------------------------------------------
+//  main
+// ------------------------------------------------------------
+(async () => {
+  console.log('▶ Starting Zara scraper');
+  await ensureDir(config.outputDir);
+  const browser = await puppeteer.launch({ headless: 'new', args: ['--no-sandbox', '--disable-setuid-sandbox'] });
   try {
-    const results = {};
-    
-    for (const category of config.categories) {
-      results[category.name] = await scrapeCategory(browser, category);
-      
-      if (category !== config.categories[config.categories.length - 1]) {
-        console.log(`Waiting ${config.delayBetweenPages}ms before next category...`);
-        await delay(config.delayBetweenPages);
-      }
+    const all = {};
+    for (const cat of config.categories) {
+      all[cat.name] = await scrapeCategory(browser, cat);
+      if (cat !== config.categories[config.categories.length - 1]) await delay(config.delayBetweenPages);
     }
-    
-    await saveJSON('all-products.json', results);
-    
-    console.log('\n=== Scraping completed successfully ===\n');
-  } catch (error) {
-    console.error('Error in main process:', error);
+    await saveJSON('all-products.json', all);
+    console.log('✔ Done');
+  } catch (err) {
+    console.error('Fatal:', err);
   } finally {
     await browser.close();
     console.log('Browser closed');
   }
-}
-
-main().catch(console.error);
+})();

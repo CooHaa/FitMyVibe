@@ -1,0 +1,2440 @@
+[
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "CLASSIC FLARE FIT JEANS",
+      "brand": "ZARA",
+      "sku": "445185588-407-36",
+      "mpn": "445185588-407-36",
+      "description": "Flare fit jeans. Five pockets. Washed effect. Uneven hem. Front zip and button closure.",
+      "image": "https://static.zara.net/assets/public/0d52/dd58/525b4890b126/98c091f85d43/00840439407-p/00840439407-p.jpg?ts=1744188971612&w=1920",
+      "color": "Blue",
+      "size": "29 (US 29)",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "69.9",
+        "url": "https://www.zara.com/us/en/classic-flare-fit-jeans-p00840439.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "CLASSIC FLARE FIT JEANS",
+      "price": "$ 69.90",
+      "color": "BLUE | 0840/439/407",
+      "description": "Flare fit jeans. Five pockets. Washed effect. Uneven hem. Front zip and button closure.",
+      "productCode": "0840/439/407",
+      "size": "29 (US 29)",
+      "selectedImageUrl": "https://static.zara.net/assets/public/5a91/dbab/980644e08f99/a5aae198911d/00840439407-e2/00840439407-e2.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/0d52/dd58/525b4890b126/98c091f85d43/00840439407-p/00840439407-p.jpg",
+        "https://static.zara.net/assets/public/f6f4/a0d4/49164acaa1da/f0240b8fdd09/00840439407-a1/00840439407-a1.jpg",
+        "https://static.zara.net/assets/public/1ad6/9056/df054257ad61/93342805f3f4/00840439407-a2/00840439407-a2.jpg",
+        "https://static.zara.net/assets/public/5d2a/1645/c8534b72ba20/11f5e186f1fc/00840439407-a3/00840439407-a3.jpg",
+        "https://static.zara.net/assets/public/48f8/6035/936e4b9a9e20/8f8dd0cfd648/00840439407-a4/00840439407-a4.jpg",
+        "https://static.zara.net/assets/public/a8eb/9d4a/fa2048f9aa1c/a96e88e269ee/00840439407-a5/00840439407-a5.jpg",
+        "https://static.zara.net/assets/public/febe/4501/898a4be082ce/8d1ceb61be97/00840439407-e1/00840439407-e1.jpg",
+        "https://static.zara.net/assets/public/5a91/dbab/980644e08f99/a5aae198911d/00840439407-e2/00840439407-e2.jpg",
+        "https://static.zara.net/assets/public/393e/4222/192a4b59959d/378a0490e2db/00840439407-e3/00840439407-e3.jpg",
+        "https://static.zara.net/assets/public/a0b3/b9ef/3686454d92a8/ef33dc61bfbc/00840439407-e4/00840439407-e4.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/classic-flare-fit-jeans-p00840439.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:01:05.939Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "100% LINEN PANTS",
+      "brand": "ZARA",
+      "sku": "439191087-250-2",
+      "mpn": "439191087-250-2",
+      "description": "Relaxed fit pants made of linen fabric. Adjustable drawstring waist. Front pockets and back patch pockets.",
+      "image": "https://static.zara.net/assets/public/31ad/c038/39b64b4b9f61/07df02a89e09/05070122250-p/05070122250-p.jpg?ts=1737117968208&w=1920",
+      "color": "White",
+      "size": "S",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "79.9",
+        "url": "https://www.zara.com/us/en/100-linen-pants-p05070112.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "100% LINEN PANTS",
+      "price": "$ 79.90",
+      "color": "WHITE | 5070/112/250",
+      "description": "Relaxed fit pants made of linen fabric. Adjustable drawstring waist. Front pockets and back patch pockets.",
+      "productCode": "5070/112/250",
+      "size": "S",
+      "selectedImageUrl": "https://static.zara.net/assets/public/4205/b9be/dd5b47f1b76a/51cea5dce22e/05070122250-e2/05070122250-e2.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/31ad/c038/39b64b4b9f61/07df02a89e09/05070122250-p/05070122250-p.jpg",
+        "https://static.zara.net/assets/public/e6b8/58c1/aea644c195f6/dedf0d166fec/05070122250-a1/05070122250-a1.jpg",
+        "https://static.zara.net/assets/public/ea02/814d/c8e14a4a944a/6d7aecbd68cc/05070122250-a2/05070122250-a2.jpg",
+        "https://static.zara.net/assets/public/5304/e471/45df462ca427/2dc1c128037d/05070122250-a3/05070122250-a3.jpg",
+        "https://static.zara.net/assets/public/68ec/0f5e/091341e680d4/1463b9283e56/05070122250-a4/05070122250-a4.jpg",
+        "https://static.zara.net/assets/public/7bb9/cb6b/9e0f4f0cabf3/4e66018c48d4/05070122250-e1/05070122250-e1.jpg",
+        "https://static.zara.net/assets/public/4205/b9be/dd5b47f1b76a/51cea5dce22e/05070122250-e2/05070122250-e2.jpg",
+        "https://static.zara.net/assets/public/c77d/2209/3ad648b2ac1a/e163652c4dec/05070122250-e3/05070122250-e3.jpg",
+        "https://static.zara.net/assets/public/4a30/53ad/3aa941349ff7/6d77b5821edc/05070122250-e4/05070122250-e4.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/100-linen-pants-p05070112.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:01:17.999Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "BASIC HEAVYWEIGHT T-SHIRT",
+      "brand": "ZARA",
+      "sku": "410575437-250-2",
+      "mpn": "410575437-250-2",
+      "description": "Relaxed fit T-shirt made of dense cotton. Round neck and short sleeves.",
+      "image": "https://static.zara.net/assets/public/61d8/a262/45a64f319124/59e1a621eea4/01887455250-p/01887455250-p.jpg?ts=1740385689748&w=1920",
+      "color": "White",
+      "size": "S",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "29.9",
+        "url": "https://www.zara.com/us/en/basic-heavyweight-t-shirt-p01887455.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "BASIC HEAVYWEIGHT T-SHIRT",
+      "price": "$ 29.90",
+      "color": "WHITE | 1887/455/250",
+      "description": "Relaxed fit T-shirt made of dense cotton. Round neck and short sleeves.",
+      "productCode": "1887/455/250",
+      "size": "S",
+      "selectedImageUrl": "https://static.zara.net/assets/public/2f4b/63dc/55004867b8cf/44f7ef1ba770/01887455250-e1/01887455250-e1.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/61d8/a262/45a64f319124/59e1a621eea4/01887455250-p/01887455250-p.jpg",
+        "https://static.zara.net/assets/public/20e4/961f/a20046afb951/a1be7f692d1b/01887455250-a1/01887455250-a1.jpg",
+        "https://static.zara.net/assets/public/8ac5/202b/aadf44b7b6fa/16b6454e22e4/01887455250-a2/01887455250-a2.jpg",
+        "https://static.zara.net/assets/public/c8e2/c48d/199145e5b03a/325d0e511f30/01887455250-a3/01887455250-a3.jpg",
+        "https://static.zara.net/assets/public/1201/6297/0cf84e149507/2f90de8c59f5/01887455250-a4/01887455250-a4.jpg",
+        "https://static.zara.net/assets/public/2f4b/63dc/55004867b8cf/44f7ef1ba770/01887455250-e1/01887455250-e1.jpg",
+        "https://static.zara.net/assets/public/9766/7365/71f14113a0b6/93ba059757ee/01887455250-e2/01887455250-e2.jpg",
+        "https://static.zara.net/assets/public/a6e8/bdbb/0d984cb6bb5a/539f6210cab8/01887455250-e3/01887455250-e3.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/basic-heavyweight-t-shirt-p01887455.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:01:33.280Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "BASIC SLIM FIT T-SHIRT",
+      "brand": "ZARA",
+      "sku": "416633319-250-2",
+      "mpn": "416633319-250-2",
+      "description": "Slim fit shirt. Round neck and short sleeves.",
+      "image": "https://static.zara.net/assets/public/05d6/f64c/6e5c478c8a15/65ea2e03eb80/05584261250-p/05584261250-p.jpg?ts=1727277108008&w=1920",
+      "color": "White",
+      "size": "S",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "19.9",
+        "url": "https://www.zara.com/us/en/basic-slim-fit-t-shirt-p05584361.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "BASIC SLIM FIT T-SHIRT",
+      "price": "$ 19.90",
+      "color": "WHITE | 5584/361/250",
+      "description": "Slim fit shirt. Round neck and short sleeves.",
+      "productCode": "5584/361/250",
+      "size": "S",
+      "selectedImageUrl": "https://static.zara.net/assets/public/efa3/a952/b15f45aba931/14b9517d1705/01887461250-e1/01887461250-e1.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/05d6/f64c/6e5c478c8a15/65ea2e03eb80/05584261250-p/05584261250-p.jpg",
+        "https://static.zara.net/assets/public/2a22/8a98/185b4af596b1/fde64bd2ba8a/05584261250-a1/05584261250-a1.jpg",
+        "https://static.zara.net/assets/public/e977/2b35/5fd143f985bf/113b87f52701/05584261250-a2/05584261250-a2.jpg",
+        "https://static.zara.net/assets/public/cf31/d2a8/a66c4609b345/6de4460deed8/05584261250-a3/05584261250-a3.jpg",
+        "https://static.zara.net/assets/public/098c/0b88/1f7144df80b7/e34517db7f7c/05584261250-a4/05584261250-a4.jpg",
+        "https://static.zara.net/assets/public/efa3/a952/b15f45aba931/14b9517d1705/01887461250-e1/01887461250-e1.jpg",
+        "https://static.zara.net/assets/public/f86a/f1a9/4e6d4838a38f/e34e5cc9831e/01887461250-e2/01887461250-e2.jpg",
+        "https://static.zara.net/assets/public/b5f0/b1ee/ed6d405da845/fc8ea92a16ee/01887461250-e3/01887461250-e3.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/basic-slim-fit-t-shirt-p05584361.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:01:41.595Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "CROCHET TEXTURED SHIRT",
+      "brand": "ZARA",
+      "sku": "419602318-400-2",
+      "mpn": "419602318-400-2",
+      "description": "Relaxed fit shirt. Made of open textured fabric. Spread collar and short sleeves. Front button closure.",
+      "image": "https://static.zara.net/assets/public/95d2/e02f/9be74b2caa3e/cd80dc2d8a8c/07200420400-p/07200420400-p.jpg?ts=1741166257082&w=1920",
+      "color": "Blue",
+      "size": "S",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "69.9",
+        "url": "https://www.zara.com/us/en/crochet-textured-shirt-p07200420.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "CROCHET TEXTURED SHIRT",
+      "price": "$ 69.90",
+      "color": "BLUE | 7200/420/400",
+      "description": "Relaxed fit shirt. Made of open textured fabric. Spread collar and short sleeves. Front button closure.",
+      "productCode": "7200/420/400",
+      "size": "S",
+      "selectedImageUrl": "https://static.zara.net/assets/public/b639/950f/89ed488f8bab/2425fa1d988b/07200420400-a5/07200420400-a5.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/95d2/e02f/9be74b2caa3e/cd80dc2d8a8c/07200420400-p/07200420400-p.jpg",
+        "https://static.zara.net/assets/public/7fc3/4798/6310480b9882/9b6d7b2d3e98/07200420400-a1/07200420400-a1.jpg",
+        "https://static.zara.net/assets/public/85ae/a155/f1f24050a8ff/06283340388f/07200420400-a2/07200420400-a2.jpg",
+        "https://static.zara.net/assets/public/ed26/5014/d7d64114ade3/8d9c1235d61e/07200420400-a3/07200420400-a3.jpg",
+        "https://static.zara.net/assets/public/991e/2b3a/79cd43d6af22/35882f474139/07200420400-a4/07200420400-a4.jpg",
+        "https://static.zara.net/assets/public/b639/950f/89ed488f8bab/2425fa1d988b/07200420400-a5/07200420400-a5.jpg",
+        "https://static.zara.net/assets/public/880c/a35f/a2d94e508018/e4436732cb94/07200420400-e1/07200420400-e1.jpg",
+        "https://static.zara.net/assets/public/af55/45b8/c087462984cc/b48637333c07/07200420400-e2/07200420400-e2.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/crochet-textured-shirt-p07200420.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:01:52.103Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "CASUAL LEATHER LOAFERS",
+      "brand": "ZARA",
+      "sku": "410575421-002-39",
+      "mpn": "410575421-002-39",
+      "description": "Casual loafers. Leather upper with a suede finish. Plain-front design with piping detail. Round last. Contrasting sole.",
+      "image": "https://static.zara.net/assets/public/f5cf/da90/6b5045fbb436/c2526b003cd0/12613520002-a2/12613520002-a2.jpg?ts=1737988458425&w=1920",
+      "color": "Off White",
+      "size": "6",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "99.9",
+        "url": "https://www.zara.com/us/en/casual-leather-loafers-p12613520.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "CASUAL LEATHER LOAFERS",
+      "price": "$ 99.90",
+      "color": "OFF WHITE | 2613/520/002",
+      "description": "Casual loafers. Leather upper with a suede finish. Plain-front design with piping detail. Round last. Contrasting sole.",
+      "productCode": "2613/520/002",
+      "size": "6",
+      "selectedImageUrl": "https://static.zara.net/assets/public/fbaa/e1f8/6bde4ba09af5/1d3a6cd06e3b/12613520002-e2/12613520002-e2.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/f5cf/da90/6b5045fbb436/c2526b003cd0/12613520002-a2/12613520002-a2.jpg",
+        "https://static.zara.net/assets/public/4314/3dbb/b0b445228bed/1a3390c3780f/12613520002-a3/12613520002-a3.jpg",
+        "https://static.zara.net/assets/public/6367/29d2/39b341e0a56f/4472fd47ae23/12613520002-e1/12613520002-e1.jpg",
+        "https://static.zara.net/assets/public/fbaa/e1f8/6bde4ba09af5/1d3a6cd06e3b/12613520002-e2/12613520002-e2.jpg",
+        "https://static.zara.net/assets/public/fb3d/db73/848342ce9d67/e365d99655cb/12613520002-e3/12613520002-e3.jpg",
+        "https://static.zara.net/assets/public/e8ac/e963/d3764fd587d8/7095f39170a5/12613520002-e4/12613520002-e4.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/casual-leather-loafers-p12613520.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:02:07.940Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "RELAXED FIT SEERSUCKER PANTS",
+      "brand": "ZARA",
+      "sku": "438409778-043-2",
+      "mpn": "438409778-043-2",
+      "description": "Relaxed fit pants made in stretch fabric. Adjustable elastic drawstring waistband. Front pleats. Front pockets and back welt pocket detail.",
+      "image": "https://static.zara.net/assets/public/2613/df19/01ff42fbb17f/4c4a551433a8/04092437043-p/04092437043-p.jpg?ts=1744298334943&w=1920",
+      "color": "Navy / White",
+      "size": "S",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "59.9",
+        "url": "https://www.zara.com/us/en/relaxed-fit-seersucker-pants-p04092437.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "RELAXED FIT SEERSUCKER PANTS",
+      "price": "$ 59.90",
+      "color": "NAVY / WHITE | 4092/437/043",
+      "description": "Relaxed fit pants made in stretch fabric. Adjustable elastic drawstring waistband. Front pleats. Front pockets and back welt pocket detail.",
+      "productCode": "4092/437/043",
+      "size": "S",
+      "selectedImageUrl": "https://static.zara.net/assets/public/bd82/80a7/245c45eb8532/e70953f18107/04092437043-e2/04092437043-e2.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/2613/df19/01ff42fbb17f/4c4a551433a8/04092437043-p/04092437043-p.jpg",
+        "https://static.zara.net/assets/public/5503/0bb1/e08349e79930/0c0fc7da2071/04092437043-a1/04092437043-a1.jpg",
+        "https://static.zara.net/assets/public/53f8/6c28/0a284239bbb2/48f9b7007abb/04092437043-a2/04092437043-a2.jpg",
+        "https://static.zara.net/assets/public/4219/7156/01264264a833/0dc2ef402a93/04092437043-a3/04092437043-a3.jpg",
+        "https://static.zara.net/assets/public/c0b1/055d/c02a4d1b99e0/535ec358fd41/04092437043-a4/04092437043-a4.jpg",
+        "https://static.zara.net/assets/public/9eba/01fc/915c4861864a/8fd47bbf47dc/04092437043-a5/04092437043-a5.jpg",
+        "https://static.zara.net/assets/public/6daa/251c/67d145949a65/344cdaab6964/04092437043-e1/04092437043-e1.jpg",
+        "https://static.zara.net/assets/public/bd82/80a7/245c45eb8532/e70953f18107/04092437043-e2/04092437043-e2.jpg",
+        "https://static.zara.net/assets/public/cb96/e9c5/ac93407d9cb7/4dfb5bae1038/04092437043-e3/04092437043-e3.jpg",
+        "https://static.zara.net/assets/public/2bd4/b866/d7d244688eb6/c91464fcd78b/04092437043-e4/04092437043-e4.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/relaxed-fit-seersucker-pants-p04092437.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:02:20.972Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "100% LINEN PANTS WITH STRIPES",
+      "brand": "ZARA",
+      "sku": "434248506-251-2",
+      "mpn": "434248506-251-2",
+      "description": "Relaxed fit pants made of linen fabric. Adjustable elastic drawstring waistband. Side pockets and back pockets. Pant legs with contrasting stripes on the front.",
+      "image": "https://static.zara.net/assets/public/3b34/b167/2c4144c9b638/5957973910b5/01618206251-p/01618206251-p.jpg?ts=1743753929235&w=1920",
+      "color": "Oyster-white",
+      "size": "S",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "89.9",
+        "url": "https://www.zara.com/us/en/100-linen-pants-with-stripes-p01618206.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "100% LINEN PANTS WITH STRIPES",
+      "price": "$ 89.90",
+      "color": "OYSTER-WHITE | 1618/206/251",
+      "description": "Relaxed fit pants made of linen fabric. Adjustable elastic drawstring waistband. Side pockets and back pockets. Pant legs with contrasting stripes on the front.",
+      "productCode": "1618/206/251",
+      "size": "S",
+      "selectedImageUrl": "https://static.zara.net/assets/public/6967/c5d2/1ead45c9aca0/8e8fea871057/01618206251-e2/01618206251-e2.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/3b34/b167/2c4144c9b638/5957973910b5/01618206251-p/01618206251-p.jpg",
+        "https://static.zara.net/assets/public/d7ca/3a09/88fc4553905a/ff5f4dab2a19/01618206251-a1/01618206251-a1.jpg",
+        "https://static.zara.net/assets/public/3449/4f8a/d0904cc3b04c/dba04115412e/01618206251-a2/01618206251-a2.jpg",
+        "https://static.zara.net/assets/public/6ba7/b910/204d437a89f5/1b8ed3540aee/01618206251-a4/01618206251-a4.jpg",
+        "https://static.zara.net/assets/public/d804/028b/7c304ef7b31e/4c2e9b8d19dc/01618206251-a5/01618206251-a5.jpg",
+        "https://static.zara.net/assets/public/4d8d/42a9/a9ad4af6892b/5ddfa2e3925a/01618206251-000-e1/01618206251-000-e1.jpg",
+        "https://static.zara.net/assets/public/6967/c5d2/1ead45c9aca0/8e8fea871057/01618206251-e2/01618206251-e2.jpg",
+        "https://static.zara.net/assets/public/6893/f256/15e7456caa31/f56ca838a512/01618206251-e3/01618206251-e3.jpg",
+        "https://static.zara.net/assets/public/8874/b901/65c744dab6e1/2f0b0602ef28/01618206251-e4/01618206251-e4.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/100-linen-pants-with-stripes-p01618206.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:02:31.964Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "RELAXED FIT PLEATED PANTS",
+      "brand": "ZARA",
+      "sku": "421916027-800-36",
+      "mpn": "421916027-800-36",
+      "description": "Relaxed fit pants. Waist with front pleats. Front pockets and back welt pockets. Front zip and button closure.",
+      "image": "https://static.zara.net/assets/public/f080/34a8/048a4591be03/215fedb060d8/06861554800-p/06861554800-p.jpg?ts=1737719463300&w=1920",
+      "color": "Black",
+      "size": "29 (US 29)",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "69.9",
+        "url": "https://www.zara.com/us/en/relaxed-fit-pleated-pants-p06861554.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "RELAXED FIT PLEATED PANTS",
+      "price": "$ 69.90",
+      "color": "BLACK | 6861/554/800",
+      "description": "Relaxed fit pants. Waist with front pleats. Front pockets and back welt pockets. Front zip and button closure.",
+      "productCode": "6861/554/800",
+      "size": "29 (US 29)",
+      "selectedImageUrl": "https://static.zara.net/assets/public/a24c/f58c/f6ee49bf9ddd/aba43d026aa9/06861554800-e2/06861554800-e2.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/f080/34a8/048a4591be03/215fedb060d8/06861554800-p/06861554800-p.jpg",
+        "https://static.zara.net/assets/public/a1dc/30ae/5fac45c5a7d8/8f2a63d40d7e/06861554800-a1/06861554800-a1.jpg",
+        "https://static.zara.net/assets/public/563b/3b7f/3b5049d288ec/b0a2b8dec7d1/06861554800-a2/06861554800-a2.jpg",
+        "https://static.zara.net/assets/public/6d31/d058/46044db18d37/96782cdcec73/06861554800-a3/06861554800-a3.jpg",
+        "https://static.zara.net/assets/public/374d/ad50/29a8434a99d7/fb79c5840cf5/06861554800-000-a4/06861554800-000-a4.jpg",
+        "https://static.zara.net/assets/public/1679/d66c/3b524690b600/86a253261990/06861554800-e1/06861554800-e1.jpg",
+        "https://static.zara.net/assets/public/a24c/f58c/f6ee49bf9ddd/aba43d026aa9/06861554800-e2/06861554800-e2.jpg",
+        "https://static.zara.net/assets/public/03ae/726f/47d947069b31/25d3f06622af/06861554800-e3/06861554800-e3.jpg",
+        "https://static.zara.net/assets/public/9b03/aa20/e60d4f1e9e44/a8456e91b228/06861554800-e4/06861554800-e4.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/relaxed-fit-pleated-pants-p06861554.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:02:49.486Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "100% LINEN STRIPE SHIRT",
+      "brand": "ZARA",
+      "sku": "434248507-251-2",
+      "mpn": "434248507-251-2",
+      "description": "Relaxed fit linen shirt. Lapel collar and short sleeves. Patch pocket on chest. Contrasting stripes on sleeves and hem. Front button closure.",
+      "image": "https://static.zara.net/assets/public/6427/2743/ae4445d3b215/6502b4cd542e/01618205251-p/01618205251-p.jpg?ts=1743753927924&w=1920",
+      "color": "Oyster-white",
+      "size": "S",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "69.9",
+        "url": "https://www.zara.com/us/en/100-linen-stripe-shirt-p01618205.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "100% LINEN STRIPE SHIRT",
+      "price": "$ 69.90",
+      "color": "OYSTER-WHITE | 1618/205/251",
+      "description": "Relaxed fit linen shirt. Lapel collar and short sleeves. Patch pocket on chest. Contrasting stripes on sleeves and hem. Front button closure.",
+      "productCode": "1618/205/251",
+      "size": "S",
+      "selectedImageUrl": "https://static.zara.net/assets/public/21c3/6a69/31d04437847e/7f368529ac2d/01618205251-a7/01618205251-a7.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/6427/2743/ae4445d3b215/6502b4cd542e/01618205251-p/01618205251-p.jpg",
+        "https://static.zara.net/assets/public/906c/7553/bbca4a219cce/92123f6258e9/01618205251-a1/01618205251-a1.jpg",
+        "https://static.zara.net/assets/public/a318/f298/157b4e188fa3/a68eb61f9eab/01618205251-a2/01618205251-a2.jpg",
+        "https://static.zara.net/assets/public/962c/f6ee/28f646709aff/1d84b1a085e8/01618205251-a3/01618205251-a3.jpg",
+        "https://static.zara.net/assets/public/5622/3e70/ced343fdaa41/027b55b62e2e/01618205251-a4/01618205251-a4.jpg",
+        "https://static.zara.net/assets/public/1963/44b6/8b1944c7b167/c20ae311fa12/01618205251-a5/01618205251-a5.jpg",
+        "https://static.zara.net/assets/public/899d/f58a/453842febce5/f1f569918c30/01618205251-a6/01618205251-a6.jpg",
+        "https://static.zara.net/assets/public/21c3/6a69/31d04437847e/7f368529ac2d/01618205251-a7/01618205251-a7.jpg",
+        "https://static.zara.net/assets/public/7ce3/ecde/dbb345c5bb59/f98ad3c11031/01618205251-e1/01618205251-e1.jpg",
+        "https://static.zara.net/assets/public/3f80/e870/24e542bb8dcd/24a4ecf7a523/01618205251-e2/01618205251-e2.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/100-linen-stripe-shirt-p01618205.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:03:00.918Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "STRETCH SHIRT",
+      "brand": "ZARA",
+      "sku": "410575003-250-2",
+      "mpn": "410575003-250-2",
+      "description": "Slim fit shirt made of fabric that minimizes the need to iron after washing. Italian collar and long sleeves with buttoned cuffs. Front button closure.",
+      "image": "https://static.zara.net/assets/public/a75d/d8a6/002b4018828d/bc6cd37c302d/04408147250-p/04408147250-p.jpg?ts=1742374806823&w=1920",
+      "color": "White",
+      "size": "S",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "49.9",
+        "url": "https://www.zara.com/us/en/stretch-shirt-p04408147.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "STRETCH SHIRT",
+      "price": "$ 49.90",
+      "color": "WHITE | 4408/147/250",
+      "description": "Slim fit shirt made of fabric that minimizes the need to iron after washing. Italian collar and long sleeves with buttoned cuffs. Front button closure.",
+      "productCode": "4408/147/250",
+      "size": "S",
+      "selectedImageUrl": "https://static.zara.net/assets/public/525a/f871/9fed44efa30a/9b898f05d8a7/04408147250-e3/04408147250-e3.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/a75d/d8a6/002b4018828d/bc6cd37c302d/04408147250-p/04408147250-p.jpg",
+        "https://static.zara.net/assets/public/957e/7d5e/3d674cf9b499/b9f8f55d0d95/04408147250-a1/04408147250-a1.jpg",
+        "https://static.zara.net/assets/public/b86f/c22f/86e5439e8529/6d0386020064/04408147250-a2/04408147250-a2.jpg",
+        "https://static.zara.net/assets/public/0d98/a411/572f42e8b24f/a90deae5c379/04408147250-a3/04408147250-a3.jpg",
+        "https://static.zara.net/assets/public/15a4/f160/cc2b4d8abe3b/5ffca9dfa6ce/04408147250-a4/04408147250-a4.jpg",
+        "https://static.zara.net/assets/public/95e0/3657/5aca4def864d/f64eebddcebd/04408147250-a5/04408147250-a5.jpg",
+        "https://static.zara.net/assets/public/83ad/9ba9/c03e44dd8139/d9ae8a124163/04408147250-e1/04408147250-e1.jpg",
+        "https://static.zara.net/assets/public/3780/5e28/caf449acba88/e635f51c1c43/04408147250-e2/04408147250-e2.jpg",
+        "https://static.zara.net/assets/public/525a/f871/9fed44efa30a/9b898f05d8a7/04408147250-e3/04408147250-e3.jpg",
+        "https://static.zara.net/assets/public/7295/f33f/1b52424dab0f/b859fab350aa/04408147250-e4/04408147250-e4.jpg",
+        "https://static.zara.net/assets/public/fdec/231e/18aa4f4a8c58/162ea0d2e066/04408147250-e5/04408147250-e5.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/stretch-shirt-p04408147.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:03:11.454Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "100% LINEN SUIT BLAZER",
+      "brand": "ZARA",
+      "sku": "415257896-401-46",
+      "mpn": "415257896-401-46",
+      "description": "Regular fit blazer made of linen fabric. Half lining on the inside. Notched lapel collar and long sleeves finished in buttoned cuffs. Welt pocket at chest and flap pockets at hip. Interior pocket detail. Hem with vents at the back. Front button fastening.",
+      "image": "https://static.zara.net/assets/public/fafc/d8fc/db6543ccb285/b05d821ab675/04410400401-p/04410400401-p.jpg?ts=1738593158993&w=1920",
+      "color": "Navy blue",
+      "size": "36 (US 36)",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "159",
+        "url": "https://www.zara.com/us/en/100-linen-suit-blazer-p04410400.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "100% LINEN SUIT BLAZER",
+      "price": "$ 159.00",
+      "color": "NAVY BLUE | 4410/400/401",
+      "description": "Regular fit blazer made of linen fabric. Half lining on the inside. Notched lapel collar and long sleeves finished in buttoned cuffs. Welt pocket at chest and flap pockets at hip. Interior pocket detail. Hem with vents at the back. Front button fastening.",
+      "productCode": "4410/400/401",
+      "size": "36 (US 36)",
+      "selectedImageUrl": "https://static.zara.net/assets/public/f58c/b400/e0054d65bbcf/bfaef8081118/04299333401-e1/04299333401-e1.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/fafc/d8fc/db6543ccb285/b05d821ab675/04410400401-p/04410400401-p.jpg",
+        "https://static.zara.net/assets/public/4667/ba5f/97104acaa035/6bb4daa2a803/04410400401-a1/04410400401-a1.jpg",
+        "https://static.zara.net/assets/public/0e07/50e7/a615456a95b6/9ee1e57cdb35/04410400401-a2/04410400401-a2.jpg",
+        "https://static.zara.net/assets/public/cbe5/215b/026740109b11/57229fcc4f66/04410400401-a3/04410400401-a3.jpg",
+        "https://static.zara.net/assets/public/6582/912b/9d1b478fb34d/0e3fc3146a62/04410400401-a4/04410400401-a4.jpg",
+        "https://static.zara.net/assets/public/5513/3a66/58184f708bf0/d7f5e5ce4661/04410400401-a5/04410400401-a5.jpg",
+        "https://static.zara.net/assets/public/f58c/b400/e0054d65bbcf/bfaef8081118/04299333401-e1/04299333401-e1.jpg",
+        "https://static.zara.net/assets/public/e1b9/b01d/5da54ee7923a/461a32fbe881/04299333401-e2/04299333401-e2.jpg",
+        "https://static.zara.net/assets/public/e0ab/9b9d/741e4a089068/d6bbfadc8cf5/04299333401-e3/04299333401-e3.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/100-linen-suit-blazer-p04410400.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:03:27.011Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "RELAXED FIT SEERSUCKER SHIRT",
+      "brand": "ZARA",
+      "sku": "438409772-066-2",
+      "mpn": "438409772-066-2",
+      "description": "Relaxed fit shirt made in stretch fabric. Spread collar and short sleeves. Front button closure.",
+      "image": "https://static.zara.net/assets/public/87a7/9c41/07bc4090a1fe/cdbc789c1de0/04092436066-p/04092436066-p.jpg?ts=1744298330118&w=1920",
+      "color": "Ecru / Navy",
+      "size": "S",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "59.9",
+        "url": "https://www.zara.com/us/en/relaxed-fit-seersucker-shirt-p04092436.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/LimitedAvailability"
+      }
+    },
+    "extractedData": {
+      "productName": "RELAXED FIT SEERSUCKER SHIRT",
+      "price": "$ 59.90",
+      "color": "ECRU / NAVY | 4092/436/066",
+      "description": "Relaxed fit shirt made in stretch fabric. Spread collar and short sleeves. Front button closure.",
+      "productCode": "4092/436/066",
+      "size": "S",
+      "selectedImageUrl": "https://static.zara.net/assets/public/83f0/85e7/95b042ebadb1/ebb97a1dccb2/04092436066-a5/04092436066-a5.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/87a7/9c41/07bc4090a1fe/cdbc789c1de0/04092436066-p/04092436066-p.jpg",
+        "https://static.zara.net/assets/public/6c55/2ccc/088a4b0bb11b/2d706aa6c025/04092436066-a1/04092436066-a1.jpg",
+        "https://static.zara.net/assets/public/c8f8/0b45/d2874cd3a46a/4e4de1cb79ae/04092436066-a2/04092436066-a2.jpg",
+        "https://static.zara.net/assets/public/100b/f4bd/dc244b148413/83fd3a74e71b/04092436066-a3/04092436066-a3.jpg",
+        "https://static.zara.net/assets/public/846e/4600/41244675b721/dcade1265b3e/04092436066-a4/04092436066-a4.jpg",
+        "https://static.zara.net/assets/public/83f0/85e7/95b042ebadb1/ebb97a1dccb2/04092436066-a5/04092436066-a5.jpg",
+        "https://static.zara.net/assets/public/7242/cc3d/5b6647a69878/d878f881f301/04092436066-e1/04092436066-e1.jpg",
+        "https://static.zara.net/assets/public/6508/2e7b/54bf4acab961/0d399da3d780/04092436066-e2/04092436066-e2.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/relaxed-fit-seersucker-shirt-p04092436.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:03:42.832Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "BASIC RIBBED CONTRAST T-SHIRT",
+      "brand": "ZARA",
+      "sku": "419570420-251-2",
+      "mpn": "419570420-251-2",
+      "description": "Regular fit T-shirt. Round neck and short sleeves. Finished with contrasting trim.",
+      "image": "https://static.zara.net/assets/public/fa3c/b39b/b1a447a49a8e/9471d91f785f/00761412251-p/00761412251-p.jpg?ts=1737564468204&w=1920",
+      "color": "Oyster-white",
+      "size": "S",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "29.9",
+        "url": "https://www.zara.com/us/en/basic-ribbed-contrast-t-shirt-p00761412.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "BASIC RIBBED CONTRAST T-SHIRT",
+      "price": "$ 29.90",
+      "color": "OYSTER-WHITE | 0761/412/251",
+      "description": "Regular fit T-shirt. Round neck and short sleeves. Finished with contrasting trim.",
+      "productCode": "0761/412/251",
+      "size": "S",
+      "selectedImageUrl": "https://static.zara.net/assets/public/4388/72f3/ee004de7ae21/2b949645d680/00761412251-e1/00761412251-e1.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/fa3c/b39b/b1a447a49a8e/9471d91f785f/00761412251-p/00761412251-p.jpg",
+        "https://static.zara.net/assets/public/9f03/cc9a/89b24d88aad9/f4f5433e099d/00761412251-a1/00761412251-a1.jpg",
+        "https://static.zara.net/assets/public/acd2/d749/eb1a46e59cb8/0fdd1d251f95/00761412251-a2/00761412251-a2.jpg",
+        "https://static.zara.net/assets/public/d9f9/c16a/2d7b426ebedd/7c9353ffe22d/00761412251-a3/00761412251-a3.jpg",
+        "https://static.zara.net/assets/public/f2bb/f475/6c0741d082f9/090f7fad35ee/00761412251-a4/00761412251-a4.jpg",
+        "https://static.zara.net/assets/public/4388/72f3/ee004de7ae21/2b949645d680/00761412251-e1/00761412251-e1.jpg",
+        "https://static.zara.net/assets/public/c600/1234/7de34355aa26/139160eb1094/00761412251-e2/00761412251-e2.jpg",
+        "https://static.zara.net/assets/public/c5fd/816f/0baf4c8f8c34/3101d1699c61/00761412251-e3/00761412251-e3.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/basic-ribbed-contrast-t-shirt-p00761412.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:03:57.480Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "100% LINEN SHORTS",
+      "brand": "ZARA",
+      "sku": "439191092-052-2",
+      "mpn": "439191092-052-2",
+      "description": "Regular fit shorts made of linen fabric. Adjustable elastic drawstring waistband and front pleats. Front pockets and back patch pockets.",
+      "image": "https://static.zara.net/assets/public/17ec/8d30/419641849b12/803ace170369/05070121052-p/05070121052-p.jpg?ts=1737118751473&w=1920",
+      "color": "Light beige",
+      "size": "S",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "49.9",
+        "url": "https://www.zara.com/us/en/100-linen-shorts-p05070118.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "100% LINEN SHORTS",
+      "price": "$ 49.90",
+      "color": "LIGHT BEIGE | 5070/118/052",
+      "description": "Regular fit shorts made of linen fabric. Adjustable elastic drawstring waistband and front pleats. Front pockets and back patch pockets.",
+      "productCode": "5070/118/052",
+      "size": "S",
+      "selectedImageUrl": "https://static.zara.net/assets/public/162c/d23a/fc5d48cdb543/5ae1b5d43f7f/05070121052-e2/05070121052-e2.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/17ec/8d30/419641849b12/803ace170369/05070121052-p/05070121052-p.jpg",
+        "https://static.zara.net/assets/public/dfc3/6255/ea76430387b1/f0df4f30ab22/05070121052-a1/05070121052-a1.jpg",
+        "https://static.zara.net/assets/public/02fa/349b/33454a12a307/b8edd6ff338e/05070121052-a2/05070121052-a2.jpg",
+        "https://static.zara.net/assets/public/409f/1685/db6b4e3a8f5d/ec033b355a5f/05070121052-a3/05070121052-a3.jpg",
+        "https://static.zara.net/assets/public/2156/389d/bcf4427b8a52/6d2b313c5ed4/05070121052-a4/05070121052-a4.jpg",
+        "https://static.zara.net/assets/public/c8f0/95d9/f4994782b67d/2032e69ed6e9/05070121052-e1/05070121052-e1.jpg",
+        "https://static.zara.net/assets/public/162c/d23a/fc5d48cdb543/5ae1b5d43f7f/05070121052-e2/05070121052-e2.jpg",
+        "https://static.zara.net/assets/public/8f3f/260c/352d440a909e/568ca04732d8/05070121052-e3/05070121052-e3.jpg",
+        "https://static.zara.net/assets/public/ccdd/1628/2a684ea89d04/f48910ca89cf/05070121052-e4/05070121052-e4.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/100-linen-shorts-p05070118.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:04:10.666Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "POCKET DENIM CARGO PANTS",
+      "brand": "ZARA",
+      "sku": "421541608-500-36",
+      "mpn": "421541608-500-36",
+      "description": "Relaxed fit pants made of cotton denim. Front pockets and back patch pockets. Multi-functional pockets at legs. Washed effect. Adjustable hem with straps. Front zip and button closure.",
+      "image": "https://static.zara.net/assets/public/8905/5eeb/e8dd42bf97a0/bea4ec11b179/05575472500-p/05575472500-p.jpg?ts=1737543302325&w=1920",
+      "color": "Green",
+      "size": "29 (US 29)",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "89.9",
+        "url": "https://www.zara.com/us/en/pocket-denim-cargo-pants-p05575472.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "POCKET DENIM CARGO PANTS",
+      "price": "$ 89.90",
+      "color": "GREEN | 5575/472/500",
+      "description": "Relaxed fit pants made of cotton denim. Front pockets and back patch pockets. Multi-functional pockets at legs. Washed effect. Adjustable hem with straps. Front zip and button closure.",
+      "productCode": "5575/472/500",
+      "size": "29 (US 29)",
+      "selectedImageUrl": "https://static.zara.net/assets/public/a46e/bf66/4c0c491baad4/5f119485a4de/05575472500-e2/05575472500-e2.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/8905/5eeb/e8dd42bf97a0/bea4ec11b179/05575472500-p/05575472500-p.jpg",
+        "https://static.zara.net/assets/public/7f3b/d233/55c74a248ae4/2c64acfd26bb/05575472500-a1/05575472500-a1.jpg",
+        "https://static.zara.net/assets/public/8da1/e965/866a4448b393/51086d989e46/05575472500-a2/05575472500-a2.jpg",
+        "https://static.zara.net/assets/public/688a/a96f/6b3c497ab88e/7152783d118c/05575472500-a3/05575472500-a3.jpg",
+        "https://static.zara.net/assets/public/f09e/9842/5bb94389a0b4/1f399fa03b87/05575472500-a4/05575472500-a4.jpg",
+        "https://static.zara.net/assets/public/8fbd/7321/c16a47dfa85e/10cdbe027990/05575472500-e1/05575472500-e1.jpg",
+        "https://static.zara.net/assets/public/a46e/bf66/4c0c491baad4/5f119485a4de/05575472500-e2/05575472500-e2.jpg",
+        "https://static.zara.net/assets/public/06a4/a426/56584b489772/63d987391488/05575472500-e3/05575472500-e3.jpg",
+        "https://static.zara.net/assets/public/e39b/bc59/5b0949d99ee3/1db4866340e8/05575472500-e4/05575472500-e4.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/pocket-denim-cargo-pants-p05575472.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:04:21.091Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "DOUBLE BREASTED BUTTON BLAZER",
+      "brand": "ZARA",
+      "sku": "443039648-401-46",
+      "mpn": "443039648-401-46",
+      "description": "Relaxed fit blazer. Peak lapel collar and long sleeves finished with buttoned cuffs. Flap pockets at hip and inside pocket detail. Hem with vent at center back. Front double-breasted closure with metal buttons.",
+      "image": "https://static.zara.net/assets/public/9cfc/08eb/17f446fdba06/39909ab05c02/04518907401-p/04518907401-p.jpg?ts=1744726123935&w=1920",
+      "color": "Navy blue",
+      "size": "36 (US 36)",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "179",
+        "url": "https://www.zara.com/us/en/double-breasted-button-blazer-p04518907.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "DOUBLE BREASTED BUTTON BLAZER",
+      "price": "$ 179.00",
+      "color": "NAVY BLUE | 4518/907/401",
+      "description": "Relaxed fit blazer. Peak lapel collar and long sleeves finished with buttoned cuffs. Flap pockets at hip and inside pocket detail. Hem with vent at center back. Front double-breasted closure with metal buttons.",
+      "productCode": "4518/907/401",
+      "size": "36 (US 36)",
+      "selectedImageUrl": "https://static.zara.net/assets/public/344a/3963/1e7340ddbfaf/7a255d9ee933/04518907401-a5/04518907401-a5.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/9cfc/08eb/17f446fdba06/39909ab05c02/04518907401-p/04518907401-p.jpg",
+        "https://static.zara.net/assets/public/e125/920c/45c14d37a003/452f7ac55c79/04518907401-a1/04518907401-a1.jpg",
+        "https://static.zara.net/assets/public/15a7/3a52/c8a34a679205/ace45574c822/04518907401-a2/04518907401-a2.jpg",
+        "https://static.zara.net/assets/public/4516/6341/7dc34f2780a7/1ec62c865a91/04518907401-a3/04518907401-a3.jpg",
+        "https://static.zara.net/assets/public/2ee5/0923/d3624d56b267/5ca471199f81/04518907401-a4/04518907401-a4.jpg",
+        "https://static.zara.net/assets/public/344a/3963/1e7340ddbfaf/7a255d9ee933/04518907401-a5/04518907401-a5.jpg",
+        "https://static.zara.net/assets/public/f488/4159/8bcd47c0a3b4/46ffec8174ca/04518907401-e1/04518907401-e1.jpg",
+        "https://static.zara.net/assets/public/4848/ceff/2fae43a68db7/02eff452e609/04518907401-e2/04518907401-e2.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/double-breasted-button-blazer-p04518907.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:04:36.322Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "SLIM FIT SUIT PANTS",
+      "brand": "ZARA",
+      "sku": "423129462-800-38",
+      "mpn": "423129462-800-38",
+      "description": "Slim fit pants made of viscose blend fabric. Front pockets and back welt pockets. Front zip and button closure.",
+      "image": "https://static.zara.net/assets/public/9366/44d9/a67a47e7a6ab/b4454e5a5268/05810605800-p/05810605800-p.jpg?ts=1738666743907&w=1920",
+      "color": "Black",
+      "size": "30 (US 30)",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "49.9",
+        "url": "https://www.zara.com/us/en/slim-fit-suit-pants-p05810605.html",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    "extractedData": {
+      "productName": "SLIM FIT SUIT PANTS",
+      "price": "$ 49.90",
+      "color": "BLACK | 5810/605/800",
+      "description": "Slim fit pants made of viscose blend fabric. Front pockets and back welt pockets. Front zip and button closure.",
+      "productCode": "5810/605/800",
+      "size": "30 (US 30)",
+      "selectedImageUrl": "https://static.zara.net/assets/public/823c/9401/c1a341ce8982/5b9d15f6f03b/05810605800-e2/05810605800-e2.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/9366/44d9/a67a47e7a6ab/b4454e5a5268/05810605800-p/05810605800-p.jpg",
+        "https://static.zara.net/assets/public/0f50/993c/8505466185b5/ea9cf6bb2b86/05810605800-a1/05810605800-a1.jpg",
+        "https://static.zara.net/assets/public/7c13/ab1d/05954422bf05/042d1d2d3bf1/05810605800-a2/05810605800-a2.jpg",
+        "https://static.zara.net/assets/public/66ad/2f66/1ada44de989e/eb236f3bfea0/05810605800-a3/05810605800-a3.jpg",
+        "https://static.zara.net/assets/public/8e73/66a5/176845e38cb1/d26bfc434e0f/05810605800-e1/05810605800-e1.jpg",
+        "https://static.zara.net/assets/public/823c/9401/c1a341ce8982/5b9d15f6f03b/05810605800-e2/05810605800-e2.jpg",
+        "https://static.zara.net/assets/public/ca8f/bcb1/dbc845c4b354/fbad6cf57ee3/05810605800-e3/05810605800-e3.jpg",
+        "https://static.zara.net/assets/public/fcfb/6f18/4de14b739046/cf7f7099db1e/05810605800-e4/05810605800-e4.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/slim-fit-suit-pants-p05810605.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:04:47.878Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "SUIT PANTS IN 100% LINEN",
+      "brand": "ZARA",
+      "sku": "415257893-507-38",
+      "mpn": "415257893-507-38",
+      "description": "Regular fit linen pants. Front pockets and back buttoned welt pockets. Front zip and button closure.",
+      "image": "https://static.zara.net/assets/public/ea5a/fd74/b44a408d960d/c8d70d4fb90d/04410401507-p/04410401507-p.jpg?ts=1738666744144&w=1920",
+      "color": "Dark khaki",
+      "size": "30 (US 30)",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "69.9",
+        "url": "https://www.zara.com/us/en/suit-pants-in-100-linen-p04410401.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "SUIT PANTS IN 100% LINEN",
+      "price": "$ 69.90",
+      "color": "DARK KHAKI | 4410/401/507",
+      "description": "Regular fit linen pants. Front pockets and back buttoned welt pockets. Front zip and button closure.",
+      "productCode": "4410/401/507",
+      "size": "30 (US 30)",
+      "selectedImageUrl": "https://static.zara.net/assets/public/9c70/6d63/1b384cd0a6c0/0c6578a3a7f4/04300333507-e2/04300333507-e2.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/ea5a/fd74/b44a408d960d/c8d70d4fb90d/04410401507-p/04410401507-p.jpg",
+        "https://static.zara.net/assets/public/e546/4eef/9a06468b99a7/6486f35fd135/04300333507-a1/04300333507-a1.jpg",
+        "https://static.zara.net/assets/public/607e/cbac/df4443eabc41/7018c9df2037/04410401507-a2/04410401507-a2.jpg",
+        "https://static.zara.net/assets/public/b36b/cc77/638a4de4b9da/2221c51f9cd9/04410401507-a3/04410401507-a3.jpg",
+        "https://static.zara.net/assets/public/7f0a/d917/c6da4ab6ad5f/bec86a754368/04300333507-a4/04300333507-a4.jpg",
+        "https://static.zara.net/assets/public/6bb8/f6f4/aad24768bb08/a7d14dec5c10/04300333507-e1/04300333507-e1.jpg",
+        "https://static.zara.net/assets/public/9c70/6d63/1b384cd0a6c0/0c6578a3a7f4/04300333507-e2/04300333507-e2.jpg",
+        "https://static.zara.net/assets/public/a546/f48d/d33d438b9854/449d06dc8a12/04300333507-e3/04300333507-e3.jpg",
+        "https://static.zara.net/assets/public/09ea/1f09/518944ebba85/c8abddea0f02/04300333507-e4/04300333507-e4.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/suit-pants-in-100-linen-p04410401.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:05:02.888Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "RELAXED FIT COTTON-LINEN PANTS",
+      "brand": "ZARA",
+      "sku": "410575512-800-2",
+      "mpn": "410575512-800-2",
+      "description": "Relaxed fit pants made of a cotton blend fabric with 14% linen. Adjustable drawstring elastic waistband. Front and back pockets.",
+      "image": "https://static.zara.net/assets/public/f98e/2d94/ac404ae1b9d7/12f0f03fbaaa/01437450800-p/01437450800-p.jpg?ts=1739793436771&w=1920",
+      "color": "Black",
+      "size": "S",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "49.9",
+        "url": "https://www.zara.com/us/en/relaxed-fit-cotton-linen-pants-p01437450.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "RELAXED FIT COTTON-LINEN PANTS",
+      "price": "$ 49.90",
+      "color": "BLACK | 1437/450/800",
+      "description": "Relaxed fit pants made of a cotton blend fabric with 14% linen. Adjustable drawstring elastic waistband. Front and back pockets.",
+      "productCode": "1437/450/800",
+      "size": "S",
+      "selectedImageUrl": "https://static.zara.net/assets/public/0676/7de4/76cb4869a99e/756ca75e65cf/01437450800-e2/01437450800-e2.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/f98e/2d94/ac404ae1b9d7/12f0f03fbaaa/01437450800-p/01437450800-p.jpg",
+        "https://static.zara.net/assets/public/1ff1/7ba7/1ffc4530ab05/fe49e8fe37cf/01437450800-a1/01437450800-a1.jpg",
+        "https://static.zara.net/assets/public/c4fb/834c/e1394c0a8fb0/5a6947037224/01437450800-a2/01437450800-a2.jpg",
+        "https://static.zara.net/assets/public/b0fe/4a9e/0c3846309e95/110523b8793e/01437450800-a3/01437450800-a3.jpg",
+        "https://static.zara.net/assets/public/afe7/70dc/824142d2b533/b9afbc0a1e39/01437450800-a4/01437450800-a4.jpg",
+        "https://static.zara.net/assets/public/fde9/4375/5d0e4694a401/89846d14bef6/01437450800-a5/01437450800-a5.jpg",
+        "https://static.zara.net/assets/public/8690/6e4e/9c2844388de4/af6fed5d0a12/01437450800-e1/01437450800-e1.jpg",
+        "https://static.zara.net/assets/public/0676/7de4/76cb4869a99e/756ca75e65cf/01437450800-e2/01437450800-e2.jpg",
+        "https://static.zara.net/assets/public/2a35/a452/a8cf4021b402/271fa42dfe86/01437450800-e3/01437450800-e3.jpg",
+        "https://static.zara.net/assets/public/8059/7118/d64147a1a2dd/82441b9f8826/01437450800-e4/01437450800-e4.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/relaxed-fit-cotton-linen-pants-p01437450.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:05:16.238Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "100% LINEN POLO SHIRT",
+      "brand": "ZARA",
+      "sku": "439985533-700-2",
+      "mpn": "439985533-700-2",
+      "description": "Relaxed fit shirt made of linen fabric. Lapel collar with front button closure. Long sleeves with buttoned cuffs. Hem with side slits.",
+      "image": "https://static.zara.net/assets/public/290d/e55e/7c0e4ab1aecb/49061b25f8fc/04592184700-p/04592184700-p.jpg?ts=1741691236067&w=1920",
+      "color": "Brown",
+      "size": "S",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "59.9",
+        "url": "https://www.zara.com/us/en/100-linen-polo-shirt-p04592184.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/LimitedAvailability"
+      }
+    },
+    "extractedData": {
+      "productName": "100% LINEN POLO SHIRT",
+      "price": "$ 59.90",
+      "color": "BROWN | 4592/184/700",
+      "description": "Relaxed fit shirt made of linen fabric. Lapel collar with front button closure. Long sleeves with buttoned cuffs. Hem with side slits.",
+      "productCode": "4592/184/700",
+      "size": "S",
+      "selectedImageUrl": "https://static.zara.net/assets/public/1726/d31c/ec3b4acfb810/699d4cc424b0/04592184700-a5/04592184700-a5.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/290d/e55e/7c0e4ab1aecb/49061b25f8fc/04592184700-p/04592184700-p.jpg",
+        "https://static.zara.net/assets/public/1200/0b66/48a04e7eb199/4438cf513100/04592184700-a1/04592184700-a1.jpg",
+        "https://static.zara.net/assets/public/68bc/9655/c23a42cea23f/bcbfd43a6136/04592184700-a2/04592184700-a2.jpg",
+        "https://static.zara.net/assets/public/ef0a/f2b5/970946ed9f45/673dc5d1102c/04592184700-a3/04592184700-a3.jpg",
+        "https://static.zara.net/assets/public/4d17/3030/800348cbb298/18bfce28aadb/04592184700-a4/04592184700-a4.jpg",
+        "https://static.zara.net/assets/public/1726/d31c/ec3b4acfb810/699d4cc424b0/04592184700-a5/04592184700-a5.jpg",
+        "https://static.zara.net/assets/public/c37f/5d95/907744f2ac12/a3e7be5e1df1/04592184700-e1/04592184700-e1.jpg",
+        "https://static.zara.net/assets/public/8c53/298e/347845b5a4ec/eea161916d81/04592184700-e2/04592184700-e2.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/100-linen-polo-shirt-p04592184.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:05:34.596Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "DRESS PENNY LOAFERS",
+      "brand": "ZARA",
+      "sku": "410590203-800-39",
+      "mpn": "410590203-800-39",
+      "description": "Dress loafers. Plain upper with saddle detail. Tonal interior lining and insole. Lug sole.",
+      "image": "https://static.zara.net/assets/public/37dd/57d4/a5ec4fd3b5e9/f9e0a448fd15/12611420800-a2/12611420800-a2.jpg?ts=1722963300832&w=1920",
+      "color": "Black",
+      "size": "6",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "79.9",
+        "url": "https://www.zara.com/us/en/dress-penny-loafers-p12611420.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "DRESS PENNY LOAFERS",
+      "price": "$ 79.90",
+      "color": "BLACK | 2611/420/800",
+      "description": "Dress loafers. Plain upper with saddle detail. Tonal interior lining and insole. Lug sole.",
+      "productCode": "2611/420/800",
+      "size": "6",
+      "selectedImageUrl": "https://static.zara.net/assets/public/d406/b1b8/602a4c40950f/94ef171c5fb0/12611420800-e2/12611420800-e2.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/37dd/57d4/a5ec4fd3b5e9/f9e0a448fd15/12611420800-a2/12611420800-a2.jpg",
+        "https://static.zara.net/assets/public/0cbb/7533/b7c54080b125/09217cbdeddc/12611420800-a1/12611420800-a1.jpg",
+        "https://static.zara.net/assets/public/524b/9def/98714fd0902a/5f7bfa13a13b/12611420800-e1/12611420800-e1.jpg",
+        "https://static.zara.net/assets/public/d406/b1b8/602a4c40950f/94ef171c5fb0/12611420800-e2/12611420800-e2.jpg",
+        "https://static.zara.net/assets/public/0d5a/9aa1/306b4bdb8ad4/a3d0a2d9f893/12611420800-e3/12611420800-e3.jpg",
+        "https://static.zara.net/assets/public/cfc3/e3ad/d77d4a6dad8b/f4740ddbd191/12611420800-e4/12611420800-e4.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/dress-penny-loafers-p12611420.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:05:49.025Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "TEXTURED KNIT POLO",
+      "brand": "ZARA",
+      "sku": "428596165-110-3",
+      "mpn": "428596165-110-3",
+      "description": "Regular fit knit polo shirt made of cotton yarn. Lapel collar with front opening. Short sleeves. Ribbed trim.",
+      "image": "https://static.zara.net/assets/public/f3f9/4329/305147d6b460/78e9227d24c9/03332405110-p/03332405110-p.jpg?ts=1739957126728&w=1920",
+      "color": "khaki",
+      "size": "M",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "49.9",
+        "url": "https://www.zara.com/us/en/textured-knit-polo-p03332405.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "TEXTURED KNIT POLO",
+      "price": "$ 49.90",
+      "color": "KHAKI | 3332/405/110",
+      "description": "Regular fit knit polo shirt made of cotton yarn. Lapel collar with front opening. Short sleeves. Ribbed trim.",
+      "productCode": "3332/405/110",
+      "size": "M",
+      "selectedImageUrl": "https://static.zara.net/assets/public/0255/6060/370a4e25985d/9b8090d335c3/03332405110-e1/03332405110-e1.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/f3f9/4329/305147d6b460/78e9227d24c9/03332405110-p/03332405110-p.jpg",
+        "https://static.zara.net/assets/public/d2d4/8b94/2a784411bf26/1094ee8139b8/03332405110-a1/03332405110-a1.jpg",
+        "https://static.zara.net/assets/public/3e7f/71cc/eee943c988d1/2897fcf05e31/03332405110-a2/03332405110-a2.jpg",
+        "https://static.zara.net/assets/public/bd07/c2d8/e16f429d9aa6/e1e223a9a307/03332405110-a3/03332405110-a3.jpg",
+        "https://static.zara.net/assets/public/82e5/f6cd/b0174e4fbbc8/c723860c1327/03332405110-a4/03332405110-a4.jpg",
+        "https://static.zara.net/assets/public/78e7/a73b/16404b1db2b2/904a22df33da/03332405110-a5/03332405110-a5.jpg",
+        "https://static.zara.net/assets/public/0255/6060/370a4e25985d/9b8090d335c3/03332405110-e1/03332405110-e1.jpg",
+        "https://static.zara.net/assets/public/0bcb/ff90/e40142019f73/d982e76b251a/03332405110-e2/03332405110-e2.jpg",
+        "https://static.zara.net/assets/public/de90/db9c/73e24b37a2f3/e5aa0306ecb5/03332405110-e3/03332405110-e3.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/textured-knit-polo-p03332405.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:06:03.175Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "LEATHER BELT WITH METAL TIP",
+      "brand": "ZARA",
+      "sku": "441047745-800-85",
+      "mpn": "441047745-800-85",
+      "description": "Leather belt. Metal tip. Metal buckle and keeper closure.\n\nWidth: 3 cm.",
+      "image": "https://static.zara.net/assets/public/b5dd/9fc3/8df348f2a134/4f0627641fe8/05919410800-e1/05919410800-e1.jpg?ts=1743578729474&w=1920",
+      "color": "Black",
+      "size": "34 (US 34)",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "49.9",
+        "url": "https://www.zara.com/us/en/leather-belt-with-metal-tip-p05919410.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "LEATHER BELT WITH METAL TIP",
+      "price": "$ 49.90",
+      "color": "BLACK | 5919/410/800",
+      "description": "Leather belt. Metal tip. Metal buckle and keeper closure.\n\nWidth: 3 cm.",
+      "productCode": "5919/410/800",
+      "size": "34 (US 34)",
+      "selectedImageUrl": "https://static.zara.net/assets/public/b5dd/9fc3/8df348f2a134/4f0627641fe8/05919410800-e1/05919410800-e1.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/b5dd/9fc3/8df348f2a134/4f0627641fe8/05919410800-e1/05919410800-e1.jpg",
+        "https://static.zara.net/assets/public/c4f8/6545/b16c4ffe9248/a385685d51f4/05919410800-e2/05919410800-e2.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/leather-belt-with-metal-tip-p05919410.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:06:15.670Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "VERTICAL TEXTURED POLO",
+      "brand": "ZARA",
+      "sku": "413707787-251-2",
+      "mpn": "413707787-251-2",
+      "description": "Regular fit polo shirt. Lapel collar with front opening. Short sleeves. Ribbed hem.",
+      "image": "https://static.zara.net/assets/public/312c/04d5/a3f0407f9a4d/4c80e785adca/00526460251-p/00526460251-p.jpg?ts=1735217398040&w=1920",
+      "color": "Oyster-white",
+      "size": "S",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "39.9",
+        "url": "https://www.zara.com/us/en/vertical-textured-polo-p00526460.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "VERTICAL TEXTURED POLO",
+      "price": "$ 39.90",
+      "color": "OYSTER-WHITE | 0526/460/251",
+      "description": "Regular fit polo shirt. Lapel collar with front opening. Short sleeves. Ribbed hem.",
+      "productCode": "0526/460/251",
+      "size": "S",
+      "selectedImageUrl": "https://static.zara.net/assets/public/d059/de3b/7ca84dc1a18a/4a21c5a608d6/00526460251-e1/00526460251-e1.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/312c/04d5/a3f0407f9a4d/4c80e785adca/00526460251-p/00526460251-p.jpg",
+        "https://static.zara.net/assets/public/358c/cbd7/6e0245309359/fe22c0ace5d2/00526460251-a1/00526460251-a1.jpg",
+        "https://static.zara.net/assets/public/09eb/3b61/c6aa49aab99f/c7e5cd512efb/00526460251-a2/00526460251-a2.jpg",
+        "https://static.zara.net/assets/public/144b/9a30/dfef40e29503/ca10f0b1c735/00526460251-a3/00526460251-a3.jpg",
+        "https://static.zara.net/assets/public/7002/dcad/7f1d4790b9d1/ebda389c87ee/00526460251-a4/00526460251-a4.jpg",
+        "https://static.zara.net/assets/public/d059/de3b/7ca84dc1a18a/4a21c5a608d6/00526460251-e1/00526460251-e1.jpg",
+        "https://static.zara.net/assets/public/ecd1/6ce9/11a14c01953f/c83c96c0679a/00526460251-e2/00526460251-e2.jpg",
+        "https://static.zara.net/assets/public/4d89/3409/e91d40aea54b/d3e9e8a8ca72/00526460251-e3/00526460251-e3.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/vertical-textured-polo-p00526460.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:06:30.641Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "TEXT PRINT T-SHIRT",
+      "brand": "ZARA",
+      "sku": "420671953-803-2",
+      "mpn": "420671953-803-2",
+      "description": "Boxy fit T-shirt. Round neck and short sleeves. Contrasting front print.",
+      "image": "https://static.zara.net/assets/public/8590/352b/43784dd88e92/cef87773a1ce/06224414803-p/06224414803-p.jpg?ts=1740143331052&w=1920",
+      "color": "Gray marl",
+      "size": "S",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "39.9",
+        "url": "https://www.zara.com/us/en/text-print-t-shirt-p06224414.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "TEXT PRINT T-SHIRT",
+      "price": "$ 39.90",
+      "color": "GRAY MARL | 6224/414/803",
+      "description": "Boxy fit T-shirt. Round neck and short sleeves. Contrasting front print.",
+      "productCode": "6224/414/803",
+      "size": "S",
+      "selectedImageUrl": "https://static.zara.net/assets/public/2fd2/c43a/430b4fe99dc6/af9782f5c3a1/06224414803-a5/06224414803-a5.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/8590/352b/43784dd88e92/cef87773a1ce/06224414803-p/06224414803-p.jpg",
+        "https://static.zara.net/assets/public/d17b/9c91/8ce548a68385/b23400dfc118/06224414803-a1/06224414803-a1.jpg",
+        "https://static.zara.net/assets/public/4c95/57f5/75c143be99eb/1ff5e721c9a2/06224414803-a2/06224414803-a2.jpg",
+        "https://static.zara.net/assets/public/c6b8/b758/be734fe699ff/a3f8f252584f/06224414803-a3/06224414803-a3.jpg",
+        "https://static.zara.net/assets/public/c61d/2989/50fe4401b607/8ccecf6b594f/06224414803-a4/06224414803-a4.jpg",
+        "https://static.zara.net/assets/public/2fd2/c43a/430b4fe99dc6/af9782f5c3a1/06224414803-a5/06224414803-a5.jpg",
+        "https://static.zara.net/assets/public/8812/fea8/f2f64d2c81da/b56df65780bc/06224414803-e1/06224414803-e1.jpg",
+        "https://static.zara.net/assets/public/b59d/9ae8/15b64b97bc9b/49f7c12cbf4f/06224414803-e2/06224414803-e2.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/text-print-t-shirt-p06224414.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:06:42.348Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "CROCHET TEXTURED SHIRT",
+      "brand": "ZARA",
+      "sku": "432209667-086-2",
+      "mpn": "432209667-086-2",
+      "description": "Relaxed fit shirt. Made of open textured fabric. Spread collar and short sleeves. Front button closure.",
+      "image": "https://static.zara.net/assets/public/be60/f6f5/64f04ddba6f3/dcd45738d293/07200307086-p/07200307086-p.jpg?ts=1744188370038&w=1920",
+      "color": "Ecru / Brown",
+      "size": "S",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "79.9",
+        "url": "https://www.zara.com/us/en/crochet-textured-shirt-p07200307.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "CROCHET TEXTURED SHIRT",
+      "price": "$ 79.90",
+      "color": "ECRU / BROWN | 7200/307/086",
+      "description": "Relaxed fit shirt. Made of open textured fabric. Spread collar and short sleeves. Front button closure.",
+      "productCode": "7200/307/086",
+      "size": "S",
+      "selectedImageUrl": "https://static.zara.net/assets/public/7d26/ba72/21e844a58346/e5088367ab16/07200307086-a5/07200307086-a5.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/be60/f6f5/64f04ddba6f3/dcd45738d293/07200307086-p/07200307086-p.jpg",
+        "https://static.zara.net/assets/public/c178/6743/32d34d28821d/d02e1ea8153c/07200307086-a1/07200307086-a1.jpg",
+        "https://static.zara.net/assets/public/9df9/e95d/1ff54e858c28/24fc8eedd8f8/07200307086-a2/07200307086-a2.jpg",
+        "https://static.zara.net/assets/public/5f8b/2db0/995541bf9bfa/58fdc4e02c8a/07200307086-a3/07200307086-a3.jpg",
+        "https://static.zara.net/assets/public/7d26/ba72/21e844a58346/e5088367ab16/07200307086-a5/07200307086-a5.jpg",
+        "https://static.zara.net/assets/public/f0bb/8c74/13234ef4b313/db055f8c7759/07200307086-e1/07200307086-e1.jpg",
+        "https://static.zara.net/assets/public/cdad/b7a6/bd674cd4a587/d595ab21f2bf/07200307086-e2/07200307086-e2.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/crochet-textured-shirt-p07200307.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:06:52.002Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "STRETCH SUIT PANTS",
+      "brand": "ZARA",
+      "sku": "413803577-420-36",
+      "mpn": "413803577-420-36",
+      "description": "Slim fit pants made of viscose blend fabric. Front pockets and back welt pockets. Front zip and button closure.",
+      "image": "https://static.zara.net/assets/public/3f94/8f91/796c4ddabfed/f1fce7476322/01564301420-p/01564301420-p.jpg?ts=1738593158115&w=1920",
+      "color": "Bluish",
+      "size": "29 (US 29)",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "49.9",
+        "url": "https://www.zara.com/us/en/stretch-suit-pants-p01564301.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "STRETCH SUIT PANTS",
+      "price": "$ 49.90",
+      "color": "BLUISH | 1564/301/420",
+      "description": "Slim fit pants made of viscose blend fabric. Front pockets and back welt pockets. Front zip and button closure.",
+      "productCode": "1564/301/420",
+      "size": "29 (US 29)",
+      "selectedImageUrl": "https://static.zara.net/assets/public/42f5/65ca/46b94a14ade5/87c93ce75be1/01564301420-e2/01564301420-e2.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/3f94/8f91/796c4ddabfed/f1fce7476322/01564301420-p/01564301420-p.jpg",
+        "https://static.zara.net/assets/public/5902/0a9e/299a4846a0fd/fd54841c426f/01564301420-a1/01564301420-a1.jpg",
+        "https://static.zara.net/assets/public/dc92/d87f/b16b41ccb3c8/ac4839c37cbd/01564301420-a2/01564301420-a2.jpg",
+        "https://static.zara.net/assets/public/9e35/f53d/d08e4e9ab7e4/ade7ded76997/01564301420-a3/01564301420-a3.jpg",
+        "https://static.zara.net/assets/public/ea74/0b0a/8263417e8eb3/1b012e886495/01564301420-e1/01564301420-e1.jpg",
+        "https://static.zara.net/assets/public/42f5/65ca/46b94a14ade5/87c93ce75be1/01564301420-e2/01564301420-e2.jpg",
+        "https://static.zara.net/assets/public/b974/5fe8/7b3a46f29f6d/354417aa1fe3/01564301420-e3/01564301420-e3.jpg",
+        "https://static.zara.net/assets/public/fabf/49ef/b4cc44719cf7/9fda5f17247d/01564301420-e4/01564301420-e4.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/stretch-suit-pants-p01564301.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:06:59.534Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "BAGGY FIT JEANS",
+      "brand": "ZARA",
+      "sku": "435247467-822-34",
+      "mpn": "435247467-822-34",
+      "description": "Baggy jeans. Five pockets. Washed effect. Front zip and button closure.",
+      "image": "https://static.zara.net/assets/public/5152/ce85/dfa947458d48/cf0f034e6676/04048400822-p/04048400822-p.jpg?ts=1738606750394&w=1920",
+      "color": "Charcoal",
+      "size": "28 (US 28)",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "49.9",
+        "url": "https://www.zara.com/us/en/baggy-fit-jeans-p04048400.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "BAGGY FIT JEANS",
+      "price": "$ 49.90",
+      "color": "CHARCOAL | 4048/400/822",
+      "description": "Baggy jeans. Five pockets. Washed effect. Front zip and button closure.",
+      "productCode": "4048/400/822",
+      "size": "28 (US 28)",
+      "selectedImageUrl": "https://static.zara.net/assets/public/b535/7f89/a05946ed8b0a/0190acd1b464/04048400822-e2/04048400822-e2.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/5152/ce85/dfa947458d48/cf0f034e6676/04048400822-p/04048400822-p.jpg",
+        "https://static.zara.net/assets/public/30d7/f75d/8bd84762bb74/4fe33671d637/04048400822-a1/04048400822-a1.jpg",
+        "https://static.zara.net/assets/public/bd6c/d5fe/28d54b07b888/3eb49c5c018a/04048400822-a2/04048400822-a2.jpg",
+        "https://static.zara.net/assets/public/d089/ccc0/2c0c4dc8b629/3d968e1f7dbc/04048400822-a3/04048400822-a3.jpg",
+        "https://static.zara.net/assets/public/d7a6/a015/bd984bfc9a90/2d0a2225d663/04048400822-a4/04048400822-a4.jpg",
+        "https://static.zara.net/assets/public/b67c/0ee3/fe534558b84e/6e0f3c5e849d/04048400822-e1/04048400822-e1.jpg",
+        "https://static.zara.net/assets/public/b535/7f89/a05946ed8b0a/0190acd1b464/04048400822-e2/04048400822-e2.jpg",
+        "https://static.zara.net/assets/public/5cef/6a95/2a654bd48d92/1d8fad17e9e5/04048400822-e3/04048400822-e3.jpg",
+        "https://static.zara.net/assets/public/780e/b13f/fb884090a629/a918bb147162/04048400822-e4/04048400822-e4.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/baggy-fit-jeans-p04048400.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:07:06.627Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "100% LINEN PANTS",
+      "brand": "ZARA",
+      "sku": "419432658-250-2",
+      "mpn": "419432658-250-2",
+      "description": "Regular fit pants made of linen fabric. Elastic waistband. Front pockets and welt back pockets. Front zip and button closure.",
+      "image": "https://static.zara.net/assets/public/2cbc/0218/e98a44238a96/a190aca11388/04410010250-p/04410010250-p.jpg?ts=1743608443229&w=1920",
+      "color": "White",
+      "size": "S",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "69.9",
+        "url": "https://www.zara.com/us/en/100-linen-pants-p04410010.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "100% LINEN PANTS",
+      "price": "$ 69.90",
+      "color": "WHITE | 4410/010/250",
+      "description": "Regular fit pants made of linen fabric. Elastic waistband. Front pockets and welt back pockets. Front zip and button closure.",
+      "productCode": "4410/010/250",
+      "size": "S",
+      "selectedImageUrl": "https://static.zara.net/assets/public/c54e/ff85/24ee47f18a9d/eb92412e46b8/09871411250-e2/09871411250-e2.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/2cbc/0218/e98a44238a96/a190aca11388/04410010250-p/04410010250-p.jpg",
+        "https://static.zara.net/assets/public/231c/3c53/02284204bdbb/2f00baf21141/04410010250-a1/04410010250-a1.jpg",
+        "https://static.zara.net/assets/public/0a31/2d5a/6b6e47f98d9e/cd26e2713947/04410010250-a2/04410010250-a2.jpg",
+        "https://static.zara.net/assets/public/193f/da32/a3cd43efbf10/3b76f0bd82db/04410010250-a3/04410010250-a3.jpg",
+        "https://static.zara.net/assets/public/3e25/1bfb/4d8c48348d0d/ed081edc527b/04410010250-a4/04410010250-a4.jpg",
+        "https://static.zara.net/assets/public/8276/5920/4b7d46838879/c4af292e40d5/09871411250-e1/09871411250-e1.jpg",
+        "https://static.zara.net/assets/public/c54e/ff85/24ee47f18a9d/eb92412e46b8/09871411250-e2/09871411250-e2.jpg",
+        "https://static.zara.net/assets/public/ed8e/d7e0/e67d430b9363/6276b5462e51/09871411250-e3/09871411250-e3.jpg",
+        "https://static.zara.net/assets/public/c375/20cc/330b4610a38e/b2486d492313/09871411250-e4/09871411250-e4.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/100-linen-pants-p04410010.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:07:14.304Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "100% LINEN SHIRT",
+      "brand": "ZARA",
+      "sku": "416700737-250-2",
+      "mpn": "416700737-250-2",
+      "description": "Relaxed fit shirt made of linen fabric. Camp collar and short sleeves. Hem with side slits. Front button closure.",
+      "image": "https://static.zara.net/assets/public/3893/5d9b/fe0744318efc/3c09fd22d96c/05070123250-p/05070123250-p.jpg?ts=1745219440769&w=1920",
+      "color": "White",
+      "size": "S",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "69.9",
+        "url": "https://www.zara.com/us/en/100-linen-shirt-p03090123.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "100% LINEN SHIRT",
+      "price": "$ 69.90",
+      "color": "WHITE | 3090/123/250",
+      "description": "Relaxed fit shirt made of linen fabric. Camp collar and short sleeves. Hem with side slits. Front button closure.",
+      "productCode": "3090/123/250",
+      "size": "S",
+      "selectedImageUrl": "https://static.zara.net/assets/public/12b2/6192/d49e4a28852d/083ffd498d54/05070123250-e1/05070123250-e1.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/3893/5d9b/fe0744318efc/3c09fd22d96c/05070123250-p/05070123250-p.jpg",
+        "https://static.zara.net/assets/public/93f3/b03b/70394dfb8d3a/8a4b83c12520/05070123250-a1/05070123250-a1.jpg",
+        "https://static.zara.net/assets/public/147e/0c27/bb5c4716af8b/70c064717163/05070123250-a2/05070123250-a2.jpg",
+        "https://static.zara.net/assets/public/fccb/243a/bf0042da89df/d05c11568522/05070123250-a3/05070123250-a3.jpg",
+        "https://static.zara.net/assets/public/12b2/6192/d49e4a28852d/083ffd498d54/05070123250-e1/05070123250-e1.jpg",
+        "https://static.zara.net/assets/public/1863/5638/31bf4d3ab0ff/fc2c418d61b4/05070123250-e2/05070123250-e2.jpg",
+        "https://static.zara.net/assets/public/afe6/9245/96c74499b59b/81c6057ed7df/05070123250-e3/05070123250-e3.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/100-linen-shirt-p03090123.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:07:23.854Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "RIBBED KNIT POLO SHIRT",
+      "brand": "ZARA",
+      "sku": "429626382-251-3",
+      "mpn": "429626382-251-3",
+      "description": "Regular fit knit polo shirt made of cotton yarn. Lapel collar with front button closure and short sleeves. Ribbed trim.",
+      "image": "https://static.zara.net/assets/public/c2c1/f219/535341cf94c1/be5d6b760890/07140410251-p/07140410251-p.jpg?ts=1741352219334&w=1920",
+      "color": "Oyster-white",
+      "size": "M",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "49.9",
+        "url": "https://www.zara.com/us/en/ribbed-knit-polo-shirt-p07140410.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "RIBBED KNIT POLO SHIRT",
+      "price": "$ 49.90",
+      "color": "OYSTER-WHITE | 7140/410/251",
+      "description": "Regular fit knit polo shirt made of cotton yarn. Lapel collar with front button closure and short sleeves. Ribbed trim.",
+      "productCode": "7140/410/251",
+      "size": "M",
+      "selectedImageUrl": "https://static.zara.net/assets/public/fdf8/ab2e/223e4f8bb353/93baa701da0e/07140410251-a6/07140410251-a6.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/c2c1/f219/535341cf94c1/be5d6b760890/07140410251-p/07140410251-p.jpg",
+        "https://static.zara.net/assets/public/e078/76f5/860745e68b93/f2d51b17e3cf/07140410251-a1/07140410251-a1.jpg",
+        "https://static.zara.net/assets/public/05b3/68e9/824c4c459eba/543a453c1d92/07140410251-a2/07140410251-a2.jpg",
+        "https://static.zara.net/assets/public/b649/2475/279f442094b1/a59ade8d4a5f/07140410251-a3/07140410251-a3.jpg",
+        "https://static.zara.net/assets/public/21cb/d0c6/abfe4acfa92f/a627cc445a83/07140410251-a4/07140410251-a4.jpg",
+        "https://static.zara.net/assets/public/0757/e5ec/479d4167ac3e/199efd6ab6df/07140410251-a5/07140410251-a5.jpg",
+        "https://static.zara.net/assets/public/fdf8/ab2e/223e4f8bb353/93baa701da0e/07140410251-a6/07140410251-a6.jpg",
+        "https://static.zara.net/assets/public/7d06/54d6/20b74b9090a1/62be2e7fb36e/07140410251-e1/07140410251-e1.jpg",
+        "https://static.zara.net/assets/public/f4f1/30ce/a5f343a682bc/3690254f37fa/07140410251-e2/07140410251-e2.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/ribbed-knit-polo-shirt-p07140410.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:07:33.102Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "SLIM FIT STRETCH PANTS",
+      "brand": "ZARA",
+      "sku": "410594756-407-2",
+      "mpn": "410594756-407-2",
+      "description": "Pants made of high stretch fabric. Elastic waist. Front pockets and back welt pockets. Front zip and button closure.",
+      "image": "https://static.zara.net/assets/public/bd95/08ec/a14248a7b07b/ac4ec6208fa3/06861441407-p/06861441407-p.jpg?ts=1727685891074&w=1920",
+      "color": "Blue",
+      "size": "S",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "49.9",
+        "url": "https://www.zara.com/us/en/slim-fit-stretch-pants-p06861441.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "SLIM FIT STRETCH PANTS",
+      "price": "$ 49.90",
+      "color": "BLUE | 6861/441/407",
+      "description": "Pants made of high stretch fabric. Elastic waist. Front pockets and back welt pockets. Front zip and button closure.",
+      "productCode": "6861/441/407",
+      "size": "S",
+      "selectedImageUrl": "https://static.zara.net/assets/public/81d2/78ad/11b443c19427/adc95f10387b/06861441407-e2/06861441407-e2.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/bd95/08ec/a14248a7b07b/ac4ec6208fa3/06861441407-p/06861441407-p.jpg",
+        "https://static.zara.net/assets/public/b683/19a9/6a99418cb850/660638b19440/06861441407-a1/06861441407-a1.jpg",
+        "https://static.zara.net/assets/public/d246/f5d7/2edc4b748dc2/0b64d5e90bb2/06861441407-a3/06861441407-a3.jpg",
+        "https://static.zara.net/assets/public/5492/ec2f/c2404e2c982d/373a55209884/06861441407-a4/06861441407-a4.jpg",
+        "https://static.zara.net/assets/public/1253/7e96/065148608d19/ef3a6bc4622f/06861441407-e1/06861441407-e1.jpg",
+        "https://static.zara.net/assets/public/81d2/78ad/11b443c19427/adc95f10387b/06861441407-e2/06861441407-e2.jpg",
+        "https://static.zara.net/assets/public/a48e/5582/c2824b3d8208/7a0e4b435a46/06861441407-e3/06861441407-e3.jpg",
+        "https://static.zara.net/assets/public/9229/99e7/3fed4475bc16/684809e5697c/06861441407-e4/06861441407-e4.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/slim-fit-stretch-pants-p06861441.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:07:40.004Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "CONTRASTING PATCH SHIRT",
+      "brand": "ZARA",
+      "sku": "444127056-251-2",
+      "mpn": "444127056-251-2",
+      "description": "Relaxed fit shirt made of cotton fabric. Spread collar and short sleeves. Contrasting textured patches on front. Side vents at hem. Front button closure.",
+      "image": "https://static.zara.net/assets/public/51d3/87c5/3f5d40b4868f/dc34c9c06c11/00881415251-p/00881415251-p.jpg?ts=1743754192788&w=1920",
+      "color": "Oyster-white",
+      "size": "S",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "59.9",
+        "url": "https://www.zara.com/us/en/contrasting-patch-shirt-p00881415.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "CONTRASTING PATCH SHIRT",
+      "price": "$ 59.90",
+      "color": "OYSTER-WHITE | 0881/415/251",
+      "description": "Relaxed fit shirt made of cotton fabric. Spread collar and short sleeves. Contrasting textured patches on front. Side vents at hem. Front button closure.",
+      "productCode": "0881/415/251",
+      "size": "S",
+      "selectedImageUrl": "https://static.zara.net/assets/public/2bc1/0c97/fd2e4092a590/61fc73aa31d3/00881415251-a5/00881415251-a5.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/51d3/87c5/3f5d40b4868f/dc34c9c06c11/00881415251-p/00881415251-p.jpg",
+        "https://static.zara.net/assets/public/288a/067a/04cf4e55bef9/8e4c5c8b41a6/00881415251-a1/00881415251-a1.jpg",
+        "https://static.zara.net/assets/public/ec1f/4e5a/669d404dadba/1cb9540d1dd2/00881415251-a2/00881415251-a2.jpg",
+        "https://static.zara.net/assets/public/9c6d/f53e/2a61466eb1b6/e375cae317f1/00881415251-a3/00881415251-a3.jpg",
+        "https://static.zara.net/assets/public/0593/84ff/701945dcb011/b0b691936195/00881415251-a4/00881415251-a4.jpg",
+        "https://static.zara.net/assets/public/2bc1/0c97/fd2e4092a590/61fc73aa31d3/00881415251-a5/00881415251-a5.jpg",
+        "https://static.zara.net/assets/public/07d0/cd29/a78447acb2dc/667bcb1eb5b2/00881415251-e1/00881415251-e1.jpg",
+        "https://static.zara.net/assets/public/b780/19fa/50284abbabfe/2deadc6a733b/00881415251-e2/00881415251-e2.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/contrasting-patch-shirt-p00881415.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:07:49.396Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "TEXTURED JACQUARD JACKET",
+      "brand": "ZARA",
+      "sku": "433100103-305-2",
+      "mpn": "433100103-305-2",
+      "description": "Relaxed fit jacket made of a cotton blend fabric. Lapel collar and sleeves with buttoned cuffs. Welt pockets at hip. Front button closure.",
+      "image": "https://static.zara.net/assets/public/4782/8c64/55694678ac5d/989d94c4d403/00881404305-p/00881404305-p.jpg?ts=1744118819775&w=1920",
+      "color": "Mustard",
+      "size": "S",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "129",
+        "url": "https://www.zara.com/us/en/textured-jacquard-jacket-p00881404.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "TEXTURED JACQUARD JACKET",
+      "price": "$ 129.00",
+      "color": "MUSTARD | 0881/404/305",
+      "description": "Relaxed fit jacket made of a cotton blend fabric. Lapel collar and sleeves with buttoned cuffs. Welt pockets at hip. Front button closure.",
+      "productCode": "0881/404/305",
+      "size": "S",
+      "selectedImageUrl": "https://static.zara.net/assets/public/fceb/89a6/d14a43e3ab6e/a5a12a74f5bd/00881404305-a5/00881404305-a5.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/4782/8c64/55694678ac5d/989d94c4d403/00881404305-p/00881404305-p.jpg",
+        "https://static.zara.net/assets/public/d043/8faf/4d2a4c6cbaa5/f3364bff6156/00881404305-a1/00881404305-a1.jpg",
+        "https://static.zara.net/assets/public/5fa8/64ca/313c4710a30b/52e22bd09e3d/00881404305-a3/00881404305-a3.jpg",
+        "https://static.zara.net/assets/public/522c/5f75/8dd94881a225/f1be05b70bf0/00881404305-a4/00881404305-a4.jpg",
+        "https://static.zara.net/assets/public/fceb/89a6/d14a43e3ab6e/a5a12a74f5bd/00881404305-a5/00881404305-a5.jpg",
+        "https://static.zara.net/assets/public/bf3d/334d/067049919864/48e68d0f1962/00881404305-e1/00881404305-e1.jpg",
+        "https://static.zara.net/assets/public/4ceb/4bf5/55384e558129/773f534e0e22/00881404305-e2/00881404305-e2.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/textured-jacquard-jacket-p00881404.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:07:56.825Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "BAGGY FIT DENIM SHORTS",
+      "brand": "ZARA",
+      "sku": "426888021-400-36",
+      "mpn": "426888021-400-36",
+      "description": "Baggy fit denim shorts made of cotton denim. Five pockets. Washed effect. Front zip and button closure.",
+      "image": "https://static.zara.net/assets/public/9cd3/1faa/da244652bc3d/358cd5e2574f/05585400400-p/05585400400-p.jpg?ts=1740568431338&w=1920",
+      "color": "Blue",
+      "size": "29 (US 29)",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "49.9",
+        "url": "https://www.zara.com/us/en/baggy-fit-denim-shorts-p05585400.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "BAGGY FIT DENIM SHORTS",
+      "price": "$ 49.90",
+      "color": "BLUE | 5585/400/400",
+      "description": "Baggy fit denim shorts made of cotton denim. Five pockets. Washed effect. Front zip and button closure.",
+      "productCode": "5585/400/400",
+      "size": "29 (US 29)",
+      "selectedImageUrl": "https://static.zara.net/assets/public/f492/fd9a/f18b44a787bd/5a24f4efa15e/05585400400-e2/05585400400-e2.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/9cd3/1faa/da244652bc3d/358cd5e2574f/05585400400-p/05585400400-p.jpg",
+        "https://static.zara.net/assets/public/6284/9885/238c4793aba5/38fc27d49a29/05585400400-a1/05585400400-a1.jpg",
+        "https://static.zara.net/assets/public/2780/9522/9295418e995f/64bce57fcae6/05585400400-a2/05585400400-a2.jpg",
+        "https://static.zara.net/assets/public/ba48/29cd/d5bc45a0ac42/d4aea6ecccea/05585400400-a3/05585400400-a3.jpg",
+        "https://static.zara.net/assets/public/8196/30aa/ca7e4b3595ff/af4187b68dfb/05585400400-a4/05585400400-a4.jpg",
+        "https://static.zara.net/assets/public/c6e9/0d3d/cda24ad297cf/1d60f19fa79a/05585400400-a5/05585400400-a5.jpg",
+        "https://static.zara.net/assets/public/9ba5/dd83/fb154d6e954d/887aed204414/05585400400-e1/05585400400-e1.jpg",
+        "https://static.zara.net/assets/public/f492/fd9a/f18b44a787bd/5a24f4efa15e/05585400400-e2/05585400400-e2.jpg",
+        "https://static.zara.net/assets/public/5425/16af/2a064833bdda/a101c96e96e4/05585400400-e3/05585400400-e3.jpg",
+        "https://static.zara.net/assets/public/49bf/5e4f/78194f75afe8/25657ee7d894/05585400400-e4/05585400400-e4.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/baggy-fit-denim-shorts-p05585400.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:08:07.099Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "COTTON - LINEN PLEATED PANTS",
+      "brand": "ZARA",
+      "sku": "440783601-250-2",
+      "mpn": "440783601-250-2",
+      "description": "Relaxed fit pants made of a cotton and linen blend fabric. Elastic waistband with pleat detail at the front. Front pockets and back welt pockets. Front zip and button closure.",
+      "image": "https://static.zara.net/assets/public/60e2/1a62/defc4f91b698/fc335c05bdbc/04612232250-p/04612232250-p.jpg?ts=1743592149748&w=1920",
+      "color": "White",
+      "size": "S",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "69.9",
+        "url": "https://www.zara.com/us/en/cotton---linen-pleated-pants-p04612232.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "COTTON - LINEN PLEATED PANTS",
+      "price": "$ 69.90",
+      "color": "WHITE | 4612/232/250",
+      "description": "Relaxed fit pants made of a cotton and linen blend fabric. Elastic waistband with pleat detail at the front. Front pockets and back welt pockets. Front zip and button closure.",
+      "productCode": "4612/232/250",
+      "size": "S",
+      "selectedImageUrl": "https://static.zara.net/assets/public/867c/daa8/b9a64fc7a7f8/904bee081ad4/04612232250-e2/04612232250-e2.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/60e2/1a62/defc4f91b698/fc335c05bdbc/04612232250-p/04612232250-p.jpg",
+        "https://static.zara.net/assets/public/3ea7/df88/52f74f40874f/2509cc3fc66a/04612232250-a1/04612232250-a1.jpg",
+        "https://static.zara.net/assets/public/8819/82ae/d50540f3bd3e/40864b769d1a/04612232250-a2/04612232250-a2.jpg",
+        "https://static.zara.net/assets/public/b762/1d79/33744e93b1fc/c3fe4db18e55/04612232250-a3/04612232250-a3.jpg",
+        "https://static.zara.net/assets/public/58c1/a19e/f9624e07a109/14affc84a1de/04612232250-a4/04612232250-a4.jpg",
+        "https://static.zara.net/assets/public/43ea/06e4/506d4867801b/cbeacbbd8e64/04612232250-a5/04612232250-a5.jpg",
+        "https://static.zara.net/assets/public/968f/8dfb/9e834330ab63/49ba52939acd/04612232250-e1/04612232250-e1.jpg",
+        "https://static.zara.net/assets/public/867c/daa8/b9a64fc7a7f8/904bee081ad4/04612232250-e2/04612232250-e2.jpg",
+        "https://static.zara.net/assets/public/d647/cfd9/f1ea427c850a/8de0c3d76a2b/04612232250-e3/04612232250-e3.jpg",
+        "https://static.zara.net/assets/public/bb33/78be/db354782ae59/fc7bdc8aeed4/04612232250-e4/04612232250-e4.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/cotton---linen-pleated-pants-p04612232.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:08:16.811Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "TEXTURED JACQUARD SHIRT",
+      "brand": "ZARA",
+      "sku": "419385915-700-2",
+      "mpn": "419385915-700-2",
+      "description": "Relaxed fit shirt made of viscose fabric. Spread collar and short sleeves. Front button closure.",
+      "image": "https://static.zara.net/assets/public/7b80/055b/768b4d1e8ac5/ee2e104391e0/02878310700-p/02878310700-p.jpg?ts=1742311869099&w=1920",
+      "color": "Brown",
+      "size": "S",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "59.9",
+        "url": "https://www.zara.com/us/en/textured-jacquard-shirt-p02878310.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "TEXTURED JACQUARD SHIRT",
+      "price": "$ 59.90",
+      "color": "BROWN | 2878/310/700",
+      "description": "Relaxed fit shirt made of viscose fabric. Spread collar and short sleeves. Front button closure.",
+      "productCode": "2878/310/700",
+      "size": "S",
+      "selectedImageUrl": "https://static.zara.net/assets/public/0d2b/efbd/e19848a4b7a6/cb507d75dabb/02878310700-a6/02878310700-a6.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/7b80/055b/768b4d1e8ac5/ee2e104391e0/02878310700-p/02878310700-p.jpg",
+        "https://static.zara.net/assets/public/8bb4/399f/559644c1847a/c57ac7a260be/02878310700-a1/02878310700-a1.jpg",
+        "https://static.zara.net/assets/public/4e79/b68e/9f774935b0c2/7fa60b80de22/02878310700-a2/02878310700-a2.jpg",
+        "https://static.zara.net/assets/public/8ed3/690a/66bd44a0940d/2854937e49e8/02878310700-a3/02878310700-a3.jpg",
+        "https://static.zara.net/assets/public/48d6/6ef8/9dc24dc3a2b1/c7586e87414f/02878310700-a4/02878310700-a4.jpg",
+        "https://static.zara.net/assets/public/12fe/67a1/eef1422c925c/f0eef6aa0bf8/02878310700-a5/02878310700-a5.jpg",
+        "https://static.zara.net/assets/public/0d2b/efbd/e19848a4b7a6/cb507d75dabb/02878310700-a6/02878310700-a6.jpg",
+        "https://static.zara.net/assets/public/bc6c/4696/a21f4650be80/a13cb08145ff/02878310700-e1/02878310700-e1.jpg",
+        "https://static.zara.net/assets/public/1bf3/5233/6741424d9412/3a136dcef100/02878310700-e2/02878310700-e2.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/textured-jacquard-shirt-p02878310.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:08:24.246Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "COMBINED PATCH T-SHIRT",
+      "brand": "ZARA",
+      "sku": "425595635-800-2",
+      "mpn": "425595635-800-2",
+      "description": "Relaxed fit T-shirt. Round neck and short sleeves. Contrasting patches and prints on front and back.",
+      "image": "https://static.zara.net/assets/public/baac/eac6/af0b4b1ba043/7e75e5368d33/05584470800-p/05584470800-p.jpg?ts=1741691037260&w=1920",
+      "color": "Black",
+      "size": "S",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "39.9",
+        "url": "https://www.zara.com/us/en/combined-patch-t-shirt-p05584470.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/LimitedAvailability"
+      }
+    },
+    "extractedData": {
+      "productName": "COMBINED PATCH T-SHIRT",
+      "price": "$ 39.90",
+      "color": "BLACK | 5584/470/800",
+      "description": "Relaxed fit T-shirt. Round neck and short sleeves. Contrasting patches and prints on front and back.",
+      "productCode": "5584/470/800",
+      "size": "S",
+      "selectedImageUrl": "https://static.zara.net/assets/public/79ce/325a/9cfc4c079a79/884a663ea2bc/05584470800-a5/05584470800-a5.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/baac/eac6/af0b4b1ba043/7e75e5368d33/05584470800-p/05584470800-p.jpg",
+        "https://static.zara.net/assets/public/494e/b846/c518471ba3e0/46de970f6891/05584470800-a1/05584470800-a1.jpg",
+        "https://static.zara.net/assets/public/0517/b6a3/47d34524a076/33b6d28a84fd/05584470800-a2/05584470800-a2.jpg",
+        "https://static.zara.net/assets/public/692d/ae83/e1a64cd0b348/595990058a5c/05584470800-a3/05584470800-a3.jpg",
+        "https://static.zara.net/assets/public/3221/a7f5/f50d4e358e0c/9db9bb143f31/05584470800-a4/05584470800-a4.jpg",
+        "https://static.zara.net/assets/public/79ce/325a/9cfc4c079a79/884a663ea2bc/05584470800-a5/05584470800-a5.jpg",
+        "https://static.zara.net/assets/public/6879/accb/1fe1400084f0/20bccd753756/05584470800-e1/05584470800-e1.jpg",
+        "https://static.zara.net/assets/public/af81/6867/04fa428eb5a8/85c1e91ffb63/05584470800-e2/05584470800-e2.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/combined-patch-t-shirt-p05584470.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:08:31.560Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "BASIC REGULAR FIT T-SHIRT",
+      "brand": "ZARA",
+      "sku": "416633354-403-2",
+      "mpn": "416633354-403-2",
+      "description": "Regular fit shirt made of stretchy cotton fabric. Round neck and short sleeves.",
+      "image": "https://static.zara.net/assets/public/bdfa/26f3/6b2948f3b075/2fd0d82d60af/05584441403-p/05584441403-p.jpg?ts=1720019538269&w=1920",
+      "color": "Sky blue",
+      "size": "S",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "39.9",
+        "url": "https://www.zara.com/us/en/basic-regular-fit-t-shirt-p05584441.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "BASIC REGULAR FIT T-SHIRT",
+      "price": "$ 39.90",
+      "color": "SKY BLUE | 5584/441/403",
+      "description": "Regular fit shirt made of stretchy cotton fabric. Round neck and short sleeves.",
+      "productCode": "5584/441/403",
+      "size": "S",
+      "selectedImageUrl": "https://static.zara.net/assets/public/a3ae/9268/a86d43059e64/e55c6867c34d/05584441403-e1/05584441403-e1.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/bdfa/26f3/6b2948f3b075/2fd0d82d60af/05584441403-p/05584441403-p.jpg",
+        "https://static.zara.net/assets/public/54f0/c291/5b7749d29ff8/17f2af85db51/05584441403-a1/05584441403-a1.jpg",
+        "https://static.zara.net/assets/public/efe3/2b71/3f6f4a92af5e/63f2e170fdda/05584441403-a2/05584441403-a2.jpg",
+        "https://static.zara.net/assets/public/3bd1/6d4d/fcf043c7a853/f1da55964a90/05584441403-a3/05584441403-a3.jpg",
+        "https://static.zara.net/assets/public/dc2e/a4f1/2c6d4b2d9ab7/5a780e4de82f/05584441403-a4/05584441403-a4.jpg",
+        "https://static.zara.net/assets/public/a3ae/9268/a86d43059e64/e55c6867c34d/05584441403-e1/05584441403-e1.jpg",
+        "https://static.zara.net/assets/public/7abf/2a18/327a42b4a87e/c72513b72387/05584441403-e2/05584441403-e2.jpg",
+        "https://static.zara.net/assets/public/f8e7/b030/64274e65bf2d/7d3a34e407c0/05584441403-e3/05584441403-e3.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/basic-regular-fit-t-shirt-p05584441.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:08:39.979Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "100% LINEN SHIRT",
+      "brand": "ZARA",
+      "sku": "421237294-914-2",
+      "mpn": "421237294-914-2",
+      "description": "Regular fit shirt made of linen fabric. Lapel collar and long sleeves with buttoned cuffs. Front button closure.",
+      "image": "https://static.zara.net/assets/public/1298/6fc0/61b74c279e3b/f7163e2470ca/03090010914-p/03090010914-p.jpg?ts=1740385979755&w=1920",
+      "color": "GREEN",
+      "size": "S",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "59.9",
+        "url": "https://www.zara.com/us/en/100-linen-shirt-p03090010.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "100% LINEN SHIRT",
+      "price": "$ 59.90",
+      "color": "GREEN | 3090/010/914",
+      "description": "Regular fit shirt made of linen fabric. Lapel collar and long sleeves with buttoned cuffs. Front button closure.",
+      "productCode": "3090/010/914",
+      "size": "S",
+      "selectedImageUrl": "https://static.zara.net/assets/public/4c3f/7c16/2d2642bea170/02845a6aa5fc/04041010914-e1/04041010914-e1.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/1298/6fc0/61b74c279e3b/f7163e2470ca/03090010914-p/03090010914-p.jpg",
+        "https://static.zara.net/assets/public/35f4/5930/6f9e4636866a/1d7b4b0aa2f8/03090010914-a1/03090010914-a1.jpg",
+        "https://static.zara.net/assets/public/567e/5847/417a4e41abf3/e138ebc1c8c0/03090010914-a2/03090010914-a2.jpg",
+        "https://static.zara.net/assets/public/766d/a100/affb45f5a7de/de085c5bb31d/03090010914-a3/03090010914-a3.jpg",
+        "https://static.zara.net/assets/public/b4c3/c008/b45b4e70bcc0/428aa9e348a5/03090010914-a4/03090010914-a4.jpg",
+        "https://static.zara.net/assets/public/4c3f/7c16/2d2642bea170/02845a6aa5fc/04041010914-e1/04041010914-e1.jpg",
+        "https://static.zara.net/assets/public/6357/5864/0e78417980fe/de9d484df5b3/04041010914-e2/04041010914-e2.jpg",
+        "https://static.zara.net/assets/public/0d11/83ce/f7fe40ffb098/b704f5d5aa45/04041010914-e3/04041010914-e3.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/100-linen-shirt-p03090010.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:08:47.019Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "FABRIC ESPADRILLE",
+      "brand": "ZARA",
+      "sku": "419919985-719-39",
+      "mpn": "419919985-719-39",
+      "description": "Knit fabric espadrilles. Back pull tab for ease. Jute covered soles.",
+      "image": "https://static.zara.net/assets/public/0547/288b/ee3d48839df3/c40797b819c8/12745521719-a2/12745521719-a2.jpg?ts=1743667982630&w=1920",
+      "color": "Ecru",
+      "size": "6",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "59.9",
+        "url": "https://www.zara.com/us/en/fabric-espadrille-p12745520.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "FABRIC ESPADRILLE",
+      "price": "$ 59.90",
+      "color": "ECRU | 2745/520/719",
+      "description": "Knit fabric espadrilles. Back pull tab for ease. Jute covered soles.",
+      "productCode": "2745/520/719",
+      "size": "6",
+      "selectedImageUrl": "https://static.zara.net/assets/public/12ac/a0e9/bb9142f99125/f3513767654c/12745521719-e2/12745521719-e2.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/0547/288b/ee3d48839df3/c40797b819c8/12745521719-a2/12745521719-a2.jpg",
+        "https://static.zara.net/assets/public/b9c1/e415/abdd4c9fb47a/84670e159d13/12745521719-a1/12745521719-a1.jpg",
+        "https://static.zara.net/assets/public/90d1/e772/ef1d4a16a431/8e465ef630a1/12745521719-e1/12745521719-e1.jpg",
+        "https://static.zara.net/assets/public/12ac/a0e9/bb9142f99125/f3513767654c/12745521719-e2/12745521719-e2.jpg",
+        "https://static.zara.net/assets/public/3a47/a8b4/c7574df3a3ea/19900b3afc28/12745521719-e3/12745521719-e3.jpg",
+        "https://static.zara.net/assets/public/79f7/1053/78e0454784be/3cc8fd2c0a0f/12745521719-e4/12745521719-e4.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/fabric-espadrille-p12745520.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:08:55.441Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "BAGGY FIT DENIM SHORTS",
+      "brand": "ZARA",
+      "sku": "420910391-406-36",
+      "mpn": "420910391-406-36",
+      "description": "Baggy fit denim shorts made of cotton denim. Five pockets. Washed effect. Front zip and button closure.",
+      "image": "https://static.zara.net/assets/public/b931/a677/1d5c424d9ba0/16050c6d8597/04806406406-p/04806406406-p.jpg?ts=1741692868969&w=1920",
+      "color": "Light blue",
+      "size": "29 (US 29)",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "49.9",
+        "url": "https://www.zara.com/us/en/baggy-fit-denim-shorts-p04806406.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "BAGGY FIT DENIM SHORTS",
+      "price": "$ 49.90",
+      "color": "LIGHT BLUE | 4806/406/406",
+      "description": "Baggy fit denim shorts made of cotton denim. Five pockets. Washed effect. Front zip and button closure.",
+      "productCode": "4806/406/406",
+      "size": "29 (US 29)",
+      "selectedImageUrl": "https://static.zara.net/assets/public/1e49/cb0b/b2114f7595cc/989f18d2ea2a/04806406406-e2/04806406406-e2.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/b931/a677/1d5c424d9ba0/16050c6d8597/04806406406-p/04806406406-p.jpg",
+        "https://static.zara.net/assets/public/e1cd/b58c/5a2041eda2bb/24508978fda0/04806406406-a1/04806406406-a1.jpg",
+        "https://static.zara.net/assets/public/d3a6/e904/0f824e4d8bf6/a844fe0429d6/04806406406-a2/04806406406-a2.jpg",
+        "https://static.zara.net/assets/public/1091/af01/70e04d7d8296/2b106900bae9/04806406406-a3/04806406406-a3.jpg",
+        "https://static.zara.net/assets/public/f0ac/6bb1/b7344adb98a1/eba8799949b8/04806406406-a4/04806406406-a4.jpg",
+        "https://static.zara.net/assets/public/b236/2859/2e364361b336/b76d84b1b12c/04806406406-a5/04806406406-a5.jpg",
+        "https://static.zara.net/assets/public/55bd/d184/dbac4d0fb934/9fbf491bc9f0/04806406406-e1/04806406406-e1.jpg",
+        "https://static.zara.net/assets/public/1e49/cb0b/b2114f7595cc/989f18d2ea2a/04806406406-e2/04806406406-e2.jpg",
+        "https://static.zara.net/assets/public/e5ab/2fc7/71714fe9a70b/411661cc7fba/04806406406-e3/04806406406-e3.jpg",
+        "https://static.zara.net/assets/public/5b10/687d/cd3b476e864f/7bbbef965e86/04806406406-e4/04806406406-e4.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/baggy-fit-denim-shorts-p04806406.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:09:03.944Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "SLIM FIT SUIT PANTS",
+      "brand": "ZARA",
+      "sku": "431952680-403-38",
+      "mpn": "431952680-403-38",
+      "description": "Slim fit pants made of viscose blend fabric. Front pockets and back double welt pockets with buttons. Front zip and button closure.",
+      "image": "https://static.zara.net/assets/public/7895/cba1/f93e48bc952c/7ae4fc73e270/04426254403-010-p/04426254403-010-p.jpg?ts=1743072503600&w=1920",
+      "color": "Sky blue",
+      "size": "30 (US 30)",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "49.9",
+        "url": "https://www.zara.com/us/en/slim-fit-suit-pants-p04426254.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "SLIM FIT SUIT PANTS",
+      "price": "$ 49.90",
+      "color": "SKY BLUE | 4426/254/403",
+      "description": "Slim fit pants made of viscose blend fabric. Front pockets and back double welt pockets with buttons. Front zip and button closure.",
+      "productCode": "4426/254/403",
+      "size": "30 (US 30)",
+      "selectedImageUrl": "https://static.zara.net/assets/public/3f46/5f93/bc8b4e3ea6dd/30f04ed99e77/04426254403-e2/04426254403-e2.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/7895/cba1/f93e48bc952c/7ae4fc73e270/04426254403-010-p/04426254403-010-p.jpg",
+        "https://static.zara.net/assets/public/c445/b4e2/5924417d845f/2b2b0baef10d/04426254403-010-a1/04426254403-010-a1.jpg",
+        "https://static.zara.net/assets/public/344b/70b2/665748e082ea/d997f7ec741a/04426254403-010-a2/04426254403-010-a2.jpg",
+        "https://static.zara.net/assets/public/136f/b4dc/14e34d60a0f4/dada23d92e70/04426254403-010-a3/04426254403-010-a3.jpg",
+        "https://static.zara.net/assets/public/43e0/a51f/b91d4e2286a9/b3ad3a08154a/04426254403-e1/04426254403-e1.jpg",
+        "https://static.zara.net/assets/public/3f46/5f93/bc8b4e3ea6dd/30f04ed99e77/04426254403-e2/04426254403-e2.jpg",
+        "https://static.zara.net/assets/public/6914/bd78/672440eb88dd/b390e8cd23c0/04426254403-e3/04426254403-e3.jpg",
+        "https://static.zara.net/assets/public/3825/0039/bede482ca7fa/4592dac88242/04426254403-e4/04426254403-e4.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/slim-fit-suit-pants-p04426254.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:09:12.450Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "BOXY FIT OVERSHIRT",
+      "brand": "ZARA",
+      "sku": "421920498-712-2",
+      "mpn": "421920498-712-2",
+      "description": "Boxy fit overshirt. Lapel collar and long sleeves with buttoned cuffs. Patch pockets at hip. Front button closure.",
+      "image": "https://static.zara.net/assets/public/f353/0e23/a8a14ad5998f/898a376e7363/07484553712-p/07484553712-p.jpg?ts=1737719024887&w=1920",
+      "color": "Ecru",
+      "size": "S",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "89.9",
+        "url": "https://www.zara.com/us/en/boxy-fit-overshirt-p07484553.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "BOXY FIT OVERSHIRT",
+      "price": "$ 89.90",
+      "color": "ECRU | 7484/553/712",
+      "description": "Boxy fit overshirt. Lapel collar and long sleeves with buttoned cuffs. Patch pockets at hip. Front button closure.",
+      "productCode": "7484/553/712",
+      "size": "S",
+      "selectedImageUrl": "https://static.zara.net/assets/public/3f35/4a52/922446978af9/51c84559c766/07484553712-e1/07484553712-e1.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/f353/0e23/a8a14ad5998f/898a376e7363/07484553712-p/07484553712-p.jpg",
+        "https://static.zara.net/assets/public/39e2/4032/e5e647c099ad/c699fb519408/07484553712-a1/07484553712-a1.jpg",
+        "https://static.zara.net/assets/public/8131/1e76/75f0467295ed/504c4f565879/07484553712-a2/07484553712-a2.jpg",
+        "https://static.zara.net/assets/public/e5f0/3f23/076241998ca1/ba81fad22999/07484553712-a3/07484553712-a3.jpg",
+        "https://static.zara.net/assets/public/3f35/4a52/922446978af9/51c84559c766/07484553712-e1/07484553712-e1.jpg",
+        "https://static.zara.net/assets/public/7b69/1cc7/b4384f03bf67/1ef3dd2c2ce1/07484553712-e2/07484553712-e2.jpg",
+        "https://static.zara.net/assets/public/10a7/99b0/537b49799d9b/7915c83a717b/07484553712-e3/07484553712-e3.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/boxy-fit-overshirt-p07484553.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:09:21.481Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "FLORAL PRINT SHIRT",
+      "brand": "ZARA",
+      "sku": "441759968-403-2",
+      "mpn": "441759968-403-2",
+      "description": "Relaxed fit shirt made of a flowy fabric with viscose, lyocell, and 17% linen. Spread collar and short sleeves. Front button closure.",
+      "image": "https://static.zara.net/assets/public/597a/6a3d/96ad4ffe9ee5/c71e695935d2/04622300403-p/04622300403-p.jpg?ts=1743521643731&w=1920",
+      "color": "Sky blue",
+      "size": "S",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "49.9",
+        "url": "https://www.zara.com/us/en/floral-print-shirt-p04622300.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "FLORAL PRINT SHIRT",
+      "price": "$ 49.90",
+      "color": "SKY BLUE | 4622/300/403",
+      "description": "Relaxed fit shirt made of a flowy fabric with viscose, lyocell, and 17% linen. Spread collar and short sleeves. Front button closure.",
+      "productCode": "4622/300/403",
+      "size": "S",
+      "selectedImageUrl": "https://static.zara.net/assets/public/2897/5c5b/fbb746bd9c9c/27f120a9fec1/04622300403-a4/04622300403-a4.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/597a/6a3d/96ad4ffe9ee5/c71e695935d2/04622300403-p/04622300403-p.jpg",
+        "https://static.zara.net/assets/public/de86/c3a4/7c2d4a3abffc/368b0722e5bf/04622300403-a1/04622300403-a1.jpg",
+        "https://static.zara.net/assets/public/2a70/411b/68f14a769628/85545d6ca244/04622300403-a2/04622300403-a2.jpg",
+        "https://static.zara.net/assets/public/5254/fe84/037a46ec8e8e/7c54e5281f45/04622300403-a3/04622300403-a3.jpg",
+        "https://static.zara.net/assets/public/2897/5c5b/fbb746bd9c9c/27f120a9fec1/04622300403-a4/04622300403-a4.jpg",
+        "https://static.zara.net/assets/public/02cd/8efd/9a3a4eb7bf33/5314949b3aaf/04622300403-e1/04622300403-e1.jpg",
+        "https://static.zara.net/assets/public/07fb/1eac/832641688e29/09a174e05b6b/04622300403-e2/04622300403-e2.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/floral-print-shirt-p04622300.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:09:27.901Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "FLOWY STRIPED SHIRT",
+      "brand": "ZARA",
+      "sku": "433015479-800-2",
+      "mpn": "433015479-800-2",
+      "description": "Relaxed fit shirt made of modal blend fabric. Spread collar and long sleeves with button cuffs. Front button closure.",
+      "image": "https://static.zara.net/assets/public/fe4a/2486/72d34f999b7a/c85f188e955f/01195424800-p/01195424800-p.jpg?ts=1744188345034&w=1920",
+      "color": "Black",
+      "size": "S",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "49.9",
+        "url": "https://www.zara.com/us/en/flowy-striped-shirt-p01195424.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "FLOWY STRIPED SHIRT",
+      "price": "$ 49.90",
+      "color": "BLACK | 1195/424/800",
+      "description": "Relaxed fit shirt made of modal blend fabric. Spread collar and long sleeves with button cuffs. Front button closure.",
+      "productCode": "1195/424/800",
+      "size": "S",
+      "selectedImageUrl": "https://static.zara.net/assets/public/de1e/8b0f/5e5146638bd7/c5e907cb7b19/01195424800-a5/01195424800-a5.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/fe4a/2486/72d34f999b7a/c85f188e955f/01195424800-p/01195424800-p.jpg",
+        "https://static.zara.net/assets/public/958c/5efe/6257474bba53/162a23e144f9/01195424800-a1/01195424800-a1.jpg",
+        "https://static.zara.net/assets/public/1474/6a63/63fc4ee0b728/9197f01b7333/01195424800-a2/01195424800-a2.jpg",
+        "https://static.zara.net/assets/public/9747/c8f2/c5b64b0d885b/20e6aed72dce/01195424800-a3/01195424800-a3.jpg",
+        "https://static.zara.net/assets/public/8568/d153/d2274c2088a2/50af5e568830/01195424800-a4/01195424800-a4.jpg",
+        "https://static.zara.net/assets/public/de1e/8b0f/5e5146638bd7/c5e907cb7b19/01195424800-a5/01195424800-a5.jpg",
+        "https://static.zara.net/assets/public/f280/6489/4f5b4d5db7b1/9e897338b1f9/01195424800-e1/01195424800-e1.jpg",
+        "https://static.zara.net/assets/public/61bd/aa82/b15a4426813d/d59b53e81780/01195424800-e2/01195424800-e2.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/flowy-striped-shirt-p01195424.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:09:36.200Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "SLIM FIT SUIT JACKET",
+      "brand": "ZARA",
+      "sku": "433286471-081-46",
+      "mpn": "433286471-081-46",
+      "description": "Slim fit jacket made of viscose blend fabric. Notched lapel collar. Long sleeves with buttoned cuffs. Welt pocket at chest and flap pockets at hip. Interior pocket. Back vents. Front button closure.",
+      "image": "https://static.zara.net/assets/public/30e5/1c37/30f04bf88249/9dc5391e4d7b/04425909081-p/04425909081-p.jpg?ts=1742555311343&w=1920",
+      "color": "Sand / Marl",
+      "size": "36 (US 36)",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "129",
+        "url": "https://www.zara.com/us/en/slim-fit-suit-jacket-p04425254.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "SLIM FIT SUIT JACKET",
+      "price": "$ 129.00",
+      "color": "SAND / MARL | 4425/254/081",
+      "description": "Slim fit jacket made of viscose blend fabric. Notched lapel collar. Long sleeves with buttoned cuffs. Welt pocket at chest and flap pockets at hip. Interior pocket. Back vents. Front button closure.",
+      "productCode": "4425/254/081",
+      "size": "36 (US 36)",
+      "selectedImageUrl": "https://static.zara.net/assets/public/46d8/e129/d9fc4963a646/5f3f367e53ce/04425254081-e1/04425254081-e1.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/30e5/1c37/30f04bf88249/9dc5391e4d7b/04425909081-p/04425909081-p.jpg",
+        "https://static.zara.net/assets/public/92fe/4120/99fa4a9fa05c/d06cc643bdb0/04425909081-a1/04425909081-a1.jpg",
+        "https://static.zara.net/assets/public/b23b/59c5/0094411180d9/db10f7e5d69b/04425909081-a2/04425909081-a2.jpg",
+        "https://static.zara.net/assets/public/0757/0989/c09144038f18/668c2dcd5bea/04425909081-a3/04425909081-a3.jpg",
+        "https://static.zara.net/assets/public/3229/3264/f6714568a3ad/6b72b335b4c3/04425909081-a4/04425909081-a4.jpg",
+        "https://static.zara.net/assets/public/f83b/9ad1/26784cf0a891/33185af29f41/04425909081-a5/04425909081-a5.jpg",
+        "https://static.zara.net/assets/public/46d8/e129/d9fc4963a646/5f3f367e53ce/04425254081-e1/04425254081-e1.jpg",
+        "https://static.zara.net/assets/public/7809/a755/48b04250b7ba/eca78ee5f9b1/04425254081-e2/04425254081-e2.jpg",
+        "https://static.zara.net/assets/public/dda6/88e2/db4e4452ae70/f09e32377950/04425909081-e3/04425909081-e3.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/slim-fit-suit-jacket-p04425254.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:09:44.562Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "STRAIGHT FIT JEANS",
+      "brand": "ZARA",
+      "sku": "420111094-809-36",
+      "mpn": "420111094-809-36",
+      "description": "Straight fit jeans, slightly looser than our regular straight fit. Five pockets. Washed effect. Front button closure.",
+      "image": "https://static.zara.net/assets/public/f4ed/ccdf/77a242008946/c2d029b16156/01538410809-p/01538410809-p.jpg?ts=1741338494142&w=1920",
+      "color": "Mid-gray",
+      "size": "29 (US 29)",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "49.9",
+        "url": "https://www.zara.com/us/en/straight-fit-jeans-p08062410.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "STRAIGHT FIT JEANS",
+      "price": "$ 49.90",
+      "color": "MID-GRAY | 8062/410/809",
+      "description": "Straight fit jeans, slightly looser than our regular straight fit. Five pockets. Washed effect. Front button closure.",
+      "productCode": "8062/410/809",
+      "size": "29 (US 29)",
+      "selectedImageUrl": "https://static.zara.net/assets/public/73ec/5d23/1ef942a1a8ca/df36413b2438/01538410809-e2/01538410809-e2.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/f4ed/ccdf/77a242008946/c2d029b16156/01538410809-p/01538410809-p.jpg",
+        "https://static.zara.net/assets/public/8d25/7557/6b1b49c3a841/5e0495e798a8/01538410809-a1/01538410809-a1.jpg",
+        "https://static.zara.net/assets/public/70bb/013d/dbf84d3aa6a7/f65db7708ec6/01538410809-a2/01538410809-a2.jpg",
+        "https://static.zara.net/assets/public/545c/bf7e/4d974cc08057/6f91f9e7eece/01538410809-a3/01538410809-a3.jpg",
+        "https://static.zara.net/assets/public/8736/3462/29ff4d98aebd/40bb19d67f29/01538410809-a4/01538410809-a4.jpg",
+        "https://static.zara.net/assets/public/2be1/6c05/c5aa492b875b/7ad83404c60c/01538410809-e1/01538410809-e1.jpg",
+        "https://static.zara.net/assets/public/73ec/5d23/1ef942a1a8ca/df36413b2438/01538410809-e2/01538410809-e2.jpg",
+        "https://static.zara.net/assets/public/ba83/bc46/52b44ad5b699/c373a3b09b42/01538410809-e3/01538410809-e3.jpg",
+        "https://static.zara.net/assets/public/d9a7/e3cf/501641bdace6/f54c7531dcb6/01538410809-e4/01538410809-e4.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/straight-fit-jeans-p08062410.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:09:52.892Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "COMFORT SUIT JACKET",
+      "brand": "ZARA",
+      "sku": "413803581-420-44",
+      "mpn": "413803581-420-44",
+      "description": "Slim fit blazer made of viscose fabric. Notched lapel collar. Long sleeves with buttoned cuffs. Welt pocket at chest and flap pockets at hip. Interior pocket detail. Back vents at hem. Front button closure.",
+      "image": "https://static.zara.net/assets/public/ba4f/8679/63884e42b971/0979f7a20983/01564300420-p/01564300420-p.jpg?ts=1738593162797&w=1920",
+      "color": "Bluish",
+      "size": "34 (US 34)",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "129",
+        "url": "https://www.zara.com/us/en/comfort-suit-jacket-p01564300.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "COMFORT SUIT JACKET",
+      "price": "$ 129.00",
+      "color": "BLUISH | 1564/300/420",
+      "description": "Slim fit blazer made of viscose fabric. Notched lapel collar. Long sleeves with buttoned cuffs. Welt pocket at chest and flap pockets at hip. Interior pocket detail. Back vents at hem. Front button closure.",
+      "productCode": "1564/300/420",
+      "size": "34 (US 34)",
+      "selectedImageUrl": "https://static.zara.net/assets/public/5eef/02db/ced74559a752/0493e0df1e9c/01564300420-e1/01564300420-e1.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/ba4f/8679/63884e42b971/0979f7a20983/01564300420-p/01564300420-p.jpg",
+        "https://static.zara.net/assets/public/d7f9/582c/94d047b5b152/165fcab36aec/01564300420-a1/01564300420-a1.jpg",
+        "https://static.zara.net/assets/public/cb65/e252/a567431bb20a/6991479db2af/01564300420-a2/01564300420-a2.jpg",
+        "https://static.zara.net/assets/public/ddb1/d3e6/734a43b7a103/ba8069953514/01564300420-a3/01564300420-a3.jpg",
+        "https://static.zara.net/assets/public/c176/bdf4/a22f420a8d48/11aa9bb7321c/01564300420-a4/01564300420-a4.jpg",
+        "https://static.zara.net/assets/public/ab2e/b5cd/d928408a97b0/68bcd8f41c76/01564300420-a5/01564300420-a5.jpg",
+        "https://static.zara.net/assets/public/5eef/02db/ced74559a752/0493e0df1e9c/01564300420-e1/01564300420-e1.jpg",
+        "https://static.zara.net/assets/public/60f1/93b9/46604f408bba/0e7d72fe5ca6/01564300420-e2/01564300420-e2.jpg",
+        "https://static.zara.net/assets/public/4d12/589a/452b4962b077/fb3dd7a2776c/01564300420-e3/01564300420-e3.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/comfort-suit-jacket-p01564300.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:10:02.322Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "SUIT JACKET IN 100% LINEN",
+      "brand": "ZARA",
+      "sku": "439878481-700-46",
+      "mpn": "439878481-700-46",
+      "description": "Relaxed fit blazer made of linen fabric. Notched lapel collar and long sleeves. Flap pockets at hips. Interior pocket detail. Back vent. Double-breasted button front closure.",
+      "image": "https://static.zara.net/assets/public/fb2b/b16a/3bcf42f58fc4/3675e63ab228/04509960700-10-p/04509960700-10-p.jpg?ts=1743602825480&w=1920",
+      "color": "Brown",
+      "size": "36 (US 36)",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "169",
+        "url": "https://www.zara.com/us/en/suit-jacket-in-100-linen-p04509960.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "SUIT JACKET IN 100% LINEN",
+      "price": "$ 169.00",
+      "color": "BROWN | 4509/960/700",
+      "description": "Relaxed fit blazer made of linen fabric. Notched lapel collar and long sleeves. Flap pockets at hips. Interior pocket detail. Back vent. Double-breasted button front closure.",
+      "productCode": "4509/960/700",
+      "size": "36 (US 36)",
+      "selectedImageUrl": "https://static.zara.net/assets/public/8bed/3a9f/02224045a941/ef0696774f9a/04509960700-10-a5/04509960700-10-a5.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/fb2b/b16a/3bcf42f58fc4/3675e63ab228/04509960700-10-p/04509960700-10-p.jpg",
+        "https://static.zara.net/assets/public/2616/bd03/f03446c9abf9/6bb440f6241b/04509960700-10-a1/04509960700-10-a1.jpg",
+        "https://static.zara.net/assets/public/654a/509a/b87f484fb18d/cbe22f0cd314/04509960700-10-a2/04509960700-10-a2.jpg",
+        "https://static.zara.net/assets/public/127f/2223/970b47d385d8/8bdc86dce32c/04509960700-10-a3/04509960700-10-a3.jpg",
+        "https://static.zara.net/assets/public/8f77/94f2/145f455f99ae/dab21a59a408/04509960700-10-a4/04509960700-10-a4.jpg",
+        "https://static.zara.net/assets/public/8bed/3a9f/02224045a941/ef0696774f9a/04509960700-10-a5/04509960700-10-a5.jpg",
+        "https://static.zara.net/assets/public/fc17/bb41/ada94cc8b3da/b7d79a19ee67/04509960700-e1/04509960700-e1.jpg",
+        "https://static.zara.net/assets/public/6c4d/d16c/4b4d4a8aa200/4a8f1446cebe/04509960700-e2/04509960700-e2.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/suit-jacket-in-100-linen-p04509960.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:10:10.853Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "PRINTED PATCH T-SHIRT",
+      "brand": "ZARA",
+      "sku": "423802593-251-2",
+      "mpn": "423802593-251-2",
+      "description": "Relaxed fit T-shirt. Round neck and short sleeves. Combined prints with patches on the front.",
+      "image": "https://static.zara.net/assets/public/0244/b34b/96cc488daec1/b7632fd29790/01930404251-p/01930404251-p.jpg?ts=1741691026017&w=1920",
+      "color": "Oyster-white",
+      "size": "S",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "39.9",
+        "url": "https://www.zara.com/us/en/printed-patch-t-shirt-p01930404.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "PRINTED PATCH T-SHIRT",
+      "price": "$ 39.90",
+      "color": "OYSTER-WHITE | 1930/404/251",
+      "description": "Relaxed fit T-shirt. Round neck and short sleeves. Combined prints with patches on the front.",
+      "productCode": "1930/404/251",
+      "size": "S",
+      "selectedImageUrl": "https://static.zara.net/assets/public/8f7f/0335/a88e457891a8/792915fd8683/01930404251-a4/01930404251-a4.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/0244/b34b/96cc488daec1/b7632fd29790/01930404251-p/01930404251-p.jpg",
+        "https://static.zara.net/assets/public/4619/e8c4/872a435c92dc/0e88baab70e4/01930404251-a1/01930404251-a1.jpg",
+        "https://static.zara.net/assets/public/04c2/f185/c342467aae22/a63efc4d8a84/01930404251-a2/01930404251-a2.jpg",
+        "https://static.zara.net/assets/public/18d8/dbd8/59a54496be01/31fdee83b418/01930404251-a3/01930404251-a3.jpg",
+        "https://static.zara.net/assets/public/8f7f/0335/a88e457891a8/792915fd8683/01930404251-a4/01930404251-a4.jpg",
+        "https://static.zara.net/assets/public/b3e6/ac8a/ee574db4be4a/2f7ddc42654d/01930404251-e1/01930404251-e1.jpg",
+        "https://static.zara.net/assets/public/1931/7160/7ab742faa177/7e943ff0507b/01930404251-e2/01930404251-e2.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/printed-patch-t-shirt-p01930404.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:10:20.309Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "TEXTURED STRIPED SHIRT",
+      "brand": "ZARA",
+      "sku": "420946867-802-2",
+      "mpn": "420946867-802-2",
+      "description": "Relaxed fit shirt. Spread collar and short sleeves. Side vents at hem. Front button closure.",
+      "image": "https://static.zara.net/assets/public/d843/fd10/6ba448c699ed/de0bf1d1e3fc/05639411802-p/05639411802-p.jpg?ts=1736869427013&w=1920",
+      "color": "Gray",
+      "size": "S",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "49.9",
+        "url": "https://www.zara.com/us/en/textured-striped-shirt-p05639411.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "TEXTURED STRIPED SHIRT",
+      "price": "$ 49.90",
+      "color": "GRAY | 5639/411/802",
+      "description": "Relaxed fit shirt. Spread collar and short sleeves. Side vents at hem. Front button closure.",
+      "productCode": "5639/411/802",
+      "size": "S",
+      "selectedImageUrl": "https://static.zara.net/assets/public/8d4c/22c0/4a724a56be7a/8d4c1bd77f05/05639411802-e1/05639411802-e1.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/d843/fd10/6ba448c699ed/de0bf1d1e3fc/05639411802-p/05639411802-p.jpg",
+        "https://static.zara.net/assets/public/cd25/c436/99784945826b/479bfdd880f3/05639411802-a1/05639411802-a1.jpg",
+        "https://static.zara.net/assets/public/543b/4837/ef2841638fd5/8124e6ab7692/05639411802-a2/05639411802-a2.jpg",
+        "https://static.zara.net/assets/public/6dc4/8e99/894e43b39dfb/05f595ac0530/05639411802-a3/05639411802-a3.jpg",
+        "https://static.zara.net/assets/public/fa08/f908/034f49848936/dad221670f49/05639411802-a4/05639411802-a4.jpg",
+        "https://static.zara.net/assets/public/8d4c/22c0/4a724a56be7a/8d4c1bd77f05/05639411802-e1/05639411802-e1.jpg",
+        "https://static.zara.net/assets/public/b35e/c864/314e4c448cb7/41e17b665bf1/05639411802-e2/05639411802-e2.jpg",
+        "https://static.zara.net/assets/public/6ac7/b360/39694ba8aaa1/db2e4daa37d5/05639411802-e3/05639411802-e3.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/textured-striped-shirt-p05639411.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:10:28.274Z"
+  },
+  {
+    "structuredData": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "INTERLOCK STRUCTURED SHORTS",
+      "brand": "ZARA",
+      "sku": "417932876-427-2",
+      "mpn": "417932876-427-2",
+      "description": "Relaxed fit shorts made of stretch cotton fabric. Adjustable elastic waistband with drawstring. Side pockets and back patch pocket.",
+      "image": "https://static.zara.net/assets/public/a7e5/2a2e/9c1d43e1bbd4/e7efe1998768/00761451427-p/00761451427-p.jpg?ts=1735554270326&w=1920",
+      "color": "Mid-blue",
+      "size": "S",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "45.9",
+        "url": "https://www.zara.com/us/en/interlock-structured-shorts-p00761451.html",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "extractedData": {
+      "productName": "INTERLOCK STRUCTURED SHORTS",
+      "price": "$ 45.90",
+      "color": "MID-BLUE | 0761/451/427",
+      "description": "Relaxed fit shorts made of stretch cotton fabric. Adjustable elastic waistband with drawstring. Side pockets and back patch pocket.",
+      "productCode": "0761/451/427",
+      "size": "S",
+      "selectedImageUrl": "https://static.zara.net/assets/public/2909/c636/40c04dcdad8c/992fe58d8a0a/00761451427-e2/00761451427-e2.jpg",
+      "allImages": [
+        "https://static.zara.net/assets/public/a7e5/2a2e/9c1d43e1bbd4/e7efe1998768/00761451427-p/00761451427-p.jpg",
+        "https://static.zara.net/assets/public/de5e/e6d7/dea440a3b2ce/a84562c0dfc9/00761451427-a1/00761451427-a1.jpg",
+        "https://static.zara.net/assets/public/4c76/83e1/32fe4e568401/46a06fd158c3/00761451427-a2/00761451427-a2.jpg",
+        "https://static.zara.net/assets/public/980b/d527/5b944bdd99d6/6f1923b0fcd6/00761451427-a3/00761451427-a3.jpg",
+        "https://static.zara.net/assets/public/700e/53df/91a54d1da053/c7372329f335/00761451427-a4/00761451427-a4.jpg",
+        "https://static.zara.net/assets/public/9c93/e215/ffbc4d378787/3945968e46ee/00761451427-e1/00761451427-e1.jpg",
+        "https://static.zara.net/assets/public/2909/c636/40c04dcdad8c/992fe58d8a0a/00761451427-e2/00761451427-e2.jpg",
+        "https://static.zara.net/assets/public/047e/6458/0888428e93e0/d0c023de33bf/00761451427-e3/00761451427-e3.jpg",
+        "https://static.zara.net/assets/public/4a7b/456c/2c5b4349857f/c9d37bb889f7/00761451427-e4/00761451427-e4.jpg"
+      ]
+    },
+    "url": "https://www.zara.com/us/en/interlock-structured-shorts-p00761451.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:10:37.149Z"
+  },
+  {
+    "url": "https://www.zara.com/us/en/viscose-blend-knit-polo-shirt-p00304407.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:10:45.882Z",
+    "error": "Attempted to use detached Frame '6E0BC289FFE24C1CECF676B208E3ACA2'."
+  },
+  {
+    "url": "https://www.zara.com/us/en/pleated-pants-with-belt-p04470410.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:10:49.378Z",
+    "error": "Attempted to use detached Frame '6E0BC289FFE24C1CECF676B208E3ACA2'."
+  },
+  {
+    "url": "https://www.zara.com/us/en/crochet-textured-shirt-p03772410.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:10:52.306Z",
+    "error": "Attempted to use detached Frame '6E0BC289FFE24C1CECF676B208E3ACA2'."
+  },
+  {
+    "url": "https://www.zara.com/us/en/textured-stretch-pants-p00706648.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:10:53.722Z",
+    "error": "Attempted to use detached Frame '6E0BC289FFE24C1CECF676B208E3ACA2'."
+  },
+  {
+    "url": "https://www.zara.com/us/en/relaxed-fit-sweatshirt-made-of-stretch-cotton-fabric--round-neck-and-short-sleeves--rib-trim--p00761450.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:10:56.579Z",
+    "error": "Attempted to use detached Frame '6E0BC289FFE24C1CECF676B208E3ACA2'."
+  },
+  {
+    "url": "https://www.zara.com/us/en/linen-double-breasted-blazer-p04668872.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:11:00.247Z",
+    "error": "Attempted to use detached Frame '6E0BC289FFE24C1CECF676B208E3ACA2'."
+  },
+  {
+    "url": "https://www.zara.com/us/en/slim-fit-jeans-p00774340.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:11:03.700Z",
+    "error": "Attempted to use detached Frame '6E0BC289FFE24C1CECF676B208E3ACA2'."
+  },
+  {
+    "url": "https://www.zara.com/us/en/skinny-chino-pants-p06786405.html",
+    "category": "men-best-sellers",
+    "scrapedAt": "2025-04-24T04:11:04.716Z",
+    "error": "Attempted to use detached Frame '6E0BC289FFE24C1CECF676B208E3ACA2'."
+  }
+]

@@ -141,8 +141,8 @@ function processZaraDataWithSizes(inputFile, outputFile) {
 function main() {
   const args = process.argv.slice(2);
   
-  let inputFile = 'all-products.json';
-  let outputFile = 'unique-products.json';
+  let inputFile = 'women-best-sellers-products.json';
+  let outputFile = 'unique-products-womens-bestsellers.json';
   let includeSizes = false;
   
   for (let i = 0; i < args.length; i++) {
