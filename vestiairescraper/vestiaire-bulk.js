@@ -1,5 +1,3 @@
-/*  vestiaire-scraper.js  */
-
 const puppeteer = require('puppeteer');
 const fs        = require('fs');
 const path      = require('path');
@@ -11,8 +9,7 @@ const randomDelay = async (min = 1e3, max = 3e3) => {
   await delay(t);
 };
 
-// ---------- util helpers ----------------------------------------------------
-/* All Vestiaire product URLs end with “…12345678.shtml[?...]” */
+
 const looksLikeListing = url => /\.shtml(\?|$)/.test(url);
 
 // ---------- scrolling -------------------------------------------------------
@@ -54,7 +51,6 @@ async function scrollUntilProductsFound(page, want, maxScrolls = 30) {
   return false;
 }
 
-// ---------- page-level product scraper --------------------------------------
 async function scrapeProductPage(page, url) {
   try {
     await page.goto(url, {waitUntil: 'networkidle2', timeout: 60e3});
@@ -88,7 +84,6 @@ async function scrapeProductPage(page, url) {
       }
     }
 
-    // Fallback HTML extraction (unchanged from your version) …
     if (!product.formattedData) {
       product.formattedData = await page.evaluate(() => {
         // … same code you already had …
@@ -102,7 +97,6 @@ async function scrapeProductPage(page, url) {
   }
 }
 
-// ---------- listings page scraper -------------------------------------------
 async function scrapeListingsPage(page, want = 0) {
   await delay(5e3);                  // wait for JS
   if (want) await scrollUntilProductsFound(page, want);
@@ -137,15 +131,6 @@ async function scrapeListingsPage(page, want = 0) {
   return listings;
 }
 
-// ---------- rest of your original pipeline ----------------------------------
-// * scrapeMultiplePages() updated to use looksLikeListing & .shtml filters
-// * getDetailedProductInfo() untouched except for the new helper
-
-/* … KEEP everything else from your original script but
-      REPLACE every   '/products/'  test with  looksLikeListing(url)
-      or the RegExp /\.shtml(\?|$)/                       … */
-
-
 
 const scrapeMultiplePages = async (page, startUrl, maxPages = 3, targetProductCount = 0) => {
   let allListings = [];
@@ -157,8 +142,8 @@ const scrapeMultiplePages = async (page, startUrl, maxPages = 3, targetProductCo
     
     try {
       await page.goto(currentUrl, {
-        waitUntil: 'networkidle0', // Wait until there are no network connections for at least 500ms
-        timeout: 90000 // Longer timeout (90 seconds)
+        waitUntil: 'networkidle0',
+        timeout: 90000 
       });
     } catch (error) {
       console.log(`Navigation timeout or error: ${error.message}`);
@@ -276,20 +261,16 @@ const getDetailedProductInfo = async (browser, listings) => {
   console.log(`\nGetting detailed information for all ${listings.length} products...`);
   
   const detailedProducts = [];
-  const chunkSize = 5; // Process in chunks to avoid memory issues
+  const chunkSize = 5; 
   
-  // Split the listings into chunks
   for (let i = 0; i < listings.length; i += chunkSize) {
     const chunk = listings.slice(i, i + chunkSize);
     console.log(`Processing chunk ${Math.floor(i/chunkSize) + 1}/${Math.ceil(listings.length/chunkSize)} (${chunk.length} products)`);
     
-    // Process each chunk in parallel
     const promises = chunk.map(async (listing, index) => {
       try {
-        // Create a new page for each product to avoid issues with previous page state
         const page = await browser.newPage();
         
-        // Set user agent and headers
         await page.setUserAgent('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15');
         await page.setExtraHTTPHeaders({
           'Accept-Language': 'en-US,en;q=0.9',
@@ -308,7 +289,6 @@ const getDetailedProductInfo = async (browser, listings) => {
           structuredData: productData.structuredData
         };
         
-        // Update basic info with more accurate data from the product page
         if (productData.formattedData) {
           if (productData.formattedData.productName && !listing.title) {
             detailedProduct.title = productData.formattedData.productName;
@@ -362,7 +342,7 @@ const getDetailedProductInfo = async (browser, listings) => {
   console.log('Output will be saved to', outputDir);
   
   const browser = await puppeteer.launch({
-    headless: true, // Keep false to see the browser and manually solve CAPTCHAs
+    headless: true, 
     args: [
       '--no-sandbox',
       '--disable-setuid-sandbox',
@@ -388,29 +368,25 @@ const getDetailedProductInfo = async (browser, listings) => {
     
     await randomDelay(2000, 5000);
     
-    const targetProductCount = 75;
+    const targetProductCount = 30;
     
-    const listingsPageUrl = 'https://us.vestiairecollective.com/women-shoes/#categoryParent=Shoes%233_gender=Women%231';
+    const listingsPageUrl = 'https://us.vestiairecollective.com/men-bags/#categoryParent=Bags%23141_gender=Men%232';
     
     console.log(`Starting with URL: ${listingsPageUrl}`);
     console.log(`Target product count: ${targetProductCount}`);
     
-    // Scrape listings from one or more pages
-    const maxPagesToScrape = 1; // Usually just need 1 page with continuous scrolling
+    const maxPagesToScrape = 1; 
     const listings = await scrapeMultiplePages(page, listingsPageUrl, maxPagesToScrape, targetProductCount);
     
     console.log(`Total products found: ${listings.length}`);
     
     if (listings.length > 0) {
-      // Get detailed information for ALL products
       const detailedProducts = await getDetailedProductInfo(browser, listings);
       
-      // Extract category from URL for the filename
       const categoryMatch = listingsPageUrl.match(/category\/([^\/]+)\/([^\/]+)/);
       const categoryString = categoryMatch ? `${categoryMatch[1]}-${categoryMatch[2]}` : 'category';
       
-      // Save the detailed products data
-      fs.writeFileSync(path.join(outputDir, `Vestiaire-womens-accessories.json`), JSON.stringify(detailedProducts, null, 2));
+      fs.writeFileSync(path.join(outputDir, `Vestiaire-mens-accessories.json`), JSON.stringify(detailedProducts, null, 2));
       console.log(`All ${detailedProducts.length} products with detailed info saved to output/Vestiaire-${categoryString}.json`);
     } else {
       console.log('No products found. Try a different category or URL.');
