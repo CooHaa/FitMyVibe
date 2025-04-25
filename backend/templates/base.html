@@ -72,7 +72,7 @@
                     </div>
                     -->
                     <h3>What are you inspired by?</h3>
-                    <div class="input-box" onclick="sendFocus()">
+                    <div class="input-box">
                         <img src="{{ url_for('static', filename='images/mag.png') }}" />
                         <input placeholder="A Place, Activity, Color . . ." id="inspirationDesc">
                     </div>
@@ -117,9 +117,9 @@
                 </div>`;
             }
 
-            function sendFocus() {
-                document.getElementById('inspirationDesc').focus()
-            }
+            //function sendFocus() {
+            //    document.getElementById('inspirationDesc').focus()
+            //}
 
             function filterText() {
                 document.getElementById("answer-box").innerHTML = "";
@@ -159,10 +159,10 @@
                     });
             }
 
-            function updateBudgetValue(value) {
-                document.getElementById('budget-value').innerText = `$${value}`;
-                filterText();
-            }
+            // function updateBudgetValue(value) {
+            //    document.getElementById('budget-value').innerText = `$${value}`;
+            //    filterText();
+            //}
 
         </script>
 </body>
