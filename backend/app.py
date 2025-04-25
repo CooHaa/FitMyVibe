@@ -190,6 +190,11 @@ def table_lookup(indices, gender, budget, article):
     - Cost is between budget - 24 and budget + 25
     - Article type is consistent
     """
+    if gender == "Men":
+        gender = "m"
+    elif gender == "Women":
+        gender = "w"
+    
     items_path = Path("COMBINED-FINAL.json")
     with items_path.open("r", encoding="utf-8") as f:
         items_data = json.load(f)
@@ -218,8 +223,7 @@ def table_lookup(indices, gender, budget, article):
             rec_cost >= budget_low and
             rec_cost <= budget_high and
             rec_article == article):
-            print("MATCHED ON")
-            print(rec)
+            print(f"FOUND:")
             img_link = rec.get("prodImgLink") or "static/images/clothing-icon.png"
             prod_link = rec.get("prodLink", "") or "https://www.mercari.com/jp/"
             ranked_results.append({
