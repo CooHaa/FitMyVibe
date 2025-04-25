@@ -24,20 +24,25 @@ os.environ['ROOT_PATH'] = os.path.abspath(os.path.join("..",os.curdir))
 # These are the DB credentials for your OWN MySQL
 # Don't worry about the deployment credentials, those are fixed
 # You can use a different DB name if you want to
-LOCAL_MYSQL_USER = "root"
-LOCAL_MYSQL_USER_PASSWORD = "Lukeshao2022" # Fill with personal password for MySQL
-# TODO: Delegate these values to env. vars
-LOCAL_MYSQL_PORT = 3306
-LOCAL_MYSQL_DATABASE = "FitMyVibe"
+# LOCAL_MYSQL_USER = "root"
+# LOCAL_MYSQL_USER_PASSWORD = "Lukeshao2022" # Fill with personal password for MySQL
+# # TODO: Delegate these values to env. vars
+# LOCAL_MYSQL_PORT = 3306
+# LOCAL_MYSQL_DATABASE = "FitMyVibe"
 
-mysql_engine = MySQLDatabaseHandler(LOCAL_MYSQL_USER,LOCAL_MYSQL_USER_PASSWORD,LOCAL_MYSQL_PORT,LOCAL_MYSQL_DATABASE)
+# mysql_engine = MySQLDatabaseHandler(LOCAL_MYSQL_USER,LOCAL_MYSQL_USER_PASSWORD,LOCAL_MYSQL_PORT,LOCAL_MYSQL_DATABASE)
 
 # Path to init.sql file. This file can be replaced with your own file for testing on localhost, but do NOT move the init.sql file
-mysql_engine.load_file_into_db('dump.sql')
+# mysql_engine.load_file_into_db('dump.sql')
 
 app = Flask(__name__)
 CORS(app)
 
+embs_reddit = np.load("social-component/reddit/reddit_embeddings.npy")
+print(f"Reddit embedding shape: {embs_reddit.shape}")
+
+embs_prods = np.load("social-component/reddit/prod_embeddings-2.npy")
+print(f"Product embedding shape: {embs_prods.shape}")
 
 @app.route("/")
 def home():
@@ -83,7 +88,7 @@ def vector_from_id(article_id):
     #             vals = [float(x) for x in row[1:]]
     #             return (np.array(vals, dtype=float))
     
-    embs_prods = np.load("social-component/reddit/prod_embeddings-2.npy")
+    # embs_prods = np.load("social-component/reddit/prod_embeddings-2.npy")
     return embs_prods[article_id]
 
     # raise ValueError(f"Article ID {article_id} not found in {csv_path}")
@@ -107,7 +112,7 @@ def order_articles(query_embeddings, article_vectors):
     k_corpus, k_prod = 10, 20
     alpha, beta = 1.0, 0.75
 
-    embs_reddit = np.load("social-component/reddit/reddit_embeddings.npy") 
+    # embs_reddit = np.load("social-component/reddit/reddit_embeddings.npy") 
     dim_reddit   = embs_reddit.shape[1]
     index_reddit = faiss.IndexFlatIP(dim_reddit)  
     index_reddit.add(embs_reddit.astype("float32"))
@@ -120,12 +125,12 @@ def order_articles(query_embeddings, article_vectors):
 
     # embs_prods = np.loadtxt("FINAL-EMBEDDINGS.csv")
     # embs_prods = np.loadtxt("FINAL-EMBEDDINGS.csv", delimiter=",", skiprows=1)
-    embs_prods = np.load("social-component/reddit/prod_embeddings-2.npy")
+    # embs_prods = np.load("social-component/reddit/prod_embeddings-2.npy")
     # embs_prods = embs_prods[:, 1:]
     # embs_prods = embs_prods[:500]
     dim_prods   = embs_prods.shape[1]
 
-    print(dim_prods)
+    # print(dim_prods)
 
     index_prods = faiss.IndexFlatIP(dim_prods)  
     index_prods.add(embs_prods.astype("float32"))
@@ -134,7 +139,7 @@ def order_articles(query_embeddings, article_vectors):
     expanded_q /= np.linalg.norm(expanded_q, axis=1, keepdims=True)
 
     sim_p, idxs_p = index_prods.search(expanded_q.astype("float32"), k_prod)
-    print(idxs_p)
+    # print(idxs_p)
     return idxs_p[0]
 
     # after table
@@ -219,7 +224,7 @@ def episodes_search():
     # style = request.args.get("style")
     # brand = request.args.get("brand")
 
-    print("QUERY" + query)
+    # print("QUERY: " + query)
     query_embeddings = vectorize_query(query)
 
     article_vectors = []
@@ -233,6 +238,6 @@ def episodes_search():
 
     return json.dumps(ranked_results, default=str)
 
-if 'DB_NAME' not in os.environ:
-    app.run(debug=True,host="0.0.0.0",port=5000)
+# if 'DB_NAME' not in os.environ:
+#     app.run(debug=True,host="0.0.0.0",port=5000)
 
