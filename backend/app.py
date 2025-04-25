@@ -58,16 +58,14 @@ def vectorize_query(query):
              "fashion-bert-output-v4/chunk_3.safetensors",
              "fashion-bert-output-v4/chunk_4.safetensors",
              "fashion-bert-output-v4/chunk_5.safetensors"]
-    merged_file = "model.safetensors"
+    merged_file = "fashion-bert-output-v4/model.safetensors"
 
     def merge_files(files):
         for file in files:
             load_files_dict = load_file(file)
-        merge_state_dict.update(load_files_dict)
+            merge_state_dict.update(load_files_dict)
     
-    merge_state_dict = merge_files(files)
-
-    assert len(merge_state_dict) == 100
+    merge_files(files)
 
     save_file(merge_state_dict, merged_file)
     del merge_state_dict
