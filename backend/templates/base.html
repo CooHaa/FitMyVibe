@@ -30,7 +30,7 @@
                         </select>
                     </div>
                     <h3>What item are you looking for?</h3>
-                    <div class="input-box" onclick="sendFocus()">
+                    <div class="input-box">
                         <img src="{{ url_for('static', filename='images/mag.png') }}" />
                         <!-- <input placeholder="Sweaters, Pants, Shoes . . ." id="articleType"> --> 
                         <select id="articleType" class="dropdown">
@@ -118,7 +118,7 @@
             }
 
             function sendFocus() {
-                document.getElementById('filter-text-val').focus()
+                document.getElementById('inspirationDesc').focus()
             }
 
             function filterText() {
