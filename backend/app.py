@@ -48,15 +48,20 @@ def vectorize_query(query):
     Vectorizes the ad-hoc query using pre-trained BERT embeddings.
     """
     # model = BertModel.from_pretrained('bert-base-uncased', output_hidden_states = True)
-    model = SentenceTransformer('fashion-bert-output-v2')
     # model.eval()
     # tokenizer = BertTokenizerFast.from_pretrained('bert-base-uncased')
-    encoded_query = model.encode(query) #tokenizer(query, return_tensors='pt', padding=True, truncation=True)
+    
+    model = SentenceTransformer('fashion-bert-output-v2')
+    encoded_query = model.encode([query], convert_to_numpy=True) #tokenizer(query, return_tensors='pt', padding=True, truncation=True)
+    encoded_query = encoded_query / np.linalg.norm(encoded_query, axis=1, keepdims=True)
 
     # with torch.no_grad():
     #     outputs = model(**encoded_query)
         
-    # query_embeddings = outputs.last_hidden_state[:, 0, :]
+    # query_embeddings = outputs.last_hidden_state[:, 0, :] should be an npdarray
+    # encoded_query = encoded_query.reshape(1, -1)
+    encoded_query = encoded_query.astype("float32")
+    print(f"Query embedding shape: {encoded_query.shape}")
     return encoded_query # query_embeddings
 
 def vector_from_id(article_id):
@@ -67,18 +72,21 @@ def vector_from_id(article_id):
     Format of the return value is a tuple, where the first value is the product ID
     and the second is the embedding represented as a list of decimals.
     """
-    csv_path = 'FINAL-EMBEDDINGS.csv' # Replace with path to file (conditioned on gender and price)
-    with open(csv_path, newline="", encoding="utf-8") as f:
-        reader = csv.reader(f)
-        header = next(reader)
-        for row in reader:
-            # row[0] is the id column
-            if row[0] == str(article_id):
-                # parse the remaining 768 dimensions into floats
-                vals = [float(x) for x in row[1:]]
-                return (article_id, np.array(vals, dtype=float))
+    # csv_path = 'FINAL-EMBEDDINGS.csv' # Replace with path to file (conditioned on gender and price)
+    # with open(csv_path, newline="", encoding="utf-8") as f:
+    #     reader = csv.reader(f)
+    #     header = next(reader)
+    #     for row in reader:
+    #         # row[0] is the id column
+    #         if row[0] == str(article_id):
+    #             # parse the remaining 3xx dimensions into floats
+    #             vals = [float(x) for x in row[1:]]
+    #             return (np.array(vals, dtype=float))
+    
+    embs_prods = np.load("social-component/reddit/prod_embeddings-2.npy")
+    return embs_prods[article_id]
 
-    raise ValueError(f"Article ID {article_id} not found in {csv_path}")
+    # raise ValueError(f"Article ID {article_id} not found in {csv_path}")
 
     # query_sql = f"SELECT vecPos, vecVal FROM prodvec WHERE prodID = {article_id}"
     # data = mysql_engine.query_selector(text(query_sql))
@@ -99,18 +107,35 @@ def order_articles(query_embeddings, article_vectors):
     k_corpus, k_prod = 10, 20
     alpha, beta = 1.0, 0.75
 
-    embs = np.load("social-component/reddit/utterance_embeddings.npy")
-    dim   = embs.shape[1]
-    index = faiss.IndexFlatIP(dim)  
-    index.add(embs.astype("float32"))
+    embs_reddit = np.load("social-component/reddit/reddit_embeddings.npy") 
+    dim_reddit   = embs_reddit.shape[1]
+    index_reddit = faiss.IndexFlatIP(dim_reddit)  
+    index_reddit.add(embs_reddit.astype("float32"))
+    query_embeddings = query_embeddings.astype("float32")
 
-    print(index.search(query_embeddings, k_corpus))
+    # print("REDDIT EMBEDDING SHAPE: " + query_embeddings.shape)
 
-    _, idxs_u = index.search(query_embeddings, k_corpus)
-    top_u_embs = embs[idxs_u[0]]  # shape (k_corpus, dim)
+    _, idxs_u = index_reddit.search(query_embeddings, k_corpus)
+    top_u_embs = embs_reddit[idxs_u[0]]  # shape (k_corpus, dim)
+
+    # embs_prods = np.loadtxt("FINAL-EMBEDDINGS.csv")
+    # embs_prods = np.loadtxt("FINAL-EMBEDDINGS.csv", delimiter=",", skiprows=1)
+    embs_prods = np.load("social-component/reddit/prod_embeddings-2.npy")
+    # embs_prods = embs_prods[:, 1:]
+    # embs_prods = embs_prods[:500]
+    dim_prods   = embs_prods.shape[1]
+
+    print(dim_prods)
+
+    index_prods = faiss.IndexFlatIP(dim_prods)  
+    index_prods.add(embs_prods.astype("float32"))
 
     expanded_q = alpha * query_embeddings + beta * top_u_embs.mean(axis=0, keepdims=True)
     expanded_q /= np.linalg.norm(expanded_q, axis=1, keepdims=True)
+
+    sim_p, idxs_p = index_prods.search(expanded_q.astype("float32"), k_prod)
+    print(idxs_p)
+    return idxs_p[0]
 
     # after table
     sim_scores = []
@@ -194,22 +219,20 @@ def episodes_search():
     # style = request.args.get("style")
     # brand = request.args.get("brand")
 
-    # print(f"Query: {query}, Gender: {gender}, Budget: {budget}, Item: {item}, Style: {style}, Brand: {brand}")
-
-    print(query)
+    print("QUERY" + query)
     query_embeddings = vectorize_query(query)
+
     article_vectors = []
-    for id in range(1, 166):
+    for id in range(1, 500):
         article_vectors.append(vector_from_id(id))
+
     ranked_idx = order_articles(query_embeddings, article_vectors)[:20]
-    print(ranked_idx)
+    print("RANKED INDICES" + str(ranked_idx))
     ranked_results = table_lookup(ranked_idx)
-    print(ranked_results[:5])
+    print("DONE RANKING")
 
     return json.dumps(ranked_results, default=str)
-    
 
 if 'DB_NAME' not in os.environ:
     app.run(debug=True,host="0.0.0.0",port=5000)
-
 
