@@ -122,7 +122,7 @@ def vector_from_id(article_id):
     #         vector[idx - 1] = val
     # return (article_id, vector)
 
-def order_articles(query_embeddings, article_vectors):
+def order_articles(query_embeddings):
     """
     Orders the articles in the database based on a cosine similarity metric.
     Takes the embedding of the query and the vectors of the searched articles as
@@ -187,7 +187,7 @@ def table_lookup(indices):
     its regular price, and a link to the image.
     """
     
-    items_path = Path("COMBINED-FINAL.json")
+    items_path = Path("COMBINED-FINAL-DEDUPED.json")
     with items_path.open("r", encoding="utf-8") as f:
         items_data = json.load(f)
 
@@ -239,20 +239,25 @@ def table_lookup(indices):
 def episodes_search():
     query = request.args.get("inspirationDesc")
     gender = request.args.get("gender", default=None)
-    if gender == "Men":
+    if gender == "men":
         gender = "m"
-    elif gender == "Women":
+    elif gender == "women":
         gender = "f"
     else:
         gender = None
 
     budget = float(request.args.get("budget", default=None))
     article = request.args.get("article", default=None)
-    print(article)
-    # style = request.args.get("style")
-    # brand = request.args.get("brand")
-
-    # print("QUERY: " + query)
+    if article == "T":
+        article = "Tops"
+    elif article == "B":
+        article = "Bottoms"
+    elif article == "S":
+        article = "Shoes"
+    elif article == "A":
+        article = "Accessories"
+    else:
+        article = None
     query_embeddings = vectorize_query(query)
 
     items_path = Path("COMBINED-FINAL.json")
@@ -262,21 +267,23 @@ def episodes_search():
     items_by_id = {item["ID"]: item for item in items_data}
 
     article_vectors = []
-    for id in range(1, 1000):
+    filter_ids = []
+    for id in range(0, 1332):
         rec = items_by_id.get(id)
         if rec == None:
-            print(f"Continued on id {id}")
             continue
 
-        gender_filter = True if gender == None else rec['gender'] == gender
+        gender_filter = True if gender == "" or gender == None else rec['gender'] == gender
         budget_low = budget - 24
         budget_high = budget + 25
-        budget_filter = True if budget == None else float(rec['price']) >= budget_low and float(rec['price']) <= budget_high
-        article_filter = True if article == "" else rec['category'] == article
+
+        budget_filter = True if budget == "" or budget == None or rec['price'] == "" else float(rec['price']) >= budget_low and float(rec['price']) <= budget_high
+        article_filter = True if article == "" or article == None else rec['category'] == article
 
         print(f"Filters for article {id}: G={gender_filter}, B={budget_filter}, A={article_filter}")
 
         if (gender_filter and budget_filter and article_filter):
+            filter_ids.append(id)
             print(f"ADDED IDX {id} TO CANDIDATES")
             article_vectors.append(vector_from_id(id))
 
@@ -284,13 +291,76 @@ def episodes_search():
 
     # Articles that pass the filter are stored in article_vectors
     # Make order articles use the article vectors as the set of articles to query
-    ranked_idx = order_articles(query_embeddings, article_vectors)[:200]
+    ranked_idx = order_articles(query_embeddings)
+
+    final_idx = []
+    for idx in ranked_idx:
+        if idx in filter_ids:
+            final_idx.append(idx)
+
     print("RANKED INDICES" + str(ranked_idx))
-    ranked_results = table_lookup(ranked_idx)
+
+    ranked_results = table_lookup(final_idx)
+
     print("DONE RANKING")
     print(ranked_results)
 
     return json.dumps(ranked_results, default=str)
+# def episodes_search():
+#     query = request.args.get("inspirationDesc")
+#     gender = request.args.get("gender", default=None)
+#     if gender == "Men":
+#         gender = "m"
+#     elif gender == "Women":
+#         gender = "f"
+#     else:
+#         gender = None
+
+#     budget = float(request.args.get("budget", default=None))
+#     article = request.args.get("article", default=None)
+#     print(article)
+#     # style = request.args.get("style")
+#     # brand = request.args.get("brand")
+
+#     # print("QUERY: " + query)
+#     query_embeddings = vectorize_query(query)
+
+#     items_path = Path("COMBINED-FINAL-DEDUPED.json")
+#     with items_path.open("r", encoding="utf-8") as f:
+#         items_data = json.load(f)
+
+#     items_by_id = {item["ID"]: item for item in items_data}
+
+#     article_vectors = []
+#     for id in range(1, 1000):
+#         rec = items_by_id.get(id)
+#         if rec == None:
+#             print(f"Continued on id {id}")
+#             continue
+
+#         gender_filter = True if gender == None else rec['gender'] == gender
+#         budget_low = budget - 24
+#         budget_high = budget + 25
+#         budget_filter = True if budget == None else float(rec['price']) >= budget_low and float(rec['price']) <= budget_high
+#         article_filter = True if article == "" else rec['category'] == article
+
+#         print(f"Filters for article {id}: G={gender_filter}, B={budget_filter}, A={article_filter}")
+
+#         if (gender_filter and budget_filter and article_filter):
+#             print(f"ADDED IDX {id} TO CANDIDATES")
+#             article_vectors.append(vector_from_id(id))
+
+#     print(f"ARTICLE VECTORS: {article_vectors}")
+
+#     # Articles that pass the filter are stored in article_vectors
+#     # Make order articles use the article vectors as the set of articles to query
+#     ranked_idx = order_articles(query_embeddings, article_vectors)[:200]
+#     print("RANKED INDICES" + str(ranked_idx))
+#     ranked_results = table_lookup(ranked_idx)
+#     print("DONE RANKING")
+#     print(ranked_results)
+
+#     return json.dumps(ranked_results, default=str)
 
 # if 'DB_NAME' not in os.environ:
 #     app.run(debug=True,host="0.0.0.0",port=5000)
