@@ -19,7 +19,7 @@
 
                 <!-- BORING QUESTIONS -->
                 <div class="question-group">
-                    <h2>The boring stuff</h2>
+                    <h2>The Basics</h2>
                     <h3>Who are you shopping for?</h3>
                     <div class="input-box">
                         <img src="{{ url_for('static', filename='images/mag.png') }}" />
@@ -32,7 +32,14 @@
                     <h3>What item are you looking for?</h3>
                     <div class="input-box" onclick="sendFocus()">
                         <img src="{{ url_for('static', filename='images/mag.png') }}" />
-                        <input placeholder="Sweaters, Pants, Shoes . . ." id="articleType">
+                        <!-- <input placeholder="Sweaters, Pants, Shoes . . ." id="articleType"> --> 
+                        <select id="articleType" class="dropdown">
+                            <option value="" disabled selected>Select a clothing category</option>
+                            <option value="T">Tops</option>
+                            <option value="B">Bottoms</option>
+                            <option value="S">Shoes</option>
+                            <option value="A">Accessories</option>
+                        </select>
                     </div>
                     <h3>What is your budget?</h3>
                     <div class="input-box">
@@ -50,8 +57,8 @@
 
                 <!-- FUN QUESTIONS -->
                 <div class="question-group">
-                    <h2>The fun stuff</h2>
-                    <h3>What style are you searching for?</h3>
+                    <h2>Get Creative</h2>
+                    <!-- <h3>What style are you searching for?</h3>
                     <div class="input-box" onclick="sendFocus()">
                         <img src="{{ url_for('static', filename='images/mag.png') }}" />
                         <select id="style" class="dropdown">
@@ -63,16 +70,18 @@
                             <option value="Sportswear">Sportswear</option>
                         </select>
                     </div>
+                    -->
                     <h3>What are you inspired by?</h3>
                     <div class="input-box" onclick="sendFocus()">
                         <img src="{{ url_for('static', filename='images/mag.png') }}" />
                         <input placeholder="A Place, Activity, Color . . ." id="inspirationDesc">
                     </div>
-                    <h3>What is a brand you love?</h3>
+                    <!--  <h3>What is a brand you love?</h3>
                     <div class="input-box" onclick="sendFocus()">
                         <img src="{{ url_for('static', filename='images/mag.png') }}" />
                         <input placeholder="Nike, Carhartt, Comme Des Garcons . . ." id="brandDesc">
                     </div>
+                    -->
                 </div>
 
                 <!-- SUBMIT BUTTON -->
@@ -93,7 +102,7 @@
                     .join(' ');
             }
 
-            function answerBoxTemplate(title, titleDesc, prodImgLink, prodLink) {
+            function answerBoxTemplate(title, titleDesc, prodImgLink, prodLink, prodDesc) {
                 const capitalizedTitle = capitalizeTitle(title);
                 return `
                 <div class="product-card">
@@ -102,6 +111,7 @@
                         <div class="product-info">
                             <h3 class="clothing-title">${capitalizedTitle}</h3>
                             <p class="clothing-desc">Price: $${titleDesc}</p>
+                            <p class="clothing-desc">${prodDesc}</p>
                         </div>
                     </a>
                 </div>`;
@@ -117,8 +127,8 @@
                 const budget = document.getElementById("budget-dropdown").value;
                 const article = document.getElementById("articleType").value;
 
-                const style = document.getElementById("style").value;
-                const brand = document.getElementById("brandDesc").value;
+                // const style = document.getElementById("style").value;
+                //const brand = document.getElementById("brandDesc").value;
                 const description = document.getElementById("inspirationDesc").value;
 
                 if (!description) {
@@ -131,18 +141,18 @@
                     gender: gender,
                     budget: budget,
                     article: article,
-                    style: style,
-                    brand: brandDesc,
+                    // style: style,
+                    // brand: brandDesc,
                     inspirationDesc: description,
                 }).toString())
                     .then((response) => response.json())
                     .then((data) => {
-                        const seenItems = new Set(); // Do not display duplicate items (based on prodImgLink)
+                        const seenItems = new Set(); // Do not display duplicate items (based on prodName)
                         data.slice(0, 8).forEach(row => { // Limit to 10 items
                             if (!seenItems.has(row.prodName)) {
                                 seenItems.add(row.prodName); 
                                 let tempDiv = document.createElement("div");
-                                tempDiv.innerHTML = answerBoxTemplate(row.prodName, row.prodPrice, row.prodImgLink, row.prodLink);
+                                tempDiv.innerHTML = answerBoxTemplate(row.prodName, row.prodPrice, row.prodImgLink, row.prodLink, row.prodDesc);
                                 document.getElementById("answer-box").appendChild(tempDiv);
                             }
                         });

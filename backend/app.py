@@ -9,10 +9,13 @@ import torch
 import torch.nn as nn
 import transformers
 from transformers import BertTokenizerFast, BertModel
-# from sentence_transformers import SentenceTransformer
+from sentence_transformers import SentenceTransformer
 import csv
 import json
 from pathlib import Path
+from convokit import Corpus
+import faiss
+import re
 
 # ROOT_PATH for linking with all your files. 
 # Feel free to use a config.py or settings.py with a global export variable
@@ -44,16 +47,17 @@ def vectorize_query(query):
     """
     Vectorizes the ad-hoc query using pre-trained BERT embeddings.
     """
-    model = BertModel.from_pretrained('bert-base-uncased', output_hidden_states = True)
-    model.eval()
-    tokenizer = BertTokenizerFast.from_pretrained('bert-base-uncased')
-    encoded_query = tokenizer(query, return_tensors='pt', padding=True, truncation=True)
+    # model = BertModel.from_pretrained('bert-base-uncased', output_hidden_states = True)
+    model = SentenceTransformer('fashion-bert-output-v2')
+    # model.eval()
+    # tokenizer = BertTokenizerFast.from_pretrained('bert-base-uncased')
+    encoded_query = model.encode(query) #tokenizer(query, return_tensors='pt', padding=True, truncation=True)
 
-    with torch.no_grad():
-        outputs = model(**encoded_query)
+    # with torch.no_grad():
+    #     outputs = model(**encoded_query)
         
-    query_embeddings = outputs.last_hidden_state[:, 0, :]
-    return query_embeddings
+    # query_embeddings = outputs.last_hidden_state[:, 0, :]
+    return encoded_query # query_embeddings
 
 def vector_from_id(article_id):
     """
@@ -63,7 +67,7 @@ def vector_from_id(article_id):
     Format of the return value is a tuple, where the first value is the product ID
     and the second is the embedding represented as a list of decimals.
     """
-    csv_path = 'mercari-embeddings.csv'
+    csv_path = 'FINAL-EMBEDDINGS.csv' # Replace with path to file (conditioned on gender and price)
     with open(csv_path, newline="", encoding="utf-8") as f:
         reader = csv.reader(f)
         header = next(reader)
@@ -92,13 +96,28 @@ def order_articles(query_embeddings, article_vectors):
     Takes the embedding of the query and the vectors of the searched articles as
     input, and returns a ranked list of article IDs based on similarity scores.
     """
-    # after table lookups
+    k_corpus, k_prod = 10, 20
+    alpha, beta = 1.0, 0.75
 
+    embs = np.load("social-component/reddit/utterance_embeddings.npy")
+    dim   = embs.shape[1]
+    index = faiss.IndexFlatIP(dim)  
+    index.add(embs.astype("float32"))
+
+    print(index.search(query_embeddings, k_corpus))
+
+    _, idxs_u = index.search(query_embeddings, k_corpus)
+    top_u_embs = embs[idxs_u[0]]  # shape (k_corpus, dim)
+
+    expanded_q = alpha * query_embeddings + beta * top_u_embs.mean(axis=0, keepdims=True)
+    expanded_q /= np.linalg.norm(expanded_q, axis=1, keepdims=True)
+
+    # after table
     sim_scores = []
     article_ids = []
     for article_id, article_vector in article_vectors:
         tensor = torch.Tensor(article_vector)
-        sim = torch.cosine_similarity(query_embeddings, tensor)
+        sim = torch.cosine_similarity(expanded_q, tensor)
         print(f"article id: {article_id} (sim score = {sim})")
         sim_scores.append(sim)
         article_ids.append(article_id)
@@ -118,11 +137,20 @@ def table_lookup(indices):
     In its current form, this lookup returns information about the product name,
     its regular price, and a link to the image.
     """
-    items_path = Path("reformatted-mercari-final.json")
+    items_path = Path("COMBINED-FINAL.json")
     with items_path.open("r", encoding="utf-8") as f:
         items_data = json.load(f)
 
     items_by_id = {item["ID"]: item for item in items_data}
+
+    def truncate_description(description, word_limit=20):
+        """Truncates description to specified word limit and adds '...' if truncated"""
+        if not description:
+            return ""
+        words = description.split()
+        if len(words) <= word_limit:
+            return description
+        return " ".join(words[:word_limit]) + "..."
 
     ranked_results = []
     for idx in indices:
@@ -134,7 +162,8 @@ def table_lookup(indices):
                 "prodName": rec.get("name"),
                 "prodPrice": rec.get("price"),
                 "prodImgLink": img_link,
-                "prodLink": prod_link
+                "prodLink": prod_link,
+                "prodDesc": truncate_description(rec.get("description"))
             })
     return ranked_results
 
@@ -162,8 +191,8 @@ def episodes_search():
     gender = request.args.get("gender")
     budget = request.args.get("budget")
     article = request.args.get("article")
-    style = request.args.get("style")
-    brand = request.args.get("brand")
+    # style = request.args.get("style")
+    # brand = request.args.get("brand")
 
     # print(f"Query: {query}, Gender: {gender}, Budget: {budget}, Item: {item}, Style: {style}, Brand: {brand}")
 
