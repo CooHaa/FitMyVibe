@@ -187,7 +187,7 @@ def table_lookup(indices):
     its regular price, and a link to the image.
     """
     
-    items_path = Path("COMBINED-FINAL.json")
+    items_path = Path("COMBINED-FINAL-DEDUPED.json")
     with items_path.open("r", encoding="utf-8") as f:
         items_data = json.load(f)
 
@@ -255,7 +255,7 @@ def episodes_search():
     # print("QUERY: " + query)
     query_embeddings = vectorize_query(query)
 
-    items_path = Path("COMBINED-FINAL.json")
+    items_path = Path("COMBINED-FINAL-DEDUPED.json")
     with items_path.open("r", encoding="utf-8") as f:
         items_data = json.load(f)
 
