@@ -260,7 +260,7 @@ def episodes_search():
         article = None
     query_embeddings = vectorize_query(query)
 
-    items_path = Path("COMBINED-FINAL.json")
+    items_path = Path("COMBINED-FINAL-DEDUPED.json")
     with items_path.open("r", encoding="utf-8") as f:
         items_data = json.load(f)
 
