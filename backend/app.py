@@ -16,6 +16,7 @@ from pathlib import Path
 # from convokit import Corpus
 import faiss
 import re
+from safetensors.torch import load_file, save_file
 
 # ROOT_PATH for linking with all your files. 
 # Feel free to use a config.py or settings.py with a global export variable
@@ -52,11 +53,29 @@ def vectorize_query(query):
     """
     Vectorizes the ad-hoc query using pre-trained BERT embeddings.
     """
-    # model = BertModel.from_pretrained('bert-base-uncased', output_hidden_states = True)
-    # model.eval()
-    # tokenizer = BertTokenizerFast.from_pretrained('bert-base-uncased')
+
+    merge_state_dict = {}
+    files = ["fashion-bert-output-v4/chunk_1_1.safetensors",
+             "fashion-bert-output-v4/chunk_1_2.safetensors",
+             "fashion-bert-output-v4/chunk_1_3.safetensors",
+             "fashion-bert-output-v4/chunk_1_4.safetensors",
+             "fashion-bert-output-v4/chunk_2.safetensors",
+             "fashion-bert-output-v4/chunk_3.safetensors",
+             "fashion-bert-output-v4/chunk_4.safetensors",
+             "fashion-bert-output-v4/chunk_5.safetensors"]
+    merged_file = "fashion-bert-output-v4/model.safetensors"
+
+    def merge_files(files):
+        for file in files:
+            load_files_dict = load_file(file)
+            merge_state_dict.update(load_files_dict)
     
-    model = SentenceTransformer('fashion-bert-output-v2')
+    merge_files(files)
+
+    save_file(merge_state_dict, merged_file)
+    del merge_state_dict
+
+    model = SentenceTransformer('fashion-bert-output-v4')
     encoded_query = model.encode([query], convert_to_numpy=True) #tokenizer(query, return_tensors='pt', padding=True, truncation=True)
     encoded_query = encoded_query / np.linalg.norm(encoded_query, axis=1, keepdims=True)
 
