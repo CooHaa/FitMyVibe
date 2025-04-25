@@ -262,7 +262,7 @@ def episodes_search():
     items_by_id = {item["ID"]: item for item in items_data}
 
     article_vectors = []
-    for id in range(1, 500):
+    for id in range(1, 1000):
         rec = items_by_id.get(id)
         if rec == None:
             print(f"Continued on id {id}")
