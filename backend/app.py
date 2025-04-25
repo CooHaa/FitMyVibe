@@ -30,10 +30,10 @@ LOCAL_MYSQL_USER_PASSWORD = "Lukeshao2022" # Fill with personal password for MyS
 LOCAL_MYSQL_PORT = 3306
 LOCAL_MYSQL_DATABASE = "FitMyVibe"
 
-mysql_engine = MySQLDatabaseHandler(LOCAL_MYSQL_USER,LOCAL_MYSQL_USER_PASSWORD,LOCAL_MYSQL_PORT,LOCAL_MYSQL_DATABASE)
+# mysql_engine = MySQLDatabaseHandler(LOCAL_MYSQL_USER,LOCAL_MYSQL_USER_PASSWORD,LOCAL_MYSQL_PORT,LOCAL_MYSQL_DATABASE)
 
 # Path to init.sql file. This file can be replaced with your own file for testing on localhost, but do NOT move the init.sql file
-mysql_engine.load_file_into_db('dump.sql')
+# mysql_engine.load_file_into_db('dump.sql')
 
 app = Flask(__name__)
 CORS(app)
