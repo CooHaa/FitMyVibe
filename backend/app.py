@@ -13,7 +13,7 @@ from sentence_transformers import SentenceTransformer
 import csv
 import json
 from pathlib import Path
-from convokit import Corpus
+# from convokit import Corpus
 import faiss
 import re
 
