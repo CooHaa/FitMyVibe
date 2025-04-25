@@ -23,3 +23,5 @@ transformers==4.49.0
 typing_extensions>=4.5.0
 Werkzeug==3.1.3
 numpy<2
+faiss==1.10.0
+sentence_transformers == 4.1.0
