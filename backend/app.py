@@ -246,7 +246,11 @@ def episodes_search():
     else:
         gender = None
 
-    budget = float(request.args.get("budget", default=None))
+    budget = request.args.get("budget", default=None)
+    if budget == "":
+        budget == None
+    else:
+        budget = float(budget)
     article = request.args.get("article", default=None)
     if article == "T":
         article = "Tops"
