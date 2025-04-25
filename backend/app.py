@@ -55,14 +55,14 @@ def vectorize_query(query):
     """
 
     merge_state_dict = {}
-    files = ["fashion-bert-output-v4/chunk_1_1.safetensors",
-             "fashion-bert-output-v4/chunk_1_2.safetensors",
-             "fashion-bert-output-v4/chunk_1_3.safetensors",
-             "fashion-bert-output-v4/chunk_1_4.safetensors",
-             "fashion-bert-output-v4/chunk_2.safetensors",
-             "fashion-bert-output-v4/chunk_3.safetensors",
-             "fashion-bert-output-v4/chunk_4.safetensors",
-             "fashion-bert-output-v4/chunk_5.safetensors"]
+    files = ["tensor-pack/chunk_1_1.safetensors",
+             "tensor-pack/chunk_1_2.safetensors",
+             "tensor-pack/chunk_1_3.safetensors",
+             "tensor-pack/chunk_1_4.safetensors",
+             "tensor-pack/chunk_2.safetensors",
+             "tensor-pack/chunk_3.safetensors",
+             "tensor-pack/chunk_4.safetensors",
+             "tensor-pack/chunk_5.safetensors"]
     merged_file = "fashion-bert-output-v4/model.safetensors"
 
     def merge_files(files):
