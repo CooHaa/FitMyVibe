@@ -213,16 +213,16 @@ def table_lookup(indices, gender, budget, article):
     ranked_results = []
     for idx in indices:
         rec = items_by_id.get(idx)
-        rec_gender = rec['gender']
-        rec_cost = float(rec['price'])
+        if rec == None:
+            continue
+    
+        gender_filter = True if gender == None else rec['gender'] == gender
         budget_low = budget - 24
         budget_high = budget + 25
-        rec_article = rec['category']
+        budget_filter = True if budget == None else float(rec['price']) >= budget_low and float(rec['price']) <= budget_high
+        article_filter = True if article == None else rec['category'] == article
 
-        if (rec_gender == gender and
-            rec_cost >= budget_low and
-            rec_cost <= budget_high and
-            rec_article == article):
+        if (gender_filter and budget_filter and article_filter):
             print(f"FOUND:")
             img_link = rec.get("prodImgLink") or "static/images/clothing-icon.png"
             prod_link = rec.get("prodLink", "") or "https://www.mercari.com/jp/"
@@ -256,9 +256,9 @@ def table_lookup(indices, gender, budget, article):
 @app.route("/articles")
 def episodes_search():
     query = request.args.get("inspirationDesc")
-    gender = request.args.get("gender")
-    budget = request.args.get("budget")
-    article = request.args.get("article")
+    gender = request.args.get("gender", default=None)
+    budget = request.args.get("budget", default=None)
+    article = request.args.get("article", default=None)
     # style = request.args.get("style")
     # brand = request.args.get("brand")
 
