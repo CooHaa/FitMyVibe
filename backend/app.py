@@ -180,11 +180,15 @@ def order_articles(query_embeddings, article_vectors):
 
     return ranked_articles_ids
 
-def table_lookup(indices):
+def table_lookup(indices, gender, budget, article):
     """
     Looks up the relevant data about a set of articles given their article IDs.
     In its current form, this lookup returns information about the product name,
     its regular price, and a link to the image.
+    Only returns indices for articles that meet the proper criteria:
+    - Gender is specified argument gender
+    - Cost is between budget - 24 and budget + 25
+    - Article type is consistent
     """
     items_path = Path("COMBINED-FINAL.json")
     with items_path.open("r", encoding="utf-8") as f:
@@ -204,7 +208,18 @@ def table_lookup(indices):
     ranked_results = []
     for idx in indices:
         rec = items_by_id.get(idx)
-        if rec:
+        rec_gender = rec['gender']
+        rec_cost = float(rec['price'])
+        budget_low = budget - 24
+        budget_high = budget + 25
+        rec_article = rec['category']
+
+        if (rec_gender == gender and
+            rec_cost >= budget_low and
+            rec_cost <= budget_high and
+            rec_article == article):
+            print("MATCHED ON")
+            print(rec)
             img_link = rec.get("prodImgLink") or "static/images/clothing-icon.png"
             prod_link = rec.get("prodLink", "") or "https://www.mercari.com/jp/"
             ranked_results.append({
@@ -252,7 +267,7 @@ def episodes_search():
 
     ranked_idx = order_articles(query_embeddings, article_vectors)[:20]
     print("RANKED INDICES" + str(ranked_idx))
-    ranked_results = table_lookup(ranked_idx)
+    ranked_results = table_lookup(ranked_idx, gender, budget, article)
     print("DONE RANKING")
 
     return json.dumps(ranked_results, default=str)
