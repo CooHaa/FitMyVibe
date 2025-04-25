@@ -242,7 +242,7 @@ def episodes_search():
     if gender == "Men":
         gender = "m"
     elif gender == "Women":
-        gender + "f"
+        gender = "f"
     else:
         gender = None
 
