@@ -55,14 +55,14 @@ def vectorize_query(query):
     """
 
     merge_state_dict = {}
-    files = ["tensor-pack/chunk_1_1.safetensors",
-             "tensor-pack/chunk_1_2.safetensors",
-             "tensor-pack/chunk_1_3.safetensors",
-             "tensor-pack/chunk_1_4.safetensors",
-             "tensor-pack/chunk_2.safetensors",
-             "tensor-pack/chunk_3.safetensors",
-             "tensor-pack/chunk_4.safetensors",
-             "tensor-pack/chunk_5.safetensors"]
+    files = ["tensor_pack/chunk_1_1.safetensors",
+             "tensor_pack/chunk_1_2.safetensors",
+             "tensor_pack/chunk_1_3.safetensors",
+             "tensor_pack/chunk_1_4.safetensors",
+             "tensor_pack/chunk_2.safetensors",
+             "tensor_pack/chunk_3.safetensors",
+             "tensor_pack/chunk_4.safetensors",
+             "tensor_pack/chunk_5.safetensors"]
     merged_file = "fashion-bert-output-v4/model.safetensors"
 
     def merge_files(files):
@@ -75,7 +75,7 @@ def vectorize_query(query):
     save_file(merge_state_dict, merged_file)
     del merge_state_dict
 
-    model = SentenceTransformer('fashion-bert-output-v4')
+    model = SentenceTransformer('fashion-bert-output-v2')
     encoded_query = model.encode([query], convert_to_numpy=True) #tokenizer(query, return_tensors='pt', padding=True, truncation=True)
     encoded_query = encoded_query / np.linalg.norm(encoded_query, axis=1, keepdims=True)
 
@@ -180,20 +180,12 @@ def order_articles(query_embeddings, article_vectors):
 
     return ranked_articles_ids
 
-def table_lookup(indices, gender, budget, article):
+def table_lookup(indices):
     """
     Looks up the relevant data about a set of articles given their article IDs.
     In its current form, this lookup returns information about the product name,
     its regular price, and a link to the image.
-    Only returns indices for articles that meet the proper criteria:
-    - Gender is specified argument gender
-    - Cost is between budget - 24 and budget + 25
-    - Article type is consistent
     """
-    if gender == "Men":
-        gender = "m"
-    elif gender == "Women":
-        gender = "w"
     
     items_path = Path("COMBINED-FINAL.json")
     with items_path.open("r", encoding="utf-8") as f:
@@ -213,17 +205,7 @@ def table_lookup(indices, gender, budget, article):
     ranked_results = []
     for idx in indices:
         rec = items_by_id.get(idx)
-        if rec == None:
-            continue
-    
-        gender_filter = True if gender == None else rec['gender'] == gender
-        budget_low = budget - 24
-        budget_high = budget + 25
-        budget_filter = True if budget == None else float(rec['price']) >= budget_low and float(rec['price']) <= budget_high
-        article_filter = True if article == None else rec['category'] == article
-
-        if (gender_filter and budget_filter and article_filter):
-            print(f"FOUND:")
+        if (rec):
             img_link = rec.get("prodImgLink") or "static/images/clothing-icon.png"
             prod_link = rec.get("prodLink", "") or "https://www.mercari.com/jp/"
             ranked_results.append({
@@ -257,22 +239,56 @@ def table_lookup(indices, gender, budget, article):
 def episodes_search():
     query = request.args.get("inspirationDesc")
     gender = request.args.get("gender", default=None)
-    budget = request.args.get("budget", default=None)
+    if gender == "Men":
+        gender = "m"
+    elif gender == "Women":
+        gender + "f"
+    else:
+        gender = None
+
+    budget = float(request.args.get("budget", default=None))
     article = request.args.get("article", default=None)
+    print(article)
     # style = request.args.get("style")
     # brand = request.args.get("brand")
 
     # print("QUERY: " + query)
     query_embeddings = vectorize_query(query)
 
+    items_path = Path("COMBINED-FINAL.json")
+    with items_path.open("r", encoding="utf-8") as f:
+        items_data = json.load(f)
+
+    items_by_id = {item["ID"]: item for item in items_data}
+
     article_vectors = []
     for id in range(1, 500):
-        article_vectors.append(vector_from_id(id))
+        rec = items_by_id.get(id)
+        if rec == None:
+            print(f"Continued on id {id}")
+            continue
 
-    ranked_idx = order_articles(query_embeddings, article_vectors)[:20]
+        gender_filter = True if gender == None else rec['gender'] == gender
+        budget_low = budget - 24
+        budget_high = budget + 25
+        budget_filter = True if budget == None else float(rec['price']) >= budget_low and float(rec['price']) <= budget_high
+        article_filter = True if article == "" else rec['category'] == article
+
+        print(f"Filters for article {id}: G={gender_filter}, B={budget_filter}, A={article_filter}")
+
+        if (gender_filter and budget_filter and article_filter):
+            print(f"ADDED IDX {id} TO CANDIDATES")
+            article_vectors.append(vector_from_id(id))
+
+    print(f"ARTICLE VECTORS: {article_vectors}")
+
+    # Articles that pass the filter are stored in article_vectors
+    # Make order articles use the article vectors as the set of articles to query
+    ranked_idx = order_articles(query_embeddings, article_vectors)[:200]
     print("RANKED INDICES" + str(ranked_idx))
-    ranked_results = table_lookup(ranked_idx, gender, budget, article)
+    ranked_results = table_lookup(ranked_idx)
     print("DONE RANKING")
+    print(ranked_results)
 
     return json.dumps(ranked_results, default=str)
 
