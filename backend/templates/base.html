@@ -141,12 +141,12 @@
                 }
 
                 fetch("/articles?" + new URLSearchParams({
-                    gender: gender,
-                    budget: budget,
-                    article: article,
+                    gender: gender || "",
+                    budget: budget || "",
+                    article: article || "",
                     // style: style,
                     // brand: brandDesc,
-                    inspirationDesc: description,
+                    inspirationDesc: description || "",
                 }).toString())
                     .then((response) => response.json())
                     .then((data) => {
