@@ -39,43 +39,48 @@ os.environ['ROOT_PATH'] = os.path.abspath(os.path.join("..",os.curdir))
 app = Flask(__name__)
 CORS(app)
 
-embs_reddit = np.load("social-component/reddit/reddit_embeddings.npy")
-print(f"Reddit embedding shape: {embs_reddit.shape}")
+social_embs = np.load("social-component/reddit/julia_tries_reddit_embs.npy")
+print(f"Reddit embedding shape: {social_embs.shape}")
 
-embs_prods = np.load("social-component/reddit/prod_embeddings-2.npy")
-print(f"Product embedding shape: {embs_prods.shape}")
+product_embs = np.load("social-component/reddit/julia_tries_prod_embs.npy")
+print(f"Product embedding shape: {product_embs.shape}")
 
 @app.route("/")
 def home():
     return render_template('base.html',title="sample html")
+
+def cosine_similarity(a: np.ndarray, b: np.ndarray):
+    a_norm = a / np.linalg.norm(a, axis=1, keepdims=True)
+    b_norm = b / np.linalg.norm(b, axis=1, keepdims=True)
+    return np.dot(a_norm, b_norm.T)
 
 def vectorize_query(query):
     """
     Vectorizes the ad-hoc query using pre-trained BERT embeddings.
     """
 
-    merge_state_dict = {}
-    files = ["tensor_pack/chunk_1_1.safetensors",
-             "tensor_pack/chunk_1_2.safetensors",
-             "tensor_pack/chunk_1_3.safetensors",
-             "tensor_pack/chunk_1_4.safetensors",
-             "tensor_pack/chunk_2.safetensors",
-             "tensor_pack/chunk_3.safetensors",
-             "tensor_pack/chunk_4.safetensors",
-             "tensor_pack/chunk_5.safetensors"]
-    merged_file = "fashion-bert-output-v4/model.safetensors"
+    #merge_state_dict = {}
+    #files = ["tensor_pack/chunk_1_1.safetensors",
+    #         "tensor_pack/chunk_1_2.safetensors",
+    #         "tensor_pack/chunk_1_3.safetensors",
+    #         "tensor_pack/chunk_1_4.safetensors",
+    #         "tensor_pack/chunk_2.safetensors",
+    #         "tensor_pack/chunk_3.safetensors",
+    #        "tensor_pack/chunk_4.safetensors",
+    #         "tensor_pack/chunk_5.safetensors"]
+    #merged_file = "fashion-bert-output-v4/model.safetensors"
 
     def merge_files(files):
         for file in files:
             load_files_dict = load_file(file)
             merge_state_dict.update(load_files_dict)
     
-    merge_files(files)
+    #merge_files(files)
 
-    save_file(merge_state_dict, merged_file)
-    del merge_state_dict
+    #save_file(merge_state_dict, merged_file)
+    #del merge_state_dict
 
-    model = SentenceTransformer('fashion-bert-output-v2')
+    model = SentenceTransformer('fashion-bert-output-v4')
     encoded_query = model.encode([query], convert_to_numpy=True) #tokenizer(query, return_tensors='pt', padding=True, truncation=True)
     encoded_query = encoded_query / np.linalg.norm(encoded_query, axis=1, keepdims=True)
 
@@ -108,7 +113,7 @@ def vector_from_id(article_id):
     #             return (np.array(vals, dtype=float))
     
     # embs_prods = np.load("social-component/reddit/prod_embeddings-2.npy")
-    return embs_prods[article_id]
+    return product_embs[article_id]
 
 def order_articles(query_embeddings, filtered_ids, article_vectors):
     """
@@ -117,25 +122,17 @@ def order_articles(query_embeddings, filtered_ids, article_vectors):
     input, and returns a ranked list of article IDs based on similarity scores.
     """
     k_corpus = 10
-    k_prod = min(len(filtered_ids), 30)
+    k_prod = min(len(filtered_ids), 20)
     alpha, beta = 1.0, 0.75
 
-    # embs_reddit = np.load("social-component/reddit/reddit_embeddings.npy") 
-    dim_reddit   = embs_reddit.shape[1]
-    index_reddit = faiss.IndexFlatIP(dim_reddit)
-    index_reddit.add(embs_reddit.astype("float32"))
-    query_embeddings = query_embeddings.astype("float32")
+    q_emb = query_embeddings
 
-    # print("REDDIT EMBEDDING SHAPE: " + query_embeddings.shape)
-
-    _, idxs_u = index_reddit.search(query_embeddings, k_corpus)
-    top_u_embs = embs_reddit[idxs_u[0]]  # shape (k_corpus, dim)
-
-    # embs_prods = np.loadtxt("FINAL-EMBEDDINGS.csv")
-    # embs_prods = np.loadtxt("FINAL-EMBEDDINGS.csv", delimiter=",", skiprows=1)
-    # embs_prods = np.load("social-component/reddit/prod_embeddings-2.npy")
-    # embs_prods = embs_prods[:, 1:]
-    # embs_prods = embs_prods[:500]
+    sim_u = cosine_similarity(q_emb, social_embs)  # (1, N)
+    idxs_u = np.argsort(sim_u[0])[::-1][:k_corpus]
+    top_u_embs = social_embs[idxs_u]
+    
+    expanded = alpha * q_emb + beta * top_u_embs.mean(axis=0, keepdims=True)
+    expanded /= np.linalg.norm(expanded, axis=1, keepdims=True)
 
     def build_search_dict(filtered_ids):
         count = 0
@@ -147,18 +144,12 @@ def order_articles(query_embeddings, filtered_ids, article_vectors):
     
     search_dict = build_search_dict(filtered_ids)
 
-    dim_prods = article_vectors.shape[1]
+    sim_p = cosine_similarity(expanded, article_vectors)  # (1, N)
+    idxs_p = np.argsort(sim_p[0])[::-1][:k_prod]
 
-    index_prods = faiss.IndexFlatIP(dim_prods)  
-    index_prods.add(article_vectors.astype("float32"))
-
-    expanded_q = alpha * query_embeddings + beta * top_u_embs.mean(axis=0, keepdims=True)
-    expanded_q /= np.linalg.norm(expanded_q, axis=1, keepdims=True)
-
-    sim_p, idxs_p = index_prods.search(expanded_q.astype("float32"), k_prod)
     print("IDXS_P PRINTING")
     print(idxs_p)
-    return [search_dict[search_id] for search_id in idxs_p[0]]
+    return [search_dict[search_id] for search_id in idxs_p]
 
     # after table
     sim_scores = []
@@ -279,7 +270,7 @@ def episodes_search():
         return filter_ids
     
     filter_ids = check_filters()
-    article_vectors = embs_prods[filter_ids]
+    article_vectors = product_embs[filter_ids]
     
     # print(f"ARTICLE VECTORS: {article_vectors}")
 
@@ -287,14 +278,7 @@ def episodes_search():
     # Make order articles use the article vectors as the set of articles to query
     ranked_idx = order_articles(query_embeddings, filter_ids, article_vectors)
 
-    final_idx = []
-    for idx in ranked_idx:
-        if idx in filter_ids:
-            final_idx.append(idx)
-
-    print("RANKED INDICES" + str(ranked_idx))
-
-    ranked_results = table_lookup(final_idx)
+    ranked_results = table_lookup(ranked_idx)
 
     print("DONE RANKING")
     print(ranked_results)
