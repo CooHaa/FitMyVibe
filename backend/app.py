@@ -3,7 +3,7 @@ import os
 from flask import Flask, render_template, request
 from flask_cors import CORS
 from helpers.MySQLDatabaseHandler import MySQLDatabaseHandler
-from sqlalchemy import text
+#from sqlalchemy import text
 import numpy as np
 import torch
 import torch.nn as nn
@@ -110,30 +110,19 @@ def vector_from_id(article_id):
     # embs_prods = np.load("social-component/reddit/prod_embeddings-2.npy")
     return embs_prods[article_id]
 
-    # raise ValueError(f"Article ID {article_id} not found in {csv_path}")
-
-    # query_sql = f"SELECT vecPos, vecVal FROM prodvec WHERE prodID = {article_id}"
-    # data = mysql_engine.query_selector(text(query_sql))
-    # vector = np.zeros(768)
-    # for i in data:
-    #     idx = i[0]
-    #     val = i[1]
-    #     if (idx != 0):
-    #         vector[idx - 1] = val
-    # return (article_id, vector)
-
-def order_articles(query_embeddings):
+def order_articles(query_embeddings, filtered_ids, article_vectors):
     """
     Orders the articles in the database based on a cosine similarity metric.
     Takes the embedding of the query and the vectors of the searched articles as
     input, and returns a ranked list of article IDs based on similarity scores.
     """
-    k_corpus, k_prod = 10, 20
+    k_corpus = 10
+    k_prod = min(len(filtered_ids), 30)
     alpha, beta = 1.0, 0.75
 
     # embs_reddit = np.load("social-component/reddit/reddit_embeddings.npy") 
     dim_reddit   = embs_reddit.shape[1]
-    index_reddit = faiss.IndexFlatIP(dim_reddit)  
+    index_reddit = faiss.IndexFlatIP(dim_reddit)
     index_reddit.add(embs_reddit.astype("float32"))
     query_embeddings = query_embeddings.astype("float32")
 
@@ -147,19 +136,29 @@ def order_articles(query_embeddings):
     # embs_prods = np.load("social-component/reddit/prod_embeddings-2.npy")
     # embs_prods = embs_prods[:, 1:]
     # embs_prods = embs_prods[:500]
-    dim_prods   = embs_prods.shape[1]
 
-    # print(dim_prods)
+    def build_search_dict(filtered_ids):
+        count = 0
+        search_dict = {}
+        for id in filtered_ids:
+            search_dict[count] = id
+            count += 1
+        return search_dict
+    
+    search_dict = build_search_dict(filtered_ids)
+
+    dim_prods = article_vectors.shape[1]
 
     index_prods = faiss.IndexFlatIP(dim_prods)  
-    index_prods.add(embs_prods.astype("float32"))
+    index_prods.add(article_vectors.astype("float32"))
 
     expanded_q = alpha * query_embeddings + beta * top_u_embs.mean(axis=0, keepdims=True)
     expanded_q /= np.linalg.norm(expanded_q, axis=1, keepdims=True)
 
     sim_p, idxs_p = index_prods.search(expanded_q.astype("float32"), k_prod)
-    # print(idxs_p)
-    return idxs_p[0]
+    print("IDXS_P PRINTING")
+    print(idxs_p)
+    return [search_dict[search_id] for search_id in idxs_p[0]]
 
     # after table
     sim_scores = []
@@ -179,6 +178,7 @@ def order_articles(query_embeddings):
         ranked_articles_ids.append(article_id)
 
     return ranked_articles_ids
+
 
 def table_lookup(indices):
     """
@@ -217,24 +217,6 @@ def table_lookup(indices):
             })
     return ranked_results
 
-    # ranked_results = []
-    # for idx in indices:
-    #     lookup_query = f"""SELECT proddesc.prodName, prodprice.prodRegPrice, prodlink.prodImageLink, prodlink.prodLink
-    #         FROM proddesc
-    #         JOIN prodprice
-    #             ON proddesc.prodID = prodprice.prodID
-    #         JOIN prodlink
-    #             ON proddesc.prodID = prodlink.prodID
-    #         WHERE proddesc.prodID = {idx}"""
-    #     lookup_data = mysql_engine.query_selector(text(lookup_query))
-    #     ranked_results += lookup_data
-    
-    # keys = ["prodName", "prodPrice", "prodImgLink", "prodLink"]
-    # dict_results = [dict(zip(keys, res)) for res in ranked_results]
-    # print(dict_results)
-    # return dict_results
-        
-
 @app.route("/articles")
 def episodes_search():
     query = request.args.get("inspirationDesc")
@@ -262,6 +244,7 @@ def episodes_search():
         article = "Accessories"
     else:
         article = None
+
     query_embeddings = vectorize_query(query)
 
     items_path = Path("COMBINED-FINAL-DEDUPED.json")
@@ -270,32 +253,39 @@ def episodes_search():
 
     items_by_id = {item["ID"]: item for item in items_data}
 
-    article_vectors = []
-    filter_ids = []
-    for id in range(0, 1332):
-        rec = items_by_id.get(id)
-        if rec == None:
-            continue
+    
+    def check_filters():
+        filter_ids = []
+        for id in range(0, 1332):
+            rec = items_by_id.get(id)
+            if rec == None:
+                continue
 
-        gender_filter = True if gender == "" or gender == None else rec['gender'] == gender
-        budget_low = budget - 24
-        budget_high = budget + 25
+            gender_filter = True if gender == "" or gender == None else rec['gender'] == gender
+            if not(isinstance(budget, float)) or (rec["price"] == ""):
+                budget_filter = True
+            else:
+                budget_low = budget - 24
+                budget_high = budget + 25
+                budget_filter = float(rec['price']) >= budget_low and float(rec['price']) <= budget_high
+            article_filter = True if article == "" or article == None else rec['category'] == article
 
-        budget_filter = True if budget == "" or budget == None or rec['price'] == "" else float(rec['price']) >= budget_low and float(rec['price']) <= budget_high
-        article_filter = True if article == "" or article == None else rec['category'] == article
+            # print(f"Filters for article {id}: G={gender_filter}, B={budget_filter}, A={article_filter}")
 
-        print(f"Filters for article {id}: G={gender_filter}, B={budget_filter}, A={article_filter}")
-
-        if (gender_filter and budget_filter and article_filter):
-            filter_ids.append(id)
-            print(f"ADDED IDX {id} TO CANDIDATES")
-            article_vectors.append(vector_from_id(id))
-
-    print(f"ARTICLE VECTORS: {article_vectors}")
+            if (gender_filter and budget_filter and article_filter):
+                filter_ids.append(id)
+                # print(f"ADDED IDX {id} TO CANDIDATES")
+        
+        return filter_ids
+    
+    filter_ids = check_filters()
+    article_vectors = embs_prods[filter_ids]
+    
+    # print(f"ARTICLE VECTORS: {article_vectors}")
 
     # Articles that pass the filter are stored in article_vectors
     # Make order articles use the article vectors as the set of articles to query
-    ranked_idx = order_articles(query_embeddings)
+    ranked_idx = order_articles(query_embeddings, filter_ids, article_vectors)
 
     final_idx = []
     for idx in ranked_idx:
@@ -310,62 +300,3 @@ def episodes_search():
     print(ranked_results)
 
     return json.dumps(ranked_results, default=str)
-# def episodes_search():
-#     query = request.args.get("inspirationDesc")
-#     gender = request.args.get("gender", default=None)
-#     if gender == "Men":
-#         gender = "m"
-#     elif gender == "Women":
-#         gender = "f"
-#     else:
-#         gender = None
-
-#     budget = float(request.args.get("budget", default=None))
-#     article = request.args.get("article", default=None)
-#     print(article)
-#     # style = request.args.get("style")
-#     # brand = request.args.get("brand")
-
-#     # print("QUERY: " + query)
-#     query_embeddings = vectorize_query(query)
-
-#     items_path = Path("COMBINED-FINAL-DEDUPED.json")
-#     with items_path.open("r", encoding="utf-8") as f:
-#         items_data = json.load(f)
-
-#     items_by_id = {item["ID"]: item for item in items_data}
-
-#     article_vectors = []
-#     for id in range(1, 1000):
-#         rec = items_by_id.get(id)
-#         if rec == None:
-#             print(f"Continued on id {id}")
-#             continue
-
-#         gender_filter = True if gender == None else rec['gender'] == gender
-#         budget_low = budget - 24
-#         budget_high = budget + 25
-#         budget_filter = True if budget == None else float(rec['price']) >= budget_low and float(rec['price']) <= budget_high
-#         article_filter = True if article == "" else rec['category'] == article
-
-#         print(f"Filters for article {id}: G={gender_filter}, B={budget_filter}, A={article_filter}")
-
-#         if (gender_filter and budget_filter and article_filter):
-#             print(f"ADDED IDX {id} TO CANDIDATES")
-#             article_vectors.append(vector_from_id(id))
-
-#     print(f"ARTICLE VECTORS: {article_vectors}")
-
-#     # Articles that pass the filter are stored in article_vectors
-#     # Make order articles use the article vectors as the set of articles to query
-#     ranked_idx = order_articles(query_embeddings, article_vectors)[:200]
-#     print("RANKED INDICES" + str(ranked_idx))
-#     ranked_results = table_lookup(ranked_idx)
-#     print("DONE RANKING")
-#     print(ranked_results)
-
-#     return json.dumps(ranked_results, default=str)
-
-# if 'DB_NAME' not in os.environ:
-#     app.run(debug=True,host="0.0.0.0",port=5000)
-
