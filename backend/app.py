@@ -39,10 +39,10 @@ os.environ['ROOT_PATH'] = os.path.abspath(os.path.join("..",os.curdir))
 app = Flask(__name__)
 CORS(app)
 
-social_embs = np.load("social-component/reddit/julia_tries_reddit_embs.npy")
+social_embs = np.load("julia_tries_reddit_embs.npy") # ADD THIS FILE TO LOCAL REPO
 print(f"Reddit embedding shape: {social_embs.shape}")
 
-product_embs = np.load("social-component/reddit/julia_tries_prod_embs.npy")
+product_embs = np.load("NEW-EMBS-430.npy")
 print(f"Product embedding shape: {product_embs.shape}")
 
 @app.route("/")
@@ -59,26 +59,26 @@ def vectorize_query(query):
     Vectorizes the ad-hoc query using pre-trained BERT embeddings.
     """
 
-    #merge_state_dict = {}
-    #files = ["tensor_pack/chunk_1_1.safetensors",
-    #         "tensor_pack/chunk_1_2.safetensors",
-    #         "tensor_pack/chunk_1_3.safetensors",
-    #         "tensor_pack/chunk_1_4.safetensors",
-    #         "tensor_pack/chunk_2.safetensors",
-    #         "tensor_pack/chunk_3.safetensors",
-    #        "tensor_pack/chunk_4.safetensors",
-    #         "tensor_pack/chunk_5.safetensors"]
-    #merged_file = "fashion-bert-output-v4/model.safetensors"
+    merge_state_dict = {}
+    files = ["tensor_pack/chunk_1_1.safetensors",
+            "tensor_pack/chunk_1_2.safetensors",
+            "tensor_pack/chunk_1_3.safetensors",
+            "tensor_pack/chunk_1_4.safetensors",
+            "tensor_pack/chunk_2.safetensors",
+            "tensor_pack/chunk_3.safetensors",
+           "tensor_pack/chunk_4.safetensors",
+            "tensor_pack/chunk_5.safetensors"]
+    merged_file = "fashion-bert-output-v4/model.safetensors"
 
     def merge_files(files):
         for file in files:
             load_files_dict = load_file(file)
             merge_state_dict.update(load_files_dict)
     
-    #merge_files(files)
+    merge_files(files)
 
-    #save_file(merge_state_dict, merged_file)
-    #del merge_state_dict
+    save_file(merge_state_dict, merged_file)
+    del merge_state_dict
 
     model = SentenceTransformer('fashion-bert-output-v4')
     encoded_query = model.encode([query], convert_to_numpy=True) #tokenizer(query, return_tensors='pt', padding=True, truncation=True)
@@ -178,7 +178,7 @@ def table_lookup(indices):
     its regular price, and a link to the image.
     """
     
-    items_path = Path("COMBINED-FINAL-DEDUPED.json")
+    items_path = Path("COMBINED-FINAL-DEDUPED-CLEAN2.json")
     with items_path.open("r", encoding="utf-8") as f:
         items_data = json.load(f)
 
@@ -238,7 +238,7 @@ def episodes_search():
 
     query_embeddings = vectorize_query(query)
 
-    items_path = Path("COMBINED-FINAL-DEDUPED.json")
+    items_path = Path("COMBINED-FINAL-DEDUPED-CLEAN2.json")
     with items_path.open("r", encoding="utf-8") as f:
         items_data = json.load(f)
 
@@ -247,7 +247,7 @@ def episodes_search():
     
     def check_filters():
         filter_ids = []
-        for id in range(0, 1332):
+        for id in range(0, product_embs.shape[0]):
             rec = items_by_id.get(id)
             if rec == None:
                 continue
